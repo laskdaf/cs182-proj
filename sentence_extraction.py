@@ -1,6 +1,5 @@
 import os
 import json
-import pandas as pd
 
 directory = 'json_with_labels'
 destination = 'text_and_label'
