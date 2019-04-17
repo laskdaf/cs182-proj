@@ -1,86 +1,87 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.5052146
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ding", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Ding", 
+            "salience": 0.44008103
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.054704357
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "1 Ding is a male puppy of 2 months and he has two siblings with him .",
+                "content": "1 Ding is a male puppy of 2 months and he has two siblings with him .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is a very naughty yet adorable little puppy .",
+                "content": "He is a very naughty yet adorable little puppy .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5052146,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Ding",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.44008103,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ding",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.054704357,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "1 Ding is a male puppy of 2 months and he has two siblings with him . He is a very naughty yet adorable little puppy . ", 
+    "categories": []
 }

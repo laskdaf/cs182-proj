@@ -1,349 +1,350 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jessie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jessie", 
+            "salience": 0.5219164
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "student", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "student", 
+            "salience": 0.20315227
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "street", 
+            "salience": 0.07399531
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.02848542
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.02848542
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.025226867
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condition", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "condition", 
+            "salience": 0.01920946
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "place", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "place", 
+            "salience": 0.019157132
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Pets", 
+            "salience": 0.017762346
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hostel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "hostel", 
+            "salience": 0.017762346
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "salience": 0.013356302
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "number", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "number", 
+            "salience": 0.009345723
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hema", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "hema", 
+            "salience": 0.009333647
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.007659594
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Foster", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Foster", 
+            "salience": 0.0051518036
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Hello.",
+                "content": "Hello.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "This is Jessie.",
+                "content": "This is Jessie.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We found her in the street running around people for food.",
+                "content": "We found her in the street running around people for food.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We rescued her and she's in a good condition now.",
+                "content": "We rescued her and she's in a good condition now.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Unfortunately, i don't have a proper place to take care of her since I'm a student.",
+                "content": "Unfortunately, i don't have a proper place to take care of her since I'm a student.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": -0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pets are not allowed in hostel.",
+                "content": "Pets are not allowed in hostel.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The current Foster can no longer take care of her.",
+                "content": "The current Foster can no longer take care of her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "So anyone wants to adopt her.",
+                "content": "So anyone wants to adopt her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call me to this number.",
+                "content": "Please call me to this number.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "(hema).",
+                "content": "(hema).", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you! :)",
+                "content": "Thank you! :)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Jessie",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5219164,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jessie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "student",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.20315227,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "student",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "street",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.07399531,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "street",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.02848542,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02848542,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.025226867,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "condition",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01920946,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "condition",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "place",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.019157132,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "place",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Pets",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.017762346,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hostel",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.017762346,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hostel",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.013356302,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "number",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.009345723,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "number",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hema",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.009333647,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hema",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.007659594,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Foster",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0051518036,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Foster",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Hello. This is Jessie. We found her in the street running around people for food. We rescued her and she's in a good condition now. Unfortunately, i don't have a proper place to take care of her since I'm a student. Pets are not allowed in hostel. The current Foster can no longer take care of her. So anyone wants to adopt her. Please call me to this number. (hema). Thank you! :) ", 
+    "categories": []
 }

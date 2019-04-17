@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rottweiler pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "rottweiler pup", 
+            "salience": 0.83972734
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.09794201
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heart", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heart", 
+            "salience": 0.062330622
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Mixed rottweiler pup looking for a good home Plz open your heart to adopt him Thank you",
+                "content": "Mixed rottweiler pup looking for a good home Plz open your heart to adopt him Thank you", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "rottweiler pup",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.83972734,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rottweiler pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.09794201,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heart",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.062330622,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heart",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.7,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Mixed rottweiler pup looking for a good home Plz open your heart to adopt him Thank you ", 
+    "categories": []
 }

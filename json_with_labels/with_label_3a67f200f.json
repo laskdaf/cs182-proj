@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "playfull and loves to eat.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "playfull",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "playfull",
+                        "content": "playfull", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "playfull", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.9,
+        "magnitude": 0.9, 
         "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "playfull and loves to eat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "raw_content": "playfull and loves to eat. ", 
+    "categories": []
 }

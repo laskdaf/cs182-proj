@@ -1,130 +1,131 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cozy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Cozy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "choice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Cozy", 
+            "salience": 0.8707092
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.08374334
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "house", 
+            "salience": 0.022484913
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "love", 
+            "salience": 0.014521132
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.008541404
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Cozy is a cute healthy puppy.",
+                "content": "Cozy is a cute healthy puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you are looking for a dog that can guard your house and a dog needs your love, Cozy is the perfect choice",
+                "content": "If you are looking for a dog that can guard your house and a dog needs your love, Cozy is the perfect choice", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Cozy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.8707092,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cozy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Cozy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "choice",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08374334,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "house",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.022484913,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "house",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "love",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014521132,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "love",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.008541404,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Cozy is a cute healthy puppy. If you are looking for a dog that can guard your house and a dog needs your love, Cozy is the perfect choice ", 
+    "categories": []
 }

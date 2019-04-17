@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "This male puppy is one month old and obedient.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.2,
-                "score": 0.2
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "puppy",
+                        "content": "puppy", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.2,
+        "magnitude": 0.2, 
         "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This male puppy is one month old and obedient.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "raw_content": "This male puppy is one month old and obedient. ", 
+    "categories": []
 }

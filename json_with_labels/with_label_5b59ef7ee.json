@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "very obedient , intelligent and loving :)",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        },
-        {
-            "text": {
-                "content": "Please take me home i promised that i will be good",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "home",
+                        "content": "home", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 1,
+        "magnitude": 1, 
         "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "very obedient , intelligent and loving :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please take me home i promised that i will be good", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "raw_content": "very obedient , intelligent and loving :) Please take me home i promised that i will be good ", 
+    "categories": []
 }

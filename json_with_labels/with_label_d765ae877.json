@@ -1,99 +1,100 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Skippy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Skippy", 
+            "salience": 0.44435313
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kids", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "kids", 
+            "salience": 0.25143567
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "door", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "door", 
+            "salience": 0.16184655
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "toilet", 
+            "salience": 0.08722482
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "size", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "size", 
+            "salience": 0.055139847
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Skippy is super friendly, great with kids, easy to handle, you can keep her in door due to her small size, and also she is toilet trained.",
+                "content": "Skippy is super friendly, great with kids, easy to handle, you can keep her in door due to her small size, and also she is toilet trained.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Skippy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.44435313,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Skippy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "kids",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.25143567,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kids",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "door",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16184655,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "door",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "toilet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08722482,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "toilet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "size",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.055139847,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "size",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Skippy is super friendly, great with kids, easy to handle, you can keep her in door due to her small size, and also she is toilet trained. ", 
+    "categories": []
 }

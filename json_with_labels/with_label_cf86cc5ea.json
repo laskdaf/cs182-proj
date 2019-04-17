@@ -1,59 +1,60 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Abandon by someone. he is healthy, smart and intelligent.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.7,
-                "score": -0.7
-            }
-        },
-        {
-            "text": {
-                "content": "already vaccined+dewormed.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        },
-        {
-            "text": {
-                "content": "will be spay him on 26/7/.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Abandon",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Abandon",
+                        "content": "Abandon", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Abandon", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.9,
+        "magnitude": 0.9, 
         "score": -0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Abandon by someone. he is healthy, smart and intelligent.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "already vaccined+dewormed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "will be spay him on 26/7/.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "raw_content": "Abandon by someone. he is healthy, smart and intelligent. already vaccined+dewormed. will be spay him on 26/7/. ", 
+    "categories": []
 }

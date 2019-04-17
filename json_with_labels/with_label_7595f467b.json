@@ -1,42 +1,43 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Found in Kepong.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.2,
-                "score": 0.2
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Kepong",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0d0_lw",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Kepong"
-            },
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Kepong",
+                        "content": "Kepong", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
                 }
-            ]
+            ], 
+            "metadata": {
+                "mid": "/m/0d0_lw", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kepong"
+            }, 
+            "type": "LOCATION", 
+            "name": "Kepong", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.2,
+        "magnitude": 0.2, 
         "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found in Kepong.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "raw_content": "Found in Kepong. ", 
+    "categories": []
 }

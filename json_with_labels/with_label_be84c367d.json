@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Cute and active dogs..",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.8,
-                "score": 0.8
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "dogs",
+                        "content": "dogs", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.8,
+        "magnitude": 0.8, 
         "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Cute and active dogs..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "raw_content": "Cute and active dogs.. ", 
+    "categories": []
 }

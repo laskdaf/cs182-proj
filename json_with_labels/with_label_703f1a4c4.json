@@ -1,155 +1,156 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Christina Yang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.74286216, 
+            "name": "Christina Yang", 
+            "metadata": {
+                "mid": "/m/0268x2s", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Cristina_Yang"
+            }
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Yang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.13282856, 
+            "name": "Yang", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "character", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.05528275, 
+            "name": "character", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Grey's Anatomy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "salience": 0.022845102, 
+            "name": "Grey's Anatomy", 
+            "metadata": {
+                "mid": "/m/05lfwd", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Grey's_Anatomy"
+            }
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attention", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.020023784, 
+            "name": "attention", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.01311101, 
+            "name": "rest", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.013046618, 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Yang takes upon Christina Yang's character from Grey's Anatomy.",
+                "content": "Yang takes upon Christina Yang's character from Grey's Anatomy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She loves the attention &amp; leading the rest.",
+                "content": "She loves the attention &amp; leading the rest.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is looking for a loving home who would love her.",
+                "content": "She is looking for a loving home who would love her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Christina Yang",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/0268x2s",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Cristina_Yang"
-            },
-            "salience": 0.74286216,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Christina Yang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Yang",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.13282856,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Yang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "character",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05528275,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "character",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Grey's Anatomy",
-            "type": "WORK_OF_ART",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Grey's_Anatomy",
-                "mid": "/m/05lfwd"
-            },
-            "salience": 0.022845102,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Grey's Anatomy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "attention",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020023784,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "attention",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rest",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01311101,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rest",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.013046618,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Yang takes upon Christina Yang's character from Grey's Anatomy. She loves the attention &amp; leading the rest. She is looking for a loving home who would love her. ", 
+    "categories": []
 }

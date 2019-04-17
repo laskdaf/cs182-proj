@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.6737551
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animal lovers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "animal lovers", 
+            "salience": 0.17328648
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.06439343
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "love", 
+            "salience": 0.056081064
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.032483894
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "The puppy born on 3 June .",
+                "content": "The puppy born on 3 June .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I hope the animal lovers can help to adopt the puppy and give extra love and care to her.",
+                "content": "I hope the animal lovers can help to adopt the puppy and give extra love and care to her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6737551,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "animal lovers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.17328648,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "animal lovers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06439343,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "love",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.056081064,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "love",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.032483894,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "The puppy born on 3 June . I hope the animal lovers can help to adopt the puppy and give extra love and care to her. ", 
+    "categories": []
 }

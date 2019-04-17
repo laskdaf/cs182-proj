@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Friendly and adorable.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        },
-        {
-            "text": {
-                "content": "Kindly consider to give her a home.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "home",
+                        "content": "home", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.9,
+        "magnitude": 0.9, 
         "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Friendly and adorable.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Kindly consider to give her a home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "raw_content": "Friendly and adorable. Kindly consider to give her a home. ", 
+    "categories": []
 }

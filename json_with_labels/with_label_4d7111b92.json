@@ -1,99 +1,100 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.5306556, 
+            "name": "pets", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "doctor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.15601099, 
+            "name": "doctor", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rm", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.13584134, 
+            "name": "rm", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption owner.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "salience": 0.10384216, 
+            "name": "adoption owner.", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "interest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.073649876, 
+            "name": "interest", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": -0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "The pets was in injured but I already bring him go see doctor .rm will be charged to the adoption owner.if interest please call",
+                "content": "The pets was in injured but I already bring him go see doctor .rm will be charged to the adoption owner.if interest please call", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": -0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pets",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5306556,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "doctor",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.15601099,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "doctor",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rm",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13584134,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rm",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption owner.",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.10384216,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption owner.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "interest",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.073649876,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "interest",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": -0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "The pets was in injured but I already bring him go see doctor .rm will be charged to the adoption owner.if interest please call ", 
+    "categories": []
 }

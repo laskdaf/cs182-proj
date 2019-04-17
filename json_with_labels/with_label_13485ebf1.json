@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "jimmy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "jimmy", 
+            "salience": 0.7980157
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.20198429
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "jimmy is very playfull and looking for a loving home.",
+                "content": "jimmy is very playfull and looking for a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "jimmy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.7980157,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "jimmy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.20198429,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    ], 
+    "raw_content": "jimmy is very playfull and looking for a loving home. ", 
+    "categories": []
 }

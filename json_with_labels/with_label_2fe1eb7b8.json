@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "addition", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "addition", 
+            "salience": 0.32194144
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.29624268
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "jie2", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "jie2", 
+            "salience": 0.22393623
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "info", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "info", 
+            "salience": 0.15787965
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Loyal, smart, attentive.",
+                "content": "Loyal, smart, attentive.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "A great addition to your family .",
+                "content": "A great addition to your family .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Kindly contact my jie2 at for more info",
+                "content": "Kindly contact my jie2 at for more info", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "addition",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.32194144,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "addition",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.29624268,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "jie2",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.22393623,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "jie2",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "info",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15787965,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "info",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Loyal, smart, attentive. A great addition to your family . Kindly contact my jie2 at for more info ", 
+    "categories": []
 }

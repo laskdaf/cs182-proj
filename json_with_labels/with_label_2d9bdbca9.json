@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.5874478
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.19446725
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "salience": 0.12352194
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brown pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brown pup", 
+            "salience": 0.094563015
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Two puppies looking for good, forever home!",
+                "content": "Two puppies looking for good, forever home!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "White pup is male, brown pup is female.",
+                "content": "White pup is male, brown pup is female.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5874478,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.19446725,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12352194,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brown pup",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.094563015,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brown pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.7,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Two puppies looking for good, forever home! White pup is male, brown pup is female. ", 
+    "categories": []
 }

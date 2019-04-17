@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "nice cute and playfull, full of energy :)",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "energy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "energy",
+                        "content": "energy", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "energy", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.9,
+        "magnitude": 0.9, 
         "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "nice cute and playfull, full of energy :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "raw_content": "nice cute and playfull, full of energy :) ", 
+    "categories": []
 }

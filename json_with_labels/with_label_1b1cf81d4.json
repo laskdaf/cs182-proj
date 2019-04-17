@@ -1,146 +1,147 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "furkid", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "furkid", 
+            "salience": 0.5757892
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mia", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "girl.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Mia", 
+            "salience": 0.38030356
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "help", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "help", 
+            "salience": 0.019391777
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.0122577185
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.0122577185
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.9, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "We have been keeping this rescued furkid for some time now, looking for a caring adopter.",
+                "content": "We have been keeping this rescued furkid for some time now, looking for a caring adopter.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Right now, she is about 5-6 months young.",
+                "content": "Right now, she is about 5-6 months young.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Mia is a very shy and gentle girl.She's very friendly towards people and even other dogs.",
+                "content": "Mia is a very shy and gentle girl.She's very friendly towards people and even other dogs.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She eats well and is very active!",
+                "content": "She eats well and is very active!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you so much for your help :)",
+                "content": "Thank you so much for your help :)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "furkid",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5757892,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "furkid",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Mia",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.38030356,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Mia",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "girl.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "help",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.019391777,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "help",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0122577185,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0122577185,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.9,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "We have been keeping this rescued furkid for some time now, looking for a caring adopter. Right now, she is about 5-6 months young. Mia is a very shy and gentle girl.She's very friendly towards people and even other dogs. She eats well and is very active! Thank you so much for your help :) ", 
+    "categories": []
 }

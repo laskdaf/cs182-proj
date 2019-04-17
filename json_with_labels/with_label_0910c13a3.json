@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "For adoption",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.1,
-                "score": 0.1
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "adoption",
+                        "content": "adoption", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "salience": 1, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.1,
+        "magnitude": 0.1, 
         "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "For adoption", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "raw_content": "For adoption ", 
+    "categories": []
 }

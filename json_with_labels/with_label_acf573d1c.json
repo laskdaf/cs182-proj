@@ -1,82 +1,83 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "T-Bone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01k_rs", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/T-bone_steak"
+            }, 
+            "type": "PERSON", 
+            "name": "T-Bone", 
+            "salience": 0.46836722
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Home", 
+            "salience": 0.39019793
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Thanks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Thanks", 
+            "salience": 0.14143485
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.3, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "T-Bone has found a new Home with A loving Couple..",
+                "content": "T-Bone has found a new Home with A loving Couple..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thanks :)",
+                "content": "Thanks :)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "T-Bone",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/01k_rs",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/T-bone_steak"
-            },
-            "salience": 0.46836722,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "T-Bone",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Home",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.39019793,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Thanks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14143485,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Thanks",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.3,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "T-Bone has found a new Home with A loving Couple.. Thanks :) ", 
+    "categories": []
 }

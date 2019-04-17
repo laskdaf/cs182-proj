@@ -1,202 +1,203 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gus", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Gus", 
+            "salience": 0.50699526
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.21938705
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "street", 
+            "salience": 0.09046203
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ara Damansara", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0g1wqy", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ara_Damansara"
+            }, 
+            "type": "LOCATION", 
+            "name": "Ara Damansara", 
+            "salience": 0.05467544
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fosterer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "fosterer", 
+            "salience": 0.030375466
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.029844707
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neutering", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "neutering", 
+            "salience": 0.028012777
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Vaccination", 
+            "salience": 0.027342487
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.012904747
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Gus is among three puppies found on a street in Ara Damansara.",
+                "content": "Gus is among three puppies found on a street in Ara Damansara.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Currently with a fosterer but need an urgent home soon.",
+                "content": "Currently with a fosterer but need an urgent home soon.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is chubby and adorable.",
+                "content": "He is chubby and adorable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Vaccination and neutering are compulsory, cost to be borne by adopter.",
+                "content": "Vaccination and neutering are compulsory, cost to be borne by adopter.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call if you can give him a good home.",
+                "content": "Please call if you can give him a good home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Gus",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.50699526,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Gus",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.21938705,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "street",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.09046203,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "street",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Ara Damansara",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Ara_Damansara",
-                "mid": "/m/0g1wqy"
-            },
-            "salience": 0.05467544,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ara Damansara",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "fosterer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.030375466,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fosterer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.029844707,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neutering",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028012777,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neutering",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Vaccination",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027342487,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Vaccination",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.012904747,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Gus is among three puppies found on a street in Ara Damansara. Currently with a fosterer but need an urgent home soon. He is chubby and adorable. Vaccination and neutering are compulsory, cost to be borne by adopter. Please call if you can give him a good home. ", 
+    "categories": []
 }

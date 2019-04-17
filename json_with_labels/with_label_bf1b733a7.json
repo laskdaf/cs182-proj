@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Hi, Please bring me homezzz TQTQ",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.1,
-                "score": -0.1
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "TQTQ",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "TQTQ",
+                        "content": "TQTQ", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "TQTQ", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.1,
+        "magnitude": 0.1, 
         "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Hi, Please bring me homezzz TQTQ", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "raw_content": "Hi, Please bring me homezzz TQTQ ", 
+    "categories": []
 }

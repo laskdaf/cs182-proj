@@ -1,216 +1,217 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "watch dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "watch dog", 
+            "salience": 0.22397658
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "door", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "door", 
+            "salience": 0.18941888
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Adopter", 
+            "salience": 0.15737376
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Munchy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Smartie pie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Munchy", 
+            "salience": 0.11272983
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attention", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "attention", 
+            "salience": 0.09943045
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spider man", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "spider man", 
+            "salience": 0.08658982
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tying-up", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "tying-up", 
+            "salience": 0.06505813
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.036742505
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "caging", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "caging", 
+            "salience": 0.028680049
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.8, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "He is very alert &amp; will make a good watch dog.",
+                "content": "He is very alert &amp; will make a good watch dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is also very affectionate &amp; loves attention.",
+                "content": "He is also very affectionate &amp; loves attention.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Smartie pie Munchy knows how to open door &amp; climb out like a spider man.",
+                "content": "Smartie pie Munchy knows how to open door &amp; climb out like a spider man.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "All he needs is a loving home.",
+                "content": "All he needs is a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "No caging / no tying-up please.",
+                "content": "No caging / no tying-up please.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter must be willing to vaccinate &amp; castrate him.",
+                "content": "Adopter must be willing to vaccinate &amp; castrate him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "watch dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.22397658,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "watch dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "door",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.18941888,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "door",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adopter",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.15737376,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Munchy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11272983,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Munchy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Smartie pie",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "attention",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09943045,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "attention",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "spider man",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.08658982,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "spider man",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "tying-up",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06505813,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tying-up",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.036742505,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "caging",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028680049,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "caging",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.8,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "He is very alert &amp; will make a good watch dog. He is also very affectionate &amp; loves attention. Smartie pie Munchy knows how to open door &amp; climb out like a spider man. All he needs is a loving home. No caging / no tying-up please. Adopter must be willing to vaccinate &amp; castrate him. ", 
+    "categories": []
 }

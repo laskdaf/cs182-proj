@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.59328246
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.27757025
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Commitment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Commitment", 
+            "salience": 0.09944272
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Racheal @", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Racheal @", 
+            "salience": 0.029704593
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Cute puppy looking for a home.",
+                "content": "Cute puppy looking for a home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Commitment to spay in compulsory.",
+                "content": "Commitment to spay in compulsory.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Interested to adopt pls contact Racheal @.",
+                "content": "Interested to adopt pls contact Racheal @.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.59328246,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.27757025,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Commitment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09944272,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Commitment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Racheal @",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.029704593,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Racheal @",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Cute puppy looking for a home. Commitment to spay in compulsory. Interested to adopt pls contact Racheal @. ", 
+    "categories": []
 }

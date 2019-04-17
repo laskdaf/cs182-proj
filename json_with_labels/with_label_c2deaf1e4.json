@@ -1,228 +1,229 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bobby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Bobby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "kid", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Bobby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Bobby", 
+            "salience": 0.8605731
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Seremban", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0371_6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Seremban"
+            }, 
+            "type": "LOCATION", 
+            "name": "Seremban", 
+            "salience": 0.05698521
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.014132467
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.012914604
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.01243059
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pet", 
+            "salience": 0.012369346
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.012280083
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "house", 
+            "salience": 0.008547114
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.0059934864
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.0037739715
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "We found Bobby at Seremban roadside.Bobby was a adorable furry kid.",
+                "content": "We found Bobby at Seremban roadside.Bobby was a adorable furry kid.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Bobby is very well trained and socialized with people, he's ready to be in someone's warm home.",
+                "content": "Bobby is very well trained and socialized with people, he's ready to be in someone's warm home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We're sure he was someone's pet before,he would do well in a family.",
+                "content": "We're sure he was someone's pet before,he would do well in a family.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is super quiet in the house and he could live with other dog too.",
+                "content": "He is super quiet in the house and he could live with other dog too.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Bobby",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8605731,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Bobby",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Bobby",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "kid",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Bobby",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Seremban",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0371_6",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Seremban"
-            },
-            "salience": 0.05698521,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Seremban",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.014132467,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.012914604,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.01243059,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012369346,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.012280083,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "house",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.008547114,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "house",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0059934864,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0037739715,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.4,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "We found Bobby at Seremban roadside.Bobby was a adorable furry kid. Bobby is very well trained and socialized with people, he's ready to be in someone's warm home. We're sure he was someone's pet before,he would do well in a family. He is super quiet in the house and he could live with other dog too. ", 
+    "categories": []
 }

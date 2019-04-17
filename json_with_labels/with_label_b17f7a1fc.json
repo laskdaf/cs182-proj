@@ -1,132 +1,133 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Confident", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/08h03n", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Confidence"
+            }, 
+            "type": "EVENT", 
+            "name": "Confident", 
+            "salience": 0.25613725
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Goldie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Goldie", 
+            "salience": 0.25613725
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "peers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "peers", 
+            "salience": 0.17228006
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "strangers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "strangers", 
+            "salience": 0.12110368
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kid", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "kid", 
+            "salience": 0.11971506
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "awhile", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "awhile", 
+            "salience": 0.03838014
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "DOB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "DOB", 
+            "salience": 0.036246557
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Goldie-like Confident among peers Just like a kid, shy to strangers at first, but will smile after warming up for awhile Vaccinated, dewormed, spayed DOB: December",
+                "content": "Goldie-like Confident among peers Just like a kid, shy to strangers at first, but will smile after warming up for awhile Vaccinated, dewormed, spayed DOB: December", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Confident",
-            "type": "EVENT",
-            "metadata": {
-                "mid": "/m/08h03n",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Confidence"
-            },
-            "salience": 0.25613725,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Confident",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Goldie",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.25613725,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Goldie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "peers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.17228006,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "peers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "strangers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.12110368,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "strangers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kid",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.11971506,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kid",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "awhile",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03838014,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "awhile",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "DOB",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.036246557,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "DOB",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Goldie-like Confident among peers Just like a kid, shy to strangers at first, but will smile after warming up for awhile Vaccinated, dewormed, spayed DOB: December ", 
+    "categories": []
 }

@@ -1,169 +1,170 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.8425118, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Blinky", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "salience": 0.09852417, 
+            "type": "OTHER", 
+            "name": "Blinky", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "apartment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.018066453, 
+            "type": "LOCATION", 
+            "name": "apartment", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.012551382, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SS1 PJ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "salience": 0.01073292, 
+            "type": "OTHER", 
+            "name": "SS1 PJ", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.0088066375, 
+            "type": "OTHER", 
+            "name": "love", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.0088066375, 
+            "type": "OTHER", 
+            "name": "care", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.8, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Blinky is an adorable and loving girl.",
+                "content": "Blinky is an adorable and loving girl.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is a stray I feed near my apartment at SS1 PJ.",
+                "content": "She is a stray I feed near my apartment at SS1 PJ.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is about 1 year old and she was spayed and vaccinated.",
+                "content": "She is about 1 year old and she was spayed and vaccinated.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is very playful and super loving.",
+                "content": "She is very playful and super loving.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you can give her a forever home with love and care, please contact me",
+                "content": "If you can give her a forever home with love and care, please contact me", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8425118,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Blinky",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09852417,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Blinky",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "apartment",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.018066453,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "apartment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.012551382,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "SS1 PJ",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01073292,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SS1 PJ",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "love",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0088066375,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "love",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0088066375,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.8,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Blinky is an adorable and loving girl. She is a stray I feed near my apartment at SS1 PJ. She is about 1 year old and she was spayed and vaccinated. She is very playful and super loving. If you can give her a forever home with love and care, please contact me ", 
+    "categories": []
 }

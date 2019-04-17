@@ -1,189 +1,190 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "HELP", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "HELP", 
+            "salience": 0.34023556
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PUP", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "PUP", 
+            "salience": 0.21365194
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "personality", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "personality", 
+            "salience": 0.17005354
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "uncle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "uncle", 
+            "salience": 0.06993193
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.04819046
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "area", 
+            "salience": 0.04819046
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.047612447
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "council", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "council", 
+            "salience": 0.04428436
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chance", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chance", 
+            "salience": 0.017849319
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "PLEASE PLEASE HELP ADOPT THIS PUP.",
+                "content": "PLEASE PLEASE HELP ADOPT THIS PUP.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "A kind uncle been feeding the pups but selfish n unkind people that area want to call the council.",
+                "content": "A kind uncle been feeding the pups but selfish n unkind people that area want to call the council.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is very sweet, adorable personality.",
+                "content": "She is very sweet, adorable personality.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "PLEASE PLEASE give her a chance to live",
+                "content": "PLEASE PLEASE give her a chance to live", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "HELP",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.34023556,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "HELP",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "PUP",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.21365194,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "PUP",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "personality",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17005354,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "personality",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "uncle",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.06993193,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "uncle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04819046,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.04819046,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "area",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.047612447,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "council",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.04428436,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "council",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chance",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017849319,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chance",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "PLEASE PLEASE HELP ADOPT THIS PUP. A kind uncle been feeding the pups but selfish n unkind people that area want to call the council. She is very sweet, adorable personality. PLEASE PLEASE give her a chance to live ", 
+    "categories": []
 }

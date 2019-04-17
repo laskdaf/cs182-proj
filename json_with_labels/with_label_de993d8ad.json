@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fellow", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "fellow", 
+            "salience": 0.7751733
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attention", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "attention", 
+            "salience": 0.09285102
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.08233923
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.026396789
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cares", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cares", 
+            "salience": 0.023239663
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "He is a little fellow who likes to stick with owner, trying to get attention, yearning for cares from owner.",
+                "content": "He is a little fellow who likes to stick with owner, trying to get attention, yearning for cares from owner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is hyperactive, and playful.",
+                "content": "He is hyperactive, and playful.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "fellow",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7751733,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fellow",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "attention",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09285102,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "attention",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.08233923,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.026396789,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cares",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.023239663,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cares",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "He is a little fellow who likes to stick with owner, trying to get attention, yearning for cares from owner. He is hyperactive, and playful. ", 
+    "categories": []
 }

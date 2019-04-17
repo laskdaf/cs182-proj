@@ -1,124 +1,125 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family companion", 
+            "salience": 0.5156436
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "information", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "information", 
+            "salience": 0.14858963
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cindy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Cindy", 
+            "salience": 0.11850701
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "contact", 
+            "salience": 0.10465337
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kathy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Kathy", 
+            "salience": 0.062217556
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.05038883
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Happy, playful and will be a perfect family companion.",
+                "content": "Happy, playful and will be a perfect family companion.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you can give Cindy a home or for more information, kindly contact : Kathy",
+                "content": "If you can give Cindy a home or for more information, kindly contact : Kathy", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "family companion",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5156436,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "information",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14858963,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "information",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Cindy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.11850701,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cindy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "contact",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10465337,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "contact",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kathy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.062217556,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kathy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05038883,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Happy, playful and will be a perfect family companion. If you can give Cindy a home or for more information, kindly contact : Kathy ", 
+    "categories": []
 }

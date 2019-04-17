@@ -1,119 +1,120 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lil puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "lil puppy", 
+            "salience": 0.58887124
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lil boxer pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "lil boxer pup", 
+            "salience": 0.17786065
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "course", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "course", 
+            "salience": 0.089227386
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cant guarantee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cant guarantee", 
+            "salience": 0.082071625
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cross breed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cross breed", 
+            "salience": 0.061969113
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Very cute lil puppy that looks like a lil boxer pup.",
+                "content": "Very cute lil puppy that looks like a lil boxer pup.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "but of course, cant guarantee.",
+                "content": "but of course, cant guarantee.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "more like a cross breed i wld say =)",
+                "content": "more like a cross breed i wld say =)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "lil puppy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.58887124,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lil puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lil boxer pup",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.17786065,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lil boxer pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "course",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.089227386,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "course",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cant guarantee",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.082071625,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cant guarantee",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cross breed",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.061969113,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cross breed",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Very cute lil puppy that looks like a lil boxer pup. but of course, cant guarantee. more like a cross breed i wld say =) ", 
+    "categories": []
 }

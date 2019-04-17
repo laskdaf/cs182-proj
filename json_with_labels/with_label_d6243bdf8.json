@@ -1,64 +1,65 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Healty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Healty", 
+            "salience": 0.8417426
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "babys", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "babys", 
+            "salience": 0.1582574
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": -0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Healty, They are about 8months old...",
+                "content": "Healty, They are about 8months old...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Big little babys..",
+                "content": "Big little babys..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Healty",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.8417426,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Healty",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "babys",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.1582574,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "babys",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Healty, They are about 8months old... Big little babys.. ", 
+    "categories": []
 }

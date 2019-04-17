@@ -1,219 +1,220 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.38889462, 
+            "name": "adopters", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.2063123, 
+            "name": "Adoption", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Requirements", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.15778504, 
+            "name": "Requirements", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoptions", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.056043457, 
+            "name": "adoptions", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "interview", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "salience": 0.039610103, 
+            "name": "interview", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house check", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.039610103, 
+            "name": "house check", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Vaccinations", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.03297233, 
+            "name": "Vaccinations", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neutering", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.029725812, 
+            "name": "neutering", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.02088544, 
+            "name": "age", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccinations", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.014987251, 
+            "name": "vaccinations", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cost", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.013173549, 
+            "name": "Cost", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "FOR serious adopters only!",
+                "content": "FOR serious adopters only!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Requirements for Adoption: ========================= All adoptions are subject to an interview and house check.",
+                "content": "Requirements for Adoption: ========================= All adoptions are subject to an interview and house check.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Medical Cost of vaccinations and neutering to be borne by adopter.",
+                "content": "Medical Cost of vaccinations and neutering to be borne by adopter.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Vaccinations and neutering/spaying at 6 months of age are COMPULSORY.",
+                "content": "Vaccinations and neutering/spaying at 6 months of age are COMPULSORY.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.38889462,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.2063123,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Requirements",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15778504,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Requirements",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoptions",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.056043457,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoptions",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "interview",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.039610103,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "interview",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "house check",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.039610103,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "house check",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Vaccinations",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03297233,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Vaccinations",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neutering",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.029725812,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neutering",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "age",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02088544,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "age",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vaccinations",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014987251,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccinations",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Cost",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013173549,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cost",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.7,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "FOR serious adopters only! Requirements for Adoption: ========================= All adoptions are subject to an interview and house check. Medical Cost of vaccinations and neutering to be borne by adopter. Vaccinations and neutering/spaying at 6 months of age are COMPULSORY. ", 
+    "categories": []
 }

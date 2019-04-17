@@ -1,329 +1,330 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bull dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bull dog", 
+            "salience": 0.24229728
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighbourhood", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "neighbourhood", 
+            "salience": 0.24229728
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.1566888
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.059680212
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.046155933
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.04559724
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.040785477
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cannot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Cannot", 
+            "salience": 0.040295452
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mattress", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "mattress", 
+            "salience": 0.024503214
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "saliva", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "saliva", 
+            "salience": 0.02359859
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sofa", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "sofa", 
+            "salience": 0.021535093
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SMS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "SMS", 
+            "salience": 0.015068619
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "DONT CALL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "DONT CALL", 
+            "salience": 0.015068619
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mattress", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "mattress", 
+            "salience": 0.0142869465
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "nothing", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "nothing", 
+            "salience": 0.012141258
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.5, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found this bull dog near my neighbourhood for a month now.",
+                "content": "Found this bull dog near my neighbourhood for a month now.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I have 3 dogs myself at home.",
+                "content": "I have 3 dogs myself at home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Cannot take care of it.",
+                "content": "Cannot take care of it.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hopefully if there is someone who is loving who can take care of it.",
+                "content": "Hopefully if there is someone who is loving who can take care of it.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "It is very cute and friendly but the saliva keep on drooling.",
+                "content": "It is very cute and friendly but the saliva keep on drooling.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "overall there is nothing.",
+                "content": "overall there is nothing.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "forgot to mention, please keep him indoor.",
+                "content": "forgot to mention, please keep him indoor.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He likes to sleep on mattress or sofa, if can please prepare a mattress for him.",
+                "content": "He likes to sleep on mattress or sofa, if can please prepare a mattress for him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "PLEASE SMS , DONT CALL",
+                "content": "PLEASE SMS , DONT CALL", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "bull dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.24229728,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bull dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neighbourhood",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.24229728,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neighbourhood",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.1566888,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.059680212,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.046155933,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04559724,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.040785477,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Cannot",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.040295452,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cannot",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "mattress",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.024503214,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mattress",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "saliva",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02359859,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "saliva",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sofa",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.021535093,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sofa",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "SMS",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015068619,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SMS",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "DONT CALL",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015068619,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "DONT CALL",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mattress",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.0142869465,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mattress",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "nothing",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012141258,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "nothing",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.5,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Found this bull dog near my neighbourhood for a month now. I have 3 dogs myself at home. Cannot take care of it. Hopefully if there is someone who is loving who can take care of it. It is very cute and friendly but the saliva keep on drooling. overall there is nothing. forgot to mention, please keep him indoor. He likes to sleep on mattress or sofa, if can please prepare a mattress for him. PLEASE SMS , DONT CALL ", 
+    "categories": []
 }

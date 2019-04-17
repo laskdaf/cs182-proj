@@ -1,57 +1,58 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cute", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/04h3kx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Cuteness"
+            }, 
+            "type": "OTHER", 
+            "name": "Cute", 
+            "salience": 0.8056574
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Obedient", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Obedient", 
+            "salience": 0.1943426
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Cute, Adorable, Obedient",
+                "content": "Cute, Adorable, Obedient", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Cute",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Cuteness",
-                "mid": "/m/04h3kx"
-            },
-            "salience": 0.8056574,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cute",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Obedient",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.1943426,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Obedient",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Cute, Adorable, Obedient ", 
+    "categories": []
 }

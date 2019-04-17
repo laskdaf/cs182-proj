@@ -1,114 +1,115 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Phoebe", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Phoebe", 
+            "salience": 0.8735828
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.053707633
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.040516887
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "memories", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "memories", 
+            "salience": 0.032192692
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Phoebe is playful, friendly and adorable.",
+                "content": "Phoebe is playful, friendly and adorable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Will you please help her find a forever home?",
+                "content": "Will you please help her find a forever home?", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's ready to make lasting memories with someone!",
+                "content": "She's ready to make lasting memories with someone!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you.",
+                "content": "Thank you.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Phoebe",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8735828,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Phoebe",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.053707633,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.040516887,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "memories",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.032192692,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "memories",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Phoebe is playful, friendly and adorable. Will you please help her find a forever home? She's ready to make lasting memories with someone! Thank you. ", 
+    "categories": []
 }

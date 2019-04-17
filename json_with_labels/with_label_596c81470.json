@@ -1,122 +1,123 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.56007344
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 0.2104284
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.18867326
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "commands.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "commands.", 
+            "salience": 0.025630811
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Chinese", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01r2l", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Chinese_language"
+            }, 
+            "type": "LOCATION", 
+            "name": "Chinese", 
+            "salience": 0.0151940975
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "this dog was found lost and now we need an adopter to take care of him.",
+                "content": "this dog was found lost and now we need an adopter to take care of him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "such a loving boy, responds to Chinese commands. he loves to play and run...",
+                "content": "such a loving boy, responds to Chinese commands. he loves to play and run...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "very active.",
+                "content": "very active.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.56007344,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.2104284,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.18867326,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "commands.",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.025630811,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "commands.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Chinese",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Chinese_language",
-                "mid": "/m/01r2l"
-            },
-            "salience": 0.0151940975,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Chinese",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "this dog was found lost and now we need an adopter to take care of him. such a loving boy, responds to Chinese commands. he loves to play and run... very active. ", 
+    "categories": []
 }

@@ -1,230 +1,231 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.6297086
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "security", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "security", 
+            "salience": 0.0896441
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mandarin", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mandarin", 
+            "salience": 0.061466657
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Persian", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/032f6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Persian_language"
+            }, 
+            "type": "PERSON", 
+            "name": "Persian", 
+            "salience": 0.03728515
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "English", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/02h40lc", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/English_language"
+            }, 
+            "type": "OTHER", 
+            "name": "English", 
+            "salience": 0.03683829
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.034708895
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kind", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "kind", 
+            "salience": 0.030378923
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chicken", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chicken", 
+            "salience": 0.021002656
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rice", 
+            "salience": 0.021002656
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bread", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "bread", 
+            "salience": 0.014746939
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.011608574
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "human food", 
+            "salience": 0.011608574
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "she is very good dog for security and understand mandarin , English and Persian .",
+                "content": "she is very good dog for security and understand mandarin , English and Persian .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "all kind of food eat mostly wet food and human food.",
+                "content": "all kind of food eat mostly wet food and human food.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "chicken, rice,bread , ...",
+                "content": "chicken, rice,bread , ...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6297086,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "security",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0896441,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "security",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mandarin",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.061466657,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mandarin",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Persian",
-            "type": "PERSON",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Persian_language",
-                "mid": "/m/032f6"
-            },
-            "salience": 0.03728515,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Persian",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "English",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/English_language",
-                "mid": "/m/02h40lc"
-            },
-            "salience": 0.03683829,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "English",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.034708895,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kind",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.030378923,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kind",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chicken",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.021002656,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chicken",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rice",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.021002656,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rice",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bread",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.014746939,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bread",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011608574,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "human food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011608574,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "human food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "she is very good dog for security and understand mandarin , English and Persian . all kind of food eat mostly wet food and human food. chicken, rice,bread , ... ", 
+    "categories": []
 }

@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Obedient &amp; good as safe guard housing compound",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.8,
-                "score": 0.8
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "guard housing compound",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "guard housing compound",
+                        "content": "guard housing compound", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "guard housing compound", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.8,
+        "magnitude": 0.8, 
         "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Obedient &amp; good as safe guard housing compound", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "raw_content": "Obedient &amp; good as safe guard housing compound ", 
+    "categories": []
 }

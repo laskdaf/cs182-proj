@@ -1,81 +1,82 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Help College of Art and Technology", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1tk8l2f8"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "Help College of Art and Technology", 
+            "salience": 0.44797334
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Fraser Business Park Kuala Lumpur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "Fraser Business Park Kuala Lumpur", 
+            "salience": 0.29037496
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Owner", 
+            "salience": 0.2616517
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Was found around Help College of Art and Technology, Fraser Business Park Kuala Lumpur on /.",
+                "content": "Was found around Help College of Art and Technology, Fraser Business Park Kuala Lumpur on /.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Owner can contact me at",
+                "content": "Owner can contact me at", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Help College of Art and Technology",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/g/1tk8l2f8"
-            },
-            "salience": 0.44797334,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Help College of Art and Technology",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Fraser Business Park Kuala Lumpur",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.29037496,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Fraser Business Park Kuala Lumpur",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.2616517,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Was found around Help College of Art and Technology, Fraser Business Park Kuala Lumpur on /. Owner can contact me at ", 
+    "categories": []
 }

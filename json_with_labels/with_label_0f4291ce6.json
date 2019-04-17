@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy Commitment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy Commitment", 
+            "salience": 0.82445073
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Amy Ang @", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Amy Ang @", 
+            "salience": 0.17554925
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Healthy and adorable puppy Commitment to spay is compulsory Interested to adopt pls contact Amy Ang @",
+                "content": "Healthy and adorable puppy Commitment to spay is compulsory Interested to adopt pls contact Amy Ang @", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy Commitment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.82445073,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy Commitment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Amy Ang @",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.17554925,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Amy Ang @",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Healthy and adorable puppy Commitment to spay is compulsory Interested to adopt pls contact Amy Ang @ ", 
+    "categories": []
 }

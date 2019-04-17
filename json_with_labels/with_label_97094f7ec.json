@@ -1,189 +1,190 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ginger", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Ginger", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0f9n3", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ginger"
+            }, 
+            "type": "OTHER", 
+            "name": "Ginger", 
+            "salience": 0.48229682
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "passtime", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "passtime", 
+            "salience": 0.16126387
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ody", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ody", 
+            "salience": 0.06730781
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "specks.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "specks.", 
+            "salience": 0.06730781
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brown face", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "brown face", 
+            "salience": 0.06258349
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attitude", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "attitude", 
+            "salience": 0.06258349
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "things", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "things", 
+            "salience": 0.047082536
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "guard dog", 
+            "salience": 0.033050124
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "companion", 
+            "salience": 0.016524054
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Ginger has just been spayed.",
+                "content": "Ginger has just been spayed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Ginger's got a brown face and a white ody with golden specks.She is young and vibrant in attitude and would make an excellent companion.",
+                "content": "Ginger's got a brown face and a white ody with golden specks.She is young and vibrant in attitude and would make an excellent companion.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Her favourite passtime is watching things move and this makes her a good guard dog.",
+                "content": "Her favourite passtime is watching things move and this makes her a good guard dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Ginger",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Ginger",
-                "mid": "/m/0f9n3"
-            },
-            "salience": 0.48229682,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ginger",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Ginger",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "passtime",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.16126387,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "passtime",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ody",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06730781,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ody",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "specks.",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06730781,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "specks.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brown face",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06258349,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brown face",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "attitude",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06258349,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "attitude",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "things",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.047082536,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "things",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "guard dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.033050124,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guard dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "companion",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016524054,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Ginger has just been spayed. Ginger's got a brown face and a white ody with golden specks.She is young and vibrant in attitude and would make an excellent companion. Her favourite passtime is watching things move and this makes her a good guard dog. ", 
+    "categories": []
 }

@@ -1,159 +1,160 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.8334603
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "size", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "size", 
+            "salience": 0.036366776
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "salience": 0.036106795
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "nose", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "nose", 
+            "salience": 0.036106795
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "life", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "life", 
+            "salience": 0.033418775
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Commitment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Commitment", 
+            "salience": 0.013371523
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "picture", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "picture", 
+            "salience": 0.011169035
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "She is a friendly and adorable puppy.",
+                "content": "She is a friendly and adorable puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has beautiful eyes and red nose.",
+                "content": "She has beautiful eyes and red nose.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Looks much better and smaller size in real life than in picture.",
+                "content": "Looks much better and smaller size in real life than in picture.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Commitment to spay her is compulsory Interested to adopt pls call me.",
+                "content": "Commitment to spay her is compulsory Interested to adopt pls call me.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.8334603,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "size",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.036366776,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "size",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "eyes",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.036106795,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eyes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "nose",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.036106795,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "nose",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "life",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.033418775,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "life",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Commitment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013371523,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Commitment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "picture",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.011169035,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "picture",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "She is a friendly and adorable puppy. She has beautiful eyes and red nose. Looks much better and smaller size in real life than in picture. Commitment to spay her is compulsory Interested to adopt pls call me. ", 
+    "categories": []
 }

@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Found in drain.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.4,
-                "score": -0.4
-            }
-        },
-        {
-            "text": {
-                "content": "Very active.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.7,
-                "score": 0.7
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "drain",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "drain",
+                        "content": "drain", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "drain", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 1.1,
+        "magnitude": 1.1, 
         "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found in drain.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very active.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "raw_content": "Found in drain. Very active. ", 
+    "categories": []
 }

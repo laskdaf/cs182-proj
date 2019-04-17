@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.8805977
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.05224833
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "companion", 
+            "salience": 0.039415997
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "guard dog", 
+            "salience": 0.027737988
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "She is a playful, active, alert and smart puppy.",
+                "content": "She is a playful, active, alert and smart puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We're looking for a really good home for her.",
+                "content": "We're looking for a really good home for her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is suitable for companion and also as a guard dog.",
+                "content": "She is suitable for companion and also as a guard dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.8805977,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05224833,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "companion",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.039415997,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "guard dog",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.027737988,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guard dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.3,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "She is a playful, active, alert and smart puppy. We're looking for a really good home for her. She is suitable for companion and also as a guard dog. ", 
+    "categories": []
 }

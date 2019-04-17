@@ -1,84 +1,85 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Dog", 
+            "salience": 0.5059773
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "birth", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "birth", 
+            "salience": 0.22403039
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.15815549
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "friend", 
+            "salience": 0.111836866
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "My Dog gave birth to 4 cute puppies , 1 adopted to my friend.",
+                "content": "My Dog gave birth to 4 cute puppies , 1 adopted to my friend.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5059773,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "birth",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.22403039,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "birth",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15815549,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "friend",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.111836866,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "friend",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "My Dog gave birth to 4 cute puppies , 1 adopted to my friend. ", 
+    "categories": []
 }

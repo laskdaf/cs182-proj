@@ -1,149 +1,150 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.39137018
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "middle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "middle", 
+            "salience": 0.16761245
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "road", 
+            "salience": 0.16761245
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "somewhere", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "somewhere", 
+            "salience": 0.11607161
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jalan Kapar Klang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Jalan Kapar Klang", 
+            "salience": 0.07101472
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ear", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ear", 
+            "salience": 0.058003597
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.02831498
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Rescued this puppy from the middle of road somewhere near Jalan Kapar Klang.",
+                "content": "Rescued this puppy from the middle of road somewhere near Jalan Kapar Klang.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Right ear injured and now it has been fully recovered.",
+                "content": "Right ear injured and now it has been fully recovered.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very active and friendly dog.",
+                "content": "Very active and friendly dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.39137018,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "middle",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16761245,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "middle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "road",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.16761245,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "road",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "somewhere",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.11607161,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "somewhere",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jalan Kapar Klang",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.07101472,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jalan Kapar Klang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "ear",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.058003597,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ear",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02831498,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Rescued this puppy from the middle of road somewhere near Jalan Kapar Klang. Right ear injured and now it has been fully recovered. Very active and friendly dog. ", 
+    "categories": []
 }

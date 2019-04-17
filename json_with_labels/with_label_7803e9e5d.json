@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Very cheerful and loves to play and be around people.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "people",
+                        "content": "people", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.9,
+        "magnitude": 0.9, 
         "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very cheerful and loves to play and be around people.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "raw_content": "Very cheerful and loves to play and be around people. ", 
+    "categories": []
 }

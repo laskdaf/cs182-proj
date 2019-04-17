@@ -1,159 +1,160 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Terry", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Terry", 
+            "salience": 0.65127593
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.18029161
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.11731015
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "garden", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "garden", 
+            "salience": 0.025610557
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attentions", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "attentions", 
+            "salience": 0.013373181
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "trick", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "trick", 
+            "salience": 0.0060692853
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "treats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "treats", 
+            "salience": 0.0060692853
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Terry is an active dog whereby I'm looking for an owner who has a garden for him to explore and run around.",
+                "content": "Terry is an active dog whereby I'm looking for an owner who has a garden for him to explore and run around.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He loves attentions and he would bark if you ignore him when u see him.",
+                "content": "He loves attentions and he would bark if you ignore him when u see him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is naughty and very smart.",
+                "content": "He is naughty and very smart.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He learnt his trick very fast especially with treats.",
+                "content": "He learnt his trick very fast especially with treats.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Terry",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.65127593,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Terry",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.18029161,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11731015,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "garden",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.025610557,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "garden",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "attentions",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013373181,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "attentions",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "trick",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0060692853,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "trick",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "treats",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0060692853,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "treats",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Terry is an active dog whereby I'm looking for an owner who has a garden for him to explore and run around. He loves attentions and he would bark if you ignore him when u see him. He is naughty and very smart. He learnt his trick very fast especially with treats. ", 
+    "categories": []
 }

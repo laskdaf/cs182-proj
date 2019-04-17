@@ -1,195 +1,196 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Dog", 
+            "salience": 0.52840734
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Malacca", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/05fsj1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Malacca_City"
+            }, 
+            "type": "LOCATION", 
+            "name": "Malacca", 
+            "salience": 0.24378602
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "MALACCA", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "DOG LOCATION", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0dhf5", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Malacca"
+            }, 
+            "type": "LOCATION", 
+            "name": "MALACCA", 
+            "salience": 0.061162185
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0bt9lr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Dog"
+            }, 
+            "type": "PERSON", 
+            "name": "Dog", 
+            "salience": 0.05432535
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "factory", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "factory", 
+            "salience": 0.05014754
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "temperament", 
+            "salience": 0.03474059
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Fed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Fed", 
+            "salience": 0.027431
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Dog found in Malacca.",
+                "content": "Dog found in Malacca.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Dog has been currently rescued.",
+                "content": "Dog has been currently rescued.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Placed in a factory.",
+                "content": "Placed in a factory.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Fed everyday daily.",
+                "content": "Fed everyday daily.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "ery good temperament.",
+                "content": "ery good temperament.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "DOG LOCATION - MALACCA",
+                "content": "DOG LOCATION - MALACCA", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.52840734,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Malacca",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/05fsj1",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Malacca_City"
-            },
-            "salience": 0.24378602,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Malacca",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "MALACCA",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0dhf5",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Malacca"
-            },
-            "salience": 0.061162185,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "MALACCA",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "DOG LOCATION",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Dog",
-            "type": "PERSON",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Dog",
-                "mid": "/m/0bt9lr"
-            },
-            "salience": 0.05432535,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dog",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "factory",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05014754,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "factory",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "temperament",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03474059,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "temperament",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Fed",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.027431,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Fed",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Dog found in Malacca. Dog has been currently rescued. Placed in a factory. Fed everyday daily. ery good temperament. DOG LOCATION - MALACCA ", 
+    "categories": []
 }

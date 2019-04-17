@@ -1,238 +1,239 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sister", 
+            "salience": 0.6624741
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.13793153
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Chris", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Chris", 
+            "salience": 0.08368712
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sister", 
+            "salience": 0.03522882
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "prognosis", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "prognosis", 
+            "salience": 0.020323817
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "diarrhea", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "diarrhea", 
+            "salience": 0.017769791
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rainbow bridge", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "rainbow bridge", 
+            "salience": 0.016455626
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "streets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "streets", 
+            "salience": 0.012385415
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.007132587
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.006611194
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.3, 
+        "score": -0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A young female puppy rescued by Chris.",
+                "content": "A young female puppy rescued by Chris.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She was actually admitted together with her sister but sadly, the sister did not make it.",
+                "content": "She was actually admitted together with her sister but sadly, the sister did not make it.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Not sure what happened to them, but they were nonstop vomiting with diarrhea when found and their prognosis, especially the sister was really bad.",
+                "content": "Not sure what happened to them, but they were nonstop vomiting with diarrhea when found and their prognosis, especially the sister was really bad.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": -0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "After a day, the sister passed on to rainbow bridge leaving her alone.",
+                "content": "After a day, the sister passed on to rainbow bridge leaving her alone.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We hope someone may come forward to adopt her as it will be unsafe to send her back to the streets, alone especially.",
+                "content": "We hope someone may come forward to adopt her as it will be unsafe to send her back to the streets, alone especially.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": -0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you can give her a loving home, please call.",
+                "content": "If you can give her a loving home, please call.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "sister",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6624741,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13793153,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Chris",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.08368712,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Chris",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "sister",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.03522882,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "prognosis",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020323817,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "prognosis",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "diarrhea",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017769791,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "diarrhea",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rainbow bridge",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.016455626,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rainbow bridge",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "streets",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.012385415,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "streets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.007132587,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.006611194,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.3,
-        "score": -0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "A young female puppy rescued by Chris. She was actually admitted together with her sister but sadly, the sister did not make it. Not sure what happened to them, but they were nonstop vomiting with diarrhea when found and their prognosis, especially the sister was really bad. After a day, the sister passed on to rainbow bridge leaving her alone. We hope someone may come forward to adopt her as it will be unsafe to send her back to the streets, alone especially. If you can give her a loving home, please call. ", 
+    "categories": []
 }

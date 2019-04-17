@@ -1,84 +1,85 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Loves", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Loves", 
+            "salience": 0.5435039
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toy puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "toy puppy", 
+            "salience": 0.19466983
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "balls", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "balls", 
+            "salience": 0.16163948
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "type puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "type puppy", 
+            "salience": 0.10018683
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Loves to hug his soft toy puppy to sleep and chase balls... not the very active or noisy type puppy",
+                "content": "Loves to hug his soft toy puppy to sleep and chase balls... not the very active or noisy type puppy", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Loves",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5435039,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Loves",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "toy puppy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.19466983,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "toy puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "balls",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16163948,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "balls",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "type puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10018683,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "type puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Loves to hug his soft toy puppy to sleep and chase balls... not the very active or noisy type puppy ", 
+    "categories": []
 }

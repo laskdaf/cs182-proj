@@ -1,99 +1,100 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.5200815, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption DOB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.23579982, 
+            "type": "OTHER", 
+            "name": "adoption DOB", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attention", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.11884678, 
+            "type": "OTHER", 
+            "name": "attention", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eye colour", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.0930553, 
+            "type": "OTHER", 
+            "name": "eye colour", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Calm", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "salience": 0.032216575, 
+            "type": "ORGANIZATION", 
+            "name": "Calm", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Beautiful female dog for adoption DOB: March Spayed, vaccinated, dewormed Calm, likes attention Unique eye colour",
+                "content": "Beautiful female dog for adoption DOB: March Spayed, vaccinated, dewormed Calm, likes attention Unique eye colour", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5200815,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption DOB",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.23579982,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption DOB",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "attention",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11884678,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "attention",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "eye colour",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0930553,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eye colour",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Calm",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.032216575,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Calm",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Beautiful female dog for adoption DOB: March Spayed, vaccinated, dewormed Calm, likes attention Unique eye colour ", 
+    "categories": []
 }

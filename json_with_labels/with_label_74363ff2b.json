@@ -1,149 +1,150 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fella", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "fella", 
+            "salience": 0.49557406
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "monster", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "monster", 
+            "salience": 0.27718443
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.114653915
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "salience": 0.058161106
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "one", 
+            "salience": 0.024104903
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family member", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family member", 
+            "salience": 0.022682345
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chance", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chance", 
+            "salience": 0.0076392535
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This little monster is only 2 months old and was found lost and was trying to find her family but unable to locate them.",
+                "content": "This little monster is only 2 months old and was found lost and was trying to find her family but unable to locate them.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": -0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is a very healthy and adorable fella.",
+                "content": "She is a very healthy and adorable fella.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "PLEASE if anyone is allow to give her a second chance to become one of your family member do directly call or sms me.",
+                "content": "PLEASE if anyone is allow to give her a second chance to become one of your family member do directly call or sms me.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "fella",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.49557406,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fella",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "monster",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.27718443,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "monster",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.114653915,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.058161106,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "one",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.024104903,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "one",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family member",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.022682345,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family member",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chance",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0076392535,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chance",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "This little monster is only 2 months old and was found lost and was trying to find her family but unable to locate them. She is a very healthy and adorable fella. PLEASE if anyone is allow to give her a second chance to become one of your family member do directly call or sms me. ", 
+    "categories": []
 }

@@ -1,249 +1,250 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rebecca", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Ms", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Rebecca", 
+            "salience": 0.6540984
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "adoption", 
+            "salience": 0.051158197
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Adopter", 
+            "salience": 0.05054239
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccine", 
+            "salience": 0.04447812
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "citizen", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "citizen", 
+            "salience": 0.041208524
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "whatsapp", 
+            "salience": 0.04109695
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SMS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "SMS", 
+            "salience": 0.04109695
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Malaysian", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/09pmkv", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia"
+            }, 
+            "type": "LOCATION", 
+            "name": "Malaysian", 
+            "salience": 0.026664007
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "\ud83d\ude4f", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "\ud83d\ude4f", 
+            "salience": 0.018385159
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Nanteni Liew", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Nanteni Liew", 
+            "salience": 0.018385159
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "KL", 
+            "salience": 0.012886141
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Rescued by Ms Rebecca on 4/4/18.",
+                "content": "Rescued by Ms Rebecca on 4/4/18.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Female-2 1/2mths+.",
+                "content": "Female-2 1/2mths+.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter need to vaccine+deworm her after adoption.",
+                "content": "Adopter need to vaccine+deworm her after adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Open for Malaysian citizen only.",
+                "content": "Open for Malaysian citizen only.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Kindly whatsapp or SMS to me at if u are interested to adopt.",
+                "content": "Kindly whatsapp or SMS to me at if u are interested to adopt.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "\ud83d\ude4fAdopted by Nanteni Liew from KL on 8/4/18",
+                "content": "\ud83d\ude4fAdopted by Nanteni Liew from KL on 8/4/18", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Rebecca",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6540984,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rebecca",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Ms",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.051158197,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adopter",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05054239,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vaccine",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04447812,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccine",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "citizen",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.041208524,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "citizen",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "whatsapp",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04109695,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "whatsapp",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "SMS",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04109695,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SMS",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Malaysian",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/09pmkv",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia"
-            },
-            "salience": 0.026664007,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Malaysian",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "\ud83d\ude4f",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018385159,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "\ud83d\ude4f",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Nanteni Liew",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.018385159,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Nanteni Liew",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "KL",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.012886141,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "KL",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Rescued by Ms Rebecca on 4/4/18. Female-2 1/2mths+. Adopter need to vaccine+deworm her after adoption. Open for Malaysian citizen only. Kindly whatsapp or SMS to me at if u are interested to adopt. \ud83d\ude4fAdopted by Nanteni Liew from KL on 8/4/18 ", 
+    "categories": []
 }

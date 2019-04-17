@@ -1,82 +1,83 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "doggie.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "doggie.", 
+            "salience": 0.5966215
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "MBMB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/06w84f1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Melaka_City_Council"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "MBMB", 
+            "salience": 0.26914954
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.13422896
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Very tamed and cute doggie.Caught by MBMB 2 weeks ago.",
+                "content": "Very tamed and cute doggie.Caught by MBMB 2 weeks ago.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Need a new owner urgently.",
+                "content": "Need a new owner urgently.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "doggie.",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5966215,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "doggie.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "MBMB",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/m/06w84f1",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Melaka_City_Council"
-            },
-            "salience": 0.26914954,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "MBMB",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.13422896,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Very tamed and cute doggie.Caught by MBMB 2 weeks ago. Need a new owner urgently. ", 
+    "categories": []
 }

@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homeless", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "homeless", 
+            "salience": 0.45081744
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heart", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heart", 
+            "salience": 0.29021573
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.13168128
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Dogs", 
+            "salience": 0.09143039
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hearts", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hearts", 
+            "salience": 0.035855174
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "All gorgeous, all unique, all homeless, please open your heart and home.",
+                "content": "All gorgeous, all unique, all homeless, please open your heart and home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Dogs love us protect us Cheer us Comfort us And warm our hearts...",
+                "content": "Dogs love us protect us Cheer us Comfort us And warm our hearts...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "homeless",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.45081744,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "homeless",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heart",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.29021573,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heart",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.13168128,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09143039,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hearts",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.035855174,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hearts",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "All gorgeous, all unique, all homeless, please open your heart and home. Dogs love us protect us Cheer us Comfort us And warm our hearts... ", 
+    "categories": []
 }

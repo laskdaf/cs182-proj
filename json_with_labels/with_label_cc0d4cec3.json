@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "munchy is very playful",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.6,
-                "score": 0.6
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "munchy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "munchy",
+                        "content": "munchy", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "munchy", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.6,
+        "magnitude": 0.6, 
         "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "munchy is very playful", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "raw_content": "munchy is very playful ", 
+    "categories": []
 }

@@ -1,127 +1,128 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Galaxy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Galaxy", 
+            "salience": 0.5203246
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "face", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "face", 
+            "salience": 0.18118018
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "manja", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "manja", 
+            "salience": 0.12589964
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adoption status", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Adoption status", 
+            "salience": 0.089062124
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.044079937
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Galaxy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/039b5", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Galaxy"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "Galaxy", 
+            "salience": 0.03945352
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.3, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Galaxy: has a pleasant face but a little manja...",
+                "content": "Galaxy: has a pleasant face but a little manja...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adoption status: Galaxy found her loving new home on 18 August .",
+                "content": "Adoption status: Galaxy found her loving new home on 18 August .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Galaxy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5203246,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Galaxy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "face",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.18118018,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "face",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "manja",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12589964,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "manja",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adoption status",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.089062124,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adoption status",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.044079937,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Galaxy",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/m/039b5",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Galaxy"
-            },
-            "salience": 0.03945352,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Galaxy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.3,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Galaxy: has a pleasant face but a little manja... Adoption status: Galaxy found her loving new home on 18 August . ", 
+    "categories": []
 }

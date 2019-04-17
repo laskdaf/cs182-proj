@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Please feel free to contact us : Stuart",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.3,
-                "score": 0.3
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Stuart",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Stuart",
+                        "content": "Stuart", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Stuart", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.3,
+        "magnitude": 0.3, 
         "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Please feel free to contact us : Stuart", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "raw_content": "Please feel free to contact us : Stuart ", 
+    "categories": []
 }

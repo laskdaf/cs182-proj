@@ -1,277 +1,278 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sasha", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Sasha", 
+            "salience": 0.8512865
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sri Hartamas", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/02b1fg", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Sri_Hartamas"
+            }, 
+            "type": "LOCATION", 
+            "name": "Sri Hartamas", 
+            "salience": 0.0554691
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cats", 
+            "salience": 0.011955453
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "children", 
+            "salience": 0.011955453
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighbours", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "neighbours", 
+            "salience": 0.011955453
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "health", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "health", 
+            "salience": 0.01186901
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.011810413
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "car", 
+            "salience": 0.011594581
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pets", 
+            "salience": 0.008199776
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "town house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "town house", 
+            "salience": 0.0057475315
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "family pet", 
+            "salience": 0.0045449045
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "nature", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "nature", 
+            "salience": 0.0036118627
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 5.7, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Sasha was dumped in Sri Hartamas about 9 months ago and had been living rough until we took her in.",
+                "content": "Sasha was dumped in Sri Hartamas about 9 months ago and had been living rough until we took her in.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has been spayed and is now in great health.",
+                "content": "She has been spayed and is now in great health.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We have socialised her with our 2 dogs and 3 cats as well as the neighbours children.",
+                "content": "We have socialised her with our 2 dogs and 3 cats as well as the neighbours children.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is fully house trained and very clean.",
+                "content": "She is fully house trained and very clean.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She loves the car and travels well.",
+                "content": "She loves the car and travels well.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has a lovely, gentle nature and just wants to please and be loved.",
+                "content": "She has a lovely, gentle nature and just wants to please and be loved.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We would keep her but impractical with all the other pets in a small town house.",
+                "content": "We would keep her but impractical with all the other pets in a small town house.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She will make a great family pet",
+                "content": "She will make a great family pet", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Sasha",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8512865,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sasha",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Sri Hartamas",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/02b1fg",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Sri_Hartamas"
-            },
-            "salience": 0.0554691,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sri Hartamas",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "cats",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011955453,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cats",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "children",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.011955453,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "children",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neighbours",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.011955453,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neighbours",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "health",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01186901,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "health",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011810413,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "car",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.011594581,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "car",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pets",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.008199776,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "town house",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0057475315,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "town house",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family pet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0045449045,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family pet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "nature",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0036118627,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "nature",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 5.7,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Sasha was dumped in Sri Hartamas about 9 months ago and had been living rough until we took her in. She has been spayed and is now in great health. We have socialised her with our 2 dogs and 3 cats as well as the neighbours children. She is fully house trained and very clean. She loves the car and travels well. She has a lovely, gentle nature and just wants to please and be loved. We would keep her but impractical with all the other pets in a small town house. She will make a great family pet ", 
+    "categories": []
 }

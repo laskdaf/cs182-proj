@@ -1,64 +1,65 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "salience": 0.8335104
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.16648959
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.4, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Kindly contact us if anyone is interested in adopting these cute little puppy.",
+                "content": "Kindly contact us if anyone is interested in adopting these cute little puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you.",
+                "content": "Thank you.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8335104,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16648959,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.4,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Kindly contact us if anyone is interested in adopting these cute little puppy. Thank you. ", 
+    "categories": []
 }

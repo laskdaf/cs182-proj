@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ieniemienie dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ieniemienie dog", 
+            "salience": 0.7983086
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "character", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "character", 
+            "salience": 0.20169136
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A ieniemienie dog with a huge character.",
+                "content": "A ieniemienie dog with a huge character.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "ieniemienie dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.7983086,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ieniemienie dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "character",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.20169136,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "character",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "A ieniemienie dog with a huge character. ", 
+    "categories": []
 }

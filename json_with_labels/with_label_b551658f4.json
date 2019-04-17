@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "gal", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "gal", 
+            "salience": 0.689848
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ppl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ppl", 
+            "salience": 0.17462118
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "adopters", 
+            "salience": 0.13553083
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Active little gal..easy to train!!love to be around ppl!!looking for serious adopters only!!",
+                "content": "Active little gal..easy to train!!love to be around ppl!!looking for serious adopters only!!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "gal",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.689848,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "gal",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ppl",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17462118,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ppl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.13553083,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Active little gal..easy to train!!love to be around ppl!!looking for serious adopters only!! ", 
+    "categories": []
 }

@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Looking for an adopter whom appreciate mixed terrier",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.8,
-                "score": 0.8
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "terrier",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "terrier",
+                        "content": "terrier", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "terrier", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.8,
+        "magnitude": 0.8, 
         "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Looking for an adopter whom appreciate mixed terrier", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "raw_content": "Looking for an adopter whom appreciate mixed terrier ", 
+    "categories": []
 }

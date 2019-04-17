@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Puppies", 
+            "salience": 0.7635041
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "male", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "male", 
+            "salience": 0.13866921
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "female", 
+            "salience": 0.09782671
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Puppies rescued.",
+                "content": "Puppies rescued.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "1 male and 1 female.",
+                "content": "1 male and 1 female.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Puppies",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7635041,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "male",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.13866921,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "male",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "female",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.09782671,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Puppies rescued. 1 male and 1 female. ", 
+    "categories": []
 }

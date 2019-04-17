@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Small, furry, adorable and cuter then the pictures ur looking at!",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "pictures",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "pictures",
+                        "content": "pictures", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "pictures", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.9,
+        "magnitude": 0.9, 
         "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Small, furry, adorable and cuter then the pictures ur looking at!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "raw_content": "Small, furry, adorable and cuter then the pictures ur looking at! ", 
+    "categories": []
 }

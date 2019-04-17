@@ -1,95 +1,96 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.7326647
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SPCA", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0117qddf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Cruelty_to_Animals"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "SPCA", 
+            "salience": 0.1521948
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pulau Ketam", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/09zdmq", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Pulau_Ketam"
+            }, 
+            "type": "LOCATION", 
+            "name": "Pulau Ketam", 
+            "salience": 0.11514051
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Very friendly and loves people.",
+                "content": "Very friendly and loves people.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please adopt from SPCA.",
+                "content": "Please adopt from SPCA.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Rescued from Pulau Ketam.",
+                "content": "Rescued from Pulau Ketam.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7326647,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "SPCA",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/m/0117qddf",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Cruelty_to_Animals"
-            },
-            "salience": 0.1521948,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SPCA",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Pulau Ketam",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/09zdmq",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Pulau_Ketam"
-            },
-            "salience": 0.11514051,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pulau Ketam",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Very friendly and loves people. Please adopt from SPCA. Rescued from Pulau Ketam. ", 
+    "categories": []
 }

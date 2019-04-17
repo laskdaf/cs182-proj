@@ -1,121 +1,122 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Little Choco Boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "companion dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Little Choco Boy", 
+            "salience": 0.870691
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "street", 
+            "salience": 0.073304236
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescuer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "rescuer", 
+            "salience": 0.030992106
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "street", 
+            "salience": 0.025012659
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Little Choco Boy was found lingering around on the street.",
+                "content": "Little Choco Boy was found lingering around on the street.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He was very terrified when the rescuer found him.",
+                "content": "He was very terrified when the rescuer found him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Now he is been rescued from the street for almost a week.",
+                "content": "Now he is been rescued from the street for almost a week.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is starting to gain back some confident and we believe he can be a very loyal and loving companion dog.",
+                "content": "He is starting to gain back some confident and we believe he can be a very loyal and loving companion dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Little Choco Boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.870691,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Little Choco Boy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "companion dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "street",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.073304236,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "street",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rescuer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.030992106,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rescuer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "street",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.025012659,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "street",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Little Choco Boy was found lingering around on the street. He was very terrified when the rescuer found him. Now he is been rescued from the street for almost a week. He is starting to gain back some confident and we believe he can be a very loyal and loving companion dog. ", 
+    "categories": []
 }

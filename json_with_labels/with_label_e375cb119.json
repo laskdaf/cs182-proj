@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pug", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pug", 
+            "salience": 0.8709488
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.05341274
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tooth", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "tooth", 
+            "salience": 0.049754165
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.012942148
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "mine", 
+            "salience": 0.012942148
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A greedy and lazy pug, but she's cute and love it when people massage her back! She has a front tooth jutted out and she's clumsy!",
+                "content": "A greedy and lazy pug, but she's cute and love it when people massage her back! She has a front tooth jutted out and she's clumsy!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She also loves chasing and playing with another dog of mine!",
+                "content": "She also loves chasing and playing with another dog of mine!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pug",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8709488,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pug",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05341274,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "tooth",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.049754165,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tooth",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012942148,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mine",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.012942148,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mine",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    ], 
+    "raw_content": "A greedy and lazy pug, but she's cute and love it when people massage her back! She has a front tooth jutted out and she's clumsy! She also loves chasing and playing with another dog of mine! ", 
+    "categories": []
 }

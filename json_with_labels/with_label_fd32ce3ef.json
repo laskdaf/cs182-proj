@@ -1,59 +1,60 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Very quiet and loving.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        },
-        {
-            "text": {
-                "content": "Do not bark much.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.1,
-                "score": -0.1
-            }
-        },
-        {
-            "text": {
-                "content": "Love to cuddle.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "much",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "much",
+                        "content": "much", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "much", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 2,
+        "magnitude": 2, 
         "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very quiet and loving.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Do not bark much.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Love to cuddle.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "raw_content": "Very quiet and loving. Do not bark much. Love to cuddle. ", 
+    "categories": []
 }

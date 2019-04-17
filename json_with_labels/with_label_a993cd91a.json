@@ -1,202 +1,203 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "loves", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "loves", 
+            "salience": 0.49950987
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eating", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "eating", 
+            "salience": 0.14171405
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.10329626
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homeless dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "homeless dogs", 
+            "salience": 0.072212905
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Adopter", 
+            "salience": 0.05856706
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pet", 
+            "salience": 0.04455214
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cost", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cost", 
+            "salience": 0.028089331
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "order", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "order", 
+            "salience": 0.028089331
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jingle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/03r5q_", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Jingle"
+            }, 
+            "type": "OTHER", 
+            "name": "Jingle", 
+            "salience": 0.023969058
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.7, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Extremely playful &amp; adorable.",
+                "content": "Extremely playful &amp; adorable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "loves running around, loves eating, gets along with other dogs well.",
+                "content": "loves running around, loves eating, gets along with other dogs well.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has been spayed &amp; fully vaccinated.",
+                "content": "She has been spayed &amp; fully vaccinated.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter has to reimburse the medical cost incurred in order to help other homeless dogs.",
+                "content": "Adopter has to reimburse the medical cost incurred in order to help other homeless dogs.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Preferably keeping Jingle as an indoor pet.",
+                "content": "Preferably keeping Jingle as an indoor pet.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "loves",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.49950987,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "loves",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "eating",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14171405,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eating",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10329626,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "homeless dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.072212905,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "homeless dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adopter",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05856706,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "pet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04455214,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cost",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028089331,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cost",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "order",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028089331,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "order",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jingle",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Jingle",
-                "mid": "/m/03r5q_"
-            },
-            "salience": 0.023969058,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jingle",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.7,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Extremely playful &amp; adorable. loves running around, loves eating, gets along with other dogs well. She has been spayed &amp; fully vaccinated. Adopter has to reimburse the medical cost incurred in order to help other homeless dogs. Preferably keeping Jingle as an indoor pet. ", 
+    "categories": []
 }

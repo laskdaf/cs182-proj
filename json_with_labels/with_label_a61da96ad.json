@@ -1,131 +1,132 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Black &amp; Tan Girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Black & Tan Girl", 
+            "salience": 0.73212445
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sierra", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Sierra", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "Sierra", 
+            "salience": 0.21886188
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "guard dog", 
+            "salience": 0.03233996
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ampang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Ampang", 
+            "salience": 0.016673686
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Sierra is a beautiful Black &amp; Tan Girl who is friendly.",
+                "content": "Sierra is a beautiful Black &amp; Tan Girl who is friendly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is alert and will make a good guard dog when she grows up.",
+                "content": "She is alert and will make a good guard dog when she grows up.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you wish to adopt, please call.",
+                "content": "If you wish to adopt, please call.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Sierra can be viewed in Ampang.",
+                "content": "Sierra can be viewed in Ampang.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "You wont regret it..",
+                "content": "You wont regret it..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Black & Tan Girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.73212445,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Black &amp; Tan Girl",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Sierra",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.21886188,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sierra",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Sierra",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "guard dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03233996,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guard dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Ampang",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.016673686,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ampang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.4,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Sierra is a beautiful Black &amp; Tan Girl who is friendly. She is alert and will make a good guard dog when she grows up. If you wish to adopt, please call. Sierra can be viewed in Ampang. You wont regret it.. ", 
+    "categories": []
 }

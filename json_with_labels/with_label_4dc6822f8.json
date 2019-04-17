@@ -1,46 +1,47 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Fiesta is a rescued pup, very active and healthy",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.5,
-                "score": 0.5
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Fiesta",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Fiesta",
+                        "content": "Fiesta", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
-                },
+                }, 
                 {
                     "text": {
-                        "content": "pup",
+                        "content": "pup", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Fiesta", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.5,
+        "magnitude": 0.5, 
         "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Fiesta is a rescued pup, very active and healthy", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }
+    ], 
+    "raw_content": "Fiesta is a rescued pup, very active and healthy ", 
+    "categories": []
 }

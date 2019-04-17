@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "please email me if you are interested to adopt yimmy...",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "yimmy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "yimmy",
+                        "content": "yimmy", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "type": "OTHER", 
+            "salience": 1, 
+            "name": "yimmy", 
+            "metadata": {}
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0,
+        "magnitude": 0, 
         "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "please email me if you are interested to adopt yimmy...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "raw_content": "please email me if you are interested to adopt yimmy... ", 
+    "categories": []
 }

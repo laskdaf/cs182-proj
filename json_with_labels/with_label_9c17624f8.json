@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mixture", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mixture", 
+            "salience": 0.55212843
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spots", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "spots", 
+            "salience": 0.23998597
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "light brown", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "light brown", 
+            "salience": 0.16676298
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "starnger", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "starnger", 
+            "salience": 0.041122627
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "She is white with a mixture of black spots and light brown.",
+                "content": "She is white with a mixture of black spots and light brown.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She may be under nourish but she is recovering now and able to eat properly, very shy at first but easy to warm up to any starnger",
+                "content": "She may be under nourish but she is recovering now and able to eat properly, very shy at first but easy to warm up to any starnger", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mixture",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.55212843,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mixture",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "spots",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.23998597,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "spots",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "light brown",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16676298,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "light brown",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "starnger",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.041122627,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "starnger",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "She is white with a mixture of black spots and light brown. She may be under nourish but she is recovering now and able to eat properly, very shy at first but easy to warm up to any starnger ", 
+    "categories": []
 }

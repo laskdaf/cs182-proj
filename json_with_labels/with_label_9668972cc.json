@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Very Friendly and play full.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        },
-        {
-            "text": {
-                "content": "will give with cage.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.4,
-                "score": 0.4
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "cage",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "cage",
+                        "content": "cage", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "type": "OTHER", 
+            "salience": 1, 
+            "name": "cage", 
+            "metadata": {}
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 1.4,
+        "magnitude": 1.4, 
         "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very Friendly and play full.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "will give with cage.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }
+    ], 
+    "raw_content": "Very Friendly and play full. will give with cage. ", 
+    "categories": []
 }

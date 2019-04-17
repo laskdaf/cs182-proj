@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "poodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "poodle", 
+            "salience": 0.742552
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.25744802
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Mixed breed poodle looking for home.",
+                "content": "Mixed breed poodle looking for home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "poodle",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.742552,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "poodle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.25744802,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    ], 
+    "raw_content": "Mixed breed poodle looking for home. ", 
+    "categories": []
 }

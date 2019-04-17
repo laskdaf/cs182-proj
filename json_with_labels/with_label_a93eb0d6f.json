@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "work", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "work", 
+            "salience": 0.45831788
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.4346962
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "coffee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "coffee", 
+            "salience": 0.10698594
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "..busy for work...looking a good owner for coffee.",
+                "content": "..busy for work...looking a good owner for coffee.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "contact us",
+                "content": "contact us", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "work",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.45831788,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "work",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.4346962,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "coffee",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10698594,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "coffee",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    ], 
+    "raw_content": "..busy for work...looking a good owner for coffee. contact us ", 
+    "categories": []
 }

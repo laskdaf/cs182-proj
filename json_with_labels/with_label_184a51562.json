@@ -1,262 +1,263 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescuer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "rescuer", 
+            "salience": 0.41330588
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "salience": 0.38901982
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.03167553
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Farlim", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/03d0nvs", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Farlim"
+            }, 
+            "type": "LOCATION", 
+            "name": "Farlim", 
+            "salience": 0.031272866
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.026000539
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "noise", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "noise", 
+            "salience": 0.02026405
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.018684382
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "apartment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "apartment", 
+            "salience": 0.017307151
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "management", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "management", 
+            "salience": 0.017307151
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "size", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "size", 
+            "salience": 0.016010903
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "details", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "details", 
+            "salience": 0.00843651
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.0057178857
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Siaw Ching", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Siaw Ching", 
+            "salience": 0.0049973354
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This is the female pup a rescuer had rescued from Farlim.",
+                "content": "This is the female pup a rescuer had rescued from Farlim.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She could not the puppy she stays in an apartment and the management is already making noise.",
+                "content": "She could not the puppy she stays in an apartment and the management is already making noise.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": -0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The puppy is small in size and would not grow to be too big.",
+                "content": "The puppy is small in size and would not grow to be too big.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please help the puppy find a good home.",
+                "content": "Please help the puppy find a good home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Interested adopter may contact (Siaw Ching) for more details.",
+                "content": "Interested adopter may contact (Siaw Ching) for more details.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "rescuer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.41330588,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rescuer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.38901982,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03167553,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Farlim",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Farlim",
-                "mid": "/m/03d0nvs"
-            },
-            "salience": 0.031272866,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Farlim",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.026000539,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "noise",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02026405,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "noise",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.018684382,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "apartment",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.017307151,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "apartment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "management",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017307151,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "management",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "size",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016010903,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "size",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "details",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.00843651,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "details",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0057178857,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Siaw Ching",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.0049973354,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Siaw Ching",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.4,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "This is the female pup a rescuer had rescued from Farlim. She could not the puppy she stays in an apartment and the management is already making noise. The puppy is small in size and would not grow to be too big. Please help the puppy find a good home. Interested adopter may contact (Siaw Ching) for more details. ", 
+    "categories": []
 }

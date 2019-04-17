@@ -1,64 +1,65 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.57596576
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.42403424
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Cute little puppy for adoption.",
+                "content": "Cute little puppy for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Vaccinated and dewormed.",
+                "content": "Vaccinated and dewormed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.57596576,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.42403424,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Cute little puppy for adoption. Vaccinated and dewormed. ", 
+    "categories": []
 }

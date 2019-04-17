@@ -1,224 +1,225 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.35153443
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "somebody", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "somebody", 
+            "salience": 0.24294055
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighborhood", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "neighborhood", 
+            "salience": 0.14404562
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "collar", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "collar", 
+            "salience": 0.08800002
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Nobody", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Nobody", 
+            "salience": 0.063355364
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "p/s", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "p/s", 
+            "salience": 0.03346484
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "strangers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "strangers", 
+            "salience": 0.023496503
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "motorbikers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "motorbikers", 
+            "salience": 0.023496503
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 0.014833089
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "temperament", 
+            "salience": 0.014833089
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Friendly and playful dog; found in the neighborhood.",
+                "content": "Friendly and playful dog; found in the neighborhood.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Belonged to somebody previously (he's wearing a collar).",
+                "content": "Belonged to somebody previously (he's wearing a collar).", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Nobody comes to claim him even after advertised for almost a month.",
+                "content": "Nobody comes to claim him even after advertised for almost a month.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Such an affectionate boy with good temperament.",
+                "content": "Such an affectionate boy with good temperament.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very protective.",
+                "content": "Very protective.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "p/s: He barks at strangers especially motorbikers.",
+                "content": "p/s: He barks at strangers especially motorbikers.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.35153443,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "somebody",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.24294055,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "somebody",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neighborhood",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.14404562,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neighborhood",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "collar",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.08800002,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "collar",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Nobody",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.063355364,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Nobody",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "p/s",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03346484,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "p/s",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "strangers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.023496503,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "strangers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "motorbikers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.023496503,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "motorbikers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.014833089,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "temperament",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014833089,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "temperament",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Friendly and playful dog; found in the neighborhood. Belonged to somebody previously (he's wearing a collar). Nobody comes to claim him even after advertised for almost a month. Such an affectionate boy with good temperament. Very protective. p/s: He barks at strangers especially motorbikers. ", 
+    "categories": []
 }

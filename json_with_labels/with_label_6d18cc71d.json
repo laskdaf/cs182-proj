@@ -1,114 +1,115 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "guard dog", 
+            "salience": 0.72627366
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "temperament", 
+            "salience": 0.12173398
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "children", 
+            "salience": 0.11348007
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Email tanti", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Email tanti", 
+            "salience": 0.038512275
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Excellent guard dog.",
+                "content": "Excellent guard dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Good temperament and gentle with children.",
+                "content": "Good temperament and gentle with children.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Email tanti.",
+                "content": "Email tanti.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "for viewing",
+                "content": "for viewing", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "guard dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.72627366,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guard dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "temperament",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12173398,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "temperament",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "children",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.11348007,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "children",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Email tanti",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.038512275,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Email tanti",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Excellent guard dog. Good temperament and gentle with children. Email tanti. for viewing ", 
+    "categories": []
 }

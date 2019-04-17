@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.8427399
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family member", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family member", 
+            "salience": 0.08264905
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cage", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cage", 
+            "salience": 0.03730553
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leash", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "leash", 
+            "salience": 0.03730553
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "\u221a pls ensure that you and your family are agreed to have him as yr family member.",
+                "content": "\u221a pls ensure that you and your family are agreed to have him as yr family member.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "\u221a pls do not leash / cage him all the time.",
+                "content": "\u221a pls do not leash / cage him all the time.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "\u221a we may follow up time to time.",
+                "content": "\u221a we may follow up time to time.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8427399,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family member",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.08264905,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family member",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cage",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03730553,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cage",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "leash",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03730553,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leash",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "\u221a pls ensure that you and your family are agreed to have him as yr family member. \u221a pls do not leash / cage him all the time. \u221a we may follow up time to time. ", 
+    "categories": []
 }

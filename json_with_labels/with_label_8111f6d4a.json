@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Two-and-a-half month old girl.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        },
-        {
-            "text": {
-                "content": "Very manja and cute.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.7,
-                "score": 0.7
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "girl",
+                        "content": "girl", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.7,
+        "magnitude": 0.7, 
         "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Two-and-a-half month old girl.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very manja and cute.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "raw_content": "Two-and-a-half month old girl. Very manja and cute. ", 
+    "categories": []
 }

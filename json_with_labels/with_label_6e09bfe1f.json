@@ -1,74 +1,75 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog pound", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog pound", 
+            "salience": 0.7210085
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "survivor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "survivor", 
+            "salience": 0.27899155
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Rescued from the dog pound.",
+                "content": "Rescued from the dog pound.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Great survivor.",
+                "content": "Great survivor.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very perky, lovable and friendly.",
+                "content": "Very perky, lovable and friendly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog pound",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.7210085,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog pound",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "survivor",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.27899155,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "survivor",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Rescued from the dog pound. Great survivor. Very perky, lovable and friendly. ", 
+    "categories": []
 }

@@ -1,209 +1,210 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kara", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "salience": 0.8794115, 
+            "type": "PERSON", 
+            "name": "Kara", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.027234655, 
+            "type": "PERSON", 
+            "name": "children", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Ivan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "salience": 0.022518752, 
+            "type": "OTHER", 
+            "name": "Ivan", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.018485, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mbsa", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.017124956, 
+            "type": "OTHER", 
+            "name": "mbsa", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.016466562, 
+            "type": "OTHER", 
+            "name": "hone", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.009055153, 
+            "type": "LOCATION", 
+            "name": "location", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kota kemuning", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "salience": 0.0053637857, 
+            "type": "LOCATION", 
+            "name": "Kota kemuning", 
+            "metadata": {
+                "mid": "/m/0chjz5", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Kemuning"
+            }
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.0043396256, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Urgent !!",
+                "content": "Urgent !!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Kara is friendly and easy to handle..",
+                "content": "Kara is friendly and easy to handle..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's fantastic with children as she's an active pup but won't play rough..",
+                "content": "She's fantastic with children as she's an active pup but won't play rough..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She escaped fr being captured by mbsa..",
+                "content": "She escaped fr being captured by mbsa..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pls give her a home..if she doesn't get a hone she will be send to shelther Contact ( Ivan ) location : Kota kemuning",
+                "content": "Pls give her a home..if she doesn't get a hone she will be send to shelther Contact ( Ivan ) location : Kota kemuning", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Kara",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8794115,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kara",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "children",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.027234655,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "children",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Ivan",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022518752,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Contact",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Ivan",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018485,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mbsa",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017124956,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mbsa",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hone",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016466562,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "location",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.009055153,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "location",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kota kemuning",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0chjz5",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Kemuning"
-            },
-            "salience": 0.0053637857,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kota kemuning",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0043396256,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Urgent !! Kara is friendly and easy to handle.. She's fantastic with children as she's an active pup but won't play rough.. She escaped fr being captured by mbsa.. Pls give her a home..if she doesn't get a hone she will be send to shelther Contact ( Ivan ) location : Kota kemuning ", 
+    "categories": []
 }

@@ -1,275 +1,276 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Crusoe", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Crusoe", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Crusoe", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "best friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Crusoe", 
+            "salience": 0.7305057
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.10580139
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.08188612
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "size dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "size dog", 
+            "salience": 0.014161616
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccinations", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccinations", 
+            "salience": 0.012283901
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cuddle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cuddle", 
+            "salience": 0.011799033
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "toilet", 
+            "salience": 0.011182366
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "commands", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "commands", 
+            "salience": 0.010267487
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.0077045374
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "room", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "room", 
+            "salience": 0.0076108905
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rabies shot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rabies shot", 
+            "salience": 0.0033984685
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heartworm", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heartworm", 
+            "salience": 0.0033984685
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.5, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Crusoe is a lovely, smart 8 month old puppy looking for a family to call her own.",
+                "content": "Crusoe is a lovely, smart 8 month old puppy looking for a family to call her own.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is a medium size dog, very gentle and loves a cuddle.",
+                "content": "She is a medium size dog, very gentle and loves a cuddle.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is also toilet trained and is quick to learn commands.",
+                "content": "She is also toilet trained and is quick to learn commands.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Crusoe has had all her vaccinations, a rabies shot, is free from heartworm and has been desexed.",
+                "content": "Crusoe has had all her vaccinations, a rabies shot, is free from heartworm and has been desexed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We rescued two dogs, and only have room for one.",
+                "content": "We rescued two dogs, and only have room for one.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Crusoe will be your best friend.",
+                "content": "Crusoe will be your best friend.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Crusoe",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7305057,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Crusoe",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Crusoe",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Crusoe",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "best friend",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10580139,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.08188612,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "size dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014161616,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "size dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vaccinations",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012283901,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccinations",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cuddle",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011799033,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cuddle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "toilet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011182366,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "toilet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "commands",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.010267487,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "commands",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0077045374,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "room",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0076108905,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "room",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rabies shot",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0033984685,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rabies shot",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heartworm",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0033984685,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heartworm",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.5,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Crusoe is a lovely, smart 8 month old puppy looking for a family to call her own. She is a medium size dog, very gentle and loves a cuddle. She is also toilet trained and is quick to learn commands. Crusoe has had all her vaccinations, a rabies shot, is free from heartworm and has been desexed. We rescued two dogs, and only have room for one. Crusoe will be your best friend. ", 
+    "categories": []
 }

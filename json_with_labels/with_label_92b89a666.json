@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Dog", 
+            "salience": 0.8837491
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Adoption", 
+            "salience": 0.116250865
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Dog 4 Adoption",
+                "content": "Dog 4 Adoption", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.8837491,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.116250865,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Dog 4 Adoption ", 
+    "categories": []
 }

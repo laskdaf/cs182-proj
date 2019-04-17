@@ -1,176 +1,177 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 0.6820943
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.15822166
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.072939254
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Selayang Jaya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1w10_py1"
+            }, 
+            "type": "LOCATION", 
+            "name": "Taman Selayang Jaya", 
+            "salience": 0.026438309
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.020400707
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cause", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cause", 
+            "salience": 0.018168723
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "companion", 
+            "salience": 0.015063251
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heath", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heath", 
+            "salience": 0.006673788
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This lovely boy, still a young puppy, was abandoned by his owner at Taman Selayang Jaya.",
+                "content": "This lovely boy, still a young puppy, was abandoned by his owner at Taman Selayang Jaya.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He was recently adopted, vaccinated and de-wormed but the new owner can't keep him cause of the fragile heath.",
+                "content": "He was recently adopted, vaccinated and de-wormed but the new owner can't keep him cause of the fragile heath.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": -0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you are looking for a friendly and playful companion let me know :-)",
+                "content": "If you are looking for a friendly and playful companion let me know :-)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He's 6 months old.",
+                "content": "He's 6 months old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6820943,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15822166,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.072939254,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Taman Selayang Jaya",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/g/1w10_py1"
-            },
-            "salience": 0.026438309,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Taman Selayang Jaya",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.020400707,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cause",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018168723,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cause",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "companion",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.015063251,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heath",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.006673788,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heath",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "This lovely boy, still a young puppy, was abandoned by his owner at Taman Selayang Jaya. He was recently adopted, vaccinated and de-wormed but the new owner can't keep him cause of the fragile heath. If you are looking for a friendly and playful companion let me know :-) He's 6 months old. ", 
+    "categories": []
 }

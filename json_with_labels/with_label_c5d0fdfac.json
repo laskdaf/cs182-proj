@@ -1,64 +1,65 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "salience": 0.77403265
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Spot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Spot", 
+            "salience": 0.22596736
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Kinda cute and active.",
+                "content": "Kinda cute and active.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Spot is looking for anyone who can love and look after him well.",
+                "content": "Spot is looking for anyone who can love and look after him well.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.77403265,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Spot",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.22596736,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Spot",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Kinda cute and active. Spot is looking for anyone who can love and look after him well. ", 
+    "categories": []
 }

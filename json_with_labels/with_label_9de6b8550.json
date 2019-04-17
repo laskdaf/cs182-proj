@@ -1,130 +1,131 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.6311389, 
+            "name": "Adopters", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.17795041, 
+            "name": "puppy", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Call", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.09048611, 
+            "name": "Call", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bayan lepas", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.041032422, 
+            "name": "Bayan lepas", 
+            "metadata": {
+                "mid": "/m/0d_dv9", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bayan_Lepas"
+            }
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.030552598, 
+            "name": "whatsapp", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Penang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.02883955, 
+            "name": "Penang", 
+            "metadata": {
+                "mid": "/m/0g6xq", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Adopters must vaccinate, neuter and keep puppy indoors/fenced.",
+                "content": "Adopters must vaccinate, neuter and keep puppy indoors/fenced.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Call/whatsapp: Bayan lepas, Penang.",
+                "content": "Call/whatsapp: Bayan lepas, Penang.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6311389,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17795041,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Call",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09048611,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Call",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Bayan lepas",
-            "type": "PERSON",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Bayan_Lepas",
-                "mid": "/m/0d_dv9"
-            },
-            "salience": 0.041032422,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Bayan lepas",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "whatsapp",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.030552598,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "whatsapp",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Penang",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0g6xq",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
-            },
-            "salience": 0.02883955,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Penang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Adopters must vaccinate, neuter and keep puppy indoors/fenced. Call/whatsapp: Bayan lepas, Penang. ", 
+    "categories": []
 }

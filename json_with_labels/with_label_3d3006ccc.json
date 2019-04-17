@@ -1,166 +1,167 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "poodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.3837977, 
+            "type": "PERSON", 
+            "name": "poodle", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.24831477, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "security guards", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.16436937, 
+            "type": "PERSON", 
+            "name": "security guards", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bukit maluri kepong", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "salience": 0.068817005, 
+            "type": "OTHER", 
+            "name": "bukit maluri kepong", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.067710415, 
+            "type": "PERSON", 
+            "name": "Owner", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.03932052, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "claims", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.027670236, 
+            "type": "OTHER", 
+            "name": "claims", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "this poodle was found by security guards, roaming around bukit maluri kepong.",
+                "content": "this poodle was found by security guards, roaming around bukit maluri kepong.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Friendly dog.",
+                "content": "Friendly dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Owner pls come forward.",
+                "content": "Owner pls come forward.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Dog will be placed for adoption if no claims.",
+                "content": "Dog will be placed for adoption if no claims.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "poodle",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.3837977,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "poodle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.24831477,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "security guards",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.16436937,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "security guards",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bukit maluri kepong",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.068817005,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bukit maluri kepong",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.067710415,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03932052,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "claims",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027670236,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "claims",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "this poodle was found by security guards, roaming around bukit maluri kepong. Friendly dog. Owner pls come forward. Dog will be placed for adoption if no claims. ", 
+    "categories": []
 }

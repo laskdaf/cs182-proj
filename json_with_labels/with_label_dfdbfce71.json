@@ -1,122 +1,123 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.65147734
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animal lovers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "animal lovers", 
+            "salience": 0.16755673
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "love", 
+            "salience": 0.09306237
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy shelter", 
+            "salience": 0.061960902
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kuala Lumpur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/049d1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+            }, 
+            "type": "LOCATION", 
+            "name": "Kuala Lumpur", 
+            "salience": 0.025942644
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This female puppy born on 3 June .",
+                "content": "This female puppy born on 3 June .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I hope the animal lovers can help to adopt, love and care her.",
+                "content": "I hope the animal lovers can help to adopt, love and care her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The puppy shelter at Kuala Lumpur now.",
+                "content": "The puppy shelter at Kuala Lumpur now.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.65147734,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "animal lovers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.16755673,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "animal lovers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "love",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09306237,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "love",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy shelter",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.061960902,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy shelter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kuala Lumpur",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
-                "mid": "/m/049d1"
-            },
-            "salience": 0.025942644,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kuala Lumpur",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "This female puppy born on 3 June . I hope the animal lovers can help to adopt, love and care her. The puppy shelter at Kuala Lumpur now. ", 
+    "categories": []
 }

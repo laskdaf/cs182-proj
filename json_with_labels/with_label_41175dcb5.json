@@ -1,150 +1,151 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "box", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "box", 
+            "salience": 0.6100314
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "roadside", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "roadside", 
+            "salience": 0.25337255
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.060525876
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "love", 
+            "salience": 0.02640704
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "seremban", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0371_6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Seremban"
+            }, 
+            "type": "LOCATION", 
+            "name": "seremban", 
+            "salience": 0.024831554
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Klang valley", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/03zszl", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Klang_Valley"
+            }, 
+            "type": "LOCATION", 
+            "name": "Klang valley", 
+            "salience": 0.024831554
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "They were found in a box being dumped at the roadside.",
+                "content": "They were found in a box being dumped at the roadside.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Healthy, vaccinated &amp; dewormed.",
+                "content": "Healthy, vaccinated &amp; dewormed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pls give them a home, with full of love!",
+                "content": "Pls give them a home, with full of love!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I can bring them to you, within Klang valley/seremban",
+                "content": "I can bring them to you, within Klang valley/seremban", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "box",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6100314,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "box",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "roadside",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.25337255,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "roadside",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.060525876,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "love",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02640704,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "love",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "seremban",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Seremban",
-                "mid": "/m/0371_6"
-            },
-            "salience": 0.024831554,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "seremban",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Klang valley",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/03zszl",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Klang_Valley"
-            },
-            "salience": 0.024831554,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Klang valley",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "They were found in a box being dumped at the roadside. Healthy, vaccinated &amp; dewormed. Pls give them a home, with full of love! I can bring them to you, within Klang valley/seremban ", 
+    "categories": []
 }

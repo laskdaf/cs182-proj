@@ -1,184 +1,185 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Nanny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Nanny", 
+            "salience": 0.60843414
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.09721309
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adopter", 
+            "salience": 0.08575714
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spaying cost", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "spaying cost", 
+            "salience": 0.0788054
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.041756295
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "amount", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "amount", 
+            "salience": 0.033930812
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "RM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "RM", 
+            "salience": 0.029404169
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "TQ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "TQ", 
+            "salience": 0.024698954
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Nanny was abandoned.",
+                "content": "Nanny was abandoned.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We have rescued it and take care.",
+                "content": "We have rescued it and take care.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Healthy and friendly we hope the adopter can sponsor the spaying cost RM.",
+                "content": "Healthy and friendly we hope the adopter can sponsor the spaying cost RM.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "This amount will be used for helping other abandoned dogs.",
+                "content": "This amount will be used for helping other abandoned dogs.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "TQ",
+                "content": "TQ", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Nanny",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.60843414,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Nanny",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09721309,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopter",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08575714,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "spaying cost",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0788054,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "spaying cost",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.041756295,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "amount",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.033930812,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "amount",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "RM",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.029404169,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "RM",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "TQ",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.024698954,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "TQ",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Nanny was abandoned. We have rescued it and take care. Healthy and friendly we hope the adopter can sponsor the spaying cost RM. This amount will be used for helping other abandoned dogs. TQ ", 
+    "categories": []
 }

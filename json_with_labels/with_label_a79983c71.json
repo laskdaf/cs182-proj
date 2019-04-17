@@ -1,254 +1,255 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.42178822, 
+            "name": "puppy", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Samson", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.24936508, 
+            "name": "Samson", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "commands", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.04648312, 
+            "name": "commands", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.04648312, 
+            "name": "sit", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "environment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.045922484, 
+            "name": "environment", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.045145776, 
+            "name": "human companion", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "paw", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.035575584, 
+            "name": "paw", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bark", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.03200024, 
+            "name": "bark", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.031913307, 
+            "name": "Adopter", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.01707105, 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friends", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.014150928, 
+            "name": "friends", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "voice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.014101098, 
+            "name": "voice", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 4.2, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Samson is a happy-go-lucky puppy, active and playful but very good-natured and lovable.",
+                "content": "Samson is a happy-go-lucky puppy, active and playful but very good-natured and lovable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adapts to new environment easily, smart and knows basic commands like sit and give paw.",
+                "content": "Adapts to new environment easily, smart and knows basic commands like sit and give paw.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Loves human companion and gets along with other four-legged friends.",
+                "content": "Loves human companion and gets along with other four-legged friends.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Has a booming loud voice but he doesnt bark unnecessarily.",
+                "content": "Has a booming loud voice but he doesnt bark unnecessarily.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter must vaccinate and castrate him.",
+                "content": "Adopter must vaccinate and castrate him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please give him a loving home.",
+                "content": "Please give him a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.42178822,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Samson",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.24936508,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Samson",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "commands",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04648312,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "commands",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sit",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04648312,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sit",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "environment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.045922484,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "environment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "human companion",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.045145776,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "human companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "paw",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.035575584,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "paw",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bark",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03200024,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bark",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adopter",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.031913307,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.01707105,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "friends",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.014150928,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "friends",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "voice",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014101098,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "voice",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 4.2,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Samson is a happy-go-lucky puppy, active and playful but very good-natured and lovable. Adapts to new environment easily, smart and knows basic commands like sit and give paw. Loves human companion and gets along with other four-legged friends. Has a booming loud voice but he doesnt bark unnecessarily. Adopter must vaccinate and castrate him. Please give him a loving home. ", 
+    "categories": []
 }

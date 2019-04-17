@@ -1,103 +1,104 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.5947481
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "shelter", 
+            "salience": 0.22674116
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SPCA Seberang Perai", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "SPCA Seberang Perai", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1pzvjjyth"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "SPCA Seberang Perai", 
+            "salience": 0.14487898
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pet", 
+            "salience": 0.03363176
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "The puppy is currently taking shelter at SPCA Seberang Perai.",
+                "content": "The puppy is currently taking shelter at SPCA Seberang Perai.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please contact SPCA Seberang Perai if you are interested to adopt her as your pet.",
+                "content": "Please contact SPCA Seberang Perai if you are interested to adopt her as your pet.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5947481,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "shelter",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.22674116,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "shelter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "SPCA Seberang Perai",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/g/1pzvjjyth"
-            },
-            "salience": 0.14487898,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SPCA Seberang Perai",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "SPCA Seberang Perai",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "pet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03363176,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "The puppy is currently taking shelter at SPCA Seberang Perai. Please contact SPCA Seberang Perai if you are interested to adopt her as your pet. ", 
+    "categories": []
 }

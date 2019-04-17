@@ -1,134 +1,135 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Max", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Max", 
+            "salience": 0.29105502
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Missy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Missy", 
+            "salience": 0.28504005
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.24245057
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fur", 
+            "salience": 0.069369756
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "salience": 0.06383236
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.04825226
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Missy and Max are siblings.",
+                "content": "Missy and Max are siblings.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Nice soft fur and sweet eyes.",
+                "content": "Nice soft fur and sweet eyes.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Looking for a home together if possible.",
+                "content": "Looking for a home together if possible.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Max",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.29105502,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Max",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Missy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.28504005,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Missy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.24245057,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fur",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.069369756,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fur",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "eyes",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06383236,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eyes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.04825226,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Missy and Max are siblings. Nice soft fur and sweet eyes. Looking for a home together if possible. ", 
+    "categories": []
 }

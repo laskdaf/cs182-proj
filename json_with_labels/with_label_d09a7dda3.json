@@ -1,256 +1,257 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bambi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "baby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Bambi", 
+            "salience": 0.61250687
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cream paws", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cream paws", 
+            "salience": 0.09483129
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lil baby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "lil baby", 
+            "salience": 0.076562405
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "land", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "land", 
+            "salience": 0.046703678
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Adopter", 
+            "salience": 0.03578897
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 0.031868257
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "health", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "health", 
+            "salience": 0.031594608
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bundle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bundle", 
+            "salience": 0.018999351
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Old Klang Road", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Old Klang Road", 
+            "salience": 0.018887557
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.016817397
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "joy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "joy", 
+            "salience": 0.015439636
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.3, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Bambi is a black colour baby, with cream paws.",
+                "content": "Bambi is a black colour baby, with cream paws.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Rescued from an empty land near Old Klang Road.",
+                "content": "Rescued from an empty land near Old Klang Road.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very health.",
+                "content": "Very health.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "A very active and playful boy.",
+                "content": "A very active and playful boy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Cute and adorable.",
+                "content": "Cute and adorable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter must be willing to neuter.",
+                "content": "Adopter must be willing to neuter.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please give a loving home to this lil baby, he will be a bundle of joy!!",
+                "content": "Please give a loving home to this lil baby, he will be a bundle of joy!!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Bambi",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.61250687,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Bambi",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "baby",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cream paws",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09483129,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cream paws",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lil baby",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.076562405,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lil baby",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "land",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.046703678,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "land",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adopter",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.03578897,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.031868257,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "health",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.031594608,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "health",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bundle",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018999351,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bundle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Old Klang Road",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.018887557,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Old Klang Road",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.016817397,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "joy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015439636,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "joy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.3,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Bambi is a black colour baby, with cream paws. Rescued from an empty land near Old Klang Road. Very health. A very active and playful boy. Cute and adorable. Adopter must be willing to neuter. Please give a loving home to this lil baby, he will be a bundle of joy!! ", 
+    "categories": []
 }

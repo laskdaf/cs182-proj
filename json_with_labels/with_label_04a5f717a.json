@@ -1,119 +1,120 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 0.6967502
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Adopter", 
+            "salience": 0.099228226
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "friend", 
+            "salience": 0.09282799
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccine", 
+            "salience": 0.0652434
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "deworming", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "deworming", 
+            "salience": 0.045950167
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Healthy boy.",
+                "content": "Healthy boy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Rescued by my friend.",
+                "content": "Rescued by my friend.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter must bring him to vaccine and deworming.",
+                "content": "Adopter must bring him to vaccine and deworming.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6967502,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Adopter",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.099228226,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "friend",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.09282799,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "friend",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vaccine",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0652434,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccine",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "deworming",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.045950167,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "deworming",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.7,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Healthy boy. Rescued by my friend. Adopter must bring him to vaccine and deworming. ", 
+    "categories": []
 }

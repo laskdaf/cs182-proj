@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "FOUND HER A HOME :)",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.5,
-                "score": 0.5
-            }
-        },
-        {
-            "text": {
-                "content": "YAY :)",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.2,
-                "score": 0.2
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "HOME",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "HOME",
+                        "content": "HOME", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "HOME", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.7,
+        "magnitude": 0.7, 
         "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "FOUND HER A HOME :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "YAY :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "raw_content": "FOUND HER A HOME :) YAY :) ", 
+    "categories": []
 }

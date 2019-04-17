@@ -1,224 +1,225 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "school guard", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "school guard", 
+            "salience": 0.785053
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "some", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "some", 
+            "salience": 0.0693383
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "school", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "school", 
+            "salience": 0.057898194
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.017252697
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.015682023
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "colleagues", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "colleagues", 
+            "salience": 0.013265066
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lots", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "lots", 
+            "salience": 0.012284047
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attention", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "attention", 
+            "salience": 0.012284047
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.012007398
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "call", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "call", 
+            "salience": 0.004935225
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This is blacky.",
+                "content": "This is blacky.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She lives in the school I am attached to.",
+                "content": "She lives in the school I am attached to.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Our school guard and some of my colleagues take care of her.",
+                "content": "Our school guard and some of my colleagues take care of her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is always very lonely and I really want her to get a loving owner and lots of attention.",
+                "content": "She is always very lonely and I really want her to get a loving owner and lots of attention.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is not fierce and she is extremely loving.",
+                "content": "She is not fierce and she is extremely loving.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you are serious about adopting her and you can take care of her, please give me a call.",
+                "content": "If you are serious about adopting her and you can take care of her, please give me a call.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "school guard",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.785053,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "school guard",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "some",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0693383,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "some",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "school",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.057898194,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "school",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017252697,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.015682023,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "colleagues",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.013265066,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "colleagues",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lots",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012284047,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lots",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "attention",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012284047,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "attention",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012007398,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "call",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.004935225,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "call",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "This is blacky. She lives in the school I am attached to. Our school guard and some of my colleagues take care of her. She is always very lonely and I really want her to get a loving owner and lots of attention. She is not fierce and she is extremely loving. If you are serious about adopting her and you can take care of her, please give me a call. ", 
+    "categories": []
 }

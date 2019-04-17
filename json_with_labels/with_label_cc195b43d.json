@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 0.94622004
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.05377997
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "She is a girl who love to follow her owner ,and she is very manja but really aktif ... if you like her pls call me thanksssss...",
+                "content": "She is a girl who love to follow her owner ,and she is very manja but really aktif ... if you like her pls call me thanksssss...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.94622004,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05377997,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.7,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "She is a girl who love to follow her owner ,and she is very manja but really aktif ... if you like her pls call me thanksssss... ", 
+    "categories": []
 }

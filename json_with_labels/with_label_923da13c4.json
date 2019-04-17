@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "very active Cute Cheeky Healthy Clean",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.8,
-                "score": 0.8
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Clean",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Clean",
+                        "content": "Clean", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Clean", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.8,
+        "magnitude": 0.8, 
         "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "very active Cute Cheeky Healthy Clean", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "raw_content": "very active Cute Cheeky Healthy Clean ", 
+    "categories": []
 }

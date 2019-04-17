@@ -1,308 +1,309 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jack and Jill", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Jack", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Jack", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jack and Jill", 
+            "salience": 0.4288327
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.41680652
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jill", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Jill", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jill", 
+            "salience": 0.056380488
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mother", 
+            "salience": 0.033823706
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.011252528
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "salience": 0.011213141
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.0111712795
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ears", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ears", 
+            "salience": 0.010295712
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Angel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Angel", 
+            "salience": 0.0049938555
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kim Hee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Kim Hee", 
+            "salience": 0.0045933253
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Joyce Gan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Joyce Gan", 
+            "salience": 0.0032105213
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tanjung Malim", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/064pm0", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Tanjung_Malim"
+            }, 
+            "type": "LOCATION", 
+            "name": "Tanjung Malim", 
+            "salience": 0.0032105213
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Max", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Max", 
+            "salience": 0.002198485
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SS2", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "SS2", 
+            "salience": 0.002017203
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Jack and Jill are siblings who lost their mother.",
+                "content": "Jack and Jill are siblings who lost their mother.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Jack has just been sent to his new family.",
+                "content": "Jack has just been sent to his new family.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Jill is looking for a loving home.",
+                "content": "Jill is looking for a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has gorgeous eyes and cute ears, and very shy.",
+                "content": "She has gorgeous eyes and cute ears, and very shy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Jack renamed Max, rehomed in SS2 to Kim Hee.",
+                "content": "Jack renamed Max, rehomed in SS2 to Kim Hee.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Jill renamed Angel, taken by Joyce Gan to Tanjung Malim.",
+                "content": "Jill renamed Angel, taken by Joyce Gan to Tanjung Malim.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Jack and Jill",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.4288327,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jack and Jill",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Jack",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Jack",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.41680652,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jill",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.056380488,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jill",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Jill",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "mother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.033823706,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.011252528,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "eyes",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011213141,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eyes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0111712795,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ears",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.010295712,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ears",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Angel",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0049938555,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Angel",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Kim Hee",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0045933253,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kim Hee",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Joyce Gan",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0032105213,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Joyce Gan",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Tanjung Malim",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/064pm0",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Tanjung_Malim"
-            },
-            "salience": 0.0032105213,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Tanjung Malim",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Max",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.002198485,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Max",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "SS2",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.002017203,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SS2",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Jack and Jill are siblings who lost their mother. Jack has just been sent to his new family. Jill is looking for a loving home. She has gorgeous eyes and cute ears, and very shy. Jack renamed Max, rehomed in SS2 to Kim Hee. Jill renamed Angel, taken by Joyce Gan to Tanjung Malim. ", 
+    "categories": []
 }

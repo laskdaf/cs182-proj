@@ -1,154 +1,155 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tulip", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Tulip", 
+            "salience": 0.49172112
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "factory area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "factory area", 
+            "salience": 0.21058983
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "USJ 1", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1tmcjr26"
+            }, 
+            "type": "LOCATION", 
+            "name": "USJ 1", 
+            "salience": 0.12866075
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mix", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mix", 
+            "salience": 0.07287626
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jack Russell", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01d7fl", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Russell_Terrier"
+            }, 
+            "type": "PERSON", 
+            "name": "Jack Russell", 
+            "salience": 0.043547925
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jocelyn", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jocelyn", 
+            "salience": 0.030101327
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.022502784
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": -0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Tulip was found wandering at the USJ 1 factory area.",
+                "content": "Tulip was found wandering at the USJ 1 factory area.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She looks like a Jack Russell mix and most likely was abandoned by an irresponsible owner.",
+                "content": "She looks like a Jack Russell mix and most likely was abandoned by an irresponsible owner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": -0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please contact Jocelyn at if interested to adopt.",
+                "content": "Please contact Jocelyn at if interested to adopt.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Tulip",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.49172112,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Tulip",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "factory area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.21058983,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "factory area",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "USJ 1",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/g/1tmcjr26"
-            },
-            "salience": 0.12866075,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "USJ 1",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "mix",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07287626,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mix",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jack Russell",
-            "type": "PERSON",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Russell_Terrier",
-                "mid": "/m/01d7fl"
-            },
-            "salience": 0.043547925,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jack Russell",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Jocelyn",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.030101327,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jocelyn",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.022502784,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": -0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Tulip was found wandering at the USJ 1 factory area. She looks like a Jack Russell mix and most likely was abandoned by an irresponsible owner. Please contact Jocelyn at if interested to adopt. ", 
+    "categories": []
 }

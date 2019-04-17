@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jessie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jessie", 
+            "salience": 0.78450346
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "market", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "market", 
+            "salience": 0.13884072
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fur", 
+            "salience": 0.05298157
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.023674268
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Jessie was found abandoned near the market.",
+                "content": "Jessie was found abandoned near the market.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is healthy and active!",
+                "content": "She is healthy and active!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Her fur is soft and she likes being around with people.",
+                "content": "Her fur is soft and she likes being around with people.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Jessie",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.78450346,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jessie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "market",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.13884072,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "market",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fur",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05298157,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fur",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.023674268,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Jessie was found abandoned near the market. She is healthy and active! Her fur is soft and she likes being around with people. ", 
+    "categories": []
 }

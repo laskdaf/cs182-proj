@@ -1,114 +1,115 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.4527962
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Both", 
+            "salience": 0.19350918
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "other.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "other.", 
+            "salience": 0.13072583
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "means", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "means", 
+            "salience": 0.116569705
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "both", 
+            "salience": 0.059050143
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.047348943
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Both puppies are very healthy and very playful.Both loves n cares each other.If adopt means have to take both of the puppies bcoz both loves to be together.",
+                "content": "Both puppies are very healthy and very playful.Both loves n cares each other.If adopt means have to take both of the puppies bcoz both loves to be together.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.4527962,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Both",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.19350918,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Both",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "other.",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13072583,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "other.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "means",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.116569705,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "means",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "both",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.059050143,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "both",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.047348943,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Both puppies are very healthy and very playful.Both loves n cares each other.If adopt means have to take both of the puppies bcoz both loves to be together. ", 
+    "categories": []
 }

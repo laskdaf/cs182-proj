@@ -1,157 +1,158 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "person", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "person", 
+            "salience": 0.8345466
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.10540622
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "manja", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "manja", 
+            "salience": 0.031664345
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "zoey", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "zoey", 
+            "salience": 0.012974271
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "area", 
+            "salience": 0.009677355
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kota damansara", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0cw79v", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Damansara"
+            }, 
+            "type": "LOCATION", 
+            "name": "Kota damansara", 
+            "salience": 0.0057311933
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Looking for kindhearted person to take in a sweet angelic puppy.",
+                "content": "Looking for kindhearted person to take in a sweet angelic puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is very cuddly and manja.",
+                "content": "She is very cuddly and manja.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "she is now staying with me around Kota damansara area.",
+                "content": "she is now staying with me around Kota damansara area.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "please contact me at zoey.",
+                "content": "please contact me at zoey.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "if you are interested.",
+                "content": "if you are interested.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "person",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8345466,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "person",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10540622,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "manja",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.031664345,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "manja",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "zoey",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.012974271,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "zoey",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.009677355,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "area",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kota damansara",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Damansara",
-                "mid": "/m/0cw79v"
-            },
-            "salience": 0.0057311933,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kota damansara",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Looking for kindhearted person to take in a sweet angelic puppy. She is very cuddly and manja. she is now staying with me around Kota damansara area. please contact me at zoey. if you are interested. ", 
+    "categories": []
 }

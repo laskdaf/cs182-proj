@@ -1,194 +1,195 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mother", 
+            "salience": 0.50526226
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.122803345
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "container", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "container", 
+            "salience": 0.122803345
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "recycling items", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "recycling items", 
+            "salience": 0.08431884
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "birth", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "birth", 
+            "salience": 0.041736543
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.038348142
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "purposes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "purposes", 
+            "salience": 0.028868038
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Commitment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Commitment", 
+            "salience": 0.020275788
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neuter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "neuter", 
+            "salience": 0.020275788
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tying", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "tying", 
+            "salience": 0.015307901
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": -0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Their mother was pregnant and dumped by someone near a container containing recycling items.",
+                "content": "Their mother was pregnant and dumped by someone near a container containing recycling items.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Gave birth to her and the other 2 siblings.",
+                "content": "Gave birth to her and the other 2 siblings.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "No tying or caging for long hours except for precautionary purposes Commitment to neuter is compulsory",
+                "content": "No tying or caging for long hours except for precautionary purposes Commitment to neuter is compulsory", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.50526226,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.122803345,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "container",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.122803345,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "container",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "recycling items",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08431884,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "recycling items",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "birth",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.041736543,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "birth",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.038348142,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "purposes",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028868038,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "purposes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Commitment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020275788,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Commitment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neuter",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.020275788,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neuter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "tying",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015307901,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tying",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Their mother was pregnant and dumped by someone near a container containing recycling items. Gave birth to her and the other 2 siblings. No tying or caging for long hours except for precautionary purposes Commitment to neuter is compulsory ", 
+    "categories": []
 }

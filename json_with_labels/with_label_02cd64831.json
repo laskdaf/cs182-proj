@@ -1,299 +1,300 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Owner", 
+            "salience": 0.39918387
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "council ruling", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "council ruling", 
+            "salience": 0.19397672
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "japped", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "japped", 
+            "salience": 0.06484721
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "booster", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "booster", 
+            "salience": 0.064704046
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.06458324
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rabies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rabies", 
+            "salience": 0.06423936
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "commands", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "commands", 
+            "salience": 0.05922942
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.031308435
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "stay wait", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "stay wait", 
+            "salience": 0.01971023
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leash", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "leash", 
+            "salience": 0.019684788
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rachel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Rachel", 
+            "salience": 0.01853269
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.8, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Owner cannot keep him anymore due to council ruling.",
+                "content": "Owner cannot keep him anymore due to council ruling.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Generally approachable.",
+                "content": "Generally approachable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Quite friendly.",
+                "content": "Quite friendly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Neutered vaccinated rabies japped.",
+                "content": "Neutered vaccinated rabies japped.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Heartworm annual japped.",
+                "content": "Heartworm annual japped.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Annual booster japped.",
+                "content": "Annual booster japped.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Healthy dog.",
+                "content": "Healthy dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Trained with basic commands.",
+                "content": "Trained with basic commands.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Sit stay wait.",
+                "content": "Sit stay wait.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Trained to walk on leash.",
+                "content": "Trained to walk on leash.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If u are interested to gv him a loving home.",
+                "content": "If u are interested to gv him a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pls contact Rachel",
+                "content": "Pls contact Rachel", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.39918387,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "council ruling",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.19397672,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "council ruling",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "japped",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06484721,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "japped",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "booster",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.064704046,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "booster",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06458324,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rabies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06423936,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rabies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "commands",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05922942,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "commands",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.031308435,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "stay wait",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01971023,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "stay wait",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "leash",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.019684788,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leash",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Rachel",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.01853269,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rachel",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.8,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Owner cannot keep him anymore due to council ruling. Generally approachable. Quite friendly. Neutered vaccinated rabies japped. Heartworm annual japped. Annual booster japped. Healthy dog. Trained with basic commands. Sit stay wait. Trained to walk on leash. If u are interested to gv him a loving home. Pls contact Rachel ", 
+    "categories": []
 }

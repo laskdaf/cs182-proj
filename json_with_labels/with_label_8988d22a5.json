@@ -1,99 +1,100 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Spitz", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Spitz", 
+            "salience": 0.5416084
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "size", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "size", 
+            "salience": 0.3158357
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "children", 
+            "salience": 0.14255589
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Very friendly and loving small sized Spitz.",
+                "content": "Very friendly and loving small sized Spitz.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Female, spayed.",
+                "content": "Female, spayed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very good with children.",
+                "content": "Very good with children.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Small size easily managed.",
+                "content": "Small size easily managed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Spitz",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5416084,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Spitz",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "size",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3158357,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "size",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "children",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.14255589,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "children",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Very friendly and loving small sized Spitz. Female, spayed. Very good with children. Small size easily managed. ", 
+    "categories": []
 }

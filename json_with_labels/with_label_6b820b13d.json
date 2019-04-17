@@ -1,184 +1,185 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.47465664
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.17107394
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Toilet", 
+            "salience": 0.09869487
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jumpy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Jumpy", 
+            "salience": 0.07045689
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hand", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hand", 
+            "salience": 0.06774326
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Fluffy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Fluffy", 
+            "salience": 0.050858144
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.04697677
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Madeline", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Madeline", 
+            "salience": 0.019539487
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Two very intelligent puppy need a home.",
+                "content": "Two very intelligent puppy need a home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Toilet trained.",
+                "content": "Toilet trained.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Jumpy is very playful Fluffy on the other hand very smart.",
+                "content": "Jumpy is very playful Fluffy on the other hand very smart.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Need to be neuter and I will need to speak to the future owner.",
+                "content": "Need to be neuter and I will need to speak to the future owner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Interested please contact me, Madeline at",
+                "content": "Interested please contact me, Madeline at", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.47465664,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.17107394,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Toilet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09869487,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Toilet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jumpy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07045689,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jumpy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "hand",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06774326,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hand",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Fluffy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.050858144,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Fluffy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04697677,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Madeline",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.019539487,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Madeline",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.3,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Two very intelligent puppy need a home. Toilet trained. Jumpy is very playful Fluffy on the other hand very smart. Need to be neuter and I will need to speak to the future owner. Interested please contact me, Madeline at ", 
+    "categories": []
 }

@@ -1,82 +1,83 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0bt9lr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Dog"
+            }, 
+            "type": "PERSON", 
+            "name": "Dog", 
+            "salience": 0.611721
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leg injury", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "leg injury", 
+            "salience": 0.30816483
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.080114216
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Dog abandoned due to minor leg injury.",
+                "content": "Dog abandoned due to minor leg injury.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Already treated, now an active and healthy puppy.",
+                "content": "Already treated, now an active and healthy puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Dog",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/0bt9lr",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Dog"
-            },
-            "salience": 0.611721,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dog",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "leg injury",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.30816483,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leg injury",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.080114216,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Dog abandoned due to minor leg injury. Already treated, now an active and healthy puppy. ", 
+    "categories": []
 }

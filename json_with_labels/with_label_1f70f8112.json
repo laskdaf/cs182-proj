@@ -1,184 +1,185 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mongrel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mongrel", 
+            "salience": 0.3471789
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.3471789
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "guard dog", 
+            "salience": 0.06909717
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "behavior", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "behavior", 
+            "salience": 0.054469727
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.04709635
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "streets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "streets", 
+            "salience": 0.04669098
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.04669098
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "soul", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "soul", 
+            "salience": 0.041596998
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.4, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Friendly and loyal mongrel looking for a home.",
+                "content": "Friendly and loyal mongrel looking for a home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Good guard dog.",
+                "content": "Good guard dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Found her on the streets looking for food.",
+                "content": "Found her on the streets looking for food.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Good behavior so perhaps it has an owner and had been lost for a while now because it's skinny.",
+                "content": "Good behavior so perhaps it has an owner and had been lost for a while now because it's skinny.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Willing to have it neutered and vaccinated if there is a kind soul who is willing to adopt him.",
+                "content": "Willing to have it neutered and vaccinated if there is a kind soul who is willing to adopt him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mongrel",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3471789,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mongrel",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.3471789,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "guard dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06909717,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guard dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "behavior",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.054469727,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "behavior",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04709635,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "streets",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.04669098,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "streets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04669098,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "soul",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.041596998,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "soul",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.4,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Friendly and loyal mongrel looking for a home. Good guard dog. Found her on the streets looking for food. Good behavior so perhaps it has an owner and had been lost for a while now because it's skinny. Willing to have it neutered and vaccinated if there is a kind soul who is willing to adopt him. ", 
+    "categories": []
 }

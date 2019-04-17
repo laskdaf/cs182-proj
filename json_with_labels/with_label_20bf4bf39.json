@@ -1,199 +1,200 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "beauty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "beauty", 
+            "salience": 0.30483225
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "night walk", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "night walk", 
+            "salience": 0.30483225
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "building", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "building", 
+            "salience": 0.16976668
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "temperament", 
+            "salience": 0.05949539
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "space", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "space", 
+            "salience": 0.05118862
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "noise", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "noise", 
+            "salience": 0.03199878
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.030504996
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.0277406
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "darling", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "darling", 
+            "salience": 0.019640421
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found this little beauty on my night walk last Sunday.",
+                "content": "Found this little beauty on my night walk last Sunday.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has displayed quite a quiet temperament, does not make much noise.",
+                "content": "She has displayed quite a quiet temperament, does not make much noise.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I would definitely keep her had it not been that I live in a high rise building where space is constricted.",
+                "content": "I would definitely keep her had it not been that I live in a high rise building where space is constricted.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I also have another young adult dog with me.",
+                "content": "I also have another young adult dog with me.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I would appreciate finding a loving home for this little darling.",
+                "content": "I would appreciate finding a loving home for this little darling.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "beauty",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.30483225,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "beauty",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "night walk",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.30483225,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "night walk",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "building",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.16976668,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "building",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "temperament",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05949539,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "temperament",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "space",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05118862,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "space",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "noise",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03199878,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "noise",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.030504996,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0277406,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "darling",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.019640421,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "darling",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Found this little beauty on my night walk last Sunday. She has displayed quite a quiet temperament, does not make much noise. I would definitely keep her had it not been that I live in a high rise building where space is constricted. I also have another young adult dog with me. I would appreciate finding a loving home for this little darling. ", 
+    "categories": []
 }

@@ -1,169 +1,170 @@
 {
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "silky terrier", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "silky terrier", 
+            "salience": 0.5159699
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tesco puchong", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "tesco puchong", 
+            "salience": 0.13761628
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "salience": 0.112866804
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet estimation", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vet estimation", 
+            "salience": 0.07818117
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cataract", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cataract", 
+            "salience": 0.07725412
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 0.054109585
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "soul", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "soul", 
+            "salience": 0.024002193
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.8, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found this silky terrier near tesco puchong.",
+                "content": "Found this silky terrier near tesco puchong.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Both eyes with cataract and approx 10yrs old as per vet estimation.",
+                "content": "Both eyes with cataract and approx 10yrs old as per vet estimation.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Quiet and timid.",
+                "content": "Quiet and timid.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hope some kind soul can adopt this sweet girl.",
+                "content": "Hope some kind soul can adopt this sweet girl.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pls pm if interested to adopt.",
+                "content": "Pls pm if interested to adopt.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "silky terrier",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.5159699,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "silky terrier",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "tesco puchong",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.13761628,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tesco puchong",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "eyes",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.112866804,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eyes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vet estimation",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07818117,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vet estimation",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cataract",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07725412,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cataract",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.054109585,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "soul",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.024002193,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "soul",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.8,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    ], 
+    "raw_content": "Found this silky terrier near tesco puchong. Both eyes with cataract and approx 10yrs old as per vet estimation. Quiet and timid. Hope some kind soul can adopt this sweet girl. Pls pm if interested to adopt. ", 
+    "categories": []
 }

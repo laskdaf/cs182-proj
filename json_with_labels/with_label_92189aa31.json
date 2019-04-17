@@ -1,209 +1,210 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.6784641
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "salience": 0.13001952
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.042119097
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anything", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "anything", 
+            "salience": 0.028805397
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kids", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "kids", 
+            "salience": 0.02855666
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "issues", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "issues", 
+            "salience": 0.026379317
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.025857206
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.025857206
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fees", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fees", 
+            "salience": 0.013941475
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.2, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This is a funny clever dog .",
+                "content": "This is a funny clever dog .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very hyper active .",
+                "content": "Very hyper active .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Friendly all time to live with 2 dogs , and caring to my kids too .",
+                "content": "Friendly all time to live with 2 dogs , and caring to my kids too .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She can &quot; EAT &quot; anything , so have to care with that .",
+                "content": "She can &quot; EAT &quot; anything , so have to care with that .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Because of migrate issues I force to give up to continue love her .",
+                "content": "Because of migrate issues I force to give up to continue love her .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Is there anyone can help me take care her ( must take good care ) , I can offers pay monthly caring fees .",
+                "content": "Is there anyone can help me take care her ( must take good care ) , I can offers pay monthly caring fees .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6784641,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.13001952,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.042119097,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "anything",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028805397,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anything",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kids",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.02855666,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kids",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "issues",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.026379317,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "issues",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.025857206,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.025857206,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fees",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013941475,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fees",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.2,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "This is a funny clever dog . Very hyper active . Friendly all time to live with 2 dogs , and caring to my kids too . She can &quot; EAT &quot; anything , so have to care with that . Because of migrate issues I force to give up to continue love her . Is there anyone can help me take care her ( must take good care ) , I can offers pay monthly caring fees . ", 
+    "categories": []
 }

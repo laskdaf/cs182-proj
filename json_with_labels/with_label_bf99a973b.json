@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.34268633
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "email", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "email", 
+            "salience": 0.24232459
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PJ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "PJ", 
+            "salience": 0.20871553
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jack Russel Terrier", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jack Russel Terrier", 
+            "salience": 0.20627354
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A 4 years old female Jack Russel Terrier for adoption in PJ, interested please send me an email.",
+                "content": "A 4 years old female Jack Russel Terrier for adoption in PJ, interested please send me an email.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you.",
+                "content": "Thank you.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.34268633,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "email",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.24232459,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "email",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "PJ",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.20871553,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "PJ",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Jack Russel Terrier",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.20627354,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jack Russel Terrier",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.1,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "A 4 years old female Jack Russel Terrier for adoption in PJ, interested please send me an email. Thank you. ", 
+    "categories": []
 }

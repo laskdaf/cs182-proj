@@ -1,189 +1,190 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "baby girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "baby girl", 
+            "salience": 0.80887485
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Snowy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Snowy", 
+            "salience": 0.06539978
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fosterer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "fosterer", 
+            "salience": 0.026496781
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "staying", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "staying", 
+            "salience": 0.026176622
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "happiness", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "happiness", 
+            "salience": 0.01823065
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "miss", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "miss", 
+            "salience": 0.01823065
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "laughter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "laughter", 
+            "salience": 0.015745195
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ooi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "ooi", 
+            "salience": 0.012789314
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.008056144
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "hello, i am 2 month old baby girl named Snowy.",
+                "content": "hello, i am 2 month old baby girl named Snowy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "i am growing bigger and getting fattier staying with my fosterer!",
+                "content": "i am growing bigger and getting fattier staying with my fosterer!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "please adopt me to let me have a forever loving home.",
+                "content": "please adopt me to let me have a forever loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "i bring you endless laughter and happiness please call miss ooi at to adopt me!",
+                "content": "i bring you endless laughter and happiness please call miss ooi at to adopt me!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "baby girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.80887485,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "baby girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Snowy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06539978,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Snowy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "fosterer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.026496781,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fosterer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "staying",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.026176622,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "staying",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "happiness",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01823065,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "happiness",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "miss",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.01823065,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "miss",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "laughter",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015745195,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "laughter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ooi",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.012789314,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ooi",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.008056144,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "hello, i am 2 month old baby girl named Snowy. i am growing bigger and getting fattier staying with my fosterer! please adopt me to let me have a forever loving home. i bring you endless laughter and happiness please call miss ooi at to adopt me! ", 
+    "categories": []
 }

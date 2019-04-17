@@ -1,204 +1,205 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Zeeny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.6550612, 
+            "name": "Zeeny", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.15089615, 
+            "name": "friend", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "roadside", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.06119941, 
+            "name": "roadside", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.041869454, 
+            "name": "area", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PJ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.025044536, 
+            "name": "PJ", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.021933068, 
+            "name": "care", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.018960759, 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.009973136, 
+            "name": "people", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kids", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.009973136, 
+            "name": "kids", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Zeeny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.0050891717, 
+            "name": "Zeeny", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Zeeny was found by a friend 8 months ago, wondering by the roadside, PJ area, lost &amp; shaken.",
+                "content": "Zeeny was found by a friend 8 months ago, wondering by the roadside, PJ area, lost &amp; shaken.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I've brought her back to my home, taking care &amp; loving her since..",
+                "content": "I've brought her back to my home, taking care &amp; loving her since..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Zeeny is adorable, loving, playful.",
+                "content": "Zeeny is adorable, loving, playful.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She loves being around people especially kids.",
+                "content": "She loves being around people especially kids.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Zeeny",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6550612,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Zeeny",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "friend",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.15089615,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "friend",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "roadside",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06119941,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "roadside",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.041869454,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "area",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "PJ",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.025044536,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "PJ",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.021933068,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.018960759,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.009973136,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kids",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.009973136,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kids",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Zeeny",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0050891717,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Zeeny",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Zeeny was found by a friend 8 months ago, wondering by the roadside, PJ area, lost &amp; shaken. I've brought her back to my home, taking care &amp; loving her since.. Zeeny is adorable, loving, playful. She loves being around people especially kids. ", 
+    "categories": []
 }

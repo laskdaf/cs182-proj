@@ -1,69 +1,70 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "She is very quiet and smart.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.7,
-                "score": 0.7
-            }
-        },
-        {
-            "text": {
-                "content": "She will not make much noise.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.5,
-                "score": -0.5
-            }
-        },
-        {
-            "text": {
-                "content": "Very cute, playful, and friendly.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        },
-        {
-            "text": {
-                "content": "Must ADOPT!",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.4,
-                "score": 0.4
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "noise",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "noise",
+                        "content": "noise", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "type": "OTHER", 
+            "salience": 1, 
+            "name": "noise", 
+            "metadata": {}
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 2.7,
+        "magnitude": 2.7, 
         "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "She is very quiet and smart.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "She will not make much noise.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very cute, playful, and friendly.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Must ADOPT!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }
+    ], 
+    "raw_content": "She is very quiet and smart. She will not make much noise. Very cute, playful, and friendly. Must ADOPT! ", 
+    "categories": []
 }

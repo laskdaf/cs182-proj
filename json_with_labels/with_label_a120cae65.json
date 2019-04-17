@@ -1,89 +1,90 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.44067544, 
+            "name": "Adopter", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.29110625, 
+            "name": "vaccine", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "deworming", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.2682183, 
+            "name": "deworming", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Healthy.",
+                "content": "Healthy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter bring her to vaccine and deworming.",
+                "content": "Adopter bring her to vaccine and deworming.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Rescued about 3 weeks.",
+                "content": "Rescued about 3 weeks.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Adopter",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.44067544,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vaccine",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.29110625,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccine",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "deworming",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.2682183,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "deworming",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Healthy. Adopter bring her to vaccine and deworming. Rescued about 3 weeks. ", 
+    "categories": []
 }

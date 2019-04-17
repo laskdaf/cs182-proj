@@ -1,134 +1,135 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.571222
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "JR", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "JR", 
+            "salience": 0.14946246
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "condo", 
+            "salience": 0.0846588
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "choice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "choice", 
+            "salience": 0.07691627
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.059014376
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Loves attention", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Loves attention", 
+            "salience": 0.058726076
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Very lively dog, as expected from a JR!",
+                "content": "Very lively dog, as expected from a JR!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We are moving to a condo and regrettably have no choice but to give him up for adoption.",
+                "content": "We are moving to a condo and regrettably have no choice but to give him up for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Loves attention and play time.",
+                "content": "Loves attention and play time.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.571222,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "JR",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.14946246,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "JR",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "condo",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0846588,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "condo",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "choice",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07691627,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "choice",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.059014376,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Loves attention",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.058726076,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Loves attention",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Very lively dog, as expected from a JR! We are moving to a condo and regrettably have no choice but to give him up for adoption. Loves attention and play time. ", 
+    "categories": []
 }

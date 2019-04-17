@@ -1,199 +1,200 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Baby Boris", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Baby Boris", 
+            "salience": 0.6144854
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pick", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "pick", 
+            "salience": 0.16380705
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tai Kuo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Tai Kuo", 
+            "salience": 0.0883282
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "litter", 
+            "salience": 0.053882673
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pack", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pack", 
+            "salience": 0.018214371
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leader", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "leader", 
+            "salience": 0.017994927
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mugshot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mugshot", 
+            "salience": 0.016649736
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "justice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "justice", 
+            "salience": 0.016649736
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "baby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "baby", 
+            "salience": 0.00998794
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Baby Boris is the pick of the litter of 5.",
+                "content": "Baby Boris is the pick of the litter of 5.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is the Tai Kuo &amp; the leader of the pack .",
+                "content": "He is the Tai Kuo &amp; the leader of the pack .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Trust me his mugshot does him no justice at all.",
+                "content": "Trust me his mugshot does him no justice at all.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is the biggest &amp; loudest too.",
+                "content": "He is the biggest &amp; loudest too.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "please call to adopt baby boris.",
+                "content": "please call to adopt baby boris.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Baby Boris",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6144854,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Baby Boris",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "pick",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.16380705,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pick",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Tai Kuo",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0883282,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Tai Kuo",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "litter",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.053882673,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "litter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pack",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018214371,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pack",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "leader",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.017994927,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leader",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mugshot",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016649736,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mugshot",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "justice",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016649736,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "justice",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "baby",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.00998794,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "baby",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Baby Boris is the pick of the litter of 5. He is the Tai Kuo &amp; the leader of the pack . Trust me his mugshot does him no justice at all. He is the biggest &amp; loudest too. please call to adopt baby boris. ", 
+    "categories": []
 }

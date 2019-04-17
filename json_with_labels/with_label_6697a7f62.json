@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.61895275, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.27044106, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.06492024, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "text", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.045685943, 
+            "type": "OTHER", 
+            "name": "text", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This cute little puppy is looking for a loving home.",
+                "content": "This cute little puppy is looking for a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is smart and lovable, and he loves to cuddle and play!",
+                "content": "He is smart and lovable, and he loves to cuddle and play!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you are interested to provide him with a forever home, do call or drop a text! :)",
+                "content": "If you are interested to provide him with a forever home, do call or drop a text! :)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.61895275,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.27044106,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.06492024,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "text",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.045685943,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "text",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "This cute little puppy is looking for a loving home. He is smart and lovable, and he loves to cuddle and play! If you are interested to provide him with a forever home, do call or drop a text! :) ", 
+    "categories": []
 }

@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "BERRY", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "BERRY", 
+            "salience": 0.5992455
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.211284
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "everyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "everyone", 
+            "salience": 0.1894705
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "BERRY has found a new home!",
+                "content": "BERRY has found a new home!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you for everyone who inquired about her.",
+                "content": "Thank you for everyone who inquired about her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "BERRY",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5992455,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "BERRY",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.211284,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "everyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.1894705,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "everyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "BERRY has found a new home! Thank you for everyone who inquired about her. ", 
+    "categories": []
 }

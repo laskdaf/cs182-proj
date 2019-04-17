@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 0.48086774
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Handsom", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Handsom", 
+            "salience": 0.33079255
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.1637279
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rachel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Rachel", 
+            "salience": 0.024611823
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Handsom boy looking for a forever home.",
+                "content": "Handsom boy looking for a forever home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Interested to adopt pls contact Rachel",
+                "content": "Interested to adopt pls contact Rachel", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.48086774,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Handsom",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.33079255,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Handsom",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.1637279,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Rachel",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.024611823,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rachel",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Handsom boy looking for a forever home. Interested to adopt pls contact Rachel ", 
+    "categories": []
 }

@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "need", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "need", 
+            "salience": 0.3537308
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pee", 
+            "salience": 0.32567105
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "No", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "No", 
+            "salience": 0.21017812
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "poop", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "poop", 
+            "salience": 0.11042004
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Full white..",
+                "content": "Full white..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "very beautiful No need to train pee and poop...",
+                "content": "very beautiful No need to train pee and poop...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Whatssap me",
+                "content": "Whatssap me", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "need",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3537308,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "need",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pee",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.32567105,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pee",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "No",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.21017812,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "No",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "poop",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11042004,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "poop",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Full white.. very beautiful No need to train pee and poop... Whatssap me ", 
+    "categories": []
 }

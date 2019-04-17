@@ -1,114 +1,115 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Marsh", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.59620917, 
+            "name": "Marsh", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Needs grooming", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.24011391, 
+            "name": "Needs grooming", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.08980153, 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "email", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "salience": 0.0738754, 
+            "name": "email", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Marsh is vaccinated, dewormed and spayed.",
+                "content": "Marsh is vaccinated, dewormed and spayed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Must be kept indoors.",
+                "content": "Must be kept indoors.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Needs grooming.",
+                "content": "Needs grooming.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call or send me an email if you think you can give her a good home.",
+                "content": "Please call or send me an email if you think you can give her a good home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Marsh",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.59620917,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Marsh",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Needs grooming",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.24011391,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Needs grooming",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.08980153,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "email",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.0738754,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "email",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Marsh is vaccinated, dewormed and spayed. Must be kept indoors. Needs grooming. Please call or send me an email if you think you can give her a good home. ", 
+    "categories": []
 }

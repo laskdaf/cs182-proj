@@ -1,74 +1,75 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kiki", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Kiki", 
+            "salience": 0.85905576
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.14094426
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Beautiful and friendly, Kiki is shortlegged and long-bodfied.",
+                "content": "Beautiful and friendly, Kiki is shortlegged and long-bodfied.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Will grow into a medium sized dog.",
+                "content": "Will grow into a medium sized dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Five months old.",
+                "content": "Five months old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Kiki",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.85905576,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kiki",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14094426,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Beautiful and friendly, Kiki is shortlegged and long-bodfied. Will grow into a medium sized dog. Five months old. ", 
+    "categories": []
 }

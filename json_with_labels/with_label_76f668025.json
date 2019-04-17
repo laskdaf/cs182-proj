@@ -1,186 +1,187 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.7233903
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "posting", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "posting", 
+            "salience": 0.091045246
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pups", 
+            "salience": 0.07727008
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.032786295
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "overcrowding", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "overcrowding", 
+            "salience": 0.028345453
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Aunty Angeline", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Aunty Angeline", 
+            "salience": 0.016853848
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.011444953
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shack", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "shack", 
+            "salience": 0.009455343
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog lover", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "dog lover", 
+            "salience": 0.009408484
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.3, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Here are the remaining 3 pups, siblings of earlier posting on 7 pups.",
+                "content": "Here are the remaining 3 pups, siblings of earlier posting on 7 pups.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The pups are currently fostered by Aunty Angeline to avoid overcrowding in the shack.",
+                "content": "The pups are currently fostered by Aunty Angeline to avoid overcrowding in the shack.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Welcome dog lover to adopt them &amp; give them a loving home.",
+                "content": "Welcome dog lover to adopt them &amp; give them a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7233903,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "posting",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.091045246,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "posting",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07727008,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.032786295,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "overcrowding",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.028345453,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "overcrowding",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Aunty Angeline",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.016853848,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Aunty Angeline",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.011444953,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "shack",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.009455343,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "shack",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog lover",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.009408484,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog lover",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.3,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Here are the remaining 3 pups, siblings of earlier posting on 7 pups. The pups are currently fostered by Aunty Angeline to avoid overcrowding in the shack. Welcome dog lover to adopt them &amp; give them a loving home. ", 
+    "categories": []
 }

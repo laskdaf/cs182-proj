@@ -1,89 +1,90 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sweet Patch", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Sweet Patch", 
+            "salience": 0.5868643
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.2815634
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "homes", 
+            "salience": 0.13157234
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Sweet Patch is waiting for his forever home.",
+                "content": "Sweet Patch is waiting for his forever home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Only to good homes...he will be.",
+                "content": "Only to good homes...he will be.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pls call.",
+                "content": "Pls call.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Sweet Patch",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.5868643,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sweet Patch",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.2815634,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "homes",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.13157234,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "homes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Sweet Patch is waiting for his forever home. Only to good homes...he will be. Pls call. ", 
+    "categories": []
 }

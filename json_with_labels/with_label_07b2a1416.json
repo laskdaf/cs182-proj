@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Someone throw puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Someone throw puppies", 
+            "salience": 0.3159895
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "front", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "front", 
+            "salience": 0.3159895
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guys", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "guys", 
+            "salience": 0.19346352
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "office", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "office", 
+            "salience": 0.14935341
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "office", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "office", 
+            "salience": 0.025204102
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": -0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Someone throw puppies in front my office.",
+                "content": "Someone throw puppies in front my office.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hope you guys can come to foster them as soon as possible as i couldn't raise them for long time at office.",
+                "content": "Hope you guys can come to foster them as soon as possible as i couldn't raise them for long time at office.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Someone throw puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3159895,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Someone throw puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "front",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3159895,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "front",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "guys",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.19346352,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guys",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "office",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14935341,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "office",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "office",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.025204102,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "office",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Someone throw puppies in front my office. Hope you guys can come to foster them as soon as possible as i couldn't raise them for long time at office. ", 
+    "categories": []
 }

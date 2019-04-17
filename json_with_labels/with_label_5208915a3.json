@@ -1,144 +1,145 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mum", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mum", 
+            "salience": 0.47571453
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "roadside", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "roadside", 
+            "salience": 0.19015296
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sister", 
+            "salience": 0.19015296
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hope", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hope", 
+            "salience": 0.058227044
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.058227044
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "No one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "No one", 
+            "salience": 0.027525462
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": -0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "I was separated from my mum and dumped by the roadside with my sister when we were one month old.",
+                "content": "I was separated from my mum and dumped by the roadside with my sister when we were one month old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We were scared, hungry and thirsty...",
+                "content": "We were scared, hungry and thirsty...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "For several days we tried to follow whoever passed us by in hope that they would take us home but we were shooed away each and every time.",
+                "content": "For several days we tried to follow whoever passed us by in hope that they would take us home but we were shooed away each and every time.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "No one cared to look at us until we were rescued early in the morning one day.",
+                "content": "No one cared to look at us until we were rescued early in the morning one day.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mum",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.47571453,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mum",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "roadside",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.19015296,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "roadside",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sister",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.19015296,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hope",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.058227044,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hope",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.058227044,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "No one",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.027525462,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "No one",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": -0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "I was separated from my mum and dumped by the roadside with my sister when we were one month old. We were scared, hungry and thirsty... For several days we tried to follow whoever passed us by in hope that they would take us home but we were shooed away each and every time. No one cared to look at us until we were rescued early in the morning one day. ", 
+    "categories": []
 }

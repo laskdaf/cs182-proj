@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.46459976
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "size dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "size dog", 
+            "salience": 0.45963636
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Female", 
+            "salience": 0.075763896
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Friendly and petite size dog available for adoption.",
+                "content": "Friendly and petite size dog available for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Female and 4 months.",
+                "content": "Female and 4 months.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.46459976,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "size dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.45963636,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "size dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Female",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.075763896,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Friendly and petite size dog available for adoption. Female and 4 months. ", 
+    "categories": []
 }

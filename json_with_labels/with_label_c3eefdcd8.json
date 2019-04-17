@@ -1,169 +1,170 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Travis", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Travis", 
+            "salience": 0.72302705
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fellah", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fellah", 
+            "salience": 0.14066423
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "family dog", 
+            "salience": 0.04379382
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog lovers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "dog lovers", 
+            "salience": 0.036477342
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "companion", 
+            "salience": 0.030332213
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "property", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "property", 
+            "salience": 0.018693604
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kin", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Kin", 
+            "salience": 0.007011728
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Travis is a sweet, docile and friendly fellah.",
+                "content": "Travis is a sweet, docile and friendly fellah.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He makes a wonderful companion or family dog.",
+                "content": "He makes a wonderful companion or family dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you are keen, please call Kin at.",
+                "content": "If you are keen, please call Kin at.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Only genuine dog lovers will be considered.",
+                "content": "Only genuine dog lovers will be considered.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Landed property only.",
+                "content": "Landed property only.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Travis",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.72302705,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Travis",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "fellah",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14066423,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fellah",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04379382,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog lovers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.036477342,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog lovers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "companion",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.030332213,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "property",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018693604,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "property",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kin",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.007011728,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kin",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Travis is a sweet, docile and friendly fellah. He makes a wonderful companion or family dog. If you are keen, please call Kin at. Only genuine dog lovers will be considered. Landed property only. ", 
+    "categories": []
 }

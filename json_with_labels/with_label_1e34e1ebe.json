@@ -1,136 +1,137 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Judy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Judy", 
+            "salience": 0.85187393
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "commands", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "commands", 
+            "salience": 0.055823997
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 0.04492229
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chance", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chance", 
+            "salience": 0.02997477
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.017405005
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Judy's a very smart girl.",
+                "content": "Judy's a very smart girl.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Able to understand basic commands and learns fast.",
+                "content": "Able to understand basic commands and learns fast.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's cute, pretty and looking for a loving home.",
+                "content": "She's cute, pretty and looking for a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please give this girl a chance to love and be loved.",
+                "content": "Please give this girl a chance to love and be loved.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Judy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.85187393,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Judy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "commands",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.055823997,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "commands",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04492229,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chance",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02997477,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chance",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.017405005,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Judy's a very smart girl. Able to understand basic commands and learns fast. She's cute, pretty and looking for a loving home. Please give this girl a chance to love and be loved. ", 
+    "categories": []
 }

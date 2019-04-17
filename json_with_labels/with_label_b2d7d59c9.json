@@ -1,46 +1,47 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Lusac is a friendly and playful dog...",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.8,
-                "score": 0.8
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Lusac",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Lusac",
+                        "content": "Lusac", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
-                },
+                }, 
                 {
                     "text": {
-                        "content": "dog",
+                        "content": "dog", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Lusac", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.8,
+        "magnitude": 0.8, 
         "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Lusac is a friendly and playful dog...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "raw_content": "Lusac is a friendly and playful dog... ", 
+    "categories": []
 }

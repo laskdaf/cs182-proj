@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mongrel stick", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mongrel stick", 
+            "salience": 0.4456108
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.3223799
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "human", 
+            "salience": 0.23200932
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "mongrel stick with dog or human",
+                "content": "mongrel stick with dog or human", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mongrel stick",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.4456108,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mongrel stick",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3223799,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "human",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.23200932,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "human",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "mongrel stick with dog or human ", 
+    "categories": []
 }

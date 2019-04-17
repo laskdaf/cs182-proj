@@ -1,116 +1,117 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescuer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Kay", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Kay", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Kay", 
+            "salience": 0.42849404
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "salience": 0.39189184
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kg Attap Car Park", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Kg Attap Car Park", 
+            "salience": 0.06807877
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/049d1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+            }, 
+            "type": "LOCATION", 
+            "name": "KL", 
+            "salience": 0.06807877
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Home", 
+            "salience": 0.043456588
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found this orphan pup at Kg Attap Car Park, KL by his rescuer , Kay , please contact Kay if you are interested to give him a Home",
+                "content": "Found this orphan pup at Kg Attap Car Park, KL by his rescuer , Kay , please contact Kay if you are interested to give him a Home", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Kay",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.42849404,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rescuer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Kay",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Kay",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.39189184,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kg Attap Car Park",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.06807877,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kg Attap Car Park",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "KL",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/049d1",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur"
-            },
-            "salience": 0.06807877,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "KL",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Home",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.043456588,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Found this orphan pup at Kg Attap Car Park, KL by his rescuer , Kay , please contact Kay if you are interested to give him a Home ", 
+    "categories": []
 }

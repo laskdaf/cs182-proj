@@ -1,159 +1,160 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "baby puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "baby puppy", 
+            "salience": 0.6299743
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.16797358
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "streets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "streets", 
+            "salience": 0.16797358
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "phone number", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "phone number", 
+            "salience": 0.010762826
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "e-mail", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "e-mail", 
+            "salience": 0.010762826
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animal", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "animal", 
+            "salience": 0.0067764455
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "person", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "person", 
+            "salience": 0.0057764724
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "I found this dog on the streets looking so poor, it looked like a baby puppy that was like 2-3 months old, i rescued him, vaccinated and now his healthy!",
+                "content": "I found this dog on the streets looking so poor, it looked like a baby puppy that was like 2-3 months old, i rescued him, vaccinated and now his healthy!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": -0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "But sadly, i can't raise him.",
+                "content": "But sadly, i can't raise him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I need a kind-hearted and animal loving person!",
+                "content": "I need a kind-hearted and animal loving person!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you are interested of adopting him please contact me with my phone number or my e-mail",
+                "content": "If you are interested of adopting him please contact me with my phone number or my e-mail", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "baby puppy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6299743,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "baby puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16797358,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "streets",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.16797358,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "streets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "phone number",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.010762826,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "phone number",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "e-mail",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.010762826,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "e-mail",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "animal",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0067764455,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "animal",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "person",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0057764724,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "person",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "I found this dog on the streets looking so poor, it looked like a baby puppy that was like 2-3 months old, i rescued him, vaccinated and now his healthy! But sadly, i can't raise him. I need a kind-hearted and animal loving person! If you are interested of adopting him please contact me with my phone number or my e-mail ", 
+    "categories": []
 }

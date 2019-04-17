@@ -1,112 +1,113 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "salience": 0.3374857
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "area", 
+            "salience": 0.31535593
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Serdang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/05ztfx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Seri_Kembangan"
+            }, 
+            "type": "LOCATION", 
+            "name": "Serdang", 
+            "salience": 0.20898186
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ears", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ears", 
+            "salience": 0.08470623
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cutie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Cutie", 
+            "salience": 0.053470284
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A black lone ranger male pup in Serdang industrial area.",
+                "content": "A black lone ranger male pup in Serdang industrial area.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Cutie with unique big ears.",
+                "content": "Cutie with unique big ears.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3374857,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.31535593,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "area",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Serdang",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/05ztfx",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Seri_Kembangan"
-            },
-            "salience": 0.20898186,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Serdang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "ears",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08470623,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ears",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Cutie",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.053470284,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cutie",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "A black lone ranger male pup in Serdang industrial area. Cutie with unique big ears. ", 
+    "categories": []
 }

@@ -1,99 +1,100 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "LeiLei", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "LeiLei", 
+            "salience": 0.7366602
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human touch", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "human touch", 
+            "salience": 0.21680576
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "playmates", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "playmates", 
+            "salience": 0.046534073
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "LeiLei is very healthy.",
+                "content": "LeiLei is very healthy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Used to human touch and very tamed and docile.",
+                "content": "Used to human touch and very tamed and docile.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She likes to eat and love to be around with her playmates.",
+                "content": "She likes to eat and love to be around with her playmates.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Oh, ya, she likes to sleep too!",
+                "content": "Oh, ya, she likes to sleep too!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "LeiLei",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7366602,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "LeiLei",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "human touch",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.21680576,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "human touch",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "playmates",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.046534073,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "playmates",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "LeiLei is very healthy. Used to human touch and very tamed and docile. She likes to eat and love to be around with her playmates. Oh, ya, she likes to sleep too! ", 
+    "categories": []
 }

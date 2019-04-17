@@ -1,119 +1,120 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Pups", 
+            "salience": 0.40589753
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.39553875
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "litter", 
+            "salience": 0.15538113
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mom", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mom", 
+            "salience": 0.026494637
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.016687952
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "2 female pups left from a litter of 6.",
+                "content": "2 female pups left from a litter of 6.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pups are healthy and active.",
+                "content": "Pups are healthy and active.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They are on soft solid food although still milking from their mom occasionally.",
+                "content": "They are on soft solid food although still milking from their mom occasionally.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.40589753,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.39553875,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "litter",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.15538113,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "litter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mom",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.026494637,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mom",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016687952,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "2 female pups left from a litter of 6. Pups are healthy and active. They are on soft solid food although still milking from their mom occasionally. ", 
+    "categories": []
 }

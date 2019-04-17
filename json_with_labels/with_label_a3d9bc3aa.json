@@ -1,174 +1,175 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.39977133
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "families", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "families", 
+            "salience": 0.16745844
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "individuals", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "individuals", 
+            "salience": 0.16745844
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "companion", 
+            "salience": 0.13436167
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.05733482
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "text message", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "text message", 
+            "salience": 0.03956537
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leash", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "leash", 
+            "salience": 0.017548122
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Alfie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Alfie", 
+            "salience": 0.016501797
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A loving puppy who make a good companion for families and individuals.",
+                "content": "A loving puppy who make a good companion for families and individuals.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Gets along with other dogs really well.",
+                "content": "Gets along with other dogs really well.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Has been trained to walk on a leash .",
+                "content": "Has been trained to walk on a leash .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please send a text message to if u are interested to adopt Alfie.",
+                "content": "Please send a text message to if u are interested to adopt Alfie.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.39977133,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "families",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.16745844,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "families",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "individuals",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.16745844,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "individuals",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "companion",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13436167,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05733482,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "text message",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03956537,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "text message",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "leash",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017548122,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leash",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Alfie",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.016501797,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Alfie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.3,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "A loving puppy who make a good companion for families and individuals. Gets along with other dogs really well. Has been trained to walk on a leash . Please send a text message to if u are interested to adopt Alfie. ", 
+    "categories": []
 }

@@ -1,52 +1,53 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Very intelligent.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.8,
-                "score": 0.8
-            }
-        },
-        {
-            "text": {
-                "content": "Currently foster in Klang.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.2,
-                "score": 0.2
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Klang",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Klang_(city)",
-                "mid": "/m/02m2h0"
-            },
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Klang",
+                        "content": "Klang", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
                 }
-            ]
+            ], 
+            "metadata": {
+                "mid": "/m/02m2h0", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Klang_(city)"
+            }, 
+            "type": "LOCATION", 
+            "name": "Klang", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 1.1,
+        "magnitude": 1.1, 
         "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very intelligent.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Currently foster in Klang.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "raw_content": "Very intelligent. Currently foster in Klang. ", 
+    "categories": []
 }

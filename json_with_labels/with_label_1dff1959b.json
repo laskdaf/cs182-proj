@@ -1,156 +1,157 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "GST Pls", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "salary", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "GST Pls", 
+            "salience": 0.3211608
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Alert", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Alert", 
+            "salience": 0.2939025
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "guard dog", 
+            "salience": 0.20060815
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kids - Vaccinated", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Kids - Vaccinated", 
+            "salience": 0.121487364
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "contact", 
+            "salience": 0.06284119
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Smart.",
+                "content": "Smart.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Active.",
+                "content": "Active.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Playful.",
+                "content": "Playful.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Alert.",
+                "content": "Alert.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "- Good guard dog - Great with Kids - Vaccinated - Spayed - No minimum salary - No GST Pls contact .",
+                "content": "- Good guard dog - Great with Kids - Vaccinated - Spayed - No minimum salary - No GST Pls contact .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "if you are ready to hire! =)",
+                "content": "if you are ready to hire! =)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "GST Pls",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3211608,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "GST Pls",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "salary",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Alert",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.2939025,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Alert",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "guard dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.20060815,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guard dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kids - Vaccinated",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.121487364,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kids - Vaccinated",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "contact",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06284119,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "contact",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Smart. Active. Playful. Alert. - Good guard dog - Great with Kids - Vaccinated - Spayed - No minimum salary - No GST Pls contact . if you are ready to hire! =) ", 
+    "categories": []
 }

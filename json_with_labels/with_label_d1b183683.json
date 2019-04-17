@@ -1,97 +1,98 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rescue", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Rescue", 
+            "salience": 0.63028055
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "BDKL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0cnp39", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_City_Hall"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "BDKL", 
+            "salience": 0.18514526
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "details", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "details", 
+            "salience": 0.1528616
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jacklyn Tsen @", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jacklyn Tsen @", 
+            "salience": 0.031712573
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Rescue from BDKL.",
+                "content": "Rescue from BDKL.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "More details please contact Jacklyn Tsen @",
+                "content": "More details please contact Jacklyn Tsen @", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Rescue",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.63028055,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rescue",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "BDKL",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/m/0cnp39",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_City_Hall"
-            },
-            "salience": 0.18514526,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "BDKL",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "details",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.1528616,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "details",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jacklyn Tsen @",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.031712573,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jacklyn Tsen @",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Rescue from BDKL. More details please contact Jacklyn Tsen @ ", 
+    "categories": []
 }

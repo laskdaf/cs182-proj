@@ -1,159 +1,160 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.42024112
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption female", 
+            "salience": 0.27120277
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "terrier mix", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "terrier mix", 
+            "salience": 0.09653784
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "age", 
+            "salience": 0.076198116
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bush", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "bush", 
+            "salience": 0.070947014
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet lovers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pet lovers", 
+            "salience": 0.034598116
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "post", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "post", 
+            "salience": 0.030275023
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Two adorable puppies for adoption female and male.Few months old ( not very sure about their age) They are both terrier mix and found them in a bush.",
+                "content": "Two adorable puppies for adoption female and male.Few months old ( not very sure about their age) They are both terrier mix and found them in a bush.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Interested pet lovers do watsapp me at and also help me to share this post.",
+                "content": "Interested pet lovers do watsapp me at and also help me to share this post.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you.",
+                "content": "Thank you.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "\u2764\ud83d\udc36 #save lives#adopt",
+                "content": "\u2764\ud83d\udc36 #save lives#adopt", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.42024112,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption female",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.27120277,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "terrier mix",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09653784,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "terrier mix",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "age",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.076198116,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "age",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bush",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.070947014,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bush",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pet lovers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.034598116,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pet lovers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "post",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.030275023,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "post",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Two adorable puppies for adoption female and male.Few months old ( not very sure about their age) They are both terrier mix and found them in a bush. Interested pet lovers do watsapp me at and also help me to share this post. Thank you. \u2764\ud83d\udc36 #save lives#adopt ", 
+    "categories": []
 }

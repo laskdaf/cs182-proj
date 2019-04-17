@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Hazel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Hazel", 
+            "salience": 0.53860855
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "size", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "size", 
+            "salience": 0.3974497
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "coat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "coat", 
+            "salience": 0.03611468
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guardog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "guardog", 
+            "salience": 0.027827077
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Hazel's size is medium to large, very good-looking and has a shiny coat.",
+                "content": "Hazel's size is medium to large, very good-looking and has a shiny coat.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's also a good guardog.",
+                "content": "She's also a good guardog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Hazel",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.53860855,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Hazel",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "size",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3974497,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "size",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "coat",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03611468,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "coat",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "guardog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027827077,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guardog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.6,
-        "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Hazel's size is medium to large, very good-looking and has a shiny coat. She's also a good guardog. ", 
+    "categories": []
 }

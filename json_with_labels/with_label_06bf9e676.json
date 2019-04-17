@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "-Healthy dog",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.3,
-                "score": 0.3
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "dog",
+                        "content": "dog", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.3,
+        "magnitude": 0.3, 
         "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "-Healthy dog", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "raw_content": "-Healthy dog ", 
+    "categories": []
 }

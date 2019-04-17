@@ -1,134 +1,135 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Puppies", 
+            "salience": 0.46277156
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "adopters", 
+            "salience": 0.33717164
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.07354154
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.049879447
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "little", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "little", 
+            "salience": 0.045027923
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog ownership experience", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog ownership experience", 
+            "salience": 0.031607866
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Puppies are healthy and playful.",
+                "content": "Puppies are healthy and playful.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Looking for serious genuine adopters who can take care of them and provide them a lovely home.",
+                "content": "Looking for serious genuine adopters who can take care of them and provide them a lovely home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you are interested, please email me and let me know a little about yourself and your dog ownership experience.",
+                "content": "If you are interested, please email me and let me know a little about yourself and your dog ownership experience.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.46277156,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.33717164,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07354154,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.049879447,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "little",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.045027923,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "little",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog ownership experience",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.031607866,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog ownership experience",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.6,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Puppies are healthy and playful. Looking for serious genuine adopters who can take care of them and provide them a lovely home. If you are interested, please email me and let me know a little about yourself and your dog ownership experience. ", 
+    "categories": []
 }

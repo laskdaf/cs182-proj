@@ -1,272 +1,273 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lady", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "lady", 
+            "salience": 0.21455145
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "orang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "orang", 
+            "salience": 0.21455145
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Asli", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Asli", 
+            "salience": 0.1323315
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puan Sinar", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Puan Sinar", 
+            "salience": 0.1323315
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pair", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pair", 
+            "salience": 0.08664644
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.08664644
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sister", 
+            "salience": 0.029169865
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "names", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "names", 
+            "salience": 0.028125918
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Hangus", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Hangus", 
+            "salience": 0.021587651
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Langsat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/06s03b", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Lansium_parasiticum"
+            }, 
+            "type": "OTHER", 
+            "name": "Langsat", 
+            "salience": 0.017120026
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Anyone", 
+            "salience": 0.0140474215
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Thanks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Thanks", 
+            "salience": 0.014016122
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.0088742
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Puan Sinar the orang Asli lady has rescued a pair of puppies.",
+                "content": "Puan Sinar the orang Asli lady has rescued a pair of puppies.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Their names are Hangus and Langsat ( sister) :)",
+                "content": "Their names are Hangus and Langsat ( sister) :)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Now they have grown up, healthy, friendly and ready for adoption.",
+                "content": "Now they have grown up, healthy, friendly and ready for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They will be neutered soon.",
+                "content": "They will be neutered soon.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Anyone can sponsor partially?",
+                "content": "Anyone can sponsor partially?", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thanks",
+                "content": "Thanks", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "lady",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.21455145,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lady",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "orang",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.21455145,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "orang",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Asli",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.1323315,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Asli",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Puan Sinar",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.1323315,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puan Sinar",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "pair",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08664644,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pair",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08664644,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sister",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.029169865,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "names",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028125918,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "names",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Hangus",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.021587651,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Hangus",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Langsat",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/06s03b",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Lansium_parasiticum"
-            },
-            "salience": 0.017120026,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Langsat",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0140474215,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Thanks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014016122,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Thanks",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0088742,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Puan Sinar the orang Asli lady has rescued a pair of puppies. Their names are Hangus and Langsat ( sister) :) Now they have grown up, healthy, friendly and ready for adoption. They will be neutered soon. Anyone can sponsor partially? Thanks ", 
+    "categories": []
 }

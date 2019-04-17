@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "miniature pinscher", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "miniature pinscher", 
+            "salience": 0.58143175
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.20256865
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "highway", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "highway", 
+            "salience": 0.17004007
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "walks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "walks", 
+            "salience": 0.045959543
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found male miniature pinscher wandering about at highway, the dog is very docile and quiet.",
+                "content": "Found male miniature pinscher wandering about at highway, the dog is very docile and quiet.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Easy to manage and loves walks.",
+                "content": "Easy to manage and loves walks.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "miniature pinscher",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.58143175,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "miniature pinscher",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.20256865,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "highway",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.17004007,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "highway",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "walks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.045959543,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "walks",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Found male miniature pinscher wandering about at highway, the dog is very docile and quiet. Easy to manage and loves walks. ", 
+    "categories": []
 }

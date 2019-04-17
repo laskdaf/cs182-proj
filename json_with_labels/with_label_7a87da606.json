@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sunny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Sunny", 
+            "salience": 0.8123616
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "salience": 0.13849914
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "salience": 0.049139287
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Sunny is cute He is very brave If anyone interested can contact me It has blue eyes",
+                "content": "Sunny is cute He is very brave If anyone interested can contact me It has blue eyes", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Sunny",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8123616,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sunny",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.13849914,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "eyes",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.049139287,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eyes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.6,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Sunny is cute He is very brave If anyone interested can contact me It has blue eyes ", 
+    "categories": []
 }

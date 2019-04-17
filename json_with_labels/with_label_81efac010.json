@@ -1,186 +1,187 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 0.5328482
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Amber", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Amber", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Amber", 
+            "salience": 0.22291824
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "command", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "command", 
+            "salience": 0.09040664
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "training", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "training", 
+            "salience": 0.06161159
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.04303174
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pls contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Pls contact", 
+            "salience": 0.030098045
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogie", 
+            "salience": 0.019085532
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Amber is very hyper active girl !",
+                "content": "Amber is very hyper active girl !", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Able to obey command if given training She's growing to be more pretty !",
+                "content": "Able to obey command if given training She's growing to be more pretty !", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Are you looking for a dogie to bond with ?",
+                "content": "Are you looking for a dogie to bond with ?", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Amber looking for a home.",
+                "content": "Amber looking for a home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank Q !",
+                "content": "Thank Q !", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pls contact",
+                "content": "Pls contact", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5328482,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Amber",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.22291824,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Amber",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Amber",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "command",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09040664,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "command",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "training",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06161159,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "training",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.04303174,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Pls contact",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.030098045,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pls contact",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogie",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.019085532,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogie",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.8,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Amber is very hyper active girl ! Able to obey command if given training She's growing to be more pretty ! Are you looking for a dogie to bond with ? Amber looking for a home. Thank Q ! Pls contact ", 
+    "categories": []
 }

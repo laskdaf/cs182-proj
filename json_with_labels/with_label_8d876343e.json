@@ -1,179 +1,180 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.4506454
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "housing area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "housing area", 
+            "salience": 0.16939627
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.13207127
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Hope", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Hope", 
+            "salience": 0.05841492
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "little", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "little", 
+            "salience": 0.057998296
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog biscuit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog biscuit", 
+            "salience": 0.05330618
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pupp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pupp", 
+            "salience": 0.032097045
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.028231176
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother milk", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mother milk", 
+            "salience": 0.01783945
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A female dog wondering around our housing area and delivered 4 cute puppy.",
+                "content": "A female dog wondering around our housing area and delivered 4 cute puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Currently started to eat a little of dog biscuit and continue to consume mother milk.",
+                "content": "Currently started to eat a little of dog biscuit and continue to consume mother milk.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hope can get a forever home for the pupp",
+                "content": "Hope can get a forever home for the pupp", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.4506454,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "housing area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.16939627,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "housing area",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13207127,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Hope",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05841492,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Hope",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "little",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.057998296,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "little",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog biscuit",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05330618,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog biscuit",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pupp",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.032097045,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pupp",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.028231176,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mother milk",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01783945,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mother milk",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "A female dog wondering around our housing area and delivered 4 cute puppy. Currently started to eat a little of dog biscuit and continue to consume mother milk. Hope can get a forever home for the pupp ", 
+    "categories": []
 }

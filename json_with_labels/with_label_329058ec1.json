@@ -1,119 +1,120 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bichon", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Bichon", 
+            "salience": 0.48218477
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adult dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adult dog", 
+            "salience": 0.32955268
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Owners", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Owners", 
+            "salience": 0.0818428
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gentle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Gentle", 
+            "salience": 0.06976679
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "nature", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "nature", 
+            "salience": 0.036652967
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Bichon mix adult dog.",
+                "content": "Bichon mix adult dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Gentle and shy in nature.",
+                "content": "Gentle and shy in nature.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Owners immigrated overseas",
+                "content": "Owners immigrated overseas", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Bichon",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.48218477,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Bichon",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "adult dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.32955268,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adult dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Owners",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0818428,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Owners",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Gentle",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06976679,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Gentle",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "nature",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.036652967,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "nature",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.6,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Bichon mix adult dog. Gentle and shy in nature. Owners immigrated overseas ", 
+    "categories": []
 }

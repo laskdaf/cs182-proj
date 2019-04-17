@@ -1,259 +1,260 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "lui", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.5277591
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.11716864
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "town", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "town", 
+            "salience": 0.10403643
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "petaling jaya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/03dqts", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
+            }, 
+            "type": "LOCATION", 
+            "name": "petaling jaya", 
+            "salience": 0.063526176
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "both", 
+            "salience": 0.045793917
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chocolate", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chocolate", 
+            "salience": 0.034159113
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "left", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "left", 
+            "salience": 0.028180478
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "adopters", 
+            "salience": 0.019997582
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "skin disease", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "skin disease", 
+            "salience": 0.017790068
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "both", 
+            "salience": 0.015346047
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption fees", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption fees", 
+            "salience": 0.01228773
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.0072886883
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animals", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "animals", 
+            "salience": 0.006666084
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "these 2 puppies were found in petaling jaya old town, both are female, the right puppy, which is &quot;lui lui&quot; got minor skin disease whereas the left &quot;chocolate is very healthy&quot;.",
+                "content": "these 2 puppies were found in petaling jaya old town, both are female, the right puppy, which is &quot;lui lui&quot; got minor skin disease whereas the left &quot;chocolate is very healthy&quot;.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "both of them are very adorable and lovely.",
+                "content": "both of them are very adorable and lovely.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "we hav been feeding them for quite a long time n looking for adopters who can give them a warm home.",
+                "content": "we hav been feeding them for quite a long time n looking for adopters who can give them a warm home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "no adoption fees is required..we just want to save animals.",
+                "content": "no adoption fees is required..we just want to save animals.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5277591,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "lui",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11716864,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "town",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.10403643,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "town",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "petaling jaya",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya",
-                "mid": "/m/03dqts"
-            },
-            "salience": 0.063526176,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "petaling jaya",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "both",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.045793917,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "both",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chocolate",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.034159113,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chocolate",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "left",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028180478,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "left",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.019997582,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "skin disease",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017790068,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "skin disease",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "both",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015346047,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "both",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption fees",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01228773,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption fees",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0072886883,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "animals",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.006666084,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "animals",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "these 2 puppies were found in petaling jaya old town, both are female, the right puppy, which is &quot;lui lui&quot; got minor skin disease whereas the left &quot;chocolate is very healthy&quot;. both of them are very adorable and lovely. we hav been feeding them for quite a long time n looking for adopters who can give them a warm home. no adoption fees is required..we just want to save animals. ", 
+    "categories": []
 }

@@ -1,214 +1,215 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Emma", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Emma", 
+            "salience": 0.4898706
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "litter owner", 
+            "salience": 0.23458548
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.16699158
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "asthma", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "asthma", 
+            "salience": 0.022568947
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dr", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Dr", 
+            "salience": 0.022568947
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fosterer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "fosterer", 
+            "salience": 0.020880112
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pet", 
+            "salience": 0.020729829
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Commitment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Commitment", 
+            "salience": 0.008328811
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.0069545787
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Albert", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Albert", 
+            "salience": 0.0065211155
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Emma had a lovely family.",
+                "content": "Emma had a lovely family.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Unfortunately , her litter owner who is only 4 years old had asthma and Dr advise not to keep any pet.",
+                "content": "Unfortunately , her litter owner who is only 4 years old had asthma and Dr advise not to keep any pet.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": -0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Therefore she was sent away to a fosterer and waiting for a sweet home.",
+                "content": "Therefore she was sent away to a fosterer and waiting for a sweet home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Commitment to spay her is compulsory.",
+                "content": "Commitment to spay her is compulsory.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If u are interested to adopt pls contact Albert",
+                "content": "If u are interested to adopt pls contact Albert", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Emma",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.4898706,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Emma",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "litter owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.23458548,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "litter owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.16699158,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "asthma",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022568947,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "asthma",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Dr",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.022568947,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dr",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fosterer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.020880112,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fosterer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020729829,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Commitment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.008328811,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Commitment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0069545787,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Albert",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0065211155,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Albert",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Emma had a lovely family. Unfortunately , her litter owner who is only 4 years old had asthma and Dr advise not to keep any pet. Therefore she was sent away to a fosterer and waiting for a sweet home. Commitment to spay her is compulsory. If u are interested to adopt pls contact Albert ", 
+    "categories": []
 }

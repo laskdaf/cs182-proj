@@ -1,194 +1,195 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.29813328
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "space", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "space", 
+            "salience": 0.29464385
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "apartment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "apartment", 
+            "salience": 0.10006711
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pets", 
+            "salience": 0.09080356
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sms", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sms", 
+            "salience": 0.069228664
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "emails", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "emails", 
+            "salience": 0.069228664
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adopter", 
+            "salience": 0.047281027
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bark", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bark", 
+            "salience": 0.030613828
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.7, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "If your looking for an active loyal and a great dog and u have space for her :)",
+                "content": "If your looking for an active loyal and a great dog and u have space for her :)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call.",
+                "content": "Please call.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We've just recently moved into an apartment, so, we cant have pets eventhough they dont bark :(",
+                "content": "We've just recently moved into an apartment, so, we cant have pets eventhough they dont bark :(", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call, no sms or emails.",
+                "content": "Please call, no sms or emails.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Only genuine adopter are welcome.",
+                "content": "Only genuine adopter are welcome.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you",
+                "content": "Thank you", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.29813328,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "space",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.29464385,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "space",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "apartment",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.10006711,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "apartment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pets",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09080356,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sms",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.069228664,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sms",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "emails",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.069228664,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "emails",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopter",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.047281027,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bark",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.030613828,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bark",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.7,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "If your looking for an active loyal and a great dog and u have space for her :) Please call. We've just recently moved into an apartment, so, we cant have pets eventhough they dont bark :( Please call, no sms or emails. Only genuine adopter are welcome. Thank you ", 
+    "categories": []
 }

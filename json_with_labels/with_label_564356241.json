@@ -1,187 +1,188 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.3660596
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hands", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hands", 
+            "salience": 0.12615861
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog catchers.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "dog catchers.", 
+            "salience": 0.12615861
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mbpj", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "mbpj", 
+            "salience": 0.12615861
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "friend", 
+            "salience": 0.09822874
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mine", 
+            "salience": 0.08676159
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "d vet bill.D dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "d vet bill.D dog", 
+            "salience": 0.02618295
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "some", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "some", 
+            "salience": 0.0186079
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption fees", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption fees", 
+            "salience": 0.0132139465
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Selangor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01jc9d", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Selangor"
+            }, 
+            "type": "LOCATION", 
+            "name": "Selangor", 
+            "salience": 0.012469453
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "a stray dog rescued from the evil hands of mbpj's dog catchers.Now being fostered by a friend of mine.",
+                "content": "a stray dog rescued from the evil hands of mbpj's dog catchers.Now being fostered by a friend of mine.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is very timid,&amp; friendly.Suitable to be keep in indoor.A small adoption fees will be charged to cover some of d vet bill.D dog is available in Selangor",
+                "content": "She is very timid,&amp; friendly.Suitable to be keep in indoor.A small adoption fees will be charged to cover some of d vet bill.D dog is available in Selangor", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3660596,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hands",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12615861,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hands",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog catchers.",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.12615861,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog catchers.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mbpj",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.12615861,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mbpj",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "friend",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.09822874,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "friend",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mine",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08676159,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mine",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "d vet bill.D dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02618295,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "d vet bill.D dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "some",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0186079,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "some",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption fees",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0132139465,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption fees",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Selangor",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/01jc9d",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Selangor"
-            },
-            "salience": 0.012469453,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Selangor",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "a stray dog rescued from the evil hands of mbpj's dog catchers.Now being fostered by a friend of mine. She is very timid,&amp; friendly.Suitable to be keep in indoor.A small adoption fees will be charged to cover some of d vet bill.D dog is available in Selangor ", 
+    "categories": []
 }

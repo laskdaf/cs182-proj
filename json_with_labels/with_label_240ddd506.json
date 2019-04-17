@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hug", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "hug", 
+            "salience": 0.69131315
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopt", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adopt", 
+            "salience": 0.30868685
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "active and like to be hug Please contact for adopt",
+                "content": "active and like to be hug Please contact for adopt", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "hug",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.69131315,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hug",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopt",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.30868685,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopt",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "active and like to be hug Please contact for adopt ", 
+    "categories": []
 }

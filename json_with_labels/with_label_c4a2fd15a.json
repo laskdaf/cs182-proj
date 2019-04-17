@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.6897088
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home sweet home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home sweet home", 
+            "salience": 0.272742
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rachel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Rachel", 
+            "salience": 0.03754918
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Lovely puppy looking for a home sweet home.",
+                "content": "Lovely puppy looking for a home sweet home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Interested to adopt pls contact Rachel",
+                "content": "Interested to adopt pls contact Rachel", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6897088,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home sweet home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.272742,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home sweet home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Rachel",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.03754918,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rachel",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Lovely puppy looking for a home sweet home. Interested to adopt pls contact Rachel ", 
+    "categories": []
 }

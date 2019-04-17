@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption asap.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption asap.", 
+            "salience": 0.5419017
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.32088646
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "TQ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "TQ", 
+            "salience": 0.13721181
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "I would like to give out my dogs for adoption asap.Kindly contact me if interested,TQ",
+                "content": "I would like to give out my dogs for adoption asap.Kindly contact me if interested,TQ", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "adoption asap.",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5419017,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption asap.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.32088646,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "TQ",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.13721181,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "TQ",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "I would like to give out my dogs for adoption asap.Kindly contact me if interested,TQ ", 
+    "categories": []
 }

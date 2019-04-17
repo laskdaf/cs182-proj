@@ -1,253 +1,254 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 0.6037478
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tuxie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Tuxie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Tuxie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Tuxie", 
+            "salience": 0.18878075
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "humans", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "humans", 
+            "salience": 0.038044874
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.038044874
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "T&a", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "T&C", 
+            "salience": 0.027747614
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "shelter", 
+            "salience": 0.02390136
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sun", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sun", 
+            "salience": 0.02390136
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rain", 
+            "salience": 0.02390136
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "adopters", 
+            "salience": 0.01433682
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "call", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "call", 
+            "salience": 0.009645156
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "conditions", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "conditions", 
+            "salience": 0.007948017
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.3, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Tuxie is an adorable and intelligent little girl.",
+                "content": "Tuxie is an adorable and intelligent little girl.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is attentive and very manja.",
+                "content": "She is attentive and very manja.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Good with humans and other dogs too.",
+                "content": "Good with humans and other dogs too.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The T&amp;C's of adopting Tuxie would be: 1) MUST be spayed at 6 months 2) MUST NOT be caged or chained for long periods of time 3) MUST be provided with sufficient shelter from sun and rain 4) MUST be played with/walked everyday If you cannot fulfill the above conditions then you are not a suitable adopter for Tuxie.",
+                "content": "The T&amp;C's of adopting Tuxie would be: 1) MUST be spayed at 6 months 2) MUST NOT be caged or chained for long periods of time 3) MUST be provided with sufficient shelter from sun and rain 4) MUST be played with/walked everyday If you cannot fulfill the above conditions then you are not a suitable adopter for Tuxie.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you do, then please do give me a call.",
+                "content": "If you do, then please do give me a call.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Only serious adopters will be entertained.",
+                "content": "Only serious adopters will be entertained.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6037478,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Tuxie",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.18878075,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Tuxie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Tuxie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Tuxie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "humans",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.038044874,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "humans",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.038044874,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "T&C",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.027747614,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "T&a",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "shelter",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.02390136,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "shelter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sun",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02390136,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sun",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rain",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02390136,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rain",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.01433682,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "call",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.009645156,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "call",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "conditions",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.007948017,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "conditions",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.3,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Tuxie is an adorable and intelligent little girl. She is attentive and very manja. Good with humans and other dogs too. The T&amp;C's of adopting Tuxie would be: 1) MUST be spayed at 6 months 2) MUST NOT be caged or chained for long periods of time 3) MUST be provided with sufficient shelter from sun and rain 4) MUST be played with/walked everyday If you cannot fulfill the above conditions then you are not a suitable adopter for Tuxie. If you do, then please do give me a call. Only serious adopters will be entertained. ", 
+    "categories": []
 }

@@ -1,242 +1,243 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.28761715
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "salience": 0.23705009
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Schnoodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0b26w3", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Schnoodle"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "Schnoodle", 
+            "salience": 0.1470616
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adoption fees", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Adoption fees", 
+            "salience": 0.12099424
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "RM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "RM", 
+            "salience": 0.04540926
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "RM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "RM", 
+            "salience": 0.03992726
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "RM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "RM", 
+            "salience": 0.03690609
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.03249588
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.022427995
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "expenses", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "expenses", 
+            "salience": 0.020223353
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "deposit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "deposit", 
+            "salience": 0.0098870965
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Schnoodle pup for adoption.",
+                "content": "Schnoodle pup for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adoption fees RM is required as below: 1.",
+                "content": "Adoption fees RM is required as below: 1.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "RM (non-refundable) to cover his food &amp; medical expenses.",
+                "content": "RM (non-refundable) to cover his food &amp; medical expenses.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "2.",
+                "content": "2.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "RM (refundable) as deposit and will be refunded to you once you've neutered the puppy.",
+                "content": "RM (refundable) as deposit and will be refunded to you once you've neutered the puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "For serious adopter Only!",
+                "content": "For serious adopter Only!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.28761715,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.23705009,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Schnoodle",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/m/0b26w3",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Schnoodle"
-            },
-            "salience": 0.1470616,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Schnoodle",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Adoption fees",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12099424,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adoption fees",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "RM",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.04540926,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "RM",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "RM",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03992726,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "RM",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "RM",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03690609,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "RM",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03249588,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022427995,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "expenses",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020223353,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "expenses",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "deposit",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0098870965,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "deposit",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Schnoodle pup for adoption. Adoption fees RM is required as below: 1. RM (non-refundable) to cover his food &amp; medical expenses. 2. RM (refundable) as deposit and will be refunded to you once you've neutered the puppy. For serious adopter Only! ", 
+    "categories": []
 }

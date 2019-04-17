@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "parents", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "parents", 
+            "salience": 0.61019653
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "box", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "box", 
+            "salience": 0.38980347
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": -0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "It is abandoned and its found in a box with no parents",
+                "content": "It is abandoned and its found in a box with no parents", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": -0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "parents",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.61019653,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "parents",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "box",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.38980347,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "box",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": -0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "It is abandoned and its found in a box with no parents ", 
+    "categories": []
 }

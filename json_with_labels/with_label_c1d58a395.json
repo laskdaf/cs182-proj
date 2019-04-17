@@ -1,97 +1,98 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rottweiler", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01nw62", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Rottweiler"
+            }, 
+            "type": "PERSON", 
+            "name": "Rottweiler", 
+            "salience": 0.75479513
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "viewing", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "viewing", 
+            "salience": 0.13137674
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "details", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "details", 
+            "salience": 0.058552247
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Thanks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Thanks", 
+            "salience": 0.055275865
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A young female Rottweiler is looking for her forever home.approximately 2-3 years old. friendly &amp; loving.",
+                "content": "A young female Rottweiler is looking for her forever home.approximately 2-3 years old. friendly &amp; loving.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "for further details &amp; viewing, Please contact Thanks.",
+                "content": "for further details &amp; viewing, Please contact Thanks.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Rottweiler",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/01nw62",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Rottweiler"
-            },
-            "salience": 0.75479513,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rottweiler",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "viewing",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13137674,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "viewing",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "details",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.058552247,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "details",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Thanks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.055275865,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Thanks",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "A young female Rottweiler is looking for her forever home.approximately 2-3 years old. friendly &amp; loving. for further details &amp; viewing, Please contact Thanks. ", 
+    "categories": []
 }

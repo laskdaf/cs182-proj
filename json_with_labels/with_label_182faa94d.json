@@ -1,117 +1,118 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fit", 
+            "salience": 0.7280968
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Girly", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01g58c", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Girly_girl"
+            }, 
+            "type": "PERSON", 
+            "name": "Girly", 
+            "salience": 0.19921495
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "appetite", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "appetite", 
+            "salience": 0.04481081
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog companion", 
+            "salience": 0.027877482
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Girly is feminine and petite.",
+                "content": "Girly is feminine and petite.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is an active and curious.",
+                "content": "She is an active and curious.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Her appetite is not that but she likes to move around, run around, play around.",
+                "content": "Her appetite is not that but she likes to move around, run around, play around.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you love a female dog companion, she is the perfect fit for you!",
+                "content": "If you love a female dog companion, she is the perfect fit for you!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "fit",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.7280968,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fit",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Girly",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/01g58c",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Girly_girl"
-            },
-            "salience": 0.19921495,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Girly",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "appetite",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04481081,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "appetite",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog companion",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027877482,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Girly is feminine and petite. She is an active and curious. Her appetite is not that but she likes to move around, run around, play around. If you love a female dog companion, she is the perfect fit for you! ", 
+    "categories": []
 }

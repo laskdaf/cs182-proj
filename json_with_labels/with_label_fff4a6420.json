@@ -1,99 +1,100 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Zander", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Zander", 
+            "salience": 0.94463885
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "companion", 
+            "salience": 0.034373622
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "toy", 
+            "salience": 0.020987546
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.7, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Zander is super cute and cuddly.",
+                "content": "Zander is super cute and cuddly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Active, healthy and playful.",
+                "content": "Active, healthy and playful.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is also quiet and is happy when given a toy to play with.",
+                "content": "He is also quiet and is happy when given a toy to play with.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Makes a great companion.",
+                "content": "Makes a great companion.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Zander",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.94463885,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Zander",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "companion",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.034373622,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "companion",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "toy",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.020987546,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "toy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.7,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Zander is super cute and cuddly. Active, healthy and playful. He is also quiet and is happy when given a toy to play with. Makes a great companion. ", 
+    "categories": []
 }

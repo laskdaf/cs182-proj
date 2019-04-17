@@ -1,137 +1,138 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "wandering", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "wandering", 
+            "salience": 0.5478289
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Segi College Kota Damansara", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0b6h3sg", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/SEGi_University"
+            }, 
+            "type": "LOCATION", 
+            "name": "Segi College Kota Damansara", 
+            "salience": 0.13931064
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eye", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "eye", 
+            "salience": 0.08444988
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tag", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "tag", 
+            "salience": 0.0785691
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "choke chain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "choke chain", 
+            "salience": 0.07762866
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cataract", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cataract", 
+            "salience": 0.07221279
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found her wandering near Segi College Kota Damansara.",
+                "content": "Found her wandering near Segi College Kota Damansara.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "With a choke chain, without tag, both eye has cataract, friendly.",
+                "content": "With a choke chain, without tag, both eye has cataract, friendly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Kindly contact me if you lost you want to adopt.",
+                "content": "Kindly contact me if you lost you want to adopt.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "wandering",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5478289,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "wandering",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Segi College Kota Damansara",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0b6h3sg",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/SEGi_University"
-            },
-            "salience": 0.13931064,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Segi College Kota Damansara",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "eye",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08444988,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eye",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "tag",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0785691,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tag",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "choke chain",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07762866,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "choke chain",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cataract",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07221279,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cataract",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Found her wandering near Segi College Kota Damansara. With a choke chain, without tag, both eye has cataract, friendly. Kindly contact me if you lost you want to adopt. ", 
+    "categories": []
 }

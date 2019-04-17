@@ -1,122 +1,123 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.6492264
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.29916018
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "DOB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "DOB", 
+            "salience": 0.025033915
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KOTA KINABALU", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01_g7f", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Kinabalu"
+            }, 
+            "type": "LOCATION", 
+            "name": "KOTA KINABALU", 
+            "salience": 0.01328975
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SABAH", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/07348", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Sabah"
+            }, 
+            "type": "LOCATION", 
+            "name": "SABAH", 
+            "salience": 0.01328975
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "The second largest puppy among his 3 siblings, the most introverted puppy among them, but very intelligent.",
+                "content": "The second largest puppy among his 3 siblings, the most introverted puppy among them, but very intelligent.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "DOB: 23th Dec , 7.23PM ONLY AVAILABLE IN KOTA KINABALU, SABAH.",
+                "content": "DOB: 23th Dec , 7.23PM ONLY AVAILABLE IN KOTA KINABALU, SABAH.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6492264,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.29916018,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "DOB",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.025033915,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "DOB",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "KOTA KINABALU",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/01_g7f",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Kinabalu"
-            },
-            "salience": 0.01328975,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "KOTA KINABALU",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "SABAH",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Sabah",
-                "mid": "/m/07348"
-            },
-            "salience": 0.01328975,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SABAH",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "The second largest puppy among his 3 siblings, the most introverted puppy among them, but very intelligent. DOB: 23th Dec , 7.23PM ONLY AVAILABLE IN KOTA KINABALU, SABAH. ", 
+    "categories": []
 }

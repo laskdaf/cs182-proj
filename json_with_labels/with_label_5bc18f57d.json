@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 0.7324885
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Leo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Mr", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/11f3m8bslq", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Mr._Leo"
+            }, 
+            "type": "PERSON", 
+            "name": "Leo", 
+            "salience": 0.18097714
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Fat Boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Fat Boy", 
+            "salience": 0.08653434
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This fat girl is belongs to the Fat Boy If want to adopt her or ask about her just call me Mr Leo",
+                "content": "This fat girl is belongs to the Fat Boy If want to adopt her or ask about her just call me Mr Leo", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7324885,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Leo",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/g/11f3m8bslq",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Mr._Leo"
-            },
-            "salience": 0.18097714,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Leo",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Mr",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Fat Boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.08653434,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Fat Boy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "This fat girl is belongs to the Fat Boy If want to adopt her or ask about her just call me Mr Leo ", 
+    "categories": []
 }

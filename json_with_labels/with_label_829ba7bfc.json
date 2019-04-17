@@ -1,84 +1,85 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tying", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "tying", 
+            "salience": 0.60603535
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Commitment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Commitment", 
+            "salience": 0.17096797
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "purposes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "purposes", 
+            "salience": 0.17096797
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Amy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Amy", 
+            "salience": 0.052028682
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "No tying or caging for long hours except for precautionary purposes Commitment to spay her is compulsory Interested to adopt pls call Amy",
+                "content": "No tying or caging for long hours except for precautionary purposes Commitment to spay her is compulsory Interested to adopt pls call Amy", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "tying",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.60603535,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tying",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Commitment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17096797,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Commitment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "purposes",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17096797,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "purposes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Amy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.052028682,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Amy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "No tying or caging for long hours except for precautionary purposes Commitment to spay her is compulsory Interested to adopt pls call Amy ", 
+    "categories": []
 }

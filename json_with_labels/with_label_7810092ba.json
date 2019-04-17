@@ -1,124 +1,125 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.57620883
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "factory", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "factory", 
+            "salience": 0.17992118
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.09444318
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "weather", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "weather", 
+            "salience": 0.07471348
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.05081614
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.023897205
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": -0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "2 pups found nearby a factory.",
+                "content": "2 pups found nearby a factory.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "the weather recently is terrible, hope that someone can give these poor pups a home.",
+                "content": "the weather recently is terrible, hope that someone can give these poor pups a home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": -0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.57620883,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "factory",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.17992118,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "factory",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.09444318,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "weather",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07471348,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "weather",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05081614,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.023897205,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": -0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "2 pups found nearby a factory. the weather recently is terrible, hope that someone can give these poor pups a home. ", 
+    "categories": []
 }

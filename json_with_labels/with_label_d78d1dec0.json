@@ -1,141 +1,142 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.49522248
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mums", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mums", 
+            "salience": 0.2056874
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "homes", 
+            "salience": 0.137406
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Grace Bong", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Ms", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Grace Bong", 
+            "salience": 0.084410034
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.05583686
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chaining", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chaining", 
+            "salience": 0.021437192
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "These are 20 puppies, from 2 stray mums need good homes.",
+                "content": "These are 20 puppies, from 2 stray mums need good homes.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They are 2 weeks old.",
+                "content": "They are 2 weeks old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you can give them a good home without caging or chaining, please whatsapp or msg Ms Grace Bong tel no:",
+                "content": "If you can give them a good home without caging or chaining, please whatsapp or msg Ms Grace Bong tel no:", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.49522248,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mums",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.2056874,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mums",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "homes",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.137406,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "homes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Grace Bong",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.084410034,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Grace Bong",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Ms",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05583686,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chaining",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.021437192,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chaining",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.6,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "These are 20 puppies, from 2 stray mums need good homes. They are 2 weeks old. If you can give them a good home without caging or chaining, please whatsapp or msg Ms Grace Bong tel no: ", 
+    "categories": []
 }

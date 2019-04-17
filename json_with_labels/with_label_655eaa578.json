@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "active and adorable puppy.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.8,
-                "score": 0.8
-            }
-        },
-        {
-            "text": {
-                "content": "Quiet.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.7,
-                "score": 0.7
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "puppy",
+                        "content": "puppy", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 1.6,
+        "magnitude": 1.6, 
         "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "active and adorable puppy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Quiet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "raw_content": "active and adorable puppy. Quiet. ", 
+    "categories": []
 }

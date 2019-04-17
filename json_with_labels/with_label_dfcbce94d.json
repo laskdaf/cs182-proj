@@ -1,139 +1,140 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rascal", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "rascal", 
+            "salience": 0.8968327
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "children", 
+            "salience": 0.042576347
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.027626164
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "opportunity", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "opportunity", 
+            "salience": 0.021133272
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Astro", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Astro", 
+            "salience": 0.011831517
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This little rascal is so active that he will want to be with you wherever you go.",
+                "content": "This little rascal is so active that he will want to be with you wherever you go.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is playful and loves children.",
+                "content": "He is playful and loves children.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Astro has been vaccinated and dewormed.",
+                "content": "Astro has been vaccinated and dewormed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please give him an opportunity to a loving home.",
+                "content": "Please give him an opportunity to a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "You wont regret it",
+                "content": "You wont regret it", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "rascal",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8968327,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rascal",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "children",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.042576347,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "children",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.027626164,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "opportunity",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.021133272,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "opportunity",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Astro",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.011831517,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Astro",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.5,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "This little rascal is so active that he will want to be with you wherever you go. He is playful and loves children. Astro has been vaccinated and dewormed. Please give him an opportunity to a loving home. You wont regret it ", 
+    "categories": []
 }

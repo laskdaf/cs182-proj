@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 0.557542
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sparkles", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Sparkles", 
+            "salience": 0.40560248
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccines", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccines", 
+            "salience": 0.036855493
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Sparkles is an adorable 3 month old girl who has had her vaccines.",
+                "content": "Sparkles is an adorable 3 month old girl who has had her vaccines.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please contact",
+                "content": "Please contact", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.557542,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Sparkles",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.40560248,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sparkles",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vaccines",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.036855493,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccines",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.7,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Sparkles is an adorable 3 month old girl who has had her vaccines. Please contact ", 
+    "categories": []
 }

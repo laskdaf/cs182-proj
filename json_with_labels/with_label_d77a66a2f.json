@@ -1,159 +1,160 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family issues", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "family issues", 
+            "salience": 0.49035987
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.20554247
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "condo", 
+            "salience": 0.19600701
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.049204886
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "name", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "name", 
+            "salience": 0.023897756
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "naps", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "naps", 
+            "salience": 0.019950736
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bella", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Bella", 
+            "salience": 0.015037251
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.1, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "I adopted her but due to family issues and moving to a condo I need to find a new loving home for her.",
+                "content": "I adopted her but due to family issues and moving to a condo I need to find a new loving home for her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is very cute and quiet.",
+                "content": "She is very cute and quiet.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Play when she wakes up after her short naps.",
+                "content": "Play when she wakes up after her short naps.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Her name is Bella I love her so much, and I hope to find a good home for her.",
+                "content": "Her name is Bella I love her so much, and I hope to find a good home for her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "family issues",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.49035987,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family issues",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.20554247,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "condo",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.19600701,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "condo",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.049204886,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "name",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.023897756,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "name",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "naps",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.019950736,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "naps",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Bella",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015037251,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Bella",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.1,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "I adopted her but due to family issues and moving to a condo I need to find a new loving home for her. She is very cute and quiet. Play when she wakes up after her short naps. Her name is Bella I love her so much, and I hope to find a good home for her. ", 
+    "categories": []
 }

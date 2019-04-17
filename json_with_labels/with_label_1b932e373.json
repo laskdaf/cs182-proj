@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brains", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "brains", 
+            "salience": 0.53772044
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kisses", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "kisses", 
+            "salience": 0.28149912
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "manja", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "manja", 
+            "salience": 0.18078041
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Very lovable, active, the &quot;brains&quot; (clever), manja and full of kisses!",
+                "content": "Very lovable, active, the &quot;brains&quot; (clever), manja and full of kisses!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "brains",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.53772044,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brains",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kisses",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.28149912,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kisses",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "manja",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.18078041,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "manja",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Very lovable, active, the &quot;brains&quot; (clever), manja and full of kisses! ", 
+    "categories": []
 }

@@ -1,293 +1,294 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Harry", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Harry", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Harry", 
+            "salience": 0.6087788
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.13649154
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "poodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "poodle", 
+            "salience": 0.068402916
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Someone", 
+            "salience": 0.05466655
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Min", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Min", 
+            "salience": 0.04111035
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heart problems", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heart problems", 
+            "salience": 0.01778994
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "check ups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "check ups", 
+            "salience": 0.016498627
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.015368393
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "number", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "number", 
+            "salience": 0.012415409
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "info", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "info", 
+            "salience": 0.012415409
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescue pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rescue pets", 
+            "salience": 0.0086933235
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "One Petz", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/11c3k9lxww"
+            }, 
+            "type": "LOCATION", 
+            "name": "One Petz", 
+            "salience": 0.0073687965
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Harry is up for adoption...",
+                "content": "Harry is up for adoption...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Min poodle.",
+                "content": "Min poodle.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Male.",
+                "content": "Male.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is about 7 to 8 years old.",
+                "content": "He is about 7 to 8 years old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Harry is having heart problems and need special care.",
+                "content": "Harry is having heart problems and need special care.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Someone who can monitor him and send for check ups from time to time.",
+                "content": "Someone who can monitor him and send for check ups from time to time.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If your interested, u can visit him here at One Petz.",
+                "content": "If your interested, u can visit him here at One Petz.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Contact this number for more info...",
+                "content": "Contact this number for more info...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "* rescue pets are NOT allowed to breed",
+                "content": "* rescue pets are NOT allowed to breed", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Harry",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6087788,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Harry",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Harry",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13649154,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "poodle",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.068402916,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "poodle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05466655,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Min",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04111035,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Min",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "heart problems",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01778994,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heart problems",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "check ups",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016498627,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "check ups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015368393,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "number",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012415409,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "number",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "info",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012415409,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "info",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rescue pets",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0086933235,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rescue pets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "One Petz",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/g/11c3k9lxww"
-            },
-            "salience": 0.0073687965,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "One Petz",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.6,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Harry is up for adoption... Min poodle. Male. He is about 7 to 8 years old. Harry is having heart problems and need special care. Someone who can monitor him and send for check ups from time to time. If your interested, u can visit him here at One Petz. Contact this number for more info... * rescue pets are NOT allowed to breed ", 
+    "categories": []
 }

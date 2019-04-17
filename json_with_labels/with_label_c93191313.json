@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "caramel colour", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "caramel colour", 
+            "salience": 0.57833356
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fur", 
+            "salience": 0.42166644
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "very playful and active.caramel colour with very soft fur.",
+                "content": "very playful and active.caramel colour with very soft fur.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "caramel colour",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.57833356,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "caramel colour",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fur",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.42166644,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fur",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "very playful and active.caramel colour with very soft fur. ", 
+    "categories": []
 }

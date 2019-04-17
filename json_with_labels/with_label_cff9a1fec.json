@@ -1,152 +1,153 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "water", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "water", 
+            "salience": 0.66056097
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hose", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hose", 
+            "salience": 0.10960142
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "watering holes.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "watering holes.", 
+            "salience": 0.0749017
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sprays.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sprays.", 
+            "salience": 0.0739966
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "monsoon drain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "monsoon drain", 
+            "salience": 0.036459904
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.022885814
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Seremban", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0371_6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Seremban"
+            }, 
+            "type": "LOCATION", 
+            "name": "Seremban", 
+            "salience": 0.021593584
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "She LOVES water....",
+                "content": "She LOVES water....", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She will chase your hose.",
+                "content": "She will chase your hose.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "she will go chase the sprays.She will splash all your watering holes.I wonder whether these are reminiscent of how she was bagged with her 9 other siblings &amp; thrown to be drowned in a monsoon drain in Seremban.",
+                "content": "she will go chase the sprays.She will splash all your watering holes.I wonder whether these are reminiscent of how she was bagged with her 9 other siblings &amp; thrown to be drowned in a monsoon drain in Seremban.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "water",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.66056097,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "water",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hose",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10960142,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hose",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "watering holes.",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0749017,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "watering holes.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sprays.",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0739966,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sprays.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "monsoon drain",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.036459904,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "monsoon drain",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.022885814,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Seremban",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0371_6",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Seremban"
-            },
-            "salience": 0.021593584,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Seremban",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "She LOVES water.... She will chase your hose. she will go chase the sprays.She will splash all your watering holes.I wonder whether these are reminiscent of how she was bagged with her 9 other siblings &amp; thrown to be drowned in a monsoon drain in Seremban. ", 
+    "categories": []
 }

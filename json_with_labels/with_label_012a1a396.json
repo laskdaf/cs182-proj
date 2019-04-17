@@ -1,316 +1,317 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ones", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ones", 
+            "salience": 0.65179414
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road side", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "road side", 
+            "salience": 0.17023659
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Size", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Size", 
+            "salience": 0.02769628
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Maturity", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Maturity", 
+            "salience": 0.022521293
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "check", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "check", 
+            "salience": 0.022437261
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jeans Vet Centre", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Jeans Vet Centre", 
+            "salience": 0.022384102
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.0223267
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jalan Medan Ipoh", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1wnbvhxz"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "Jalan Medan Ipoh", 
+            "salience": 0.014463339
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jean Vet Centre", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/11bwdf7v5l"
+            }, 
+            "type": "LOCATION", 
+            "name": "Jean Vet Centre", 
+            "salience": 0.013198535
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ipoh", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01rv39", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ipoh"
+            }, 
+            "type": "LOCATION", 
+            "name": "Ipoh", 
+            "salience": 0.008032705
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "contact", 
+            "salience": 0.006824167
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Ipoh Timur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1tvrx67w"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "Taman Ipoh Timur", 
+            "salience": 0.006438604
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Perak", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/015q02", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Perak"
+            }, 
+            "type": "LOCATION", 
+            "name": "Perak", 
+            "salience": 0.0064280555
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.0052182465
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "These two little ones were found abandoned by the road side.",
+                "content": "These two little ones were found abandoned by the road side.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They were brought in to Jeans Vet Centre for medical check up.",
+                "content": "They were brought in to Jeans Vet Centre for medical check up.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Now they are ready for adoption.",
+                "content": "Now they are ready for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Size of Maturity should be Medium small.",
+                "content": "Size of Maturity should be Medium small.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We believe not more than 10kg.",
+                "content": "We believe not more than 10kg.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you think you can give them a good home.",
+                "content": "If you think you can give them a good home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please do contact Jean Vet Centre at Add: 12 Jalan Medan Ipoh, Taman Ipoh Timur, Ipoh.",
+                "content": "Please do contact Jean Vet Centre at Add: 12 Jalan Medan Ipoh, Taman Ipoh Timur, Ipoh.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Perak.",
+                "content": "Perak.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "ones",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.65179414,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ones",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "road side",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17023659,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "road side",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Size",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02769628,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Size",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Maturity",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022521293,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Maturity",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "check",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022437261,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "check",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jeans Vet Centre",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.022384102,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jeans Vet Centre",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0223267,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jalan Medan Ipoh",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/g/1wnbvhxz"
-            },
-            "salience": 0.014463339,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jalan Medan Ipoh",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Jean Vet Centre",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/g/11bwdf7v5l"
-            },
-            "salience": 0.013198535,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jean Vet Centre",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Ipoh",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Ipoh",
-                "mid": "/m/01rv39"
-            },
-            "salience": 0.008032705,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ipoh",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "contact",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.006824167,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "contact",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Taman Ipoh Timur",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/g/1tvrx67w"
-            },
-            "salience": 0.006438604,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Taman Ipoh Timur",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Perak",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/015q02",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Perak"
-            },
-            "salience": 0.0064280555,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Perak",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0052182465,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "These two little ones were found abandoned by the road side. They were brought in to Jeans Vet Centre for medical check up. Now they are ready for adoption. Size of Maturity should be Medium small. We believe not more than 10kg. If you think you can give them a good home. Please do contact Jean Vet Centre at Add: 12 Jalan Medan Ipoh, Taman Ipoh Timur, Ipoh. Perak. ", 
+    "categories": []
 }

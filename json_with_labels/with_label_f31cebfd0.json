@@ -1,92 +1,93 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hair", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hair", 
+            "salience": 0.55048394
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "melaka", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/05fsj1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Malacca_City"
+            }, 
+            "type": "LOCATION", 
+            "name": "melaka", 
+            "salience": 0.255872
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.19364405
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "found on 4/5/12 at melaka.",
+                "content": "found on 4/5/12 at melaka.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "small dog.",
+                "content": "small dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "hair may recover pls adopt it",
+                "content": "hair may recover pls adopt it", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "hair",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.55048394,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hair",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "melaka",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/05fsj1",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Malacca_City"
-            },
-            "salience": 0.255872,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "melaka",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.19364405,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "found on 4/5/12 at melaka. small dog. hair may recover pls adopt it ", 
+    "categories": []
 }

@@ -1,64 +1,65 @@
 {
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Schnauzer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Schnauzer", 
+            "salience": 0.7280916
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condition", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "condition", 
+            "salience": 0.27190837
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "1 years old male Schnauzer.",
+                "content": "1 years old male Schnauzer.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Healthy condition.",
+                "content": "Healthy condition.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Schnauzer",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.7280916,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Schnauzer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "condition",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.27190837,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "condition",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    ], 
+    "raw_content": "1 years old male Schnauzer. Healthy condition. ", 
+    "categories": []
 }

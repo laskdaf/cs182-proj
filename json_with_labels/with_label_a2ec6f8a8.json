@@ -1,187 +1,188 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "puppy dog", 
+            "salience": 0.34011203
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "version", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "version", 
+            "salience": 0.28420913
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rownie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Rownie", 
+            "salience": 0.2191638
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.043435372
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.033915862
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kind", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "kind", 
+            "salience": 0.02983125
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "German Shepard", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0km5c", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/German_Shepherd"
+            }, 
+            "type": "WORK_OF_ART", 
+            "name": "German Shepard", 
+            "salience": 0.02551455
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "foods", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "foods", 
+            "salience": 0.023818001
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Rownie was a cute puppy dog.",
+                "content": "Rownie was a cute puppy dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Briefly, he is a &quot;mini version&quot; of the &quot;German Shepard&quot; family.",
+                "content": "Briefly, he is a &quot;mini version&quot; of the &quot;German Shepard&quot; family.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I mean he is look a like.",
+                "content": "I mean he is look a like.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is funny &amp; play full.",
+                "content": "He is funny &amp; play full.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I have trained him to consume all kind of healthy food inclusive of pure vegetarian foods.",
+                "content": "I have trained him to consume all kind of healthy food inclusive of pure vegetarian foods.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy dog",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.34011203,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "version",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.28420913,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "version",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Rownie",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.2191638,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rownie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.043435372,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.033915862,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kind",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02983125,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kind",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "German Shepard",
-            "type": "WORK_OF_ART",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/German_Shepherd",
-                "mid": "/m/0km5c"
-            },
-            "salience": 0.02551455,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "German Shepard",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "foods",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.023818001,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "foods",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Rownie was a cute puppy dog. Briefly, he is a &quot;mini version&quot; of the &quot;German Shepard&quot; family. I mean he is look a like. He is funny &amp; play full. I have trained him to consume all kind of healthy food inclusive of pure vegetarian foods. ", 
+    "categories": []
 }

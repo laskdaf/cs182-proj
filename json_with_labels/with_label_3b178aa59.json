@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "He is either lost or abandoned.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.4,
-                "score": -0.4
-            }
-        },
-        {
-            "text": {
-                "content": "Please contact us if you know his owner...",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "owner",
+                        "content": "owner", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.4,
+        "magnitude": 0.4, 
         "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "He is either lost or abandoned.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please contact us if you know his owner...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "raw_content": "He is either lost or abandoned. Please contact us if you know his owner... ", 
+    "categories": []
 }

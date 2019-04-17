@@ -1,198 +1,199 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "females", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Puppies", 
+            "salience": 0.640797
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mechanic", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mechanic", 
+            "salience": 0.10729278
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "workshop", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "workshop", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "workshop", 
+            "salience": 0.10391798
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mechanic", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Mechanic", 
+            "salience": 0.055534013
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "homes", 
+            "salience": 0.04207654
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Puppies", 
+            "salience": 0.02289546
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "health", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "health", 
+            "salience": 0.018960908
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owners", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owners", 
+            "salience": 0.008525275
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Four (4) Puppies, all females, looking for new homes.",
+                "content": "Four (4) Puppies, all females, looking for new homes.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "My mechanic found them abandoned near his workshop.",
+                "content": "My mechanic found them abandoned near his workshop.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Puppies are in good health and very playful.",
+                "content": "Puppies are in good health and very playful.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Mechanic is temporarily housing them in his workshop.",
+                "content": "Mechanic is temporarily housing them in his workshop.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Urgently need new owners...",
+                "content": "Urgently need new owners...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Puppies",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.640797,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "females",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mechanic",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.10729278,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mechanic",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "workshop",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.10391798,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "workshop",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "workshop",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Mechanic",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.055534013,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Mechanic",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "homes",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.04207654,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "homes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02289546,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "health",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018960908,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "health",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owners",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.008525275,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owners",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Four (4) Puppies, all females, looking for new homes. My mechanic found them abandoned near his workshop. Puppies are in good health and very playful. Mechanic is temporarily housing them in his workshop. Urgently need new owners... ", 
+    "categories": []
 }

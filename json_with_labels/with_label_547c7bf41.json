@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "baby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "baby", 
+            "salience": 0.7000387
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.24481162
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "miss ooi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "miss ooi", 
+            "salience": 0.055149686
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "White baby for adoption!",
+                "content": "White baby for adoption!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "call miss ooi",
+                "content": "call miss ooi", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "baby",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7000387,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "baby",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.24481162,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "miss ooi",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.055149686,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "miss ooi",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.1,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "White baby for adoption! call miss ooi ", 
+    "categories": []
 }

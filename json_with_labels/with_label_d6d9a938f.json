@@ -1,84 +1,85 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "group", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "salience": 0.46093962, 
+            "name": "group", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur babies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.32976845, 
+            "name": "fur babies", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.10759794, 
+            "name": "food", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Hulu Langant", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.10169399, 
+            "name": "Hulu Langant", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": -0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found a group of 4 abandoned fur babies crying for food in Hulu Langant",
+                "content": "Found a group of 4 abandoned fur babies crying for food in Hulu Langant", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "group",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.46093962,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "group",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fur babies",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.32976845,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fur babies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10759794,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Hulu Langant",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.10169399,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Hulu Langant",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.6,
-        "score": -0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Found a group of 4 abandoned fur babies crying for food in Hulu Langant ", 
+    "categories": []
 }

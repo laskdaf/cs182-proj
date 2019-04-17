@@ -1,144 +1,145 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.6178495
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.13024604
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "thieves", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "thieves", 
+            "salience": 0.08886469
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "overseas.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "overseas.", 
+            "salience": 0.08227673
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Thanks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Thanks", 
+            "salience": 0.043681618
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Christine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Christine", 
+            "salience": 0.03708142
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Energetic and playful dog.",
+                "content": "Energetic and playful dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Good for securing home from thieves.",
+                "content": "Good for securing home from thieves.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Unable to adopt it anymore as i'm migrating overseas.Please sms or Whatsapp me (Christine) at if interested.",
+                "content": "Unable to adopt it anymore as i'm migrating overseas.Please sms or Whatsapp me (Christine) at if interested.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thanks.",
+                "content": "Thanks.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6178495,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.13024604,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "thieves",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.08886469,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "thieves",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "overseas.",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.08227673,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "overseas.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Thanks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.043681618,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Thanks",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Christine",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.03708142,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Christine",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.5,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Energetic and playful dog. Good for securing home from thieves. Unable to adopt it anymore as i'm migrating overseas.Please sms or Whatsapp me (Christine) at if interested. Thanks. ", 
+    "categories": []
 }

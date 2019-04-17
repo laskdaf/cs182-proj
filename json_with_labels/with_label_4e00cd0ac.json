@@ -1,141 +1,142 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mom", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mom", 
+            "salience": 0.5272536
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Peppi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Peppi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Peppi", 
+            "salience": 0.33743733
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "skin condition", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "skin condition", 
+            "salience": 0.0769884
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fast-learner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "fast-learner", 
+            "salience": 0.058320634
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Peppi was born to a stray mom.",
+                "content": "Peppi was born to a stray mom.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She was rescued.",
+                "content": "She was rescued.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Peppi has been detick.",
+                "content": "Peppi has been detick.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Has healthy skin condition.",
+                "content": "Has healthy skin condition.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very smart and a fast-learner.",
+                "content": "Very smart and a fast-learner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Doesn't whine and is obedient.",
+                "content": "Doesn't whine and is obedient.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mom",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5272536,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mom",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Peppi",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.33743733,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Peppi",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Peppi",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "skin condition",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0769884,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "skin condition",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fast-learner",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.058320634,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fast-learner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.4,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Peppi was born to a stray mom. She was rescued. Peppi has been detick. Has healthy skin condition. Very smart and a fast-learner. Doesn't whine and is obedient. ", 
+    "categories": []
 }

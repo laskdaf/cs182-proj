@@ -1,124 +1,125 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.4000385
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "workshop", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "workshop", 
+            "salience": 0.4000385
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lester Jenny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Lester Jenny", 
+            "salience": 0.13042147
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Adopters", 
+            "salience": 0.06950151
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found this handsome puppy in a workshop.",
+                "content": "Found this handsome puppy in a workshop.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is very friendly and active.",
+                "content": "He is very friendly and active.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Lester Jenny Will you adopt him?",
+                "content": "Lester Jenny Will you adopt him?", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "================================================== Adopters are required to vaccinate and neuter them.",
+                "content": "================================================== Adopters are required to vaccinate and neuter them.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "==================================================",
+                "content": "==================================================", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.4000385,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "workshop",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.4000385,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "workshop",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Lester Jenny",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.13042147,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Lester Jenny",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.06950151,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Found this handsome puppy in a workshop. He is very friendly and active. Lester Jenny Will you adopt him? ================================================== Adopters are required to vaccinate and neuter them. ================================================== ", 
+    "categories": []
 }

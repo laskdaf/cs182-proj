@@ -1,64 +1,65 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Adopter", 
+            "salience": 0.7044857
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pups", 
+            "salience": 0.29551426
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "2 cute look-a-like, active and adorable.",
+                "content": "2 cute look-a-like, active and adorable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter must be willing to spay and vaccinate the pups.",
+                "content": "Adopter must be willing to spay and vaccinate the pups.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Adopter",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7044857,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.29551426,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "2 cute look-a-like, active and adorable. Adopter must be willing to spay and vaccinate the pups. ", 
+    "categories": []
 }

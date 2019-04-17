@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Thanks to all those called me.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.1,
-                "score": 0.1
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Thanks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Thanks",
+                        "content": "Thanks", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Thanks", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.1,
+        "magnitude": 0.1, 
         "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Thanks to all those called me.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "raw_content": "Thanks to all those called me. ", 
+    "categories": []
 }

@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "FOOD", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "FOOD", 
+            "salience": 0.5027627
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SCARVING", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "SCARVING", 
+            "salience": 0.49723732
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": -0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "THEY ARE THREE OF THEM.........SCARVING FOR FOOD ALMOST EVERYDAY..NEED HELP!!!",
+                "content": "THEY ARE THREE OF THEM.........SCARVING FOR FOOD ALMOST EVERYDAY..NEED HELP!!!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "FOOD",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5027627,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "FOOD",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "SCARVING",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.49723732,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SCARVING",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.1,
-        "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "THEY ARE THREE OF THEM.........SCARVING FOR FOOD ALMOST EVERYDAY..NEED HELP!!! ", 
+    "categories": []
 }

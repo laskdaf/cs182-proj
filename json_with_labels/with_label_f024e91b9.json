@@ -1,159 +1,160 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.39062348
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mother", 
+            "salience": 0.39062348
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shop lot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "shop lot", 
+            "salience": 0.05789293
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Boy", 
+            "salience": 0.052974995
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "workers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "workers", 
+            "salience": 0.047204815
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lorry", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "lorry", 
+            "salience": 0.040159136
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.02052119
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.4, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "4 stray puppies without mother.",
+                "content": "4 stray puppies without mother.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Currently some foreign workers are keeping them outside the shop lot.",
+                "content": "Currently some foreign workers are keeping them outside the shop lot.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Boy #1 knocked down by a lorry yesterday.",
+                "content": "Boy #1 knocked down by a lorry yesterday.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Now left 3 pups.",
+                "content": "Now left 3 pups.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.39062348,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "mother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.39062348,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "shop lot",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05789293,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "shop lot",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.052974995,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "workers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.047204815,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "workers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lorry",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.040159136,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lorry",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.02052119,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.4,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "4 stray puppies without mother. Currently some foreign workers are keeping them outside the shop lot. Boy #1 knocked down by a lorry yesterday. Now left 3 pups. ", 
+    "categories": []
 }

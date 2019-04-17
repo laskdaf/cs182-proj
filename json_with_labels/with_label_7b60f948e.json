@@ -1,182 +1,183 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "name", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "name", 
+            "salience": 0.3956412
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mika", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/025xh6t", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Mika_(singer)"
+            }, 
+            "type": "PERSON", 
+            "name": "Mika", 
+            "salience": 0.26525447
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccine", 
+            "salience": 0.16204357
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "more", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "more", 
+            "salience": 0.069589004
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.043699555
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cage", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cage", 
+            "salience": 0.03748123
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cage", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cage", 
+            "salience": 0.02629098
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Her name is Mika.",
+                "content": "Her name is Mika.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "First vaccine done, another 2 more to go.",
+                "content": "First vaccine done, another 2 more to go.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's about 2months old.",
+                "content": "She's about 2months old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very active, healthy and lovable puppy.",
+                "content": "Very active, healthy and lovable puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She stays indoor, and doesn't want to be in the cage.",
+                "content": "She stays indoor, and doesn't want to be in the cage.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopter please don't put her in cage.",
+                "content": "Adopter please don't put her in cage.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "name",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3956412,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "name",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Mika",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/025xh6t",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Mika_(singer)"
-            },
-            "salience": 0.26525447,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Mika",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "vaccine",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16204357,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccine",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "more",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.069589004,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "more",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.043699555,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cage",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03748123,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cage",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cage",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02629098,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cage",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Her name is Mika. First vaccine done, another 2 more to go. She's about 2months old. Very active, healthy and lovable puppy. She stays indoor, and doesn't want to be in the cage. Adopter please don't put her in cage. ", 
+    "categories": []
 }

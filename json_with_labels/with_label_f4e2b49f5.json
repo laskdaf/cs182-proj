@@ -1,179 +1,180 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "appetite", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "appetite", 
+            "salience": 0.39292282
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Boozer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Boozer", 
+            "salience": 0.20295641
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.1645897
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "highway", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "highway", 
+            "salience": 0.05635261
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "side", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "side", 
+            "salience": 0.05567809
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dash", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "dash", 
+            "salience": 0.039023466
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "white", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "white", 
+            "salience": 0.039023466
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chest", 
+            "salience": 0.027430126
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "black", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "black", 
+            "salience": 0.022023328
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "active and great appetite for food.",
+                "content": "active and great appetite for food.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Found by the side of the highway 4 weeks ago.",
+                "content": "Found by the side of the highway 4 weeks ago.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Boozer is full black with a little dash of white on his chest.",
+                "content": "Boozer is full black with a little dash of white on his chest.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "appetite",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.39292282,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "appetite",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Boozer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.20295641,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Boozer",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.1645897,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "highway",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05635261,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "highway",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "side",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05567809,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "side",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dash",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.039023466,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dash",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "white",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.039023466,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "white",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chest",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027430126,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chest",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "black",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022023328,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "black",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "active and great appetite for food. Found by the side of the highway 4 weeks ago. Boozer is full black with a little dash of white on his chest. ", 
+    "categories": []
 }

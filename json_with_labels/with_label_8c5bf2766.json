@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "homes", 
+            "salience": 0.6576115
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "details", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "details", 
+            "salience": 0.34238848
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "waiting for a good homes, any serious adopter please do directly contact with me for more details, THANKS!",
+                "content": "waiting for a good homes, any serious adopter please do directly contact with me for more details, THANKS!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "homes",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.6576115,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "homes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "details",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.34238848,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "details",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "waiting for a good homes, any serious adopter please do directly contact with me for more details, THANKS! ", 
+    "categories": []
 }

@@ -1,303 +1,304 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Molly", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Molly", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Molly", 
+            "salience": 0.50306404
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "homes", 
+            "salience": 0.21484838
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Oreo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Oreo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0x1bbzb", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Oreo"
+            }, 
+            "type": "OTHER", 
+            "name": "Oreo", 
+            "salience": 0.07392003
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Charlie Molly", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Charlie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Charlie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Charlie Molly", 
+            "salience": 0.04415805
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "feeder", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "feeder", 
+            "salience": 0.027641144
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "person", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "person", 
+            "salience": 0.024763975
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "two", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "two", 
+            "salience": 0.024763975
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "post", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "post", 
+            "salience": 0.024463223
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Fosterer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Fosterer", 
+            "salience": 0.01704899
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Facebook", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/02y1vz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Facebook"
+            }, 
+            "type": "OTHER", 
+            "name": "Facebook", 
+            "salience": 0.0144979805
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "babies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "babies", 
+            "salience": 0.011921013
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.010357134
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adopter", 
+            "salience": 0.008552057
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Urgent homes needed...",
+                "content": "Urgent homes needed...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "there were 3 to start with Charlie Molly and Oreo they were homeless and being fed.",
+                "content": "there were 3 to start with Charlie Molly and Oreo they were homeless and being fed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Molly and Charlie went missing the feeder was horrified but luckily due to a Facebook post we discovered a very kind person had rescued the two of them and was looking after them.",
+                "content": "Molly and Charlie went missing the feeder was horrified but luckily due to a Facebook post we discovered a very kind person had rescued the two of them and was looking after them.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has returned Charlie now because there is an adopter but Molly will stay with her temporarily until another adopter can be found.",
+                "content": "She has returned Charlie now because there is an adopter but Molly will stay with her temporarily until another adopter can be found.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Oreo is with a different Fosterer.",
+                "content": "Oreo is with a different Fosterer.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please give them a permanent home they're so cute and such little babies.",
+                "content": "Please give them a permanent home they're so cute and such little babies.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Molly",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.50306404,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Molly",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Molly",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "homes",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.21484838,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "homes",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Oreo",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/0x1bbzb",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Oreo"
-            },
-            "salience": 0.07392003,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Oreo",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Oreo",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Charlie Molly",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04415805,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Charlie Molly",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Charlie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Charlie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "feeder",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027641144,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "feeder",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "person",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.024763975,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "person",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "two",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.024763975,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "two",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "post",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.024463223,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "post",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Fosterer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.01704899,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Fosterer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Facebook",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/02y1vz",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Facebook"
-            },
-            "salience": 0.0144979805,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Facebook",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "babies",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.011921013,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "babies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.010357134,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopter",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.008552057,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Urgent homes needed... there were 3 to start with Charlie Molly and Oreo they were homeless and being fed. Molly and Charlie went missing the feeder was horrified but luckily due to a Facebook post we discovered a very kind person had rescued the two of them and was looking after them. She has returned Charlie now because there is an adopter but Molly will stay with her temporarily until another adopter can be found. Oreo is with a different Fosterer. Please give them a permanent home they're so cute and such little babies. ", 
+    "categories": []
 }

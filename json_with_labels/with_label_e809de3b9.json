@@ -1,257 +1,258 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.33430472
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Batu Caves", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0syp9", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Batu_Caves"
+            }, 
+            "type": "LOCATION", 
+            "name": "Batu Caves", 
+            "salience": 0.20446563
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "female", 
+            "salience": 0.07385251
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "female", 
+            "salience": 0.06355314
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "males", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "males", 
+            "salience": 0.06344797
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brown one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brown one", 
+            "salience": 0.052625347
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "litter", 
+            "salience": 0.044226535
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "nose", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "nose", 
+            "salience": 0.0438444
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "doorstep", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "doorstep", 
+            "salience": 0.04060989
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "home.", 
+            "salience": 0.035768136
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "left", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "left", 
+            "salience": 0.029845197
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rest", 
+            "salience": 0.013456535
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "These puppies at located at Batu Caves.",
+                "content": "These puppies at located at Batu Caves.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "There are 2 males and 1 female.",
+                "content": "There are 2 males and 1 female.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The brown one with the black nose is the female.",
+                "content": "The brown one with the black nose is the female.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They were originally a litter of 8 that was dumped at our doorstep.",
+                "content": "They were originally a litter of 8 that was dumped at our doorstep.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The rest have already gotten adopted and there are just 3 left.",
+                "content": "The rest have already gotten adopted and there are just 3 left.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please help us find them a good and loving home.Thank you.",
+                "content": "Please help us find them a good and loving home.Thank you.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.33430472,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Batu Caves",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0syp9",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Batu_Caves"
-            },
-            "salience": 0.20446563,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Batu Caves",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "female",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.07385251,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "female",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.06355314,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "males",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.06344797,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "males",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brown one",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.052625347,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brown one",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "litter",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.044226535,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "litter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "nose",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0438444,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "nose",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "doorstep",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04060989,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "doorstep",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home.",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.035768136,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "left",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.029845197,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "left",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rest",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013456535,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rest",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.1,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "These puppies at located at Batu Caves. There are 2 males and 1 female. The brown one with the black nose is the female. They were originally a litter of 8 that was dumped at our doorstep. The rest have already gotten adopted and there are just 3 left. Please help us find them a good and loving home.Thank you. ", 
+    "categories": []
 }

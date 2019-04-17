@@ -1,283 +1,284 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sister", 
+            "salience": 0.28672263
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brother", 
+            "salience": 0.2547218
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Both", 
+            "salience": 0.118483074
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mok", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Ms", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Mok", 
+            "salience": 0.051905494
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lrt stations", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "lrt stations", 
+            "salience": 0.049530074
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "male", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "male", 
+            "salience": 0.04044631
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "female", 
+            "salience": 0.039957635
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bit", 
+            "salience": 0.038312316
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bit", 
+            "salience": 0.03518371
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sister", 
+            "salience": 0.03518371
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lim", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Mr", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Lim", 
+            "salience": 0.022959273
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.016340824
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "call", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "call", 
+            "salience": 0.010253139
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Both of them were brother and sister.",
+                "content": "Both of them were brother and sister.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They were rescued from lrt stations.",
+                "content": "They were rescued from lrt stations.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They are tiny and cute.",
+                "content": "They are tiny and cute.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The female is a little bit more timid and the male is a little bit 'cooler' than its sister.",
+                "content": "The female is a little bit more timid and the male is a little bit 'cooler' than its sister.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please do call (Mr Lim) / (Ms Mok) if you are keen to adopt these puppies :)",
+                "content": "Please do call (Mr Lim) / (Ms Mok) if you are keen to adopt these puppies :)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "thanks alot!",
+                "content": "thanks alot!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "sister",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.28672263,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.2547218,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Both",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.118483074,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Both",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Mok",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.051905494,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Mok",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Ms",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lrt stations",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.049530074,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lrt stations",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "male",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04044631,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "male",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "female",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.039957635,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bit",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.038312316,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bit",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bit",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03518371,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bit",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sister",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.03518371,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Lim",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.022959273,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Lim",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Mr",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016340824,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "call",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.010253139,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "call",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.4,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Both of them were brother and sister. They were rescued from lrt stations. They are tiny and cute. The female is a little bit more timid and the male is a little bit 'cooler' than its sister. Please do call (Mr Lim) / (Ms Mok) if you are keen to adopt these puppies :) thanks alot! ", 
+    "categories": []
 }

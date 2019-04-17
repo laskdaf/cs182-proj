@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "salience": 0.6056283
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "babies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "babies", 
+            "salience": 0.33837602
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "four", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "four", 
+            "salience": 0.05599566
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Kindly contact us if anyone is interested in adopting these cute little babies.",
+                "content": "Kindly contact us if anyone is interested in adopting these cute little babies.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "All four of them are female.",
+                "content": "All four of them are female.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6056283,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "babies",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.33837602,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "babies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "four",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05599566,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "four",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Kindly contact us if anyone is interested in adopting these cute little babies. All four of them are female. ", 
+    "categories": []
 }

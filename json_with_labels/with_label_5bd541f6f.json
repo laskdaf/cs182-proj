@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "U", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "U", 
+            "salience": 0.30281368
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.30234423
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Home Pls", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Home Pls", 
+            "salience": 0.29820272
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "MSG", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "MSG", 
+            "salience": 0.09663933
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Playful...",
+                "content": "Playful...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Is A Quite puppy...",
+                "content": "Is A Quite puppy...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If U Sure U Can give Her A Home Pls leave a MSG",
+                "content": "If U Sure U Can give Her A Home Pls leave a MSG", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "U",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.30281368,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "U",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.30234423,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Home Pls",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.29820272,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Home Pls",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "MSG",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.09663933,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "MSG",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Playful... Is A Quite puppy... If U Sure U Can give Her A Home Pls leave a MSG ", 
+    "categories": []
 }

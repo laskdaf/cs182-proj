@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Smart n cutie...",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.6,
-                "score": 0.6
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "cutie",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "cutie",
+                        "content": "cutie", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cutie", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.6,
+        "magnitude": 0.6, 
         "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Smart n cutie...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "raw_content": "Smart n cutie... ", 
+    "categories": []
 }

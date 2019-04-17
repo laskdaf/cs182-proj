@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sister", 
+            "salience": 0.539402
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brothers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brothers", 
+            "salience": 0.2021024
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.18837766
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "info", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "info", 
+            "salience": 0.070117965
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "He was born on the 1st of January Together with his 3 brothers and 1 sister who was up for adoption too.",
+                "content": "He was born on the 1st of January Together with his 3 brothers and 1 sister who was up for adoption too.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Kindly contact me for more info if you are interested.",
+                "content": "Kindly contact me for more info if you are interested.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "sister",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.539402,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brothers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.2021024,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brothers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.18837766,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "info",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.070117965,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "info",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "He was born on the 1st of January Together with his 3 brothers and 1 sister who was up for adoption too. Kindly contact me for more info if you are interested. ", 
+    "categories": []
 }

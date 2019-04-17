@@ -1,111 +1,112 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.44633174
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lil", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "lil", 
+            "salience": 0.3471414
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "shelter", 
+            "salience": 0.11829838
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SPCA Seberang Perai", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1pzvjjyth"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "SPCA Seberang Perai", 
+            "salience": 0.06298934
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "email", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "email", 
+            "salience": 0.025239125
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "The lil' puppy is currently taking shelter at SPCA Seberang Perai.",
+                "content": "The lil' puppy is currently taking shelter at SPCA Seberang Perai.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Those interested to adopt him may contact us via email.",
+                "content": "Those interested to adopt him may contact us via email.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.44633174,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lil",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.3471414,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lil",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "shelter",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11829838,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "shelter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "SPCA Seberang Perai",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/g/1pzvjjyth"
-            },
-            "salience": 0.06298934,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SPCA Seberang Perai",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "email",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.025239125,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "email",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "The lil' puppy is currently taking shelter at SPCA Seberang Perai. Those interested to adopt him may contact us via email. ", 
+    "categories": []
 }

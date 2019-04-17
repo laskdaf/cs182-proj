@@ -1,209 +1,210 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.35951865
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ally", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Ally", 
+            "salience": 0.26579747
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.16751441
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neutering", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "neutering", 
+            "salience": 0.050136566
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "age", 
+            "salience": 0.04977753
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Vaccination", 
+            "salience": 0.048350465
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.030125232
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Eddie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Eddie", 
+            "salience": 0.014389837
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rachel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Rachel", 
+            "salience": 0.014389837
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Ally is among six siblings looking for a home.",
+                "content": "Ally is among six siblings looking for a home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is active and adventurous, even at this young age.",
+                "content": "She is active and adventurous, even at this young age.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Vaccination and neutering are compulsory, cost to be borne by adopter.",
+                "content": "Vaccination and neutering are compulsory, cost to be borne by adopter.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Viewing on Sundays only.",
+                "content": "Viewing on Sundays only.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call if you can give her a good home.",
+                "content": "Please call if you can give her a good home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Adopted 27 July by Eddie and Rachel.",
+                "content": "Adopted 27 July by Eddie and Rachel.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.35951865,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Ally",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.26579747,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ally",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.16751441,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neutering",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.050136566,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neutering",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "age",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04977753,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "age",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Vaccination",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.048350465,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Vaccination",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.030125232,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Eddie",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.014389837,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Eddie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Rachel",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.014389837,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rachel",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Ally is among six siblings looking for a home. She is active and adventurous, even at this young age. Vaccination and neutering are compulsory, cost to be borne by adopter. Viewing on Sundays only. Please call if you can give her a good home. Adopted 27 July by Eddie and Rachel. ", 
+    "categories": []
 }

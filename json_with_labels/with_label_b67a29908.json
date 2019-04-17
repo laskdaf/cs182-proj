@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "skin", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "skin", 
+            "salience": 0.46057594
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "baby adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "baby adoption", 
+            "salience": 0.30489212
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ooi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "ooi", 
+            "salience": 0.11726598
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "miss", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "miss", 
+            "salience": 0.11726598
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "white aka wrinkly skin and face baby adoption!",
+                "content": "white aka wrinkly skin and face baby adoption!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "call miss ooi at",
+                "content": "call miss ooi at", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "skin",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.46057594,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "skin",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "baby adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.30489212,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "baby adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ooi",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.11726598,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ooi",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "miss",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.11726598,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "miss",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "white aka wrinkly skin and face baby adoption! call miss ooi at ", 
+    "categories": []
 }

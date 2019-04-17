@@ -1,264 +1,265 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "salience": 0.31778866
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pup", 
+            "salience": 0.31346384
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sis", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sis", 
+            "salience": 0.15939747
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "land", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "land", 
+            "salience": 0.06265793
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "business", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "business", 
+            "salience": 0.026284928
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "car", 
+            "salience": 0.025651673
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "box", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "box", 
+            "salience": 0.0205914
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "check", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "check", 
+            "salience": 0.018973859
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.01824055
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spaying surgery", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "spaying surgery", 
+            "salience": 0.014247846
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.012736049
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.0099658
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This little pup and her sis were left to die in a vacant land.",
+                "content": "This little pup and her sis were left to die in a vacant land.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "When I was reversing my car, I saw a tiny little pup walked out from a box to do her business.",
+                "content": "When I was reversing my car, I saw a tiny little pup walked out from a box to do her business.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "When she is done, she walked back in.",
+                "content": "When she is done, she walked back in.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "When I go check on them, I realize they too young to fend for themselves.",
+                "content": "When I go check on them, I realize they too young to fend for themselves.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is an active little dog.",
+                "content": "She is an active little dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I'll pay for the spaying surgery.",
+                "content": "I'll pay for the spaying surgery.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "All I wish is a good loving home for these pups.",
+                "content": "All I wish is a good loving home for these pups.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.31778866,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pup",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.31346384,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sis",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15939747,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sis",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "land",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.06265793,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "land",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "business",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.026284928,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "business",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "car",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.025651673,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "car",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "box",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0205914,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "box",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "check",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018973859,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "check",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01824055,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "spaying surgery",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014247846,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "spaying surgery",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.012736049,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0099658,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "This little pup and her sis were left to die in a vacant land. When I was reversing my car, I saw a tiny little pup walked out from a box to do her business. When she is done, she walked back in. When I go check on them, I realize they too young to fend for themselves. She is an active little dog. I'll pay for the spaying surgery. All I wish is a good loving home for these pups. ", 
+    "categories": []
 }

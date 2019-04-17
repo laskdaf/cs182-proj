@@ -1,89 +1,90 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Teddy Bear", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0kmg4", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Teddy_bear"
+            }, 
+            "type": "OTHER", 
+            "name": "Teddy Bear", 
+            "salience": 0.9324889
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tummy rub", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "tummy rub", 
+            "salience": 0.04138625
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.026124815
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Teddy Bear is a playful puppy.",
+                "content": "Teddy Bear is a playful puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He likes to be with people and tummy rub.",
+                "content": "He likes to be with people and tummy rub.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Teddy Bear",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/0kmg4",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Teddy_bear"
-            },
-            "salience": 0.9324889,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Teddy Bear",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "tummy rub",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04138625,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tummy rub",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.026124815,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Teddy Bear is a playful puppy. He likes to be with people and tummy rub. ", 
+    "categories": []
 }

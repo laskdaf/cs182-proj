@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ginger n Kinky", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Ginger n Kinky", 
+            "salience": 0.64825547
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lil", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Lil", 
+            "salience": 0.19259186
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condition", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "condition", 
+            "salience": 0.15915267
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": -0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Ginger n Kinky were rescued when they were Lil pup.they lived in very sad condition.",
+                "content": "Ginger n Kinky were rescued when they were Lil pup.they lived in very sad condition.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Ginger n Kinky",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.64825547,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ginger n Kinky",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Lil",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.19259186,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Lil",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "condition",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15915267,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "condition",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": -0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Ginger n Kinky were rescued when they were Lil pup.they lived in very sad condition. ", 
+    "categories": []
 }

@@ -1,97 +1,98 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.55546886
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.18325417
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Email", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Email", 
+            "salience": 0.14140141
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Wechat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0h_9v3h", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/WeChat"
+            }, 
+            "type": "CONSUMER_GOOD", 
+            "name": "Wechat", 
+            "salience": 0.119875565
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "seven years old, very friendly dog, looking for the serious owner.",
+                "content": "seven years old, very friendly dog, looking for the serious owner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Wechat: Email:",
+                "content": "Wechat: Email:", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.55546886,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.18325417,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Email",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14140141,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Email",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Wechat",
-            "type": "CONSUMER_GOOD",
-            "metadata": {
-                "mid": "/m/0h_9v3h",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/WeChat"
-            },
-            "salience": 0.119875565,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Wechat",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "seven years old, very friendly dog, looking for the serious owner. Wechat: Email: ", 
+    "categories": []
 }

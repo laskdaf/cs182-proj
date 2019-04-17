@@ -1,234 +1,235 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Someone", 
+            "salience": 0.54829806
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "factory", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "factory", 
+            "salience": 0.21397632
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fur", 
+            "salience": 0.04957959
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "skin", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "skin", 
+            "salience": 0.041338235
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "street", 
+            "salience": 0.028349394
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "people", 
+            "salience": 0.02820957
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "patient", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "patient", 
+            "salience": 0.025809767
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "love", 
+            "salience": 0.014884994
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.013661266
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Thanks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Thanks", 
+            "salience": 0.013661266
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "advance", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "advance", 
+            "salience": 0.013661266
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.008570237
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Someone dumped her in a factory one week ago.",
+                "content": "Someone dumped her in a factory one week ago.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is very friendly, skin and fur is very nice too, she definitely don't know how to survive in the street.",
+                "content": "She is very friendly, skin and fur is very nice too, she definitely don't know how to survive in the street.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Currently there's people is feeding her.",
+                "content": "Currently there's people is feeding her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She even know how to be patient to wait for her food, doesn't simply bark at all, she still very young, please give her a forever love home if you can \u263a\ufe0f Thanks in advance.",
+                "content": "She even know how to be patient to wait for her food, doesn't simply bark at all, she still very young, please give her a forever love home if you can \u263a\ufe0f Thanks in advance.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.54829806,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "factory",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.21397632,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "factory",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fur",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04957959,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fur",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "skin",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.041338235,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "skin",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "street",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.028349394,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "street",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "people",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.02820957,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "people",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "patient",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.025809767,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "patient",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "love",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014884994,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "love",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.013661266,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Thanks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013661266,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Thanks",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "advance",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013661266,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "advance",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.008570237,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Someone dumped her in a factory one week ago. She is very friendly, skin and fur is very nice too, she definitely don't know how to survive in the street. Currently there's people is feeding her. She even know how to be patient to wait for her food, doesn't simply bark at all, she still very young, please give her a forever love home if you can \u263a\ufe0f Thanks in advance. ", 
+    "categories": []
 }

@@ -1,112 +1,113 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mix", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mix", 
+            "salience": 0.3954571
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Max", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Max", 
+            "salience": 0.25121918
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.19025964
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "vet", 
+            "salience": 0.10180593
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Belgian Shepherd", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/02v9hz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Belgian_Shepherd"
+            }, 
+            "type": "PERSON", 
+            "name": "Belgian Shepherd", 
+            "salience": 0.061258156
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Max is a mix and once quoted by a vet as a Belgian Shepherd look a like.",
+                "content": "Max is a mix and once quoted by a vet as a Belgian Shepherd look a like.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "It is a playful and lovely dog.",
+                "content": "It is a playful and lovely dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mix",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3954571,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mix",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Max",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.25121918,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Max",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.19025964,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vet",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.10180593,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Belgian Shepherd",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/02v9hz",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Belgian_Shepherd"
-            },
-            "salience": 0.061258156,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Belgian Shepherd",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Max is a mix and once quoted by a vet as a Belgian Shepherd look a like. It is a playful and lovely dog. ", 
+    "categories": []
 }

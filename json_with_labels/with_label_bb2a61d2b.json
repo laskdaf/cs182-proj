@@ -1,127 +1,128 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Shy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01dl7h", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Shyness"
+            }, 
+            "type": "OTHER", 
+            "name": "Shy", 
+            "salience": 0.69208866
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "nature", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "nature", 
+            "salience": 0.15136553
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "families", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "families", 
+            "salience": 0.0527666
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kids", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "kids", 
+            "salience": 0.04853488
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fee", 
+            "salience": 0.046823744
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "TLC Adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "TLC Adoption", 
+            "salience": 0.008420605
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Shy is gentle in nature and shy as it's called.",
+                "content": "Shy is gentle in nature and shy as it's called.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Great for families with kids given the TLC Adoption is free ; spay/neutering fee borne by adopter",
+                "content": "Great for families with kids given the TLC Adoption is free ; spay/neutering fee borne by adopter", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Shy",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/01dl7h",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Shyness"
-            },
-            "salience": 0.69208866,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Shy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "nature",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15136553,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "nature",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "families",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0527666,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "families",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kids",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04853488,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kids",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fee",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.046823744,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fee",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "TLC Adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.008420605,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "TLC Adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Shy is gentle in nature and shy as it's called. Great for families with kids given the TLC Adoption is free ; spay/neutering fee borne by adopter ", 
+    "categories": []
 }

@@ -1,112 +1,113 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "males", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "males", 
+            "salience": 0.57144505
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Benjy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Benjy", 
+            "salience": 0.17095175
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Leo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/078fxh", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Leo_(astrology)"
+            }, 
+            "type": "OTHER", 
+            "name": "Leo", 
+            "salience": 0.16734399
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sky", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Sky", 
+            "salience": 0.07055626
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccines", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccines", 
+            "salience": 0.01970293
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": -0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Leo, Benjy and Sky are all males and 2 months old.",
+                "content": "Leo, Benjy and Sky are all males and 2 months old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They have all had their vaccines Contact",
+                "content": "They have all had their vaccines Contact", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "males",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.57144505,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "males",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Benjy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.17095175,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Benjy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Leo",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/078fxh",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Leo_(astrology)"
-            },
-            "salience": 0.16734399,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Leo",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Sky",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.07055626,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sky",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "vaccines",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01970293,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccines",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Leo, Benjy and Sky are all males and 2 months old. They have all had their vaccines Contact ", 
+    "categories": []
 }

@@ -1,114 +1,115 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pug", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pug", 
+            "salience": 0.8937349
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Reason", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Reason", 
+            "salience": 0.047330298
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "space", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "space", 
+            "salience": 0.043005686
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.015929172
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "he is an adorable and cute young pug.",
+                "content": "he is an adorable and cute young pug.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Toilet-trained.",
+                "content": "Toilet-trained.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If interested, please call (May).",
+                "content": "If interested, please call (May).", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Reason to put for adoption: there's not enough space to keep him.",
+                "content": "Reason to put for adoption: there's not enough space to keep him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pug",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8937349,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pug",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Reason",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.047330298,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Reason",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "space",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.043005686,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "space",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015929172,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.6,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "he is an adorable and cute young pug. Toilet-trained. If interested, please call (May). Reason to put for adoption: there's not enough space to keep him. ", 
+    "categories": []
 }

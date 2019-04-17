@@ -1,127 +1,128 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sisters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sisters", 
+            "salience": 0.4211118
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Twinkie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0svwd", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Twinkie"
+            }, 
+            "type": "OTHER", 
+            "name": "Twinkie", 
+            "salience": 0.2563438
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tootsie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "Tootsie", 
+            "salience": 0.25093395
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "areas", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "areas", 
+            "salience": 0.029544735
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "watchdogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "watchdogs", 
+            "salience": 0.023456074
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "housing", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "housing", 
+            "salience": 0.018609628
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Tootsie and Twinkie are 2 healthy sisters.",
+                "content": "Tootsie and Twinkie are 2 healthy sisters.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They are really good watchdogs in housing/industrial areas.",
+                "content": "They are really good watchdogs in housing/industrial areas.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "sisters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.4211118,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sisters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Twinkie",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/0svwd",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Twinkie"
-            },
-            "salience": 0.2563438,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Twinkie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Tootsie",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.25093395,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Tootsie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "areas",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.029544735,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "areas",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "watchdogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.023456074,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "watchdogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "housing",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.018609628,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "housing",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.7,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Tootsie and Twinkie are 2 healthy sisters. They are really good watchdogs in housing/industrial areas. ", 
+    "categories": []
 }

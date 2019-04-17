@@ -1,279 +1,280 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighborhood", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "neighborhood", 
+            "salience": 0.40633717
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.16197005
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "place", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "place", 
+            "salience": 0.053756002
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.053756002
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sun", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sun", 
+            "salience": 0.05355543
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "danger", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "danger", 
+            "salience": 0.049225956
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "council", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "council", 
+            "salience": 0.049225956
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "residents", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "residents", 
+            "salience": 0.037091054
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "most", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "most", 
+            "salience": 0.03619515
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animal haters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "animal haters", 
+            "salience": 0.03282134
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "T.L.C.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "T.L.C.", 
+            "salience": 0.02730068
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.0224092
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.016356006
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "She was dumped here in the neighborhood by irresponsible owner.",
+                "content": "She was dumped here in the neighborhood by irresponsible owner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": -0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Was seen wandering around &amp; was sleeping under the sun.",
+                "content": "Was seen wandering around &amp; was sleeping under the sun.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She desperately need some T.L.C.",
+                "content": "She desperately need some T.L.C.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "&amp; a place she can call home.",
+                "content": "&amp; a place she can call home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's also in danger since the municipal council is hunting for stray dogs to be killed.",
+                "content": "She's also in danger since the municipal council is hunting for stray dogs to be killed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Plus, most of the residents here are animal haters.",
+                "content": "Plus, most of the residents here are animal haters.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please bring her home.",
+                "content": "Please bring her home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "neighborhood",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.40633717,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neighborhood",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.16197005,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "place",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.053756002,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "place",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.053756002,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sun",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05355543,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sun",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "danger",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.049225956,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "danger",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "council",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.049225956,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "council",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "residents",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.037091054,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "residents",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "most",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03619515,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "most",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "animal haters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.03282134,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "animal haters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "T.L.C.",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.02730068,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "T.L.C.",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0224092,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016356006,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "She was dumped here in the neighborhood by irresponsible owner. Was seen wandering around &amp; was sleeping under the sun. She desperately need some T.L.C. &amp; a place she can call home. She's also in danger since the municipal council is hunting for stray dogs to be killed. Plus, most of the residents here are animal haters. Please bring her home. ", 
+    "categories": []
 }

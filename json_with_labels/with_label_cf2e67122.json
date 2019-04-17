@@ -1,187 +1,188 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescue", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rescue", 
+            "salience": 0.6320966
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road side", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "road side", 
+            "salience": 0.20594612
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gasing Vet Hospital", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1w04gl_r"
+            }, 
+            "type": "LOCATION", 
+            "name": "Gasing Vet Hospital", 
+            "salience": 0.050562955
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PJ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/03dqts", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
+            }, 
+            "type": "PERSON", 
+            "name": "PJ", 
+            "salience": 0.050562955
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ex", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ex", 
+            "salience": 0.025933983
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.019485159
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "English", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/02h40lc", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/English_language"
+            }, 
+            "type": "OTHER", 
+            "name": "English", 
+            "salience": 0.015412212
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "He was rescue from road side and send to Gasing Vet Hospital in PJ.",
+                "content": "He was rescue from road side and send to Gasing Vet Hospital in PJ.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is very healthy, playful and naughty too.",
+                "content": "He is very healthy, playful and naughty too.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He can understand basin English ex.",
+                "content": "He can understand basin English ex.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "come, go, sit and up.",
+                "content": "come, go, sit and up.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I am looking lovely home for him.",
+                "content": "I am looking lovely home for him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is now staying with me.",
+                "content": "He is now staying with me.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "rescue",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6320966,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rescue",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "road side",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.20594612,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "road side",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Gasing Vet Hospital",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/g/1w04gl_r"
-            },
-            "salience": 0.050562955,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Gasing Vet Hospital",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "PJ",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/03dqts",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
-            },
-            "salience": 0.050562955,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "PJ",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "ex",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.025933983,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ex",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.019485159,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "English",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/02h40lc",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/English_language"
-            },
-            "salience": 0.015412212,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "English",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.3,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "He was rescue from road side and send to Gasing Vet Hospital in PJ. He is very healthy, playful and naughty too. He can understand basin English ex. come, go, sit and up. I am looking lovely home for him. He is now staying with me. ", 
+    "categories": []
 }

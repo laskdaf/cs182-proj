@@ -1,204 +1,205 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "doggie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "doggie", 
+            "salience": 0.68928266
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "name", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "name", 
+            "salience": 0.08173133
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jack", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jack", 
+            "salience": 0.052117016
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.047189087
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "reasons", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "reasons", 
+            "salience": 0.04662448
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.03468278
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "love", 
+            "salience": 0.021022253
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "post", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "post", 
+            "salience": 0.01103862
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Chris", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Chris", 
+            "salience": 0.00936101
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Anyone", 
+            "salience": 0.006950786
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This is my cute lovely doggie, his name is Jack, Due to my personal reasons, i must let it go to new good owner.",
+                "content": "This is my cute lovely doggie, his name is Jack, Due to my personal reasons, i must let it go to new good owner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hope someone can care, love and being nice to him.",
+                "content": "Hope someone can care, love and being nice to him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Anyone interested pls whatsapp or sms me at Chris.",
+                "content": "Anyone interested pls whatsapp or sms me at Chris.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you for viewing this post and hope to share it.",
+                "content": "Thank you for viewing this post and hope to share it.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "doggie",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.68928266,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "doggie",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "name",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08173133,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "name",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jack",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.052117016,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jack",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.047189087,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "reasons",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04662448,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "reasons",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.03468278,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "love",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.021022253,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "love",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "post",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.01103862,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "post",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Chris",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.00936101,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Chris",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.006950786,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.5,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "This is my cute lovely doggie, his name is Jack, Due to my personal reasons, i must let it go to new good owner. Hope someone can care, love and being nice to him. Anyone interested pls whatsapp or sms me at Chris. Thank you for viewing this post and hope to share it. ", 
+    "categories": []
 }

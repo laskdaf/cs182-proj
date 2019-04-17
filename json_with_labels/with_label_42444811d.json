@@ -1,189 +1,190 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Pups", 
+            "salience": 0.43072006
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adult dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adult dog", 
+            "salience": 0.15020572
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.11404391
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.101612784
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "1st Male - Brown", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "1st Male - Brown", 
+            "salience": 0.060972776
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brothers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brothers", 
+            "salience": 0.049996678
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "linings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "linings", 
+            "salience": 0.031406432
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ears", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ears", 
+            "salience": 0.031406432
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "@", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "@", 
+            "salience": 0.029635215
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "They're about 3 weeks old.",
+                "content": "They're about 3 weeks old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pups of my adult dog.",
+                "content": "Pups of my adult dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I have 3 cute pups looking for new home.",
+                "content": "I have 3 cute pups looking for new home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "1st Male - Brown - playful, active 2nd Male - White - playful, active, has yellow linings on both ears 3rd female - White - very chubby, not as playful as the brothers for now Contact me @",
+                "content": "1st Male - Brown - playful, active 2nd Male - White - playful, active, has yellow linings on both ears 3rd female - White - very chubby, not as playful as the brothers for now Contact me @", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.43072006,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adult dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15020572,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adult dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.11404391,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.101612784,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "1st Male - Brown",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.060972776,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "1st Male - Brown",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "brothers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.049996678,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brothers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "linings",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.031406432,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "linings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ears",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.031406432,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ears",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "@",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.029635215,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "@",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "They're about 3 weeks old. Pups of my adult dog. I have 3 cute pups looking for new home. 1st Male - Brown - playful, active 2nd Male - White - playful, active, has yellow linings on both ears 3rd female - White - very chubby, not as playful as the brothers for now Contact me @ ", 
+    "categories": []
 }

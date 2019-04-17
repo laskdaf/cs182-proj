@@ -1,52 +1,53 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Lovely, obediant and quiet.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.9,
-                "score": 0.9
-            }
-        },
-        {
-            "text": {
-                "content": "Very pretty face for a Shih Tzu",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "Shih Tzu",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Shih_Tzu",
-                "mid": "/m/01s7fj"
-            },
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "Shih Tzu",
+                        "content": "Shih Tzu", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
                 }
-            ]
+            ], 
+            "metadata": {
+                "mid": "/m/01s7fj", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Shih_Tzu"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "Shih Tzu", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 1,
+        "magnitude": 1, 
         "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Lovely, obediant and quiet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very pretty face for a Shih Tzu", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "raw_content": "Lovely, obediant and quiet. Very pretty face for a Shih Tzu ", 
+    "categories": []
 }

@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road kill", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "road kill", 
+            "salience": 0.3974397
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "wife", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "wife", 
+            "salience": 0.27844468
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Samaritans", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Samaritans", 
+            "salience": 0.2566441
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "guy", 
+            "salience": 0.06747153
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "He was nearly became a road kill before me and my wife and also some Good Samaritans help to rescue him.",
+                "content": "He was nearly became a road kill before me and my wife and also some Good Samaritans help to rescue him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very affectionate little guy!",
+                "content": "Very affectionate little guy!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "road kill",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.3974397,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "road kill",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "wife",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.27844468,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "wife",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Samaritans",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.2566441,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Samaritans",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "guy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.06747153,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "He was nearly became a road kill before me and my wife and also some Good Samaritans help to rescue him. Very affectionate little guy! ", 
+    "categories": []
 }

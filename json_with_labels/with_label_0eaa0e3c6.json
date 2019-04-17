@@ -1,122 +1,123 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lucky", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Lucky", 
+            "salience": 0.83718246
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Miniature Schnauzer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/020z66", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Miniature_Schnauzer"
+            }, 
+            "type": "PERSON", 
+            "name": "Miniature Schnauzer", 
+            "salience": 0.07450011
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "no one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "no one", 
+            "salience": 0.039607223
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "streets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "streets", 
+            "salience": 0.032653883
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.016056309
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Lucky is a parti-coloured Miniature Schnauzer, which is rare here.",
+                "content": "Lucky is a parti-coloured Miniature Schnauzer, which is rare here.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He was found on the streets a few months ago and no one has come forward to claim him.",
+                "content": "He was found on the streets a few months ago and no one has come forward to claim him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If you think you can give him a loving, forever home, please call or.",
+                "content": "If you think you can give him a loving, forever home, please call or.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Lucky",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.83718246,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Lucky",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Miniature Schnauzer",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/020z66",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Miniature_Schnauzer"
-            },
-            "salience": 0.07450011,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Miniature Schnauzer",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "no one",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.039607223,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "no one",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "streets",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.032653883,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "streets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.016056309,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Lucky is a parti-coloured Miniature Schnauzer, which is rare here. He was found on the streets a few months ago and no one has come forward to claim him. If you think you can give him a loving, forever home, please call or. ", 
+    "categories": []
 }

@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "JB Area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "JB Area", 
+            "salience": 0.56927204
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "whatsapp", 
+            "salience": 0.43072796
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Just born 2 weeks ago, interested please call or whatsapp JB Area.",
+                "content": "Just born 2 weeks ago, interested please call or whatsapp JB Area.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "JB Area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.56927204,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "JB Area",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "whatsapp",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.43072796,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "whatsapp",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Just born 2 weeks ago, interested please call or whatsapp JB Area. ", 
+    "categories": []
 }

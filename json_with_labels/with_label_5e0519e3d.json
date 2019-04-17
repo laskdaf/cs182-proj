@@ -1,197 +1,198 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Anna &amp; Elsa", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0ydr21d", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Elsa_(Frozen)"
+            }, 
+            "type": "PERSON", 
+            "name": "Anna & Elsa", 
+            "salience": 0.40861312
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "female", 
+            "salience": 0.33933267
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heartworm negative", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heartworm negative", 
+            "salience": 0.092238635
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "doggies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "doggies", 
+            "salience": 0.0855384
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "lot", 
+            "salience": 0.04556098
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.02871618
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.9, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Anna &amp; Elsa",
+                "content": "Anna &amp; Elsa", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "both female",
+                "content": "both female", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "spayed",
+                "content": "spayed", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "fully vaccinated",
+                "content": "fully vaccinated", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "distemper negative",
+                "content": "distemper negative", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "heartworm negative",
+                "content": "heartworm negative", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "birth date 18th August",
+                "content": "birth date 18th August", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "MUST be adopted together These 2 lovely doggies need their loving home urgently.",
+                "content": "MUST be adopted together These 2 lovely doggies need their loving home urgently.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They were abandoned and went through a lot.",
+                "content": "They were abandoned and went through a lot.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": -0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Anna & Elsa",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/0ydr21d",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Elsa_(Frozen)"
-            },
-            "salience": 0.40861312,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Anna &amp; Elsa",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "female",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.33933267,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heartworm negative",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.092238635,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heartworm negative",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "doggies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0855384,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "doggies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lot",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04556098,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lot",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.02871618,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.9,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Anna &amp; Elsa both female spayed fully vaccinated distemper negative heartworm negative birth date 18th August MUST be adopted together These 2 lovely doggies need their loving home urgently. They were abandoned and went through a lot. ", 
+    "categories": []
 }

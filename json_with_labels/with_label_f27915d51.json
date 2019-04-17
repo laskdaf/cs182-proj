@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "These puppies were left behind",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.4,
-                "score": -0.4
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "puppies",
+                        "content": "puppies", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.4,
+        "magnitude": 0.4, 
         "score": -0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "These puppies were left behind", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }
+    ], 
+    "raw_content": "These puppies were left behind ", 
+    "categories": []
 }

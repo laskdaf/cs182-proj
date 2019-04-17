@@ -1,89 +1,90 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "salience": 0.44327924
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.41485438
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "jalan keris taman sri tebrau JB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "jalan keris taman sri tebrau JB", 
+            "salience": 0.1418664
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Please adopt him!!!",
+                "content": "Please adopt him!!!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He need a home urgently.",
+                "content": "He need a home urgently.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Location at jalan keris taman sri tebrau JB.",
+                "content": "Location at jalan keris taman sri tebrau JB.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Location",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.44327924,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Location",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.41485438,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "jalan keris taman sri tebrau JB",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.1418664,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "jalan keris taman sri tebrau JB",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.1,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Please adopt him!!! He need a home urgently. Location at jalan keris taman sri tebrau JB. ", 
+    "categories": []
 }

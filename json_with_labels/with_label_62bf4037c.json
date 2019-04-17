@@ -1,137 +1,138 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Brandy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.79457563, 
+            "name": "Brandy", 
+            "metadata": {
+                "mid": "/m/03f3yfj", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Brandy_Norwood"
+            }
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sweetheart", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.10963129, 
+            "name": "sweetheart", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brown fur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.037938766, 
+            "name": "brown fur", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.027619423, 
+            "name": "one", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "batch", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.01852015, 
+            "name": "batch", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "streak", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.011714759, 
+            "name": "streak", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Brandy's such a sweetheart, gentle and timid.",
+                "content": "Brandy's such a sweetheart, gentle and timid.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has soft brown fur, tinted with unique black streak.",
+                "content": "She has soft brown fur, tinted with unique black streak.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The last one left in her batch.",
+                "content": "The last one left in her batch.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Brandy",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/03f3yfj",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Brandy_Norwood"
-            },
-            "salience": 0.79457563,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Brandy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "sweetheart",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10963129,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sweetheart",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brown fur",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.037938766,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brown fur",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "one",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.027619423,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "one",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "batch",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01852015,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "batch",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "streak",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011714759,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "streak",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.6,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Brandy's such a sweetheart, gentle and timid. She has soft brown fur, tinted with unique black streak. The last one left in her batch. ", 
+    "categories": []
 }

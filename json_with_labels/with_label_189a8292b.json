@@ -1,149 +1,150 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "skin disease", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "skin disease", 
+            "salience": 0.61255985
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kid", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "kid", 
+            "salience": 0.28771505
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rabbit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rabbit", 
+            "salience": 0.029510532
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dogs", 
+            "salience": 0.02915542
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.015603084
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "human", 
+            "salience": 0.015603084
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "space", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "space", 
+            "salience": 0.009852938
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "She have minor skin disease but it should be ok if threated properly.",
+                "content": "She have minor skin disease but it should be ok if threated properly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please help this poor kid as i already have 3 dogs and 2 rabbit and no space available for her.",
+                "content": "Please help this poor kid as i already have 3 dogs and 2 rabbit and no space available for her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": -0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is extremely friendly with dog s and human.",
+                "content": "She is extremely friendly with dog s and human.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "skin disease",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.61255985,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "skin disease",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kid",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.28771505,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kid",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rabbit",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.029510532,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rabbit",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02915542,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015603084,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "human",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.015603084,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "human",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "space",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.009852938,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "space",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "She have minor skin disease but it should be ok if threated properly. Please help this poor kid as i already have 3 dogs and 2 rabbit and no space available for her. She is extremely friendly with dog s and human. ", 
+    "categories": []
 }

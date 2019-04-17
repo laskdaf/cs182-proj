@@ -1,209 +1,210 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ocha", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Ocha", 
+            "salience": 0.39361984
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cutie pie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cutie pie", 
+            "salience": 0.27593905
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sisters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sisters", 
+            "salience": 0.07324587
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cost", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cost", 
+            "salience": 0.050938047
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neutering", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "neutering", 
+            "salience": 0.050938047
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tea", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Tea", 
+            "salience": 0.04357265
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Chamelia", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Chamelia", 
+            "salience": 0.04357265
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Vaccination", 
+            "salience": 0.04090527
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.027268564
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Ocha is a small-medium size cutie pie.",
+                "content": "Ocha is a small-medium size cutie pie.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is often bullied by her sisters Tea and Chamelia.",
+                "content": "She is often bullied by her sisters Tea and Chamelia.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": -0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Playful and active, she is also very alert and affectionate.",
+                "content": "Playful and active, she is also very alert and affectionate.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "No tying up or caging for long hours.",
+                "content": "No tying up or caging for long hours.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Vaccination and neutering cost covered.",
+                "content": "Vaccination and neutering cost covered.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please give her a loving home.",
+                "content": "Please give her a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Ocha",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.39361984,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ocha",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "cutie pie",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.27593905,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cutie pie",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sisters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.07324587,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sisters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cost",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.050938047,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cost",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neutering",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.050938047,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neutering",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Tea",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04357265,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Tea",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Chamelia",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04357265,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Chamelia",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Vaccination",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04090527,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Vaccination",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.027268564,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Ocha is a small-medium size cutie pie. She is often bullied by her sisters Tea and Chamelia. Playful and active, she is also very alert and affectionate. No tying up or caging for long hours. Vaccination and neutering cost covered. Please give her a loving home. ", 
+    "categories": []
 }

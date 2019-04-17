@@ -1,156 +1,157 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Callie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "baby pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Callie Torres", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/02pcps2", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Callie_Torres"
+            }, 
+            "type": "PERSON", 
+            "name": "Callie Torres", 
+            "salience": 0.9224275
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "character", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Dr.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "character", 
+            "salience": 0.04383831
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.02237679
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.0058535393
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Grey's Anatomy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/05lfwd", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Grey's_Anatomy"
+            }, 
+            "type": "WORK_OF_ART", 
+            "name": "Grey's Anatomy", 
+            "salience": 0.0055038556
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Callie is around 2 months old.",
+                "content": "Callie is around 2 months old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I rescued her when she was still a baby pup.",
+                "content": "I rescued her when she was still a baby pup.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is an active &amp; loving puppy who is looking for a loving family.",
+                "content": "She is an active &amp; loving puppy who is looking for a loving family.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She takes after Dr.Callie Torres character from Grey's Anatomy.",
+                "content": "She takes after Dr.Callie Torres character from Grey's Anatomy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Callie Torres",
-            "type": "PERSON",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Callie_Torres",
-                "mid": "/m/02pcps2"
-            },
-            "salience": 0.9224275,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Callie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "baby pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Callie Torres",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "character",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04383831,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "character",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Dr.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02237679,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0058535393,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Grey's Anatomy",
-            "type": "WORK_OF_ART",
-            "metadata": {
-                "mid": "/m/05lfwd",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Grey's_Anatomy"
-            },
-            "salience": 0.0055038556,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Grey's Anatomy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Callie is around 2 months old. I rescued her when she was still a baby pup. She is an active &amp; loving puppy who is looking for a loving family. She takes after Dr.Callie Torres character from Grey's Anatomy. ", 
+    "categories": []
 }

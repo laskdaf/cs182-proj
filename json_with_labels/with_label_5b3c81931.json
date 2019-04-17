@@ -1,42 +1,43 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "WhatsApps",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "WhatsApps",
-            "type": "CONSUMER_GOOD",
-            "metadata": {
-                "mid": "/m/0gwzvs1",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/WhatsApp"
-            },
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "WhatsApps",
+                        "content": "WhatsApps", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
                 }
-            ]
+            ], 
+            "metadata": {
+                "mid": "/m/0gwzvs1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/WhatsApp"
+            }, 
+            "type": "CONSUMER_GOOD", 
+            "name": "WhatsApps", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0,
+        "magnitude": 0, 
         "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "WhatsApps", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "raw_content": "WhatsApps ", 
+    "categories": []
 }

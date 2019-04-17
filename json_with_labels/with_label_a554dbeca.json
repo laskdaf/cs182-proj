@@ -1,74 +1,75 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Puppy", 
+            "salience": 0.9280936
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heart melting attitude", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heart melting attitude", 
+            "salience": 0.07190641
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "She is a lovely &amp; Smart Puppy.",
+                "content": "She is a lovely &amp; Smart Puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Energetic with heart melting attitude!",
+                "content": "Energetic with heart melting attitude!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "You going to love her!",
+                "content": "You going to love her!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.9280936,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heart melting attitude",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07190641,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heart melting attitude",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "She is a lovely &amp; Smart Puppy. Energetic with heart melting attitude! You going to love her! ", 
+    "categories": []
 }

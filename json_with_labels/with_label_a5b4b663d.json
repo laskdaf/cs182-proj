@@ -1,317 +1,318 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.22774385
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "car", 
+            "salience": 0.18659465
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "house", 
+            "salience": 0.18659465
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mama dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Mama dog", 
+            "salience": 0.12653424
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Vet", 
+            "salience": 0.06495183
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Papa dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Papa dog", 
+            "salience": 0.041332696
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.030836044
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.030614452
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups milk", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pups milk", 
+            "salience": 0.024772517
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "environment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "environment", 
+            "salience": 0.01712392
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "injections", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "injections", 
+            "salience": 0.01712392
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "salience": 0.017068319
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0bt9lr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Dog"
+            }, 
+            "type": "PERSON", 
+            "name": "Pup", 
+            "salience": 0.016698172
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fever", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fever", 
+            "salience": 0.012010757
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Found the puppies under a stalled car outside house.",
+                "content": "Found the puppies under a stalled car outside house.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Mama dog is under nourished.",
+                "content": "Mama dog is under nourished.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Papa dog has passed away.",
+                "content": "Papa dog has passed away.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "7 puppies altogether.",
+                "content": "7 puppies altogether.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "6 been given away, 1 last one.",
+                "content": "6 been given away, 1 last one.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We're feeding the puppies with pups milk.",
+                "content": "We're feeding the puppies with pups milk.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pup not dewormed nor vaccinated.",
+                "content": "Pup not dewormed nor vaccinated.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Vet doesn't want to stress the pup as it would be given away and will have to adapt to new environment, coupled with injections, will cause fever.",
+                "content": "Vet doesn't want to stress the pup as it would be given away and will have to adapt to new environment, coupled with injections, will cause fever.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hence, we've not vaccinate him yet.",
+                "content": "Hence, we've not vaccinate him yet.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.22774385,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "car",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.18659465,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "car",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "house",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.18659465,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "house",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Mama dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12653424,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Mama dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Vet",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.06495183,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Vet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Papa dog",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.041332696,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Papa dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.030836044,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.030614452,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups milk",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.024772517,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups milk",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "environment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01712392,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "environment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "injections",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01712392,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "injections",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017068319,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Pup",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/0bt9lr",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Dog"
-            },
-            "salience": 0.016698172,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pup",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "fever",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012010757,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fever",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Found the puppies under a stalled car outside house. Mama dog is under nourished. Papa dog has passed away. 7 puppies altogether. 6 been given away, 1 last one. We're feeding the puppies with pups milk. Pup not dewormed nor vaccinated. Vet doesn't want to stress the pup as it would be given away and will have to adapt to new environment, coupled with injections, will cause fever. Hence, we've not vaccinate him yet. ", 
+    "categories": []
 }

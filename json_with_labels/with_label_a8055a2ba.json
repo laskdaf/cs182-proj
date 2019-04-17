@@ -1,222 +1,223 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brother", 
+            "salience": 0.6015525
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "side", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "side", 
+            "salience": 0.10280978
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "road", 
+            "salience": 0.10280978
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.043002613
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sunway", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0g2lsr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bandar_Sunway"
+            }, 
+            "type": "LOCATION", 
+            "name": "Sunway", 
+            "salience": 0.04188027
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "house", 
+            "salience": 0.03141609
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.029195221
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "floor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "floor", 
+            "salience": 0.023666874
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sleep", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sleep", 
+            "salience": 0.023666874
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.8, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Two days ago (20 May), my brother found her at the side of a busy main road in Sunway.",
+                "content": "Two days ago (20 May), my brother found her at the side of a busy main road in Sunway.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She looked lost and scared.",
+                "content": "She looked lost and scared.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "So, he took her home.",
+                "content": "So, he took her home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's chubby and cute - always curious and always exploring around the house.",
+                "content": "She's chubby and cute - always curious and always exploring around the house.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "However, after playing, she will plop down on the floor and sleep ...",
+                "content": "However, after playing, she will plop down on the floor and sleep ...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "she loves sleeping too!",
+                "content": "she loves sleeping too!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hope to find a loving home for her.",
+                "content": "Hope to find a loving home for her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "brother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6015525,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "side",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.10280978,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "side",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "road",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.10280978,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "road",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.043002613,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Sunway",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0g2lsr",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Bandar_Sunway"
-            },
-            "salience": 0.04188027,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sunway",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "house",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.03141609,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "house",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.029195221,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "floor",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.023666874,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "floor",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sleep",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.023666874,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sleep",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.8,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Two days ago (20 May), my brother found her at the side of a busy main road in Sunway. She looked lost and scared. So, he took her home. She's chubby and cute - always curious and always exploring around the house. However, after playing, she will plop down on the floor and sleep ... she loves sleeping too! Hope to find a loving home for her. ", 
+    "categories": []
 }

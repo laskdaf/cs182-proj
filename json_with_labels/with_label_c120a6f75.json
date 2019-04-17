@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Billy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Billy", 
+            "salience": 0.87723505
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.12276492
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": -0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Billy is 3 months old. if u want to adopt the dog, pls contact me at",
+                "content": "Billy is 3 months old. if u want to adopt the dog, pls contact me at", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Billy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.87723505,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Billy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12276492,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": -0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Billy is 3 months old. if u want to adopt the dog, pls contact me at ", 
+    "categories": []
 }

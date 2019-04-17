@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PLS CALL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "PLS CALL", 
+            "salience": 0.5934884
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "TEXT", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "TEXT", 
+            "salience": 0.40651157
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "PLS CALL OR TEXT KAREN",
+                "content": "PLS CALL OR TEXT KAREN", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "PLS CALL",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5934884,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "PLS CALL",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "TEXT",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.40651157,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "TEXT",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "PLS CALL OR TEXT KAREN ", 
+    "categories": []
 }

@@ -1,232 +1,233 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.5180713, 
+            "type": "PERSON", 
+            "name": "Friend", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.13866298, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.088665485, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "father", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.04712667, 
+            "type": "PERSON", 
+            "name": "father", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tail", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.043088652, 
+            "type": "OTHER", 
+            "name": "tail", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rear", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.043088652, 
+            "type": "OTHER", 
+            "name": "rear", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pedigree", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "salience": 0.032862302, 
+            "type": "OTHER", 
+            "name": "Pedigree", 
+            "metadata": {
+                "mid": "/m/031551", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Pedigree_chart"
+            }
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mongrel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.032394424, 
+            "type": "OTHER", 
+            "name": "mongrel", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bitch", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.027319042, 
+            "type": "OTHER", 
+            "name": "bitch", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neck", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.014385558, 
+            "type": "OTHER", 
+            "name": "neck", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyebrows", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "salience": 0.014334962, 
+            "type": "OTHER", 
+            "name": "eyebrows", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Friend want to give away for adoption because got too many puppy (half dozen).",
+                "content": "Friend want to give away for adoption because got too many puppy (half dozen).", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "One of her father is a Pedigree.",
+                "content": "One of her father is a Pedigree.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hairy tail, rear and neck.",
+                "content": "Hairy tail, rear and neck.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Long eyebrows.",
+                "content": "Long eyebrows.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Unlike the normal mongrel, this bitch is cute.",
+                "content": "Unlike the normal mongrel, this bitch is cute.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Friend",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5180713,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Friend",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13866298,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.088665485,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "father",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04712667,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "father",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "tail",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.043088652,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tail",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rear",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.043088652,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rear",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Pedigree",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Pedigree_chart",
-                "mid": "/m/031551"
-            },
-            "salience": 0.032862302,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pedigree",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "mongrel",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.032394424,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mongrel",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bitch",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027319042,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bitch",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neck",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014385558,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neck",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "eyebrows",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014334962,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "eyebrows",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Friend want to give away for adoption because got too many puppy (half dozen). One of her father is a Pedigree. Hairy tail, rear and neck. Long eyebrows. Unlike the normal mongrel, this bitch is cute. ", 
+    "categories": []
 }

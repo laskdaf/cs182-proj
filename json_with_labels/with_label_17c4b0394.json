@@ -1,143 +1,144 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Darco", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Darco", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Darco", 
+            "salience": 0.78332263
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mama", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mama", 
+            "salience": 0.12354887
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.03380757
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "info", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "info", 
+            "salience": 0.016763944
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family member", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family member", 
+            "salience": 0.0153949605
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "@ Sim", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "@ Sim", 
+            "salience": 0.014181995
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "part", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "part", 
+            "salience": 0.012980039
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Darco was rescued with his mama the day he was born, he is still looking for a living home, he is a smart boy, active n playful, if u wish Darco to be part if your family member, pls contact me @ Sim, u can also whatsapp or sms me for more info",
+                "content": "Darco was rescued with his mama the day he was born, he is still looking for a living home, he is a smart boy, active n playful, if u wish Darco to be part if your family member, pls contact me @ Sim, u can also whatsapp or sms me for more info", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Darco",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.78332263,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Darco",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Darco",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "mama",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.12354887,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mama",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.03380757,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "info",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016763944,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "info",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family member",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0153949605,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family member",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "@ Sim",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014181995,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "@ Sim",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "part",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012980039,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "part",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Darco was rescued with his mama the day he was born, he is still looking for a living home, he is a smart boy, active n playful, if u wish Darco to be part if your family member, pls contact me @ Sim, u can also whatsapp or sms me for more info ", 
+    "categories": []
 }

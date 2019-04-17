@@ -1,42 +1,43 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "very friendly and active..cyberjaya.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.8,
-                "score": 0.8
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "cyberjaya",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Cyberjaya",
-                "mid": "/m/0qnfc"
-            },
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "cyberjaya",
+                        "content": "cyberjaya", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "PROPER"
                 }
-            ]
+            ], 
+            "metadata": {
+                "mid": "/m/0qnfc", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Cyberjaya"
+            }, 
+            "type": "LOCATION", 
+            "name": "cyberjaya", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.8,
+        "magnitude": 0.8, 
         "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "very friendly and active..cyberjaya.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "raw_content": "very friendly and active..cyberjaya. ", 
+    "categories": []
 }

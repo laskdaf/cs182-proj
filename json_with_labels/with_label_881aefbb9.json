@@ -1,87 +1,88 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "salience": 0.5787011
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Anyone", 
+            "salience": 0.19157177
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Petaling Jaya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/03dqts", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
+            }, 
+            "type": "LOCATION", 
+            "name": "Petaling Jaya", 
+            "salience": 0.16999377
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jill @", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jill @", 
+            "salience": 0.059733365
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Location: Petaling Jaya Anyone interested to adopt, pls contact Jill @",
+                "content": "Location: Petaling Jaya Anyone interested to adopt, pls contact Jill @", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Location",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.5787011,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Location",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.19157177,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Petaling Jaya",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/03dqts",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
-            },
-            "salience": 0.16999377,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Petaling Jaya",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Jill @",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.059733365,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jill @",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Location: Petaling Jaya Anyone interested to adopt, pls contact Jill @ ", 
+    "categories": []
 }

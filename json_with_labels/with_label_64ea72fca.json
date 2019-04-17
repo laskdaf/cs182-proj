@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lovely Puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Lovely Puppy", 
+            "salience": 0.67661506
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Big Bones", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Big Bones", 
+            "salience": 0.2042019
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Home", 
+            "salience": 0.11918301
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.8
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Lovely Puppy, Totally Healthy with Big Bones!",
+                "content": "Lovely Puppy, Totally Healthy with Big Bones!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Rescued Month Ago and Now Ready to Find His Home Forever...",
+                "content": "Rescued Month Ago and Now Ready to Find His Home Forever...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Lovely Puppy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.67661506,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Lovely Puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Big Bones",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.2042019,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Big Bones",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Home",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11918301,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.7,
-        "score": 0.8
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Lovely Puppy, Totally Healthy with Big Bones! Rescued Month Ago and Now Ready to Find His Home Forever... ", 
+    "categories": []
 }

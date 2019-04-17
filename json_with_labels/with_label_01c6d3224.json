@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "retriever", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "retriever", 
+            "salience": 0.6587211
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.18091059
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leach", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "leach", 
+            "salience": 0.07453029
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "collar", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "collar", 
+            "salience": 0.052621204
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bowl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bowl", 
+            "salience": 0.033216808
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Golden retriever 8months old.Need a loving home Urgently.",
+                "content": "Golden retriever 8months old.Need a loving home Urgently.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Comes with one bowl,leach and collar.",
+                "content": "Comes with one bowl,leach and collar.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "retriever",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6587211,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "retriever",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.18091059,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "leach",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.07453029,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leach",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "collar",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.052621204,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "collar",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bowl",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.033216808,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bowl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Golden retriever 8months old.Need a loving home Urgently. Comes with one bowl,leach and collar. ", 
+    "categories": []
 }

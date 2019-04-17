@@ -1,111 +1,112 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Girliee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Girliee", 
+            "salience": 0.92087686
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heart", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heart", 
+            "salience": 0.02710532
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "many", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "many", 
+            "salience": 0.02710532
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "face", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "face", 
+            "salience": 0.024912475
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Girliee is a sweet girl who is friendly and playful.",
+                "content": "Girliee is a sweet girl who is friendly and playful.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She touches the heart of many with her sweet face.",
+                "content": "She touches the heart of many with her sweet face.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call us urgently at if you wish to adopt.",
+                "content": "Please call us urgently at if you wish to adopt.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Girliee",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.92087686,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Girliee",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heart",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02710532,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heart",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "many",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02710532,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "many",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "face",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.024912475,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "face",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.6,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Girliee is a sweet girl who is friendly and playful. She touches the heart of many with her sweet face. Please call us urgently at if you wish to adopt. ", 
+    "categories": []
 }

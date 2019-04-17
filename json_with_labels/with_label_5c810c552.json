@@ -1,94 +1,95 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "little", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "little", 
+            "salience": 0.6750721
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "voice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "voice", 
+            "salience": 0.15408242
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ears", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ears", 
+            "salience": 0.12886766
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "worf", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "worf", 
+            "salience": 0.04197785
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.7
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "The little has a straight up ears and its voice is quite sharp like a worf.",
+                "content": "The little has a straight up ears and its voice is quite sharp like a worf.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very active friendly and playful",
+                "content": "Very active friendly and playful", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "little",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6750721,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "little",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "voice",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15408242,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "voice",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ears",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12886766,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ears",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "worf",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04197785,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "worf",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0.7
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "The little has a straight up ears and its voice is quite sharp like a worf. Very active friendly and playful ", 
+    "categories": []
 }

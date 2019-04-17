@@ -1,299 +1,300 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Both", 
+            "salience": 0.69460344
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.08842854
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Billy Chung", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Billy Chung", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0drywr9", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Chung"
+            }, 
+            "type": "PERSON", 
+            "name": "Billy Chung", 
+            "salience": 0.040711768
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SMS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "SMS", 
+            "salience": 0.027240431
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "viewing", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "viewing", 
+            "salience": 0.024254927
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "salience": 0.024170129
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoptor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "adoptor", 
+            "salience": 0.023961417
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.018972145
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "golden retriever", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "golden retriever", 
+            "salience": 0.016277567
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ampang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0kw581", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ampang,_Selangor"
+            }, 
+            "type": "LOCATION", 
+            "name": "Ampang", 
+            "salience": 0.014345898
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sms", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sms", 
+            "salience": 0.013284697
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pets", 
+            "salience": 0.0073572374
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.006391776
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.7, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Both are playful &amp; loving dogs.",
+                "content": "Both are playful &amp; loving dogs.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Looking for a loving family who can dote on them.",
+                "content": "Looking for a loving family who can dote on them.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Serious adoptor, please call or SMS Billy Chung for viewing.",
+                "content": "Serious adoptor, please call or SMS Billy Chung for viewing.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Location in Ampang.",
+                "content": "Location in Ampang.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Introduce yourself, and why/how you can provide a good home for both pets.",
+                "content": "Introduce yourself, and why/how you can provide a good home for both pets.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Preferably both golden retriever go to the same home.",
+                "content": "Preferably both golden retriever go to the same home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please contact/sms Billy Chung at",
+                "content": "Please contact/sms Billy Chung at", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Both",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.69460344,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Both",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.08842854,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Billy Chung",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/0drywr9",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Chung"
-            },
-            "salience": 0.040711768,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Billy Chung",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Billy Chung",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "SMS",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027240431,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SMS",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "viewing",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.024254927,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "viewing",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Location",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.024170129,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Location",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoptor",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.023961417,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoptor",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.018972145,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "golden retriever",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.016277567,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "golden retriever",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Ampang",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0kw581",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Ampang,_Selangor"
-            },
-            "salience": 0.014345898,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ampang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "sms",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013284697,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sms",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pets",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0073572374,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.006391776,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.7,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Both are playful &amp; loving dogs. Looking for a loving family who can dote on them. Serious adoptor, please call or SMS Billy Chung for viewing. Location in Ampang. Introduce yourself, and why/how you can provide a good home for both pets. Preferably both golden retriever go to the same home. Please contact/sms Billy Chung at ", 
+    "categories": []
 }

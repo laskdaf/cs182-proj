@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Trixie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Trixie", 
+            "salience": 0.47829854
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "females", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "females", 
+            "salience": 0.30321887
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Baby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Baby", 
+            "salience": 0.2184826
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Trixie and Baby are both females and are 6 weeks old",
+                "content": "Trixie and Baby are both females and are 6 weeks old", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Trixie",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.47829854,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Trixie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "females",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.30321887,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "females",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Baby",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.2184826,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Baby",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Trixie and Baby are both females and are 6 weeks old ", 
+    "categories": []
 }

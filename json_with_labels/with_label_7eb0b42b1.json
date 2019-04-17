@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "scooby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "scooby", 
+            "salience": 0.82814556
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "work", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "work", 
+            "salience": 0.112310216
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "partner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "partner", 
+            "salience": 0.05954423
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "I adopted scooby on Jan 3.",
+                "content": "I adopted scooby on Jan 3.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is is healthy n very energetic..",
+                "content": "He is is healthy n very energetic..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "due to my work..",
+                "content": "due to my work..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I m unable to look after him.",
+                "content": "I m unable to look after him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "N looking for serious partner.",
+                "content": "N looking for serious partner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "scooby",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.82814556,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "scooby",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "work",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.112310216,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "work",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "partner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05954423,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "partner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "I adopted scooby on Jan 3. He is is healthy n very energetic.. due to my work.. I m unable to look after him. N looking for serious partner. ", 
+    "categories": []
 }

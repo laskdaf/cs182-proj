@@ -1,158 +1,159 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescue puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "rescue puppy", 
+            "salience": 0.88086957
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "market", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "market", 
+            "salience": 0.10524274
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lester Jenny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Lester Jenny", 
+            "salience": 0.008304307
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Adopters", 
+            "salience": 0.005583391
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "He is a rescue puppy from a nearby market.",
+                "content": "He is a rescue puppy from a nearby market.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We picked him up and fed him well because he was malnourished.",
+                "content": "We picked him up and fed him well because he was malnourished.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is very okay now and very active too!",
+                "content": "He is very okay now and very active too!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is a handsome and lovely boy - a very good friend.",
+                "content": "He is a handsome and lovely boy - a very good friend.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "(: Lester Jenny Will you adopt him?",
+                "content": "(: Lester Jenny Will you adopt him?", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "================================================== Adopters are required to vaccinate and neuter them.",
+                "content": "================================================== Adopters are required to vaccinate and neuter them.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "==================================================",
+                "content": "==================================================", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "rescue puppy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.88086957,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rescue puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "friend",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "market",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10524274,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "market",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Lester Jenny",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.008304307,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Lester Jenny",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.005583391,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "He is a rescue puppy from a nearby market. We picked him up and fed him well because he was malnourished. He is very okay now and very active too! He is a handsome and lovely boy - a very good friend. (: Lester Jenny Will you adopt him? ================================================== Adopters are required to vaccinate and neuter them. ================================================== ", 
+    "categories": []
 }

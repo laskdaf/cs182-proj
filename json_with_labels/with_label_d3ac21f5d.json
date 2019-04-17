@@ -1,197 +1,198 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.32519355
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "substation", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "substation", 
+            "salience": 0.32519355
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "TNB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/046wgz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Tenaga_Nasional"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "TNB", 
+            "salience": 0.19925068
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "human", 
+            "salience": 0.043560393
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "trust", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "trust", 
+            "salience": 0.039803408
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "food", 
+            "salience": 0.032908686
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "souls", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "souls", 
+            "salience": 0.020905567
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.013184158
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "3 puppies found at the TNB substation.",
+                "content": "3 puppies found at the TNB substation.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They are hungry and would respond to whoever came to give them food but they are still scared to be close to human.",
+                "content": "They are hungry and would respond to whoever came to give them food but they are still scared to be close to human.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Need to spend more time to gain their trust.",
+                "content": "Need to spend more time to gain their trust.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They are free for adoption.",
+                "content": "They are free for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Contact me and I will bring you to them.",
+                "content": "Contact me and I will bring you to them.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Hope they can be adopted by any kind souls asap.",
+                "content": "Hope they can be adopted by any kind souls asap.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.32519355,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "substation",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.32519355,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "substation",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "TNB",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/m/046wgz",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Tenaga_Nasional"
-            },
-            "salience": 0.19925068,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "TNB",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "human",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.043560393,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "human",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "trust",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.039803408,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "trust",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.032908686,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "souls",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.020905567,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "souls",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013184158,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "3 puppies found at the TNB substation. They are hungry and would respond to whoever came to give them food but they are still scared to be close to human. Need to spend more time to gain their trust. They are free for adoption. Contact me and I will bring you to them. Hope they can be adopted by any kind souls asap. ", 
+    "categories": []
 }

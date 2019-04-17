@@ -1,67 +1,68 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jack Russell Terrier", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "JRT", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01d7fl", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Russell_Terrier"
+            }, 
+            "type": "OTHER", 
+            "name": "Jack Russell Terrier", 
+            "salience": 0.42480782
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Damansara Uptown", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/08jv9j", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Damansara_Utama"
+            }, 
+            "type": "LOCATION", 
+            "name": "Damansara Uptown", 
+            "salience": 0.2777875
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This female Jack Russell Terrier (JRT) was found in Damansara Uptown on the -10 (Tuesday)",
+                "content": "This female Jack Russell Terrier (JRT) was found in Damansara Uptown on the -10 (Tuesday)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Jack Russell Terrier",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Russell_Terrier",
-                "mid": "/m/01d7fl"
-            },
-            "salience": 0.42480782,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jack Russell Terrier",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "JRT",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Damansara Uptown",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Damansara_Utama",
-                "mid": "/m/08jv9j"
-            },
-            "salience": 0.2777875,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Damansara Uptown",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "This female Jack Russell Terrier (JRT) was found in Damansara Uptown on the -10 (Tuesday) ", 
+    "categories": []
 }

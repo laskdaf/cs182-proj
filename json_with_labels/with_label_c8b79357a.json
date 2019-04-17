@@ -1,134 +1,135 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.45753273
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "males", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "males", 
+            "salience": 0.20258072
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "color", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "color", 
+            "salience": 0.14138955
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "face", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "face", 
+            "salience": 0.14138955
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "residence house area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "residence house area", 
+            "salience": 0.034958888
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog food", 
+            "salience": 0.022148553
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": -0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "6 weeks puppies-3 males same color and same face too.",
+                "content": "6 weeks puppies-3 males same color and same face too.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "healthy and can eat dry dog food.",
+                "content": "healthy and can eat dry dog food.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "found at residence house area.",
+                "content": "found at residence house area.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.45753273,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "males",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.20258072,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "males",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "color",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14138955,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "color",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "face",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14138955,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "face",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "residence house area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.034958888,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "residence house area",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog food",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022148553,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog food",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.7,
-        "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "6 weeks puppies-3 males same color and same face too. healthy and can eat dry dog food. found at residence house area. ", 
+    "categories": []
 }

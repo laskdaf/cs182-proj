@@ -1,169 +1,170 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Louise", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Louise", 
+            "salience": 0.73549443
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pet", 
+            "salience": 0.1269027
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "watchdog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "watchdog", 
+            "salience": 0.044949066
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "temperament", 
+            "salience": 0.035781004
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.032725826
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chance", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chance", 
+            "salience": 0.013234177
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "caging", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "caging", 
+            "salience": 0.010912802
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Louise is believed to be an abandoned pet.",
+                "content": "Louise is believed to be an abandoned pet.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is a great watchdog and has a good temperament.",
+                "content": "She is a great watchdog and has a good temperament.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Looking for a good home.",
+                "content": "Looking for a good home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "No tying up or caging unless for short periods.",
+                "content": "No tying up or caging unless for short periods.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call if u can give her a second chance.",
+                "content": "Please call if u can give her a second chance.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Louise",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.73549443,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Louise",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "pet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.1269027,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "watchdog",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.044949066,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "watchdog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "temperament",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.035781004,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "temperament",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.032725826,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chance",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013234177,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chance",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "caging",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.010912802,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "caging",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.4,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Louise is believed to be an abandoned pet. She is a great watchdog and has a good temperament. Looking for a good home. No tying up or caging unless for short periods. Please call if u can give her a second chance. ", 
+    "categories": []
 }

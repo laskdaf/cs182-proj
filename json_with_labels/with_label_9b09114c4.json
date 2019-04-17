@@ -1,132 +1,133 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "joy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "joy", 
+            "salience": 0.22912364
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.2140348
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.16052313
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cashew.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0h259", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Cashew"
+            }, 
+            "type": "PERSON", 
+            "name": "Cashew.", 
+            "salience": 0.14163221
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "soul", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "soul", 
+            "salience": 0.11290839
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.09117838
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heart", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heart", 
+            "salience": 0.05059944
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "A very hyper, loving and full of joy and playfulness 4 months old puppy named Cashew.Can someone with a big heart and a kind soul please take care of him..",
+                "content": "A very hyper, loving and full of joy and playfulness 4 months old puppy named Cashew.Can someone with a big heart and a kind soul please take care of him..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "joy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.22912364,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "joy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.2140348,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16052313,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Cashew.",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/0h259",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Cashew"
-            },
-            "salience": 0.14163221,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cashew.",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "soul",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11290839,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "soul",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09117838,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heart",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05059944,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heart",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "A very hyper, loving and full of joy and playfulness 4 months old puppy named Cashew.Can someone with a big heart and a kind soul please take care of him.. ", 
+    "categories": []
 }

@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "Very healthy dog.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.4,
-                "score": 0.4
-            }
-        },
-        {
-            "text": {
-                "content": "We want to give away because we will be leaving soon.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0,
-                "score": 0
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "dog",
+                        "content": "dog", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.4,
+        "magnitude": 0.4, 
         "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very healthy dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "We want to give away because we will be leaving soon.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "raw_content": "Very healthy dog. We want to give away because we will be leaving soon. ", 
+    "categories": []
 }

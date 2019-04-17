@@ -1,172 +1,173 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "roadside", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "roadside", 
+            "salience": 0.42289144
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Panda", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Panda", 
+            "salience": 0.2686991
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rawang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/096hhb", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Rawang,_Selangor"
+            }, 
+            "type": "LOCATION", 
+            "name": "Rawang", 
+            "salience": 0.108939014
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neutering", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "neutering", 
+            "salience": 0.06126002
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Vaccination", 
+            "salience": 0.05909087
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "adopters", 
+            "salience": 0.056314886
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.022804646
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Panda was found by a roadside in Rawang in Nov.",
+                "content": "Panda was found by a roadside in Rawang in Nov.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is playful and affectionate.",
+                "content": "She is playful and affectionate.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Vaccination and neutering are compulsory, cost to be borne by adopters.",
+                "content": "Vaccination and neutering are compulsory, cost to be borne by adopters.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "No tying up or caging for long hours.",
+                "content": "No tying up or caging for long hours.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please give her a home this new year.",
+                "content": "Please give her a home this new year.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "roadside",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.42289144,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "roadside",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Panda",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.2686991,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Panda",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Rawang",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Rawang,_Selangor",
-                "mid": "/m/096hhb"
-            },
-            "salience": 0.108939014,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rawang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "neutering",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06126002,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neutering",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Vaccination",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05909087,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Vaccination",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.056314886,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.022804646,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Panda was found by a roadside in Rawang in Nov. She is playful and affectionate. Vaccination and neutering are compulsory, cost to be borne by adopters. No tying up or caging for long hours. Please give her a home this new year. ", 
+    "categories": []
 }

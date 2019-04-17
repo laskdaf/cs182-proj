@@ -1,179 +1,180 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Puppy", 
+            "salience": 0.359451
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.359451
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Barks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Barks", 
+            "salience": 0.05802734
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "strangers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "strangers", 
+            "salience": 0.05066364
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "alert", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "alert", 
+            "salience": 0.05030145
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "toilet", 
+            "salience": 0.04655669
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "grounds", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "grounds", 
+            "salience": 0.035233464
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.024755502
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leash", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "leash", 
+            "salience": 0.015559915
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Puppy for adoption!",
+                "content": "Puppy for adoption!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Healthy and cheerful + playful and alert.",
+                "content": "Healthy and cheerful + playful and alert.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Barks at strangers Goes 3 x a day for her toilet (without a leash) to grassy grounds and comes home by herself",
+                "content": "Barks at strangers Goes 3 x a day for her toilet (without a leash) to grassy grounds and comes home by herself", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.359451,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.359451,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Barks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05802734,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Barks",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "strangers",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.05066364,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "strangers",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "alert",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05030145,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "alert",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "toilet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04655669,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "toilet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "grounds",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.035233464,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "grounds",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.024755502,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "leash",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015559915,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leash",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Puppy for adoption! Healthy and cheerful + playful and alert. Barks at strangers Goes 3 x a day for her toilet (without a leash) to grassy grounds and comes home by herself ", 
+    "categories": []
 }

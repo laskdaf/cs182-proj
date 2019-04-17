@@ -1,79 +1,80 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "street", 
+            "salience": 0.4264589
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighbour", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "neighbour", 
+            "salience": 0.42177215
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "number", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "number", 
+            "salience": 0.15176894
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": -0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "I post on behalf of a neighbour across the street.",
+                "content": "I post on behalf of a neighbour across the street.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If interested please sms or call the number above.",
+                "content": "If interested please sms or call the number above.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "street",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.4264589,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "street",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neighbour",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.42177215,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neighbour",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "number",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.15176894,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "number",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "I post on behalf of a neighbour across the street. If interested please sms or call the number above. ", 
+    "categories": []
 }

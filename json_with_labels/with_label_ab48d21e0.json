@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pictures", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "pictures", 
+            "salience": 0.6655224
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.33447763
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": -0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "You won't know me from pictures until you take me home",
+                "content": "You won't know me from pictures until you take me home", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pictures",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.6655224,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pictures",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.33447763,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.6,
-        "score": -0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "You won't know me from pictures until you take me home ", 
+    "categories": []
 }

@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "info", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "info", 
+            "salience": 0.38456666
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Furry Friends Farm", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Furry Friends Farm", 
+            "salience": 0.3386696
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.2767637
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Contact Furry Friends Farm for more further info on adopting this cute and adorable puppy !",
+                "content": "Contact Furry Friends Farm for more further info on adopting this cute and adorable puppy !", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "info",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.38456666,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "info",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Furry Friends Farm",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.3386696,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Furry Friends Farm",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.2767637,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Contact Furry Friends Farm for more further info on adopting this cute and adorable puppy ! ", 
+    "categories": []
 }

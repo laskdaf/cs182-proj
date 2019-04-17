@@ -1,82 +1,83 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Beagle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01dj7", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Beagle"
+            }, 
+            "type": "OTHER", 
+            "name": "Beagle", 
+            "salience": 0.5404307
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.3874726
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "others", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "others", 
+            "salience": 0.07209667
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "aka Beagle look like puppy.",
+                "content": "aka Beagle look like puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Friendly and sweet! loves to jump and wrestling around with others!",
+                "content": "Friendly and sweet! loves to jump and wrestling around with others!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Beagle",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Beagle",
-                "mid": "/m/01dj7"
-            },
-            "salience": 0.5404307,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Beagle",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3874726,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "others",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.07209667,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "others",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "aka Beagle look like puppy. Friendly and sweet! loves to jump and wrestling around with others! ", 
+    "categories": []
 }

@@ -1,89 +1,90 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccination", 
+            "salience": 0.8613162
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccination", 
+            "salience": 0.08382692
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pepper - 1st", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Pepper - 1st", 
+            "salience": 0.054856863
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": -0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Patchouli - 1st vaccination done, F, around 3 months old, she was adopted and then returned how sad is that...",
+                "content": "Patchouli - 1st vaccination done, F, around 3 months old, she was adopted and then returned how sad is that...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pepper - 1st vaccination done, F, around 3 months old Bear - m - dewormed 1 1/2 months old.",
+                "content": "Pepper - 1st vaccination done, F, around 3 months old Bear - m - dewormed 1 1/2 months old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Snowy - m - dewormed. 11/2 months old.",
+                "content": "Snowy - m - dewormed. 11/2 months old.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "vaccination",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.8613162,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccination",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vaccination",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08382692,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccination",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Pepper - 1st",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.054856863,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pepper - 1st",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": -0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Patchouli - 1st vaccination done, F, around 3 months old, she was adopted and then returned how sad is that... Pepper - 1st vaccination done, F, around 3 months old Bear - m - dewormed 1 1/2 months old. Snowy - m - dewormed. 11/2 months old. ", 
+    "categories": []
 }

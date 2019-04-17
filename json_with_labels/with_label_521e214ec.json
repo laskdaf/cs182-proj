@@ -1,129 +1,130 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mimi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Mimi", 
+            "salience": 0.5902962
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "uncle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "uncle", 
+            "salience": 0.26462606
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.12571773
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "uncle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "uncle", 
+            "salience": 0.01466816
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.00469186
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Mimi is my uncle's dog; he travels often thus can't look after her.",
+                "content": "Mimi is my uncle's dog; he travels often thus can't look after her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's sweet, boisterous and friendly.",
+                "content": "She's sweet, boisterous and friendly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She was rescued by my uncle when she was a tiny puppy.",
+                "content": "She was rescued by my uncle when she was a tiny puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's medium-sized and 5 years old now.",
+                "content": "She's medium-sized and 5 years old now.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Mimi",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5902962,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Mimi",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "uncle",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.26462606,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "uncle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12571773,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "uncle",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.01466816,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "uncle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.00469186,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Mimi is my uncle's dog; he travels often thus can't look after her. She's sweet, boisterous and friendly. She was rescued by my uncle when she was a tiny puppy. She's medium-sized and 5 years old now. ", 
+    "categories": []
 }

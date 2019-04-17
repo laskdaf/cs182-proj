@@ -1,142 +1,143 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "citizen", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "citizen", 
+            "salience": 0.2615345
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Open", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Open", 
+            "salience": 0.2615345
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "whatsapp", 
+            "salience": 0.23973092
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Malaysia", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/09pmkv", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia"
+            }, 
+            "type": "LOCATION", 
+            "name": "Malaysia", 
+            "salience": 0.15651782
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SMS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "SMS", 
+            "salience": 0.080682255
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Rescued on 13/2/18.",
+                "content": "Rescued on 13/2/18.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Female-2 mths+.",
+                "content": "Female-2 mths+.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Open for Malaysia citizen only.",
+                "content": "Open for Malaysia citizen only.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Kindly whatsapp or SMS to me at if u are interested to adopt.",
+                "content": "Kindly whatsapp or SMS to me at if u are interested to adopt.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "\ud83d\ude4f",
+                "content": "\ud83d\ude4f", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "citizen",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.2615345,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "citizen",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Open",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.2615345,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Open",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "whatsapp",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.23973092,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "whatsapp",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Malaysia",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/09pmkv",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia"
-            },
-            "salience": 0.15651782,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Malaysia",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "SMS",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.080682255,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SMS",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Rescued on 13/2/18. Female-2 mths+. Open for Malaysia citizen only. Kindly whatsapp or SMS to me at if u are interested to adopt. \ud83d\ude4f ", 
+    "categories": []
 }

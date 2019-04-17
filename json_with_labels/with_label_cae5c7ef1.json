@@ -1,162 +1,163 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gaga", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Gaga", 
+            "salience": 0.6879856
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.108449094
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "need", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "need", 
+            "salience": 0.107195854
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "text", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "text", 
+            "salience": 0.026058547
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "inquiry", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "inquiry", 
+            "salience": 0.026058547
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Seri Kembangan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/05ztfx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Seri_Kembangan"
+            }, 
+            "type": "LOCATION", 
+            "name": "Seri Kembangan", 
+            "salience": 0.022126181
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "KL", 
+            "salience": 0.022126181
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Gaga is born on the 1st of January and is in need of a loving home.",
+                "content": "Gaga is born on the 1st of January and is in need of a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is healthy, active and lovable.",
+                "content": "She is healthy, active and lovable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Currently located near Seri Kembangan, KL.",
+                "content": "Currently located near Seri Kembangan, KL.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please text for inquiry",
+                "content": "Please text for inquiry", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Gaga",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6879856,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Gaga",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.108449094,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "need",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.107195854,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "need",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "text",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.026058547,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "text",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "inquiry",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.026058547,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "inquiry",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Seri Kembangan",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/05ztfx",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Seri_Kembangan"
-            },
-            "salience": 0.022126181,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Seri Kembangan",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "KL",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.022126181,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "KL",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Gaga is born on the 1st of January and is in need of a loving home. She is healthy, active and lovable. Currently located near Seri Kembangan, KL. Please text for inquiry ", 
+    "categories": []
 }

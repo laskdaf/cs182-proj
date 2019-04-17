@@ -1,49 +1,50 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "One of my fav cat.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.4,
-                "score": 0.4
-            }
-        },
-        {
-            "text": {
-                "content": "I have to letgo.",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.2,
-                "score": 0.2
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "cat",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "cat",
+                        "content": "cat", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cat", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.6,
+        "magnitude": 0.6, 
         "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "One of my fav cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "I have to letgo.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "raw_content": "One of my fav cat. I have to letgo. ", 
+    "categories": []
 }

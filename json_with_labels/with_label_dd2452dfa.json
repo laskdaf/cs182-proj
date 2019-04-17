@@ -1,152 +1,153 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cross", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cross", 
+            "salience": 0.45659927
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dalmatian", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/02rjc05", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Dalmatian_dog"
+            }, 
+            "type": "PERSON", 
+            "name": "Dalmatian", 
+            "salience": 0.29233825
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "street", 
+            "salience": 0.097863376
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "care", 
+            "salience": 0.062224466
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SAS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "SAS", 
+            "salience": 0.037148155
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leash", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "leash", 
+            "salience": 0.033034194
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Toilet", 
+            "salience": 0.020792285
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Dalmatian cross.",
+                "content": "Dalmatian cross.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Rescued from the street, she is now currently under SAS care.",
+                "content": "Rescued from the street, she is now currently under SAS care.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Toilet trained, well behave during off leash.",
+                "content": "Toilet trained, well behave during off leash.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "cross",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.45659927,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cross",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Dalmatian",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/02rjc05",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Dalmatian_dog"
-            },
-            "salience": 0.29233825,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dalmatian",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "street",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.097863376,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "street",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "care",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.062224466,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "SAS",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.037148155,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SAS",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "leash",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.033034194,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leash",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Toilet",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020792285,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Toilet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Dalmatian cross. Rescued from the street, she is now currently under SAS care. Toilet trained, well behave during off leash. ", 
+    "categories": []
 }

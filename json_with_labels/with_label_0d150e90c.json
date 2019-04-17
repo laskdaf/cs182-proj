@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.5649972
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.24798432
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "male", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "male", 
+            "salience": 0.108336054
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "He Name", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "He Name", 
+            "salience": 0.056985043
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pipi.He", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Pipi.He", 
+            "salience": 0.021697404
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "I have a dog for adoption.",
+                "content": "I have a dog for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "It is a male (neutered), 2 years old - He Name is Pipi.He is strong, healthy, cute,and friendly.",
+                "content": "It is a male (neutered), 2 years old - He Name is Pipi.He is strong, healthy, cute,and friendly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.5649972,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.24798432,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "male",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.108336054,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "male",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "He Name",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.056985043,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "He Name",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Pipi.He",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.021697404,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pipi.He",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "I have a dog for adoption. It is a male (neutered), 2 years old - He Name is Pipi.He is strong, healthy, cute,and friendly. ", 
+    "categories": []
 }

@@ -1,159 +1,160 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mongrel breed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "mongrel breed", 
+            "salience": 0.32553253
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.28771818
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.28771818
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "leg", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "leg", 
+            "salience": 0.037740897
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "condo", 
+            "salience": 0.028574977
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "apartment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "apartment", 
+            "salience": 0.02008574
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "body", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "body", 
+            "salience": 0.012629503
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Female dog for adoption.",
+                "content": "Female dog for adoption.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "We believe that she is a dachsun Mix mongrel breed and won't grow big anymore.",
+                "content": "We believe that she is a dachsun Mix mongrel breed and won't grow big anymore.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has a short leg and long body, suitable to stay in a condo / apartment.",
+                "content": "She has a short leg and long body, suitable to stay in a condo / apartment.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "less barking.",
+                "content": "less barking.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mongrel breed",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.32553253,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mongrel breed",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.28771818,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.28771818,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "leg",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.037740897,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "leg",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "condo",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.028574977,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "condo",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "apartment",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.02008574,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "apartment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "body",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012629503,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "body",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Female dog for adoption. We believe that she is a dachsun Mix mongrel breed and won't grow big anymore. She has a short leg and long body, suitable to stay in a condo / apartment. less barking. ", 
+    "categories": []
 }

@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "pls delete this folder",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.3,
-                "score": -0.3
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "folder",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "folder",
+                        "content": "folder", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "folder", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.3,
+        "magnitude": 0.3, 
         "score": -0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "pls delete this folder", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }
+    ], 
+    "raw_content": "pls delete this folder ", 
+    "categories": []
 }

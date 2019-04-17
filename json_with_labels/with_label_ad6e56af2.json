@@ -1,74 +1,75 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.8179318
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adult dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adult dogs", 
+            "salience": 0.18206823
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "5 mix breed 1 month old puppies (3 male/2 female) to be adopted urgently as I have already have 2 adult dogs with me.",
+                "content": "5 mix breed 1 month old puppies (3 male/2 female) to be adopted urgently as I have already have 2 adult dogs with me.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Call me at.",
+                "content": "Call me at.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you.",
+                "content": "Thank you.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.8179318,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adult dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.18206823,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adult dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "5 mix breed 1 month old puppies (3 male/2 female) to be adopted urgently as I have already have 2 adult dogs with me. Call me at. Thank you. ", 
+    "categories": []
 }

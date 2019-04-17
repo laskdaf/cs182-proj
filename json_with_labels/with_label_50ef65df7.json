@@ -1,164 +1,165 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 0.4191447
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Shepherd", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Shepherd", 
+            "salience": 0.25674152
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.10032596
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "life", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "life", 
+            "salience": 0.10032596
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cost", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cost", 
+            "salience": 0.03463696
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "vaccination", 
+            "salience": 0.03463696
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jocelyn", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jocelyn", 
+            "salience": 0.029828615
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rm", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "rm", 
+            "salience": 0.024359366
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Shepherd is a friendly boy looking for a good responsible owner for life.",
+                "content": "Shepherd is a friendly boy looking for a good responsible owner for life.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call Jocelyn at to adopt.",
+                "content": "Please call Jocelyn at to adopt.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I hope to be reimbursed cost of vaccination rm30 and neutering rm.",
+                "content": "I hope to be reimbursed cost of vaccination rm30 and neutering rm.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.4191447,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Shepherd",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.25674152,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Shepherd",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.10032596,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "life",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.10032596,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "life",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cost",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03463696,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cost",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vaccination",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03463696,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccination",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jocelyn",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.029828615,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jocelyn",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "rm",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.024359366,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rm",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Shepherd is a friendly boy looking for a good responsible owner for life. Please call Jocelyn at to adopt. I hope to be reimbursed cost of vaccination rm30 and neutering rm. ", 
+    "categories": []
 }

@@ -1,144 +1,145 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sheila gal", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Sheila gal", 
+            "salience": 0.66684824
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "compound", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "compound", 
+            "salience": 0.17970754
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.056308076
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fence", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "fence", 
+            "salience": 0.051867433
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "beauty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "beauty", 
+            "salience": 0.032767132
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "personality", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "personality", 
+            "salience": 0.012501575
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.3, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Sheila gal was thrown into a compound and was found dangling on the fence when she was a puppy.",
+                "content": "Sheila gal was thrown into a compound and was found dangling on the fence when she was a puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": -0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Now she is a healthy beauty.",
+                "content": "Now she is a healthy beauty.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "So loving, so active, very obidient and she learns fast.",
+                "content": "So loving, so active, very obidient and she learns fast.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is already neutered and has a great personality.",
+                "content": "She is already neutered and has a great personality.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Sheila gal",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.66684824,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sheila gal",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "compound",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17970754,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "compound",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.056308076,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "fence",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.051867433,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fence",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "beauty",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.032767132,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "beauty",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "personality",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012501575,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "personality",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3.3,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Sheila gal was thrown into a compound and was found dangling on the fence when she was a puppy. Now she is a healthy beauty. So loving, so active, very obidient and she learns fast. She is already neutered and has a great personality. ", 
+    "categories": []
 }

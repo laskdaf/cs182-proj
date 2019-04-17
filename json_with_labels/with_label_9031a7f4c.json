@@ -1,112 +1,113 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rottie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01nw62", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Rottweiler"
+            }, 
+            "type": "PERSON", 
+            "name": "Rottie", 
+            "salience": 0.89191747
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "everything", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "everything", 
+            "salience": 0.08566836
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hearts", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hearts", 
+            "salience": 0.0224142
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Oh my Rottie is so chubby and adorable.",
+                "content": "Oh my Rottie is so chubby and adorable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He looks at you as if he is fed up with everything and it makes you really laugh.",
+                "content": "He looks at you as if he is fed up with everything and it makes you really laugh.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please open your hearts to him.",
+                "content": "Please open your hearts to him.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Call us at.",
+                "content": "Call us at.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "A must view.",
+                "content": "A must view.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Rottie",
-            "type": "PERSON",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Rottweiler",
-                "mid": "/m/01nw62"
-            },
-            "salience": 0.89191747,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rottie",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "everything",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08566836,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "everything",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hearts",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0224142,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hearts",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Oh my Rottie is so chubby and adorable. He looks at you as if he is fed up with everything and it makes you really laugh. Please open your hearts to him. Call us at. A must view. ", 
+    "categories": []
 }

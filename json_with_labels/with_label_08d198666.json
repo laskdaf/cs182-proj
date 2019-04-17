@@ -1,72 +1,73 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "females puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "females puppies", 
+            "salience": 0.5911043
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ara damansara", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0g1wqy", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ara_Damansara"
+            }, 
+            "type": "LOCATION", 
+            "name": "ara damansara", 
+            "salience": 0.26666063
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "salience": 0.14223504
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": -0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "5 females puppies abandoned at ara damansara available for adoption urgently.",
+                "content": "5 females puppies abandoned at ara damansara available for adoption urgently.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": -0.5
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "females puppies",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5911043,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "females puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ara damansara",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0g1wqy",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Ara_Damansara"
-            },
-            "salience": 0.26666063,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ara damansara",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "adoption",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14223504,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adoption",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.5,
-        "score": -0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "5 females puppies abandoned at ara damansara available for adoption urgently. ", 
+    "categories": []
 }

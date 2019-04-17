@@ -1,89 +1,90 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jojo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jojo", 
+            "salience": 0.56847316
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "market", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "market", 
+            "salience": 0.3885271
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "muzzle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "muzzle", 
+            "salience": 0.04299973
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Jojo is found abandoned near the market.",
+                "content": "Jojo is found abandoned near the market.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": -0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is healthy and active.",
+                "content": "She is healthy and active.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She has dark brown muzzle and loves to explore.",
+                "content": "She has dark brown muzzle and loves to explore.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Jojo",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.56847316,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jojo",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "market",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.3885271,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "market",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "muzzle",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04299973,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "muzzle",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Jojo is found abandoned near the market. She is healthy and active. She has dark brown muzzle and loves to explore. ", 
+    "categories": []
 }

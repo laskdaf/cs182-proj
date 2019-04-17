@@ -1,104 +1,105 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Take Me Home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "WORK_OF_ART", 
+            "name": "Take Me Home", 
+            "salience": 0.63476324
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "one", 
+            "salience": 0.21718292
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "roof", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "roof", 
+            "salience": 0.07717595
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "head", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "head", 
+            "salience": 0.07087788
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Please Take Me Home.",
+                "content": "Please Take Me Home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I am very smart, playful, faithful, funny and adorable.",
+                "content": "I am very smart, playful, faithful, funny and adorable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "I hope one of you can give me a roof over my head.",
+                "content": "I hope one of you can give me a roof over my head.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Take Me Home",
-            "type": "WORK_OF_ART",
-            "metadata": {},
-            "salience": 0.63476324,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Take Me Home",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "one",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.21718292,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "one",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "roof",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07717595,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "roof",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "head",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07087788,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "head",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.5,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Please Take Me Home. I am very smart, playful, faithful, funny and adorable. I hope one of you can give me a roof over my head. ", 
+    "categories": []
 }

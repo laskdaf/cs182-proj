@@ -1,182 +1,183 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "BORDER COLLIE", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0pwdp", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Border_Collie"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "BORDER COLLIE", 
+            "salience": 0.38756758
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ADOPTION", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ADOPTION", 
+            "salience": 0.26068118
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Age", 
+            "salience": 0.090436034
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog breed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog breed", 
+            "salience": 0.089796886
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "world", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "world", 
+            "salience": 0.089796886
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hamster", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hamster", 
+            "salience": 0.050082676
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hamster", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "hamster", 
+            "salience": 0.03163874
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "BORDER COLLIE PUPPY No 1 FOR ADOPTION!",
+                "content": "BORDER COLLIE PUPPY No 1 FOR ADOPTION!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The smartest dog breed in the world!",
+                "content": "The smartest dog breed in the world!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Age:3 weeks.",
+                "content": "Age:3 weeks.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Very very cute and fluffy!",
+                "content": "Very very cute and fluffy!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Easily mistaken as a hamster!",
+                "content": "Easily mistaken as a hamster!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": -0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "1)Color like hamster,female.",
+                "content": "1)Color like hamster,female.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "BORDER COLLIE",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "mid": "/m/0pwdp",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Border_Collie"
-            },
-            "salience": 0.38756758,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "BORDER COLLIE",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "ADOPTION",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.26068118,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ADOPTION",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Age",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.090436034,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Age",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog breed",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.089796886,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog breed",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "world",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.089796886,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "world",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hamster",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.050082676,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hamster",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hamster",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03163874,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hamster",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "BORDER COLLIE PUPPY No 1 FOR ADOPTION! The smartest dog breed in the world! Age:3 weeks. Very very cute and fluffy! Easily mistaken as a hamster! 1)Color like hamster,female. ", 
+    "categories": []
 }

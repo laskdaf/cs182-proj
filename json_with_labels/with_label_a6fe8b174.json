@@ -1,131 +1,132 @@
 {
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "posting", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "posting", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "posting", 
+            "salience": 0.50913066
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.3353368
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "adopter", 
+            "salience": 0.05760295
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "starter pack", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "starter pack", 
+            "salience": 0.04673626
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "group", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "group", 
+            "salience": 0.03546151
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cos", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cos", 
+            "salience": 0.015731841
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Same puppy as previous posting.",
+                "content": "Same puppy as previous posting.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "This posting is to facilitate the adopter to be entitled for the starter pack, cos posting in a group only entitles one adopter.",
+                "content": "This posting is to facilitate the adopter to be entitled for the starter pack, cos posting in a group only entitles one adopter.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "posting",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.50913066,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "posting",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "posting",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3353368,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopter",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05760295,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopter",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "starter pack",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04673626,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "starter pack",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "group",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.03546151,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "group",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cos",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.015731841,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cos",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.8,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    ], 
+    "raw_content": "Same puppy as previous posting. This posting is to facilitate the adopter to be entitled for the starter pack, cos posting in a group only entitles one adopter. ", 
+    "categories": []
 }

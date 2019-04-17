@@ -1,174 +1,175 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Yumi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.75449926, 
+            "name": "Yumi", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "marking", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.04092166, 
+            "name": "marking", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ear flops", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.04092166, 
+            "name": "ear flops", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "walks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.04043184, 
+            "name": "walks", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "stands", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.03761106, 
+            "name": "stands", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "salience": 0.037427545, 
+            "name": "Owner", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "schedule", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "salience": 0.028337726, 
+            "name": "schedule", 
+            "metadata": {}
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "salience": 0.019849284, 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Yumi is sweet, gentle and intelligent.",
+                "content": "Yumi is sweet, gentle and intelligent.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She enjoys going for walks and has a unique marking: one ear flops while the other stands upright.",
+                "content": "She enjoys going for walks and has a unique marking: one ear flops while the other stands upright.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Owner is giving her up due to a busy schedule.",
+                "content": "Owner is giving her up due to a busy schedule.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Looking for a loving home.",
+                "content": "Looking for a loving home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Yumi",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.75449926,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Yumi",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "marking",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04092166,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "marking",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ear flops",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04092166,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ear flops",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "walks",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04043184,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "walks",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "stands",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.03761106,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "stands",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.037427545,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "schedule",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.028337726,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "schedule",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.019849284,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 3,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Yumi is sweet, gentle and intelligent. She enjoys going for walks and has a unique marking: one ear flops while the other stands upright. Owner is giving her up due to a busy schedule. Looking for a loving home. ", 
+    "categories": []
 }

@@ -1,176 +1,177 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "someone", 
+            "salience": 0.760956
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighbourhood", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "neighbourhood", 
+            "salience": 0.05044003
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chances", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chances", 
+            "salience": 0.033990264
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog catcher", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "dog catcher", 
+            "salience": 0.032005142
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Nala.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Nala.", 
+            "salience": 0.030229269
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.027037885
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Medan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1tfzjvgq"
+            }, 
+            "type": "LOCATION", 
+            "name": "Taman Medan", 
+            "salience": 0.020522129
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.017050937
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.017046407
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cant run", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cant run", 
+            "salience": 0.010721952
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "We are looking for someone who can adopt Nala.She lives around my neighbourhood at Taman Medan 18,pj.There are high chances for her to get caught by the dog catcher as she is a weak dog,and cant run fast.She is a lovely and innocent dog and she deserves a home.",
+                "content": "We are looking for someone who can adopt Nala.She lives around my neighbourhood at Taman Medan 18,pj.There are high chances for her to get caught by the dog catcher as she is a weak dog,and cant run fast.She is a lovely and innocent dog and she deserves a home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "someone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.760956,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "someone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neighbourhood",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05044003,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neighbourhood",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chances",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.033990264,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chances",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog catcher",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.032005142,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog catcher",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Nala.",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.030229269,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Nala.",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.027037885,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Taman Medan",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/g/1tfzjvgq"
-            },
-            "salience": 0.020522129,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Taman Medan",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017050937,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.017046407,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cant run",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.010721952,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cant run",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.6,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "We are looking for someone who can adopt Nala.She lives around my neighbourhood at Taman Medan 18,pj.There are high chances for her to get caught by the dog catcher as she is a weak dog,and cant run fast.She is a lovely and innocent dog and she deserves a home. ", 
+    "categories": []
 }

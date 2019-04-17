@@ -1,125 +1,126 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Paris", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Paris", 
+            "salience": 0.527835
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "temperament", 
+            "salience": 0.3168495
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "CM Chah", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "CM Chah", 
+            "salience": 0.06788727
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cheras", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/09z0md", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Cheras,_Kuala_Lumpur"
+            }, 
+            "type": "LOCATION", 
+            "name": "Cheras", 
+            "salience": 0.06241291
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "London", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/04jpl", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/London"
+            }, 
+            "type": "LOCATION", 
+            "name": "London", 
+            "salience": 0.025015304
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.3, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Paris has a gentle temperament and very shy.",
+                "content": "Paris has a gentle temperament and very shy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "ADopted by CM Chah in Cheras 5 April.",
+                "content": "ADopted by CM Chah in Cheras 5 April.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "London is friendly and truly adorable.",
+                "content": "London is friendly and truly adorable.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Paris",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.527835,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Paris",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "temperament",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3168495,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "temperament",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "CM Chah",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.06788727,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "CM Chah",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Cheras",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/09z0md",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Cheras,_Kuala_Lumpur"
-            },
-            "salience": 0.06241291,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cheras",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "London",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/04jpl",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/London"
-            },
-            "salience": 0.025015304,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "London",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.3,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Paris has a gentle temperament and very shy. ADopted by CM Chah in Cheras 5 April. London is friendly and truly adorable. ", 
+    "categories": []
 }

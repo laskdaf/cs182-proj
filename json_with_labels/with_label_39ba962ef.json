@@ -1,134 +1,135 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Puppy", 
+            "salience": 0.36229667
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "female", 
+            "salience": 0.36229667
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescuer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "rescuer", 
+            "salience": 0.12766927
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "residence house area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "residence house area", 
+            "salience": 0.105863914
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "clinic", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "clinic", 
+            "salience": 0.025703995
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spay fees", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "spay fees", 
+            "salience": 0.016169483
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.4, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Puppy about 4weeks+ female found at residence house area.",
+                "content": "Puppy about 4weeks+ female found at residence house area.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "healthy .",
+                "content": "healthy .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "the rescuer will pay the spay fees if u bring her to their clinic.",
+                "content": "the rescuer will pay the spay fees if u bring her to their clinic.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.36229667,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "female",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.36229667,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rescuer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.12766927,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rescuer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "residence house area",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.105863914,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "residence house area",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "clinic",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.025703995,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "clinic",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "spay fees",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.016169483,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "spay fees",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.4,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Puppy about 4weeks+ female found at residence house area. healthy . the rescuer will pay the spay fees if u bring her to their clinic. ", 
+    "categories": []
 }

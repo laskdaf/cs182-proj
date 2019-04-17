@@ -1,254 +1,255 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.5305279
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taffy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Taffy", 
+            "salience": 0.1378268
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Nutmeg", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/09lnn", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Nutmeg"
+            }, 
+            "type": "CONSUMER_GOOD", 
+            "name": "Nutmeg", 
+            "salience": 0.0865313
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "street", 
+            "salience": 0.05651266
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "edge", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "edge", 
+            "salience": 0.05651266
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kota Damansara Community Forest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/g/1hc1p5736"
+            }, 
+            "type": "LOCATION", 
+            "name": "Kota Damansara Community Forest", 
+            "salience": 0.033896483
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mother", 
+            "salience": 0.018964037
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "salience": 0.018964037
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "creature comforts", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "creature comforts", 
+            "salience": 0.01732946
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.013090662
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "age", 
+            "salience": 0.011544356
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bond", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bond", 
+            "salience": 0.009149816
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.009149816
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Taffy and Nutmeg are two fun-loving pups born on the street at the edge of Kota Damansara Community Forest.",
+                "content": "Taffy and Nutmeg are two fun-loving pups born on the street at the edge of Kota Damansara Community Forest.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Fortunately, they got lucky and were rescued together with their mother and siblings.",
+                "content": "Fortunately, they got lucky and were rescued together with their mother and siblings.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "They have grown up with all the creature comforts you would hope for since 3 weeks old and are happy, active, well-adjusted and charming young puppies.",
+                "content": "They have grown up with all the creature comforts you would hope for since 3 weeks old and are happy, active, well-adjusted and charming young puppies.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "At just two months, they are just the right age to bond with a new family!",
+                "content": "At just two months, they are just the right age to bond with a new family!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.5305279,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Taffy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.1378268,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Taffy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Nutmeg",
-            "type": "CONSUMER_GOOD",
-            "metadata": {
-                "mid": "/m/09lnn",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Nutmeg"
-            },
-            "salience": 0.0865313,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Nutmeg",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "street",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05651266,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "street",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "edge",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05651266,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "edge",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kota Damansara Community Forest",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/g/1hc1p5736"
-            },
-            "salience": 0.033896483,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kota Damansara Community Forest",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "mother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.018964037,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "siblings",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.018964037,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "siblings",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "creature comforts",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01732946,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "creature comforts",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.013090662,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "age",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.011544356,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "age",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bond",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.009149816,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bond",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.009149816,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.2,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Taffy and Nutmeg are two fun-loving pups born on the street at the edge of Kota Damansara Community Forest. Fortunately, they got lucky and were rescued together with their mother and siblings. They have grown up with all the creature comforts you would hope for since 3 weeks old and are happy, active, well-adjusted and charming young puppies. At just two months, they are just the right age to bond with a new family! ", 
+    "categories": []
 }

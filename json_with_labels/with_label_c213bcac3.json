@@ -1,244 +1,245 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cocoa", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "Cocoa", 
+            "salience": 0.2572287
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "girl", 
+            "salience": 0.21532953
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "streets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "streets", 
+            "salience": 0.19420923
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Stray", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "Stray", 
+            "salience": 0.15015914
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "cny", 
+            "salience": 0.07786825
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet bed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pet bed", 
+            "salience": 0.020442428
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bed", 
+            "salience": 0.020386858
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pls contact bark", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Pls contact bark", 
+            "salience": 0.017925318
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cocoa", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "cocoa", 
+            "salience": 0.014304644
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Alot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Alot", 
+            "salience": 0.014121062
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lounging", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "lounging", 
+            "salience": 0.010112331
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sun", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sun", 
+            "salience": 0.00791251
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Cocoa is a Stray rescued off the streets before cny.",
+                "content": "Cocoa is a Stray rescued off the streets before cny.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is boarding with us until an adopter is found.",
+                "content": "She is boarding with us until an adopter is found.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Sweet girl who loves to play and is always smiling.",
+                "content": "Sweet girl who loves to play and is always smiling.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She does not bark Alot and is happy lounging in the sun or in her pet bed.",
+                "content": "She does not bark Alot and is happy lounging in the sun or in her pet bed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Pls contact bark and bed if you would like to meet with cocoa!",
+                "content": "Pls contact bark and bed if you would like to meet with cocoa!", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Cocoa",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.2572287,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cocoa",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "girl",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.21532953,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "girl",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "streets",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.19420923,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "streets",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Stray",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.15015914,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Stray",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "cny",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.07786825,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cny",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pet bed",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020442428,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pet bed",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bed",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020386858,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bed",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Pls contact bark",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.017925318,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pls contact bark",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cocoa",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.014304644,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cocoa",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Alot",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.014121062,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Alot",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "lounging",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.010112331,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lounging",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sun",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.00791251,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sun",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.4,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Cocoa is a Stray rescued off the streets before cny. She is boarding with us until an adopter is found. Sweet girl who loves to play and is always smiling. She does not bark Alot and is happy lounging in the sun or in her pet bed. Pls contact bark and bed if you would like to meet with cocoa! ", 
+    "categories": []
 }

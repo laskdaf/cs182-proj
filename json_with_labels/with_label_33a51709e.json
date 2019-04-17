@@ -1,242 +1,243 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Puppy", 
+            "salience": 0.33850378
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kota Damansara", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0cw79v", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Damansara"
+            }, 
+            "type": "LOCATION", 
+            "name": "Kota Damansara", 
+            "salience": 0.2115837
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "age", 
+            "salience": 0.1395786
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "coat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "coat", 
+            "salience": 0.04704207
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "much", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "much", 
+            "salience": 0.046638716
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "follower", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "follower", 
+            "salience": 0.046638716
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "body", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "body", 
+            "salience": 0.046476774
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "jack russel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "jack russel", 
+            "salience": 0.04322238
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cross breed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Cross breed", 
+            "salience": 0.043105766
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "more", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "more", 
+            "salience": 0.022851357
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "obedience training - heel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "obedience training - heel", 
+            "salience": 0.014358139
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Puppy was found from Kota Damansara at 1 mth of age.",
+                "content": "Puppy was found from Kota Damansara at 1 mth of age.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "now healthy and active.",
+                "content": "now healthy and active.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "much of a follower.",
+                "content": "much of a follower.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "with streamline body and very very short coat like those of a jack russel.",
+                "content": "with streamline body and very very short coat like those of a jack russel.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Cross breed.",
+                "content": "Cross breed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Been through obedience training - heel, sit, down, sit-stay, down-stay,roll-over &amp; more to come.",
+                "content": "Been through obedience training - heel, sit, down, sit-stay, down-stay,roll-over &amp; more to come.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.33850378,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Kota Damansara",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Damansara",
-                "mid": "/m/0cw79v"
-            },
-            "salience": 0.2115837,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Kota Damansara",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "age",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.1395786,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "age",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "coat",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04704207,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "coat",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "much",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.046638716,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "much",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "follower",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.046638716,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "follower",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "body",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.046476774,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "body",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "jack russel",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.04322238,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "jack russel",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Cross breed",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.043105766,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Cross breed",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "more",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022851357,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "more",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "obedience training - heel",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014358139,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "obedience training - heel",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.1,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Puppy was found from Kota Damansara at 1 mth of age. now healthy and active. much of a follower. with streamline body and very very short coat like those of a jack russel. Cross breed. Been through obedience training - heel, sit, down, sit-stay, down-stay,roll-over &amp; more to come. ", 
+    "categories": []
 }

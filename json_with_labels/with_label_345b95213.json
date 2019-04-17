@@ -1,127 +1,128 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.86939704
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.05902458
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Selangor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01jc9d", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Selangor"
+            }, 
+            "type": "LOCATION", 
+            "name": "Selangor", 
+            "salience": 0.03578918
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "KL", 
+            "salience": 0.03578918
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.9, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Very cute and healthy puppy.",
+                "content": "Very cute and healthy puppy.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Lovely and friendly.",
+                "content": "Lovely and friendly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Looking for serious adopter, i cant keep them because i already have 2.",
+                "content": "Looking for serious adopter, i cant keep them because i already have 2.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please help to find their home.",
+                "content": "Please help to find their home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Im willing to send them to you, Selangor &amp; KL.",
+                "content": "Im willing to send them to you, Selangor &amp; KL.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.86939704,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05902458,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Selangor",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/01jc9d",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Selangor"
-            },
-            "salience": 0.03578918,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Selangor",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "KL",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.03578918,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "KL",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.9,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Very cute and healthy puppy. Lovely and friendly. Looking for serious adopter, i cant keep them because i already have 2. Please help to find their home. Im willing to send them to you, Selangor &amp; KL. ", 
+    "categories": []
 }

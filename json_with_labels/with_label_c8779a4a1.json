@@ -1,139 +1,140 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "salience": 0.52575195
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home sweet home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home sweet home", 
+            "salience": 0.2569588
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tying", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "tying", 
+            "salience": 0.1150066
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "precoutionary purpose", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "precoutionary purpose", 
+            "salience": 0.07292019
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Commitment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Commitment", 
+            "salience": 0.02936249
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0.2
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Cute puppy looking for a home sweet home.",
+                "content": "Cute puppy looking for a home sweet home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "No tying or caging for long hours.",
+                "content": "No tying or caging for long hours.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "However, tying for precoutionary purpose is encourage.",
+                "content": "However, tying for precoutionary purpose is encourage.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Commitment to spay her is compulsory.",
+                "content": "Commitment to spay her is compulsory.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Interested to adopt pls call me.",
+                "content": "Interested to adopt pls call me.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "puppy",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.52575195,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home sweet home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.2569588,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home sweet home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "tying",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.1150066,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "tying",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "precoutionary purpose",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.07292019,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "precoutionary purpose",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Commitment",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.02936249,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Commitment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.1,
-        "score": 0.2
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Cute puppy looking for a home sweet home. No tying or caging for long hours. However, tying for precoutionary purpose is encourage. Commitment to spay her is compulsory. Interested to adopt pls call me. ", 
+    "categories": []
 }

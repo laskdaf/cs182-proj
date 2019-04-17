@@ -1,69 +1,70 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Dogs", 
+            "salience": 0.74329627
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "no one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "no one", 
+            "salience": 0.13337345
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "help", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "help", 
+            "salience": 0.12333028
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Dogs that need help but no one to ask.",
+                "content": "Dogs that need help but no one to ask.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Dogs",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.74329627,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dogs",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "no one",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.13337345,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "no one",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "help",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.12333028,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "help",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Dogs that need help but no one to ask. ", 
+    "categories": []
 }

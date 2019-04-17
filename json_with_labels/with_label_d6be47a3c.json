@@ -1,237 +1,238 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rosco", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Rosco", 
+            "salience": 0.61494756
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.17619464
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "house", 
+            "salience": 0.05879397
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "family dog", 
+            "salience": 0.03139637
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Penang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0g6xq", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
+            }, 
+            "type": "LOCATION", 
+            "name": "Penang", 
+            "salience": 0.024060162
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.021749781
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "watchdog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "watchdog", 
+            "salience": 0.01983126
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "children", 
+            "salience": 0.018215507
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sense", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sense", 
+            "salience": 0.009581142
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "smell", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "smell", 
+            "salience": 0.009581142
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hearing", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "hearing", 
+            "salience": 0.009581142
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kids", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "kids", 
+            "salience": 0.006067351
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": 0.5
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Male dog, Rosco, was found roaming near my house, in Penang.",
+                "content": "Male dog, Rosco, was found roaming near my house, in Penang.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is a good family dog and watchdog and is good with children, very gentle with kids.",
+                "content": "He is a good family dog and watchdog and is good with children, very gentle with kids.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is a very active and loving dog.",
+                "content": "He is a very active and loving dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "has keen sense of smell and hearing.",
+                "content": "has keen sense of smell and hearing.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": 0.3
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Rosco",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.61494756,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rosco",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17619464,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "house",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.05879397,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "house",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.03139637,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Penang",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/0g6xq",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
-            },
-            "salience": 0.024060162,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Penang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.021749781,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "watchdog",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.01983126,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "watchdog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "children",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.018215507,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "children",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sense",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.009581142,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sense",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "smell",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.009581142,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "smell",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "hearing",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.009581142,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "hearing",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kids",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.006067351,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kids",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.3,
-        "score": 0.5
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Male dog, Rosco, was found roaming near my house, in Penang. He is a good family dog and watchdog and is good with children, very gentle with kids. He is a very active and loving dog. has keen sense of smell and hearing. ", 
+    "categories": []
 }

@@ -1,54 +1,55 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "prince", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "prince", 
+            "salience": 0.8170986
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shinny coat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "shinny coat", 
+            "salience": 0.1829014
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "The prince has a shinny coat.",
+                "content": "The prince has a shinny coat.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "prince",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8170986,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "prince",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "shinny coat",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.1829014,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "shinny coat",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.1,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "The prince has a shinny coat. ", 
+    "categories": []
 }

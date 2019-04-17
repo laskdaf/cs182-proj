@@ -1,39 +1,40 @@
 {
-    "sentences": [
-        {
-            "text": {
-                "content": "max boy",
-                "beginOffset": -1
-            },
-            "sentiment": {
-                "magnitude": 0.1,
-                "score": 0.1
-            }
-        }
-    ],
-    "tokens": [],
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
     "entities": [
         {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 1,
             "mentions": [
                 {
                     "text": {
-                        "content": "boy",
+                        "content": "boy", 
                         "beginOffset": -1
-                    },
+                    }, 
                     "type": "COMMON"
                 }
-            ]
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 1
         }
-    ],
+    ], 
     "documentSentiment": {
-        "magnitude": 0.1,
+        "magnitude": 0.1, 
         "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "max boy", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "raw_content": "max boy ", 
+    "categories": []
 }

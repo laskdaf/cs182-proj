@@ -1,64 +1,65 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "salience": 0.6888138
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "interest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "interest", 
+            "salience": 0.3111862
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "If anyone are interest pls leave down &quot;pm&quot; I will contact you at so as possible.",
+                "content": "If anyone are interest pls leave down &quot;pm&quot; I will contact you at so as possible.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thank you\ud83d\ude0a",
+                "content": "Thank you\ud83d\ude0a", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "anyone",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6888138,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "interest",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.3111862,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "interest",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "If anyone are interest pls leave down &quot;pm&quot; I will contact you at so as possible. Thank you\ud83d\ude0a ", 
+    "categories": []
 }

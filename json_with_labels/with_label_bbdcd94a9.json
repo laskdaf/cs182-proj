@@ -1,224 +1,225 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.7334785
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "animal lover", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "animal lover", 
+            "salience": 0.0733737
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Apple", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0k8z", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Apple_Inc."
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "Apple", 
+            "salience": 0.06704104
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cancer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cancer", 
+            "salience": 0.043618117
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.024139127
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "words", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "words", 
+            "salience": 0.014496194
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "sit", 
+            "salience": 0.014496194
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighbor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "neighbor", 
+            "salience": 0.014391473
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "apartment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "apartment", 
+            "salience": 0.0117658675
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "choice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "choice", 
+            "salience": 0.0031997915
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Apple's owner passed away 8 yrs ago after fighting for few months on cancer.",
+                "content": "Apple's owner passed away 8 yrs ago after fighting for few months on cancer.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": -0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Her owner gave her to a neighbor and i adopted her since then.",
+                "content": "Her owner gave her to a neighbor and i adopted her since then.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's very obedient and understands simple words like sit, stay, go..",
+                "content": "She's very obedient and understands simple words like sit, stay, go..", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Unfortunately, I have to move to an apartment, which left me no choice but to let go of her.",
+                "content": "Unfortunately, I have to move to an apartment, which left me no choice but to let go of her.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.3,
+                "magnitude": 0.3, 
                 "score": -0.3
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Anyone who wants to adopt her must be an animal lover.",
+                "content": "Anyone who wants to adopt her must be an animal lover.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.7334785,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "animal lover",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0733737,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Anyone",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "animal lover",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Apple",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
-                "mid": "/m/0k8z"
-            },
-            "salience": 0.06704104,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Apple",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "cancer",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.043618117,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cancer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.024139127,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "words",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014496194,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "words",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sit",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.014496194,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sit",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "neighbor",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.014391473,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neighbor",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "apartment",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0117658675,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "apartment",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "choice",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0031997915,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "choice",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Apple's owner passed away 8 yrs ago after fighting for few months on cancer. Her owner gave her to a neighbor and i adopted her since then. She's very obedient and understands simple words like sit, stay, go.. Unfortunately, I have to move to an apartment, which left me no choice but to let go of her. Anyone who wants to adopt her must be an animal lover. ", 
+    "categories": []
 }

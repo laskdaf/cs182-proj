@@ -1,189 +1,190 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "boy", 
+            "salience": 0.8161414
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.07017357
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "road", 
+            "salience": 0.023780677
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cars", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "cars", 
+            "salience": 0.023780677
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brother", 
+            "salience": 0.023494534
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescuer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "rescuer", 
+            "salience": 0.021740278
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "pups", 
+            "salience": 0.0072516357
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vignes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "vignes", 
+            "salience": 0.00681859
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Catherine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Catherine", 
+            "salience": 0.00681859
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Midnight is a handsome and loving boy looking for a furever home .",
+                "content": "Midnight is a handsome and loving boy looking for a furever home .", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He and his brother were left alone on the road almost knocked down by cars.",
+                "content": "He and his brother were left alone on the road almost knocked down by cars.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Thankfully enough our rescuer manage to rescue the pups in time.",
+                "content": "Thankfully enough our rescuer manage to rescue the pups in time.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "If your interested in adopting Midnight please call (vignes) or (Catherine).",
+                "content": "If your interested in adopting Midnight please call (vignes) or (Catherine).", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "boy",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.8161414,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "boy",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.07017357,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "road",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.023780677,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "road",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cars",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.023780677,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cars",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.023494534,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "rescuer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.021740278,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rescuer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pups",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0072516357,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pups",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vignes",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.00681859,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vignes",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Catherine",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.00681859,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Catherine",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Midnight is a handsome and loving boy looking for a furever home . He and his brother were left alone on the road almost knocked down by cars. Thankfully enough our rescuer manage to rescue the pups in time. If your interested in adopting Midnight please call (vignes) or (Catherine). ", 
+    "categories": []
 }

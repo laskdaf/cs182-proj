@@ -1,115 +1,116 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "BEBE", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0b2fjv", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bebe_Stores"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "BEBE", 
+            "salience": 0.7363823
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SHIH TZU", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01s7fj", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Shih_Tzu"
+            }, 
+            "type": "LOCATION", 
+            "name": "SHIH TZU", 
+            "salience": 0.16822408
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ADOPTION", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ADOPTION", 
+            "salience": 0.09539358
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "BEBE...",
+                "content": "BEBE...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "SHIH TZU...",
+                "content": "SHIH TZU...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "9 YEARS OLD AND 9 MONTH....",
+                "content": "9 YEARS OLD AND 9 MONTH....", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "FEMALE...",
+                "content": "FEMALE...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "FREE ADOPTION...",
+                "content": "FREE ADOPTION...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "BEBE",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Bebe_Stores",
-                "mid": "/m/0b2fjv"
-            },
-            "salience": 0.7363823,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "BEBE",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "SHIH TZU",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Shih_Tzu",
-                "mid": "/m/01s7fj"
-            },
-            "salience": 0.16822408,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "SHIH TZU",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "ADOPTION",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.09539358,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ADOPTION",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.3,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "BEBE... SHIH TZU... 9 YEARS OLD AND 9 MONTH.... FEMALE... FREE ADOPTION... ", 
+    "categories": []
 }

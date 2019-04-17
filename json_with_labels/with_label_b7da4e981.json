@@ -1,72 +1,73 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "BAMBI", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "BAMBI", 
+            "salience": 0.45981887
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "sister", 
+            "salience": 0.42085356
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "LEMON", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/09k_b", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Lemon"
+            }, 
+            "type": "PERSON", 
+            "name": "LEMON", 
+            "salience": 0.11932758
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "BAMBI is LEMON's sister She is also active and adorable",
+                "content": "BAMBI is LEMON's sister She is also active and adorable", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "BAMBI",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.45981887,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "BAMBI",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "sister",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.42085356,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "sister",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "LEMON",
-            "type": "PERSON",
-            "metadata": {
-                "mid": "/m/09k_b",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Lemon"
-            },
-            "salience": 0.11932758,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "LEMON",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.9
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "BAMBI is LEMON's sister She is also active and adorable ", 
+    "categories": []
 }

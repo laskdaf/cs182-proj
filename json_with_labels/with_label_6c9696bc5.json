@@ -1,101 +1,102 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Name", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Name", 
+            "salience": 0.6329524
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jumbo Gender: Female Age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Jumbo Gender: Female Age", 
+            "salience": 0.17837717
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ginn", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Ms.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Ginn", 
+            "salience": 0.12304892
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ears", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "ears", 
+            "salience": 0.06562155
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Name: Jumbo Gender: Female Age: 3 months old Have large ears.",
+                "content": "Name: Jumbo Gender: Female Age: 3 months old Have large ears.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please call Ms. Ginn at",
+                "content": "Please call Ms. Ginn at", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Name",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.6329524,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Name",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Jumbo Gender: Female Age",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.17837717,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jumbo Gender: Female Age",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Ginn",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.12304892,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ginn",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Ms.",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "ears",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06562155,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "ears",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.1,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Name: Jumbo Gender: Female Age: 3 months old Have large ears. Please call Ms. Ginn at ", 
+    "categories": []
 }

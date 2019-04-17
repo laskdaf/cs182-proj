@@ -1,57 +1,58 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mix schnauzer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "mix schnauzer", 
+            "salience": 0.53465563
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Poodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/02kfwr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Poodle"
+            }, 
+            "type": "PERSON", 
+            "name": "Poodle", 
+            "salience": 0.46534434
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "6months old Poodle mix schnauzer",
+                "content": "6months old Poodle mix schnauzer", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "mix schnauzer",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.53465563,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mix schnauzer",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Poodle",
-            "type": "PERSON",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Poodle",
-                "mid": "/m/02kfwr"
-            },
-            "salience": 0.46534434,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Poodle",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "6months old Poodle mix schnauzer ", 
+    "categories": []
 }

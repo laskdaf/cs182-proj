@@ -1,124 +1,125 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Poby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Poby", 
+            "salience": 0.9192744
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "watchdog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "watchdog", 
+            "salience": 0.050613996
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.015518123
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dewormed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/03nnncz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Deworming"
+            }, 
+            "type": "OTHER", 
+            "name": "Dewormed", 
+            "salience": 0.014593509
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Poby is a very easy n clean dog.",
+                "content": "Poby is a very easy n clean dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is easily trained and an excellent watchdog.",
+                "content": "She is easily trained and an excellent watchdog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is friendly and always try to please her owner.",
+                "content": "She is friendly and always try to please her owner.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.7,
+                "magnitude": 0.7, 
                 "score": 0.7
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's vaccinated, Dewormed and spayed.",
+                "content": "She's vaccinated, Dewormed and spayed.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Poby",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.9192744,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Poby",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "watchdog",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.050613996,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "watchdog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.015518123,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Dewormed",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/03nnncz",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Deworming"
-            },
-            "salience": 0.014593509,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dewormed",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Poby is a very easy n clean dog. She is easily trained and an excellent watchdog. She is friendly and always try to please her owner. She's vaccinated, Dewormed and spayed. ", 
+    "categories": []
 }

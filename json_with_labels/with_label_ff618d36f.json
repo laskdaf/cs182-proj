@@ -1,77 +1,78 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dewormed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/03nnncz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Deworming"
+            }, 
+            "type": "OTHER", 
+            "name": "Dewormed", 
+            "salience": 0.57056075
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "command", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "command", 
+            "salience": 0.42943922
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Very active, intelligent and friendly.",
+                "content": "Very active, intelligent and friendly.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Knows how to sit on command.",
+                "content": "Knows how to sit on command.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.4,
+                "magnitude": 0.4, 
                 "score": 0.4
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Dewormed and Vaccinated.",
+                "content": "Dewormed and Vaccinated.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Dewormed",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/03nnncz",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Deworming"
-            },
-            "salience": 0.57056075,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Dewormed",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "command",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.42943922,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "command",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.4,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "Very active, intelligent and friendly. Knows how to sit on command. Dewormed and Vaccinated. ", 
+    "categories": []
 }

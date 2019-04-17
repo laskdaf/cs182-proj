@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "life", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "life", 
+            "salience": 0.4102105
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lorries", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "lorries", 
+            "salience": 0.2050886
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "salience": 0.18929666
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "construction sites", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "construction sites", 
+            "salience": 0.14502478
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Contact", 
+            "salience": 0.05037948
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Pls adopt before their life taken away by lorries as puppies are based in construction sites.",
+                "content": "Pls adopt before their life taken away by lorries as puppies are based in construction sites.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Contact",
+                "content": "Contact", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "life",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.4102105,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "life",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lorries",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.2050886,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lorries",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "puppies",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.18929666,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "construction sites",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.14502478,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "construction sites",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Contact",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.05037948,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Contact",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Pls adopt before their life taken away by lorries as puppies are based in construction sites. Contact ", 
+    "categories": []
 }

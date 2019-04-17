@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pup", 
+            "salience": 0.47000223
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "heart", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "heart", 
+            "salience": 0.29096174
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "CONTACT", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "CONTACT", 
+            "salience": 0.13345645
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "OOI", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "OOI", 
+            "salience": 0.060518038
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "MISS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "MISS", 
+            "salience": 0.045061518
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Happy go lucky male pup melts your heart :)",
+                "content": "Happy go lucky male pup melts your heart :)", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "PLEASE CONTACT (MISS OOI).",
+                "content": "PLEASE CONTACT (MISS OOI).", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "pup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.47000223,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pup",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "heart",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.29096174,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "heart",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "CONTACT",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.13345645,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "CONTACT",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "OOI",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.060518038,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "OOI",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "MISS",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.045061518,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "MISS",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Happy go lucky male pup melts your heart :) PLEASE CONTACT (MISS OOI). ", 
+    "categories": []
 }

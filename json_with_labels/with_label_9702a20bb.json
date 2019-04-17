@@ -1,72 +1,73 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mac", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/055yr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/MacOS"
+            }, 
+            "type": "CONSUMER_GOOD", 
+            "name": "Mac", 
+            "salience": 0.6078681
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sparky", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Sparky", 
+            "salience": 0.197449
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brown spot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "brown spot", 
+            "salience": 0.19468291
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Mac is brown and Sparky is white with some brown spot.",
+                "content": "Mac is brown and Sparky is white with some brown spot.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Mac",
-            "type": "CONSUMER_GOOD",
-            "metadata": {
-                "mid": "/m/055yr",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/MacOS"
-            },
-            "salience": 0.6078681,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Mac",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Sparky",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.197449,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sparky",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "brown spot",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.19468291,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brown spot",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Mac is brown and Sparky is white with some brown spot. ", 
+    "categories": []
 }

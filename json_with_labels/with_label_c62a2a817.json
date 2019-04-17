@@ -1,214 +1,215 @@
 {
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "size", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "size", 
+            "salience": 0.50161344
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "vet", 
+            "salience": 0.12500107
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pony", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "pony", 
+            "salience": 0.11034731
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pony", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Pony", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01fzz2", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Pony"
+            }, 
+            "type": "ORGANIZATION", 
+            "name": "Pony", 
+            "salience": 0.09593301
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "EVENT", 
+            "name": "vet", 
+            "salience": 0.033552513
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bill", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "bill", 
+            "salience": 0.029875433
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "owner", 
+            "salience": 0.029513929
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.027298745
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.026318608
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "details", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "details", 
+            "salience": 0.020545937
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": -0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Pony was nicknamed due to his large size that resembles a pony.",
+                "content": "Pony was nicknamed due to his large size that resembles a pony.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He is about kgs and was abandoned by his owner at a vet after refusing to pay the bill.",
+                "content": "He is about kgs and was abandoned by his owner at a vet after refusing to pay the bill.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": -0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "The vet hopes to rehome Pony to a good home as he is still healthy and is a good dog.",
+                "content": "The vet hopes to rehome Pony to a good home as he is still healthy and is a good dog.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Please SMS or email me with details and i will get back to you.",
+                "content": "Please SMS or email me with details and i will get back to you.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "size",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.50161344,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "size",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vet",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.12500107,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "pony",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.11034731,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "pony",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Pony",
-            "type": "ORGANIZATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Pony",
-                "mid": "/m/01fzz2"
-            },
-            "salience": 0.09593301,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pony",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Pony",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "vet",
-            "type": "EVENT",
-            "metadata": {},
-            "salience": 0.033552513,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "bill",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.029875433,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "bill",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "owner",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.029513929,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.027298745,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.026318608,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "details",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.020545937,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "details",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.6,
-        "score": -0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 2
+    ], 
+    "raw_content": "Pony was nicknamed due to his large size that resembles a pony. He is about kgs and was abandoned by his owner at a vet after refusing to pay the bill. The vet hopes to rehome Pony to a good home as he is still healthy and is a good dog. Please SMS or email me with details and i will get back to you. ", 
+    "categories": []
 }

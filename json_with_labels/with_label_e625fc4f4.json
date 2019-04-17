@@ -1,221 +1,222 @@
 {
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "adult", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "guard dog", 
+            "salience": 0.6381724
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cutie pie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cutie pie", 
+            "salience": 0.20863748
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "chest", 
+            "salience": 0.08604814
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "vet", 
+            "salience": 0.023379536
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brother", 
+            "salience": 0.013128314
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pirate", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Pirate", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Pirate", 
+            "salience": 0.009183707
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brother", 
+            "salience": 0.00690189
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.0055352426
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "brother", 
+            "salience": 0.0049760216
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bovril", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01kl4", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bovril"
+            }, 
+            "type": "OTHER", 
+            "name": "Bovril", 
+            "salience": 0.004037267
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "This black cutie pie with a white chest will be a good guard dog when she's an adult, if treated well - this is what my vet says.",
+                "content": "This black cutie pie with a white chest will be a good guard dog when she's an adult, if treated well - this is what my vet says.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She's very independent &amp; smaller than her brother, Pirate.",
+                "content": "She's very independent &amp; smaller than her brother, Pirate.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
-        },
+        }, 
         {
             "text": {
-                "content": "But she's not afraid to fight off her brother during play time &amp; meal time.",
+                "content": "But she's not afraid to fight off her brother during play time &amp; meal time.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Ideal if Bovril can find loving home together with brother Pirate.",
+                "content": "Ideal if Bovril can find loving home together with brother Pirate.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "guard dog",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.6381724,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "guard dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "adult",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cutie pie",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.20863748,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cutie pie",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "chest",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.08604814,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "chest",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vet",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.023379536,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.013128314,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Pirate",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.009183707,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Pirate",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                },
-                {
-                    "text": {
-                        "content": "Pirate",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "brother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.00690189,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.0055352426,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "brother",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0049760216,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "brother",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Bovril",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Bovril",
-                "mid": "/m/01kl4"
-            },
-            "salience": 0.004037267,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Bovril",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1.9,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 3
+    ], 
+    "raw_content": "This black cutie pie with a white chest will be a good guard dog when she's an adult, if treated well - this is what my vet says. She's very independent &amp; smaller than her brother, Pirate. But she's not afraid to fight off her brother during play time &amp; meal time. Ideal if Bovril can find loving home together with brother Pirate. ", 
+    "categories": []
 }

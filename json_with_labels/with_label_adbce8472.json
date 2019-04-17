@@ -1,57 +1,58 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "detail", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "detail", 
+            "salience": 0.78506887
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "WhatsApp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0gwzvs1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/WhatsApp"
+            }, 
+            "type": "OTHER", 
+            "name": "WhatsApp", 
+            "salience": 0.21493115
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Who are interested to adopt, please contact me via WhatsApp for further detail.",
+                "content": "Who are interested to adopt, please contact me via WhatsApp for further detail.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "detail",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.78506887,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "detail",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "WhatsApp",
-            "type": "OTHER",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/WhatsApp",
-                "mid": "/m/0gwzvs1"
-            },
-            "salience": 0.21493115,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "WhatsApp",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0,
-        "score": 0
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Who are interested to adopt, please contact me via WhatsApp for further detail. ", 
+    "categories": []
 }

@@ -1,154 +1,155 @@
 {
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.4216074
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "children", 
+            "salience": 0.14764841
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "caging", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "caging", 
+            "salience": 0.14661013
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "manja", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "manja", 
+            "salience": 0.1358605
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "vet", 
+            "salience": 0.10256585
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kibbles", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "kibbles", 
+            "salience": 0.04570771
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.7, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Looking for a good loving home, to stay indoors prefferred.",
+                "content": "Looking for a good loving home, to stay indoors prefferred.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "No caging.",
+                "content": "No caging.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": -0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Extremely friendly with children and manja.",
+                "content": "Extremely friendly with children and manja.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Not fussy with kibbles.",
+                "content": "Not fussy with kibbles.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.5,
+                "magnitude": 0.5, 
                 "score": 0.5
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Is being kept with a vet for some time.",
+                "content": "Is being kept with a vet for some time.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.4216074,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "children",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.14764841,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "children",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "caging",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.14661013,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "caging",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "manja",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.1358605,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "manja",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "vet",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.10256585,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vet",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "kibbles",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.04570771,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "kibbles",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.7,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 0
+    ], 
+    "raw_content": "Looking for a good loving home, to stay indoors prefferred. No caging. Extremely friendly with children and manja. Not fussy with kibbles. Is being kept with a vet for some time. ", 
+    "categories": []
 }

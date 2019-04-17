@@ -1,121 +1,122 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sausage", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "daschund mix female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Sausage", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/0kdzn", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Sausage"
+            }, 
+            "type": "OTHER", 
+            "name": "Sausage", 
+            "salience": 0.91624105
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "folks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "folks", 
+            "salience": 0.030979093
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "seniors", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "seniors", 
+            "salience": 0.030979093
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.021800736
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.3
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Sausage is a medium length haired daschund mix female.",
+                "content": "Sausage is a medium length haired daschund mix female.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is approx 11kg.",
+                "content": "She is approx 11kg.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0,
+                "magnitude": 0, 
                 "score": 0
             }
-        },
+        }, 
         {
             "text": {
-                "content": "She is very gentle, obedient and loves to be petted Sausage would be best with seniors/old folks or a quiet home",
+                "content": "She is very gentle, obedient and loves to be petted Sausage would be best with seniors/old folks or a quiet home", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Sausage",
-            "type": "OTHER",
-            "metadata": {
-                "mid": "/m/0kdzn",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Sausage"
-            },
-            "salience": 0.91624105,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Sausage",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "daschund mix female",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                },
-                {
-                    "text": {
-                        "content": "Sausage",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "folks",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.030979093,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "folks",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "seniors",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.030979093,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "seniors",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.021800736,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 1,
-        "score": 0.3
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Sausage is a medium length haired daschund mix female. She is approx 11kg. She is very gentle, obedient and loves to be petted Sausage would be best with seniors/old folks or a quiet home ", 
+    "categories": []
 }

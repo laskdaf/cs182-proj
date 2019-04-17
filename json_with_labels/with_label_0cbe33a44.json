@@ -1,109 +1,110 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spitz", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "spitz", 
+            "salience": 0.36544725
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "coat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "coat", 
+            "salience": 0.25944376
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taiwan Japanese", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "ORGANIZATION", 
+            "name": "Taiwan Japanese", 
+            "salience": 0.22715427
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "microchip", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "microchip", 
+            "salience": 0.083565705
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lim", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "lim", 
+            "salience": 0.06438903
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "from Taiwan Japanese spitz, white coat ,includ mka microchip.",
+                "content": "from Taiwan Japanese spitz, white coat ,includ mka microchip.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "-- lim",
+                "content": "-- lim", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "spitz",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.36544725,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "spitz",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "coat",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.25944376,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "coat",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Taiwan Japanese",
-            "type": "ORGANIZATION",
-            "metadata": {},
-            "salience": 0.22715427,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Taiwan Japanese",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "microchip",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.083565705,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "microchip",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "lim",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.06438903,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "lim",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 0.2,
-        "score": 0.1
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "from Taiwan Japanese spitz, white coat ,includ mka microchip. -- lim ", 
+    "categories": []
 }

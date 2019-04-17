@@ -1,195 +1,196 @@
 {
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "dog", 
+            "salience": 0.50247115
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "home", 
+            "salience": 0.21699812
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "salience": 0.07429151
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "adopters", 
+            "salience": 0.051557116
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ulu Tiram", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/08hth9", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ulu_Tiram"
+            }, 
+            "type": "LOCATION", 
+            "name": "Ulu Tiram", 
+            "salience": 0.044336107
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Johor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {
+                "mid": "/m/01jng9", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Johor"
+            }, 
+            "type": "LOCATION", 
+            "name": "Johor", 
+            "salience": 0.040723305
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jb", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Jb", 
+            "salience": 0.030671954
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Serdang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "LOCATION", 
+            "name": "Serdang", 
+            "salience": 0.021525005
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "transport", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "transport", 
+            "salience": 0.01742573
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.6
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Gorgeous dog looking for home.",
+                "content": "Gorgeous dog looking for home.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Super friendly and very playful.",
+                "content": "Super friendly and very playful.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Location: Ulu Tiram, Johor.",
+                "content": "Location: Ulu Tiram, Johor.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Will provide transport to genuine adopters (Jb til Serdang)...",
+                "content": "Will provide transport to genuine adopters (Jb til Serdang)...", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.6,
+                "magnitude": 0.6, 
                 "score": 0.6
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "dog",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.50247115,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "home",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.21699812,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Location",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.07429151,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Location",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "adopters",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.051557116,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "adopters",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Ulu Tiram",
-            "type": "LOCATION",
-            "metadata": {
-                "mid": "/m/08hth9",
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Ulu_Tiram"
-            },
-            "salience": 0.044336107,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Ulu Tiram",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Johor",
-            "type": "LOCATION",
-            "metadata": {
-                "wikipedia_url": "https://en.wikipedia.org/wiki/Johor",
-                "mid": "/m/01jng9"
-            },
-            "salience": 0.040723305,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Johor",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Jb",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.030671954,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Jb",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "Serdang",
-            "type": "LOCATION",
-            "metadata": {},
-            "salience": 0.021525005,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Serdang",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "transport",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.01742573,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "transport",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.6,
-        "score": 0.6
-    },
-    "language": "en",
-    "categories": [],
-    "label": 1
+    ], 
+    "raw_content": "Gorgeous dog looking for home. Super friendly and very playful. Location: Ulu Tiram, Johor. Will provide transport to genuine adopters (Jb til Serdang)... ", 
+    "categories": []
 }

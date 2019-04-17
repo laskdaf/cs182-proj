@@ -1,199 +1,200 @@
 {
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rusty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "Rusty", 
+            "salience": 0.67841566
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cutie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "cutie", 
+            "salience": 0.16264094
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.07086097
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cuddles", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "CONSUMER_GOOD", 
+            "name": "cuddles", 
+            "salience": 0.027694758
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "manja", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "manja", 
+            "salience": 0.022561066
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "PERSON", 
+            "name": "family", 
+            "salience": 0.0140302
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "addition", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "addition", 
+            "salience": 0.012339248
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rusty Whatsup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "Rusty Whatsup", 
+            "salience": 0.0060005956
+        }, 
+        {
+            "mentions": [
+                {
+                    "text": {
+                        "content": "love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "metadata": {}, 
+            "type": "OTHER", 
+            "name": "love", 
+            "salience": 0.005456578
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": 0.4
+    }, 
     "sentences": [
         {
             "text": {
-                "content": "Rusty is such a cutie.",
+                "content": "Rusty is such a cutie.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He loves cuddles and is so affectionate/manja.",
+                "content": "He loves cuddles and is so affectionate/manja.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.9,
+                "magnitude": 0.9, 
                 "score": 0.9
             }
-        },
+        }, 
         {
             "text": {
-                "content": "He's really hoping to find a loving family, who will smother him with love.",
+                "content": "He's really hoping to find a loving family, who will smother him with love.", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.8,
+                "magnitude": 0.8, 
                 "score": 0.8
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Are you looking for an addition to your family?",
+                "content": "Are you looking for an addition to your family?", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.1,
+                "magnitude": 0.1, 
                 "score": 0.1
             }
-        },
+        }, 
         {
             "text": {
-                "content": "Choose Rusty Whatsup -",
+                "content": "Choose Rusty Whatsup -", 
                 "beginOffset": -1
-            },
+            }, 
             "sentiment": {
-                "magnitude": 0.2,
+                "magnitude": 0.2, 
                 "score": 0.2
             }
         }
-    ],
-    "tokens": [],
-    "entities": [
-        {
-            "name": "Rusty",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.67841566,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rusty",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "cutie",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.16264094,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cutie",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.07086097,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "cuddles",
-            "type": "CONSUMER_GOOD",
-            "metadata": {},
-            "salience": 0.027694758,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cuddles",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "manja",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.022561066,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "manja",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "family",
-            "type": "PERSON",
-            "metadata": {},
-            "salience": 0.0140302,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "family",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "addition",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.012339248,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "addition",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        },
-        {
-            "name": "Rusty Whatsup",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.0060005956,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Rusty Whatsup",
-                        "beginOffset": -1
-                    },
-                    "type": "PROPER"
-                }
-            ]
-        },
-        {
-            "name": "love",
-            "type": "OTHER",
-            "metadata": {},
-            "salience": 0.005456578,
-            "mentions": [
-                {
-                    "text": {
-                        "content": "love",
-                        "beginOffset": -1
-                    },
-                    "type": "COMMON"
-                }
-            ]
-        }
-    ],
-    "documentSentiment": {
-        "magnitude": 2.3,
-        "score": 0.4
-    },
-    "language": "en",
-    "categories": [],
-    "label": 4
+    ], 
+    "raw_content": "Rusty is such a cutie. He loves cuddles and is so affectionate/manja. He's really hoping to find a loving family, who will smother him with love. Are you looking for an addition to your family? Choose Rusty Whatsup - ", 
+    "categories": []
 }
