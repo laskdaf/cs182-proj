@@ -46,12 +46,25 @@ print(dictionary.token2id)
 #     new_vec = dictionary.doc2bow([w])
 #     print(new_vec)
 
+embedded_documents = {}
+
 with open(filename) as json_file:
     data = json.load(json_file)
 
     for key, value in data.items():
         fullText = value["fullText"]
 
-        # for w in new_doc.lower().split():
-        #     new_vec = dictionary.doc2bow([w])
-        #     print(new_vec)
+        embedding = []
+
+        for w in fullText.lower().split():
+            vec = dictionary.doc2bow([w])
+            word_id = 0
+            if len(vec) > 0:
+                word_id = vec[0][0] + 1
+
+            embedding.append(word_id)
+
+        embedded_documents[key] = embedding
+
+print(len(embedded_documents))
+print(embedded_documents["bef897b2b"])
