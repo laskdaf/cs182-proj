@@ -1,10 +1,16 @@
 import os
 import json
 import pandas as pd
+from collections import defaultdict
+from gensim import corpora
 
-
+stoplist = set('for a of the and to in'.split())
 
 directory = './json_with_labels/'
+
+frequency = defaultdict(int)
+vocab = []
+
 
 # try:  
 #     os.mkdir(destination)
@@ -33,13 +39,23 @@ for filename in os.listdir(directory):
                 raw_content += content
             
             words = raw_content.split(" ")
-            print len(words)
+            words = [str(w) for w in words]
+            for word in words:
+                if word not in stoplist:
+                    frequency[word] += 1
+                    
+            filtered = [w for w in words if frequency[w] > 1]
+            vocab.append(filtered)
+                
+
+            print(len(words))
+            print(words)
             # if len(words) > 30:
             #     print(raw_content)
             #     break
             data['raw_content'] = raw_content
-            json_file.seek(0)
-            json.dump(data, json_file, indent=4)
+            # json_file.seek(0)
+            # json.dump(data, json_file, indent=4)
 
             # pet_hash = filename[:-5]
             # query = pet_data[pet_data['PetID']==pet_hash]
@@ -56,3 +72,15 @@ for filename in os.listdir(directory):
             
             # with open('./' + destination + "/with_label_" + filename, 'w') as outfile:
             #     json.dump(data, outfile, indent=4)
+
+print(vocab)
+
+dictionary = corpora.Dictionary(vocab)
+
+
+dictionary.save('/tmp/deerwester.dict')  # store the dictionary, for future reference
+print(dictionary)
+
+print(dictionary.token2id)
+
+print(len(dictionary.token2id))
