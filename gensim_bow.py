@@ -37,7 +37,7 @@ texts = [[token for token in text if frequency[token] > 1] for text in texts]
 dictionary = corpora.Dictionary(texts)
 # dictionary.save(os.path.join(TEMP_FOLDER, 'deerwester.dict'))  # store the dictionary, for future reference
 # print(dictionary)
-print(dictionary.token2id)
+# print(dictionary.token2id)
 
 
 
@@ -48,13 +48,15 @@ print(dictionary.token2id)
 
 data = None
 
+maxLen = 0
+
 with open(filename) as json_file:
     data = json.load(json_file)
 
     for key, value in data.items():
         fullText = value["fullText"]
 
-        embedding = []
+        vectorized = []
 
         for w in fullText.lower().split():
             vec = dictionary.doc2bow([w])
@@ -62,11 +64,13 @@ with open(filename) as json_file:
             if len(vec) > 0:
                 word_id = vec[0][0] + 1
 
-            embedding.append(word_id)
+            vectorized.append(word_id)
 
-        data[key]["embedding"] = embedding
+        data[key]["vectorized"] = vectorized
+        maxLen = max(maxLen, len(vectorized))
 
 print(data["bef897b2b"])
+print(maxLen)
 
-with open('text_and_label/json_embedding.json', 'w') as outfile:
+with open('text_and_label/json_vectorized.json', 'w') as outfile:
     json.dump(data, outfile, indent=4)
