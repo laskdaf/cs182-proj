@@ -46,7 +46,7 @@ print(dictionary.token2id)
 #     new_vec = dictionary.doc2bow([w])
 #     print(new_vec)
 
-embedded_documents = {}
+data = None
 
 with open(filename) as json_file:
     data = json.load(json_file)
@@ -64,7 +64,9 @@ with open(filename) as json_file:
 
             embedding.append(word_id)
 
-        embedded_documents[key] = embedding
+        data[key]["embedding"] = embedding
 
-print(len(embedded_documents))
-print(embedded_documents["bef897b2b"])
+print(data["bef897b2b"])
+
+with open('text_and_label/json_embedding.json', 'w') as outfile:
+    json.dump(data, outfile, indent=4)
