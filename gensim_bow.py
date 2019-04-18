@@ -36,8 +36,8 @@ texts = [[token for token in text if frequency[token] > 1] for text in texts]
 
 dictionary = corpora.Dictionary(texts)
 # dictionary.save(os.path.join(TEMP_FOLDER, 'deerwester.dict'))  # store the dictionary, for future reference
-# print(dictionary)
-# print(dictionary.token2id)
+print(dictionary)
+print(dictionary.token2id)
 
 
 
