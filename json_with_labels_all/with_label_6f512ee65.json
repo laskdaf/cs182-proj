@@ -1,0 +1,129 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.36264345, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "watch dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "watch dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3247184, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Chester", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Chester", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.26090142, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031700213, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "gate", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "gate", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020036524, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "agility training", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "agility training", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.6
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Chester is a playful and smart dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is also a good watch dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is good for agility training.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Can easily jump over a 3 feet high gate.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

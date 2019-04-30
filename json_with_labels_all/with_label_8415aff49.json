@@ -1,0 +1,262 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.29876557, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "house", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.23534226, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "household", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "household", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16040507, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Musang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Musang", 
+            "metadata": {
+                "mid": "/m/02q0vj7", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Civet"
+            }
+        }, 
+        {
+            "salience": 0.059838053, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "somebody", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "somebody", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.050509453, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "injury", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "injury", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.050509453, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "result", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "result", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.034315653, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "medication", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "medication", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.034315653, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "oldself", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "oldself", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.034187227, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attack", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "attack", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031415842, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "relief", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "relief", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010395757, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "residence", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "residence", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Musang was born at my house.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "When she was 4-mth old, she suffered serious injury as a result of an attack.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "It really scared the whole household.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Luckily, after adequately attended and medication, she recovered to her oldself.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "What a relief...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "But soon I'll need to move to a new residence, I can't bring her along.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I'm looking for somebody who would adopt her and love her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "I'll miss her, for sure...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

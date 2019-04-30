@@ -1,0 +1,89 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.9324889, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Teddy Bear", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Teddy Bear", 
+            "metadata": {
+                "mid": "/m/0kmg4", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Teddy_bear"
+            }
+        }, 
+        {
+            "salience": 0.04138625, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tummy rub", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tummy rub", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.026124815, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "people", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.7
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Teddy Bear is a playful puppy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "He likes to be with people and tummy rub.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

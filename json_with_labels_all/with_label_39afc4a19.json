@@ -1,0 +1,112 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.4349734, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tony", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Tony", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.41444793, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Malaysia", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Malaysia", 
+            "metadata": {
+                "mid": "/m/09pmkv", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia"
+            }
+        }, 
+        {
+            "salience": 0.09484361, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "someone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.030895704, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "guard dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.024839377, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I'm leaving Malaysia soon and need someone to adopt Tony.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is a very sweet and loving dog and not trained as guard dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "categories": []
+}

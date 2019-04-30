@@ -1,0 +1,199 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.7893302, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "male", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "sibling", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "sibling", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0792351, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "strays", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "strays", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0320217, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "street", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02977719, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "alert", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "alert", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01687203, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016067918, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Anyone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.015489872, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0120244585, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "guard dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009181524, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Relau Penang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Relau Penang", 
+            "metadata": {
+                "mid": "/m/02705fd", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Relau"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This 2 male is a sibling and they're born to be strays.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Save them from street and very fast alert.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Can be good guard dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Anyone can give them a good home pls call Location: Relau Penang", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

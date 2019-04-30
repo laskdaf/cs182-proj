@@ -1,0 +1,196 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.75928247, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sam", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "parvo survivor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Sam", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.115071245, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "market", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "market", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0320718, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Hope", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Hope", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.022771046, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Some", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Some", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016685834, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "person", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "person", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01564479, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "car", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01564479, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "virus", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "virus", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0154559165, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.007372079, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Sam had dumped at market since he just 2 months old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Some of his siblings were died hit by car and died due to parvo virus.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is a parvo survivor.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Hope can find a new home for him..A person that really treat him good and forever", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

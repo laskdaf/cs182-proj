@@ -1,0 +1,156 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.57811654, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Oldie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Oldie", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.25617903, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.058293223, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "name.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "name.", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.045415692, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "legs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "legs", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.034889918, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "handshakes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "handshakes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02133413, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.005771459, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Oldie is a stray dog ,he recognised his name. he know how to play fetch , give handshakes and walk with two legs .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "His owner left him and he needs a home .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "He's a playful dog,smart but a bit naughty .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

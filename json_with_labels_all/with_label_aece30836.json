@@ -1,0 +1,82 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.61524105, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jocelyn", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Jocelyn", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.313285, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.071473986, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Poodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Poodle", 
+            "metadata": {
+                "mid": "/m/02kfwr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Poodle"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Please contact Jocelyn at if keen to take home this pure white Poodle.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Friendly and sweet natured.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

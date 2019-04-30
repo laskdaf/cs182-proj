@@ -1,0 +1,54 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.57888854, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.42111146, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "office", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "office", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found this cat near my office", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,109 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.38590524, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "orange", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "orange", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3205414, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Stripey", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Stripey", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13443482, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cream stripes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cream stripes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12062406, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "baby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "baby", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03849448, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "care", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Stripey has orange and cream stripes.. this baby needs you love and care.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please adopt!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

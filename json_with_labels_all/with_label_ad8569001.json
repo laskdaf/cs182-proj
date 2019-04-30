@@ -1,0 +1,112 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.59134245, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jolin", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Jolin", 
+            "metadata": {
+                "mid": "/m/01kg5lj", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Jolin_Tsai"
+            }
+        }, 
+        {
+            "salience": 0.2645495, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09213777, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "people", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.029382838, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adult dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adult dogs", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.022587454, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "visit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "visit", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Jolin is a little puppy which likes to play with people and she feel relax to running among adult dogs here.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Pls call to arrange a visit.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

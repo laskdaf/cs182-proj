@@ -1,0 +1,119 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.8573419, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kali", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Kali", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052434944, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "humans", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "humans", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052434944, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animals", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "animals", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.025204953, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attention", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "attention", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.012583282, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "children", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.8
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Kali is shy and sweet but once she warms up, she's friendly with both humans and other animals.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "She loves attention, having had very little in the past.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "She would be lovely with children.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

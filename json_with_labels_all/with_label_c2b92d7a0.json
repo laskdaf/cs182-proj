@@ -1,0 +1,102 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.7756222, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "legs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "legs", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13925828, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "doggie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "doggie", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08511954, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "MBMB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "MBMB", 
+            "metadata": {
+                "mid": "/m/06w84f1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Melaka_City_Council"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "With short legs.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very tamed ang clever doggie.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Caught by MBMB 2 weeks ago.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Need to be rehomed as soonest possible.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

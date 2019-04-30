@@ -1,0 +1,92 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.60669583, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Prince", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Prince", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3201028, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Schnauzer mix", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Schnauzer mix", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07320137, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "Whatsapp", 
+            "metadata": {
+                "mid": "/m/0gwzvs1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/WhatsApp"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Prince is a Schnauzer mix.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please ONLY Whatsapp if interested.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thank you", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

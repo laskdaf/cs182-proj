@@ -1,0 +1,218 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.776681, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Joe", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Joe", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Joe", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Joe", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12926435, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.017282635, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.017084356, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "garden", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "garden", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016074756, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "outdoor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "outdoor", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011926391, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010484096, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.007350193, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet taxi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pet taxi", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.007350193, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "valuation", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "valuation", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.006502008, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "breeder", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "breeder", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Joe's previous family moved and could not take him with them.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I'm currently fostering him and i would love to see him go to a loving family.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Joe is active and he loves the outdoor(a big garden would be awesome for him) No breeder pls (he's neutered) Joe will be sent to potential home by pet's pet taxi for final valuation.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thank you.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

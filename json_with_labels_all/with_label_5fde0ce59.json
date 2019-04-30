@@ -1,0 +1,54 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.58150464, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "kitty", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.4184954, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "street.", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Cute playful 6-week kitty we rescued off the street. :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

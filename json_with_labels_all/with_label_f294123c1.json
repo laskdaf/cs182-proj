@@ -1,0 +1,54 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.70219177, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.29780823, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cream", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "cream", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This kitten is actually cream and white.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

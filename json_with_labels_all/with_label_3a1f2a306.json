@@ -1,0 +1,69 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.46376845, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cats", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.32839558, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "house", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.20783596, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friends", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "friends", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "She came about a year ago,we fed her and she kept coming back and became friends with other cats at our house.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

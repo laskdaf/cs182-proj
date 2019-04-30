@@ -1,0 +1,251 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5597267, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Josephine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Josephine", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.101130374, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "temperament", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.101130374, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08035158, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.042501934, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "hers", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031249268, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "food", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.029664092, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "males", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "males", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016480818, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "masters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "masters", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01397019, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Stefan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Stefan", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010415312, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "drink water", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "drink water", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0073853764, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Carmen", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Carmen", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0059939567, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Julius", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Julius", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.2, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "The mother Josephine is an intelligent beautiful loving temperament adopted cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "These kittens are hers.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are 1 month old now and have begun to eat dry food and drink water.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Carmen is female while Julius and Stefan are males.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Looking for kind loving responsible masters.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

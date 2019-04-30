@@ -1,0 +1,79 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.79754186, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cats", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13524957, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat foods", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat foods", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06720857, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "rice", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "very active cats.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "have only been eating cat foods, so its not fond to eat rice.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }
+    ], 
+    "categories": []
+}

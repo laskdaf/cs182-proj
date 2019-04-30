@@ -1,0 +1,84 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.79089594, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "someone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.117257364, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "care", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.059321925, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03252479, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cats", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.4, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I wish that someone can take care of him coz i have too many cats already ,his a smart cat..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }
+    ], 
+    "categories": []
+}

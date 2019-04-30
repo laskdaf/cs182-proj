@@ -1,0 +1,251 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.50683, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.36714336, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Schmoo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Schmoo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "cat litter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Schmoo", 
+            "metadata": {
+                "mid": "/m/01rkwf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Shmoo"
+            }
+        }, 
+        {
+            "salience": 0.053603556, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sibling", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "sibling", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.018994162, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "housing area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "housing area", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.013228182, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0092798155, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0092798155, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cats", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009262323, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat experience", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat experience", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.00818268, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0041961353, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Schmoo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Schmoo", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.9, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Schmoo is an adorable, friendly, tame and active kitten.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is very healthy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Found him abandon at a housing area with his 2 sibling which was about 3 weeks old at that time.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Schmoo is cat litter trained and never gone outdoor.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is trained to be indoor kitten.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Schmoo is looking for a nice new home with a passionate owner for cats.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Preferably with cat experience.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

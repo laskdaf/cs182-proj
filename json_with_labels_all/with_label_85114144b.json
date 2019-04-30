@@ -1,0 +1,207 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.31838593, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Someone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.31838593, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitties", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "kitties", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12975116, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "guard house", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04958783, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bottle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "bottle", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04333235, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.040093087, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Milk", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Milk", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03625382, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bottle feeding", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "bottle feeding", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.027067194, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "babies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "babies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.023826774, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Pet", 
+            "metadata": {
+                "mid": "/m/068hy", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Pet"
+            }
+        }, 
+        {
+            "salience": 0.013315897, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Update", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Update", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Someone dumped this 2 kitties at the guard house:(", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are about 2-3 weeks old, eyes already open.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Currently I am bottle feed them with Pet's Own Milk.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Update : They are getting healthier and stronger, bottle feeding is easier now, very active babies.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

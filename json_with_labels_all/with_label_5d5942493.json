@@ -1,0 +1,111 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5201454, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Age", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.34888563, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Affi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Affi", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.078812726, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "COD", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "COD", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03611733, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bandar Sunway Pls", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Bandar Sunway Pls", 
+            "metadata": {
+                "mid": "/m/0g2lsr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bandar_Sunway"
+            }
+        }, 
+        {
+            "salience": 0.016038885, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mentari Court", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Mentari Court", 
+            "metadata": {
+                "mid": "/g/11b6c9wm6j"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Age:2 and a half months old It's a female kitten Very Active and Healthy COD at Mentari Court, Bandar Sunway Pls SMS me, Affi at", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,272 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.23425163, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.23425163, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "road", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.23425163, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "risk", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "risk", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.092726715, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cars", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "cars", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052199114, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "photo album", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "photo album", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.030565947, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friends", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "friends", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.030565947, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.028168166, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animal shelters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "animal shelters", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.021206547, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014865883, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "area", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009350709, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sleep", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "sleep", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.008798027, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Petaling Jaya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Petaling Jaya", 
+            "metadata": {
+                "mid": "/m/03dqts", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
+            }
+        }, 
+        {
+            "salience": 0.008798027, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "KL", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "The puppies were found by the road with the risk of being hit by cars.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please help share this photo album out to your friends and family.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "For those who are interested in adopting them, please contact me ASAP.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I don't want to send them to the animal shelters as they might be put to sleep if they're not adopted in a certain period of time.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adoption only in Petaling Jaya or KL area.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thank You!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

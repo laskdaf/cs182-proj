@@ -1,0 +1,109 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.3843153, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mommy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "mommy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3843153, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11229782, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car accident", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "car accident", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09811411, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "someone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020957444, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "These kittens' mommy died in a car accident.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am now fostering them while waiting for someone who are kind enough to give them a good loving home", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

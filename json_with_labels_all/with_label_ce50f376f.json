@@ -1,0 +1,124 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.33020702, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur-brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "fur-brother", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2304653, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur-sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "fur-sister", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.21516177, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13080049, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05726323, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "pups", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03610219, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "garden/yard", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "garden/yard", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.8
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Active and super playful fur-brother and a fur-sister waiting for a loving and committed family.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "A home with garden/yard will be ideal for these active pups.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

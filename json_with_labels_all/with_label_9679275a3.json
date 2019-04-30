@@ -1,0 +1,79 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6399512, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "people", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.22926986, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "loves", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "loves", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13077892, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home sweet home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home sweet home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.7
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very manja (affectionate) towards people.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "loves cuddle and follows, very well behaved .. looking for her home sweet home..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

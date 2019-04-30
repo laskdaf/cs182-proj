@@ -1,0 +1,149 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.7344663, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "daughter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "daughter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07595645, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052703958, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "house", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05208139, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "drain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "drain", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05208139, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "babysitter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "babysitter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.024822177, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mommy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "mommy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.007888323, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "reasons", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "reasons", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "My eldest daughter found this little kitten crawling out from a drain and into her babysitter's house.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "I guess the mommy left it there for some other reasons not known.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is roughly 3 weeks old this week.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,69 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.7730198, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pets", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14718932, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KARE", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "KARE", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07979088, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kuantan Animal Rescue &amp; Education) Shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Kuantan Animal Rescue & Education) Shelter", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "These pets are all rescued by me, and presently at KARE(Kuantan Animal Rescue &amp; Education) Shelter.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

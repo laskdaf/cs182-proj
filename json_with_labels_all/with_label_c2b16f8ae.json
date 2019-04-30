@@ -1,0 +1,220 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.46283424, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Mills", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Ms", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Mills", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.33370066, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fella", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "fella", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11654776, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Smokey", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Smokey", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Smokey", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Smokey", 
+            "metadata": {
+                "mid": "/m/06q40", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Smoke"
+            }
+        }, 
+        {
+            "salience": 0.023923256, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "circumstances", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "circumstances", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020330692, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lap cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "lap cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.015822966, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011994887, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "more", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "more", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0099846395, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "link", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "link", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0048609227, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "nap", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "nap", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Smokey is a handsome fella adopted from his former owner Ms Mills about a year ago.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "And since our circumstances have changed recently, we are now looking for an exceptional good home for Smokey.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Although he is not really a lap cat, but does enjoy being near you and enjoys being petted and stroked at night time or after a nap in the afternoon whenever he feels comfortable with it.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "To find out more about Smokey, you can also visit this link:", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

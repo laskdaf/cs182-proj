@@ -1,0 +1,72 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.4510046, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lovers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "lovers", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.40020496, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Cat", 
+            "metadata": {
+                "mid": "/m/01yrx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Cat"
+            }
+        }, 
+        {
+            "salience": 0.14879046, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitties", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "kitties", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Thank you Cat lovers, for adopting the kitties! =)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

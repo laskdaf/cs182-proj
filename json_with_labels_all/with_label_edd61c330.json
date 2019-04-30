@@ -1,0 +1,94 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5803499, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17790775, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "someone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17595255, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pasar malam", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "pasar malam", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06578979, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": -0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found this cat in cp4 pasar malam, seems like someone just abandoned this cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "interested please call kelly.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

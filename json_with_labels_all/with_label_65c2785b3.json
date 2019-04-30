@@ -1,0 +1,122 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.4044623, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.28105533, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "market", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "market", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.170444, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Selayang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Selayang", 
+            "metadata": {
+                "mid": "/m/0b7zl3", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bandar_Baru_Selayang"
+            }
+        }, 
+        {
+            "salience": 0.07507192, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chance", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "chance", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06896643, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "life", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "life", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "3 too cute female puppies were dumped at Selayang market.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are healthy and only a month old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please, give them a chance for a good life!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

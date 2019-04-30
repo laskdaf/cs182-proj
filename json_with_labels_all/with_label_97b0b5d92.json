@@ -1,0 +1,79 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.546303, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shopping mall", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "shopping mall", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.38273773, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "state", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "state", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.070959315, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.7
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "We found him at a shopping mall at a very clean state.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Hi is very active and we hope we can give him a new home", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "categories": []
+}

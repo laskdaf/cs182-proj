@@ -1,0 +1,124 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.48633227, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19432822, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "accident", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "accident", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13614559, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "birth", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "birth", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1254862, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.042915255, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "female", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014792468, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kiki", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Kiki", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.7
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "my cat had an 'accident' before she could be spayed, and gave birth to 3 beautiful kittens, 2 male &amp; one female.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Kiki is quiet, well behaved &amp; affectionate.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

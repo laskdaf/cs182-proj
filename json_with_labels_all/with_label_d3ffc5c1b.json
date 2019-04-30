@@ -1,0 +1,69 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.75821024, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Casey", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Casey", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17085125, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "watchdog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "watchdog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.070938505, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family members", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family members", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.8
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Casey is a very good watchdog and she is also very affectionate with family members", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

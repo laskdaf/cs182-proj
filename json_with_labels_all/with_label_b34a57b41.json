@@ -1,0 +1,218 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.61173034, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sisters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "listeners", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "listeners", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09996588, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Faith", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Faith", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09996588, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "White", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "White", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06182609, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Brown", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Brown", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06182609, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Joy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Joy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.024393441, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Black", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Black", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.024393441, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Munchkin", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Munchkin", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0066883047, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "darlings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "darlings", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0050473157, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0041632075, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pets", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.6, 
+        "score": 0.6
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Faith (White); Joy (Brown); Munchkin (Black) They are all sisters (siblings).", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are very good listeners, definitely playful and smart.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Great at having as indoor pets even as they are obedient and very independent.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please call to give these little darlings a home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "categories": []
+}

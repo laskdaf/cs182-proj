@@ -1,0 +1,97 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.64003813, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Loves", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Loves", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.21423101, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car rides", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "car rides", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10000579, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.045725033, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kelana Jaya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Kelana Jaya", 
+            "metadata": {
+                "mid": "/m/0d449n", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kelana_Jaya"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Loves to play and go for car rides.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Dog currently in Kelana Jaya.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

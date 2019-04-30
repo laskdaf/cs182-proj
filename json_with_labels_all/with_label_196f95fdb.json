@@ -1,0 +1,251 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.55252475, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mimi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Mimi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Mimi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Mimi", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14556319, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bro", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "bro", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14395307, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bike", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "bike", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.058562744, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "road", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.058562744, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "drain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "drain", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.017923731, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "care", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009452893, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Transportation", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Transportation", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0059630335, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fosterer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "fosterer", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.003965678, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0035281754, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Seremban", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Seremban", 
+            "metadata": {
+                "mid": "/m/0371_6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Seremban"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Mimi was following my bro's bike on the main road and fell inside a drain.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "She was rescued and has been vaccinated, dewormed and deticked.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Mimi is cute, healthy and playful.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Currently, she is under the care of the fosterer at Seremban.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "If anyone would like to adopt Mimi, Kindly contact me at /.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Transportation can be arranged.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thank you.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

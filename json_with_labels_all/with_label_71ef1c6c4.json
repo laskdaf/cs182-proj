@@ -1,0 +1,104 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.43858632, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "girl", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.34622577, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Precious", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "Precious", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14149341, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Shelter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.073694475, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "opportunity", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "opportunity", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Precious was dumped at the Shelter.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "This tiny girl is so pretty that you wont want to miss this opportunity to adopt her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "If you wish to adopt, please call us at.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

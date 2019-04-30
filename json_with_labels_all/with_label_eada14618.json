@@ -1,0 +1,97 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.40265787, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Eevee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Eevee", 
+            "metadata": {
+                "mid": "/m/01zltb", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Eevee"
+            }
+        }, 
+        {
+            "salience": 0.21446773, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bath", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "bath", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19252996, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "place", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "place", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19034444, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "monsoon drain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "monsoon drain", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Eevee was rescued in the monsoon drain near my place today.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "She has been bath and tick free.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

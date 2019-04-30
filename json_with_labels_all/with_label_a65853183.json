@@ -1,0 +1,127 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.4465907, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Naranja", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Naranja", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2087304, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kind", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "kind", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12809092, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ashraff", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Ashraff", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12658305, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ija", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Ija", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.057584047, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "God", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "God", 
+            "metadata": {
+                "mid": "/m/0d05l6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/God"
+            }
+        }, 
+        {
+            "salience": 0.03242086, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "all", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "all", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Naranja has been adopted by kind Ija and Ashraff.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "God bless all of them.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

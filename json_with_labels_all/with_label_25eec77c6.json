@@ -1,0 +1,217 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.3396842, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "stairs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "stairs", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3396842, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "work", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "work", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13474695, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "characteristic", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "characteristic", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.044782266, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.044239454, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "college", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "college", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03360686, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.030557875, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cats", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0136051215, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "house", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011046428, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tabby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "Tabby", 
+            "metadata": {
+                "mid": "/m/0g4cd0", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Tabby_cat"
+            }
+        }, 
+        {
+            "salience": 0.008046676, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "My Wife", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "My Wife", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "She always follow me to the stairs before work and she has a loving characteristic.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is playful however not destructive.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I found her in a college two months ago, and decide to foster her for a while while looking for owner, unfortunately we can't find after a while.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "However due to moving to new house My Wife and I decided that it is getting crowded (we have two more cats) and she need to go soon.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please help Tabby find a new home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

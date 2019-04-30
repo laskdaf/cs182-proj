@@ -1,0 +1,134 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.376766, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "daughter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "daughter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3407379, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Chloe", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Chloe", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16107364, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.056488883, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "o", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "o", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.039825823, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "description", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "description", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.025107766, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "age", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Chloe's daughter, shy and timid, likes to play with siblings but very shy when handled, can be trained.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very gentle.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Haven't spayed due to young age (5 mth/o during this description).", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "categories": []
+}

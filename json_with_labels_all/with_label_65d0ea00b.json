@@ -1,0 +1,139 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.48459825, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Heritage Mall", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Heritage Mall", 
+            "metadata": {
+                "mid": "/g/1hf2z9nqj"
+            }
+        }, 
+        {
+            "salience": 0.19068655, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kota Tinggi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Kota Tinggi", 
+            "metadata": {
+                "mid": "/m/06gslz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kota_Tinggi"
+            }
+        }, 
+        {
+            "salience": 0.12356021, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.097626604, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toys", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "toys", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05176419, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "back", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "back", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05176419, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "belly rub", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "belly rub", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "She was found at the Heritage Mall in Kota Tinggi.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "She was alone and receptive to me picking her up and taking her home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "She loves to play with toys and when I greet/talk with her she immediately falls on her back for a belly rub.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

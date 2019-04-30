@@ -1,0 +1,69 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.7777377, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "street dogs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "street dogs", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12968476, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "need", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "need", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09257759, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": -0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "They are street dogs and in need of a good home urgently.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "categories": []
+}

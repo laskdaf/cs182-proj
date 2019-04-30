@@ -1,0 +1,112 @@
+{
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.37787262, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "somebody", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "somebody", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.26562425, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temple", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "temple", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15923886, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Indian", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Indian", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14830036, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Shah Alam", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Shah Alam", 
+            "metadata": {
+                "mid": "/m/0syrf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Shah_Alam"
+            }
+        }, 
+        {
+            "salience": 0.048963916, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Commitment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Commitment", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": -0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "She was dumped by somebody at the Indian temple near Shah Alam.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Commitment to spay her is compulsory", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "categories": []
+}

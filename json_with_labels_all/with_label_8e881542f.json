@@ -1,0 +1,84 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5248282, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.29007906, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "home.", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11338714, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Tel", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.071705595, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Uncle Kok", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Uncle Kok", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": -0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Please help those puppies,give them a home.Please call Uncle Kok if interested .Tel:", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "categories": []
+}

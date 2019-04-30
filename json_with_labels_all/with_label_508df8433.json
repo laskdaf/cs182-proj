@@ -1,0 +1,57 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.9005489, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "DOB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "DOB", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09945113, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "17TH APRIL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "17TH APRIL", 
+            "metadata": {
+                "mid": "/m/0vt4", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/April_17"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "DOB:17TH APRIL", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

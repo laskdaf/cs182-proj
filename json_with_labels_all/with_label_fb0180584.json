@@ -1,0 +1,218 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.65326095, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Max", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Max", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Max", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Max", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11938989, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "one", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09521946, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pups", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.037691895, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mom", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "mom", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.037691895, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "birth", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "birth", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02346314, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "way", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "way", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0114901895, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "rest", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011407079, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toy poodle company", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "toy poodle company", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0060592936, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.004326227, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toy poodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "toy poodle", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Max is one of the 7 pups we fostered when his mom gave birth 5 mths ago.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "We have decided to keep one to keep our toy poodle company and we picked Max.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "The rest have been adopted.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Max has been rough on our toy poodle and she dislikes the rough way he treats her, hence we have decided to put him up for adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,162 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.65689296, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "boy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16059577, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gemmy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Gemmy", 
+            "metadata": {
+                "mid": "/m/09p_47", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Gemmy_Industries"
+            }
+        }, 
+        {
+            "salience": 0.10655139, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dump", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dump", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.036481317, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friend bottle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "friend bottle", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0177576, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011221134, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "milk-o-dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "milk-o-dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010499855, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tq", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tq", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Gemmy boy was rescued from a rubbish dump when he was 1 day old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "my friend bottle fed him every 2 hours on milk-o-dog till grown up now.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "very intelligent, well behaved puppy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "tq", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

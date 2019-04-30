@@ -1,0 +1,79 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.50449044, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "CAT", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "CAT", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.35356188, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "INDEPENDENT", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "INDEPENDENT", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14194772, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PETS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "PETS", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "SHE IS FRIENDLY, INDEPENDENT, CALM AND QUIET CAT.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "SHE COULD GETTING ALONG WITH OTHER PETS TOO.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

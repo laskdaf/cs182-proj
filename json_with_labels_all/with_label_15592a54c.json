@@ -1,0 +1,239 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.2950964, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lady", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "lady", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2950964, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16751018, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Friendly", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Friendly", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06609251, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human attention", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "human attention", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.037578184, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.037578184, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "info", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "info", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031143352, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chance", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "chance", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.019921059, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "holiday", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "holiday", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016881306, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PAWS Animal Welfare Society", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "PAWS Animal Welfare Society", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016881306, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PJ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "PJ", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016221104, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "shelter", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.8, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Good looking lady looking for home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Friendly, likes human attention.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please give her a second chance.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Vaccinated &amp; dewormed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Healthy For more info/adoption, please visit the shelter (PAWS Animal Welfare Society, PJ).", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Closed on Wednesday &amp; public holiday.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }
+    ], 
+    "categories": []
+}

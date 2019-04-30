@@ -1,0 +1,69 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5341215, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups mother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "pups mother", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.34959954, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "beagle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "beagle", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11627894, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "father", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "father", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "The pups mother was a beagle mixed, father un known.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

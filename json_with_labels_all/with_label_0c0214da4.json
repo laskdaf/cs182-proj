@@ -1,0 +1,94 @@
+{
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.67483294, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mum", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Mum", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.223395, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08038564, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "info", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "info", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.021386415, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "IntanShahar", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "IntanShahar", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Mum and four kittens.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adopted from IntanShahar info.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

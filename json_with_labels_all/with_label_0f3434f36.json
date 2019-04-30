@@ -1,0 +1,112 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5907988, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter train", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "litter train", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.18325631, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Musang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Musang", 
+            "metadata": {
+                "mid": "/m/02q0vj7", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Civet"
+            }
+        }, 
+        {
+            "salience": 0.1225821, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "drain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "drain", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0737921, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.029570688, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "lot", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I rescued Musang from a drain, he need a home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is shy, healthy and eat a lot, litter train.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

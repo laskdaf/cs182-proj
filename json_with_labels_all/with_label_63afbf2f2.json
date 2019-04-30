@@ -1,0 +1,150 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.43115836, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Garlic", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Garlic", 
+            "metadata": {
+                "mid": "/m/0dbrl", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Garlic"
+            }
+        }, 
+        {
+            "salience": 0.1801921, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Shah Alam", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Shah Alam", 
+            "metadata": {
+                "mid": "/m/0syrf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Shah_Alam"
+            }
+        }, 
+        {
+            "salience": 0.1480213, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tick fever", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tick fever", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10276184, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "medication", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "medication", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08082529, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05704112, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "guard dog", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Garlic was rescued at Shah Alam.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "having tick fever that time and after 28 days of medication totally recoverd.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Playful and well behaved.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "A very alert dog and a good guard dog too.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "categories": []
+}

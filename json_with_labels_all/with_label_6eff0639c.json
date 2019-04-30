@@ -1,0 +1,205 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.20569228, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14397603, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat sand", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat sand", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.124116294, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tg Malim", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Tg Malim", 
+            "metadata": {
+                "mid": "/m/064pm0", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Tanjung_Malim"
+            }
+        }, 
+        {
+            "salience": 0.124116294, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Perak", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Perak", 
+            "metadata": {
+                "mid": "/m/015q02", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Perak"
+            }
+        }, 
+        {
+            "salience": 0.11359033, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "KL", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10119977, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brand", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "brand", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.063630715, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "exchange", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "exchange", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.063630715, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "cat food", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.060047563, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "RM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "RM", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Has been together since they are young.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "can be adopted separately or together.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Location Tg Malim, Perak.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "But can send to KL.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "In exchange to 3kg cat food and 10L cat sand (any brand) or RM.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

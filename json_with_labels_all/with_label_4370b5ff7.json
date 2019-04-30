@@ -1,0 +1,89 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.49068522, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "injury", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "injury", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.34835458, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "nose", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "nose", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16096021, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "photo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "photo", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "He has a very small injury near the nose.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "May refer to photo.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Otherwise he is normal and active", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

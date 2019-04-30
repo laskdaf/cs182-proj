@@ -1,0 +1,114 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.55700487, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Men and Women's Best Friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Men and Women's Best Friend", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.27149686, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Teoh", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Ms", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Teoh", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13275596, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Thanks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Thanks", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.038742315, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Johor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Johor", 
+            "metadata": {
+                "mid": "/m/01jng9", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Johor"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Men and Women's Best Friend.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thanks for Adopting her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Ms Teoh from Johor.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

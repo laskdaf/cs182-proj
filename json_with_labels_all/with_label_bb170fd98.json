@@ -1,0 +1,158 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.29821435, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Putra Prima", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Taman Putra Prima", 
+            "metadata": {
+                "mid": "/g/1tz73gx8"
+            }
+        }, 
+        {
+            "salience": 0.22570153, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog contact", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14815694, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Wong", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Mr.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Wong", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12011504, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puchong", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Puchong", 
+            "metadata": {
+                "mid": "/m/0cxff7", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Puchong"
+            }
+        }, 
+        {
+            "salience": 0.107742116, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Founder", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "fosterer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Founder", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06693221, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.033137817, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found at Taman Putra Prima, Puchong.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Will the owner of this dog contact Mr.Wong (Founder/temporary fosterer) at or it will be put for adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

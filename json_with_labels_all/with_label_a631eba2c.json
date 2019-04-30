@@ -1,0 +1,231 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.40335083, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "guy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.31761736, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "name", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "name", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10081759, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "atlas", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "atlas", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07741073, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pollux", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Pollux", 
+            "metadata": {
+                "mid": "/m/01_959", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Pollux_(star)"
+            }
+        }, 
+        {
+            "salience": 0.031438015, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "both", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.029048262, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Castor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Castor", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.012070196, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "temperament", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009109618, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "belly rubs", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "belly rubs", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0077368724, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Jaya Park", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Taman Jaya Park", 
+            "metadata": {
+                "mid": "/g/11cs387dd0"
+            }
+        }, 
+        {
+            "salience": 0.006361917, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chance", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "chance", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.005038639, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "family dog", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.8, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This guy's name is Pollux or atlas that's what I've been calling him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "I found him in Taman Jaya Park with his friend, Castor and they both looked like they were very recently abandoned.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": -0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Super friendly and possess a very nice temperament, both of them came running when I called and started running around me util they tired out, then asked for belly rubs.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "He would make ann amazing family dog given the chance.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

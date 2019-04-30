@@ -1,0 +1,256 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.47427374, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "last", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "last", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.22777276, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "color", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "color", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.112970166, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guard kitty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "guard kitty", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.062949255, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lorax", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Lorax", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05325443, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01989025, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brothers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "brothers", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0123512065, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "rats", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0123512065, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "roaches", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "roaches", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010606667, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "birds", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "birds", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009554151, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0040261764, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bird", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "bird", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.3, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I am Lorax.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am the last of my four brothers.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am playful, loving and curious.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am a lovely orange color.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please adopt me.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I can be a good guard kitty and protect your home from rats and roaches and maybe bring home a bird or two (or not if you don't like me to kill birds!)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": -0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please take me home and love me!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "categories": []
+}

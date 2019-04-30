@@ -1,0 +1,152 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.41121805, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19830717, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "males", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "males", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19066949, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adoption fees", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Adoption fees", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13779819, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "females", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "females", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.028618002, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Male RM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Male RM", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02010104, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Female RM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Female RM", 
+            "metadata": {
+                "mid": "/m/02zsn", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Female"
+            }
+        }, 
+        {
+            "salience": 0.013288056, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neutering fees", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "neutering fees", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Family of four kittens. 2 males, 2 females.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adoption fees is to cover their neutering fees.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Male RM, Female RM.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

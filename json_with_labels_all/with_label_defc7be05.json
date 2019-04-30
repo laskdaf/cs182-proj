@@ -1,0 +1,94 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.46213752, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "abundant", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "abundant", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3244131, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "joy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "joy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12241768, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pictures", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "pictures", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0910317, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "LULU", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "LULU", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.6
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very playful abundant of joy!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "pls call for LULU See more pictures here!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

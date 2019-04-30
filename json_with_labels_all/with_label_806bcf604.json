@@ -1,0 +1,79 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.82056606, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KITTENS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "KITTENS", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15575975, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ADOPTION", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "ADOPTION", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.023674218, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": ").com", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": ").com", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "TWO KITTENS OPEN FOR ADOPTION.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "CONTACT ME AT meowpinkly(at).com", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

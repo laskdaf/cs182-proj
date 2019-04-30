@@ -1,0 +1,130 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.44534504, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13607073, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "contact no", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "contact no", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09593251, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "text", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "text", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08157292, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gombak", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Gombak", 
+            "metadata": {
+                "mid": "/m/09l6w0", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Gombak_District"
+            }
+        }, 
+        {
+            "salience": 0.08157292, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "UIA", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "IIUM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "UIA", 
+            "metadata": {
+                "mid": "/m/046khf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/International_Islamic_University_Malaysia"
+            }
+        }, 
+        {
+            "salience": 0.04072622, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "whatsapp", 
+            "metadata": {
+                "mid": "/m/0gwzvs1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/WhatsApp"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": -0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "location: IIUM/UIA Gombak contact no:(call/text/whatsapp", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,152 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.38047934, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SS 3", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "SS 3", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2559136, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shops area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "shops area", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15703379, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kelana jaya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "kelana jaya", 
+            "metadata": {
+                "mid": "/m/0d449n", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kelana_Jaya"
+            }
+        }, 
+        {
+            "salience": 0.082057886, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shop tenants", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "shop tenants", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.053393435, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Fed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Fed", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.043636817, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog catchers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "dog catchers", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.027485153, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "danger", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "danger", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "abandoned at SS 3 kelana jaya shops area.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Seems healthy ,Fed by shop tenants.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "In danger of being run over,caught by dog catchers", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "categories": []
+}

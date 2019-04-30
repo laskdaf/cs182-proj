@@ -1,0 +1,119 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.52876073, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Super", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Super", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12602429, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "company", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "company", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.120372616, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "vaccination", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.115406156, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "deworming", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "deworming", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10943621, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccinations", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "vaccinations", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.7, 
+        "score": 0.9
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Super duper friendly, does not bite at all.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very joyful &amp; playful, loves company.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "First vaccination and deworming done, adopter must agree to complete vaccinations and spay her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

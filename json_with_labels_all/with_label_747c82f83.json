@@ -1,0 +1,197 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.50154555, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lady", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Lady", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13282229, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "factory", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "factory", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.094923556, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Playful &amp; Friendly", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Playful & Friendly", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052620325, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "siblings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "siblings", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052620325, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rescue", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "rescue", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04892692, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "mother dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04892692, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "birth", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "birth", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.036990725, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.015311706, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dewormed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Dewormed", 
+            "metadata": {
+                "mid": "/m/03nnncz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Deworming"
+            }
+        }, 
+        {
+            "salience": 0.015311706, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "De-ticked", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "De-ticked", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.6
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This lovely Lady is Active, Playful &amp; Friendly.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "She and her siblings were rescue from a factory which the mother dog gave birth at; and is now looking for loving home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is Vaccinated, Dewormed &amp; De-ticked.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

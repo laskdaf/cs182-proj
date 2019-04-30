@@ -1,0 +1,179 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.46497023, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Someone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15462819, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "front", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "front", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11596693, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.103299044, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tom", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Tom", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06301531, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Porch", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Porch", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.043673865, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.024931265, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "attention seeker", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "attention seeker", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014794026, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "strangers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "strangers", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01472114, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "fact", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Someone left this cat in front of my Porch last month and since then he has made it his home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Tom is an attention seeker and not scared at all with strangers.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "In fact he enjoys being pampered.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

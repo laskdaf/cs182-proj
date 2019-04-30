@@ -1,0 +1,122 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.43851623, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.27961573, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mommy cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "mommy cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16922103, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Damansara Perdana", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Damansara Perdana", 
+            "metadata": {
+                "mid": "/m/0db4vp", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Damansara_Perdana"
+            }
+        }, 
+        {
+            "salience": 0.06905695, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Q&amp;A", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Q&A", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.043590058, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Adopters", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Cute little white kitten at Damansara Perdana, was without mommy cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Available immediately.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adopters welcome to call for Q&amp;A", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "categories": []
+}

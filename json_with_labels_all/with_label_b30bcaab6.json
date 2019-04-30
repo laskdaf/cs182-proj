@@ -1,0 +1,162 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.3149585, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3149585, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "work place", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "work place", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13117775, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "@ PJCC", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "@ PJCC", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.099609785, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "vet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07483176, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Delivery", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "Delivery", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.033221565, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "male", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "male", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03124213, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Klang Valley", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Klang Valley", 
+            "metadata": {
+                "mid": "/m/03zszl", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Klang_Valley"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found 5 energetic and friendly puppies near my work place @ PJCC.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Generally healthy but better to have them checked at the vet soon.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "All male.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Delivery could be arranged within Klang Valley.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,127 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.3689511, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.111436725, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "contact no", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "contact no", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.098404355, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "UIA", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "IIUM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "UIA", 
+            "metadata": {
+                "mid": "/m/046khf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/International_Islamic_University_Malaysia"
+            }
+        }, 
+        {
+            "salience": 0.07947637, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "whatsapp", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06758001, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gombak", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Gombak", 
+            "metadata": {
+                "mid": "/m/09l6w0", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Gombak_District"
+            }
+        }, 
+        {
+            "salience": 0.035726137, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "text", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "text", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": -0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "location: IIUM/UIA Gombak contact no:(call/text/whatsapp)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "categories": []
+}

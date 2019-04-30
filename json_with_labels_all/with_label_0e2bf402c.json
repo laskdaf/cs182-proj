@@ -1,0 +1,144 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.69117475, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14067149, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car engine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "car engine", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06676229, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "colour", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "colour", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04402211, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "no one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "no one", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.029567143, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PAWS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "PAWS", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.027802236, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Orange", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Orange", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": -0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "These kitten need to be adopted.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "They were in our car engine today and it took us 45 mins to get the last one out.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "They will be sent to PAWS if no one comes to adopt them.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Mixed colour : female Orange : male", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,233 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6523301, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08645853, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "friend", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07636879, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "office", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "office", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.045895137, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puchong", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Puchong", 
+            "metadata": {
+                "mid": "/m/0cxff7", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Puchong"
+            }
+        }, 
+        {
+            "salience": 0.045895137, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Selangor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Selangor", 
+            "metadata": {
+                "mid": "/m/01jc9d", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Selangor"
+            }
+        }, 
+        {
+            "salience": 0.026707876, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "friend", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.025709853, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "litter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.019792233, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "adopters", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.013524775, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "homes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.007317555, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "Whatsapp", 
+            "metadata": {
+                "mid": "/m/0gwzvs1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/WhatsApp"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.7, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "These lovely 5 female kittens were abandoned outside my friend's office in Puchong, Selangor.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "We believe that they may be of the same litter.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "They're now cared for by my friend.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Looking for sincere adopters who can provide permanent loving homes.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Can be adopter together or separately.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please call or Whatsapp.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

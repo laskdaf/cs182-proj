@@ -1,0 +1,149 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.3841032, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "front", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "front", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15739109, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "office", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "office", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15739109, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "box", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "box", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10791904, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "human", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08716279, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animal shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "animal shelter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.053337276, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "medication", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "medication", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05269549, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "vet", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I found her in front of my office, inside a box abandoned by human.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Brought to vet, having dewormed medication.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Desperately looking for adopter as I can't keep her at all and animal shelter wouldn't accept because it's so young now.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }
+    ], 
+    "categories": []
+}

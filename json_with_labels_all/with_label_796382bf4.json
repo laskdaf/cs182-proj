@@ -1,0 +1,147 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.424894, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kind", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "kind", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.35358873, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "house", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09934558, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "police report", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "police report", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05899336, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04909998, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "bit", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014078347, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mixed Breed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Mixed Breed", 
+            "metadata": {
+                "mid": "/m/02ksvq", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Mongrel"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Abandoned in a house for 2 years, rescued by us after lodging police report.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "She's super friendly, a little bit shy and she's those kind of dog that follows you where ever you go.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Approximately 8-9 years old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Mixed Breed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

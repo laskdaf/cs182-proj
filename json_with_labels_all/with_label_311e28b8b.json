@@ -1,0 +1,169 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.38307035, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jalan Klang Lama", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Jalan Klang Lama", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.25337207, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "traffic", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "traffic", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17631783, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "rain", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05958677, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "milk", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "milk", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05958677, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "biscuit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "biscuit", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.041752055, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "adopter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.026314162, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Rescued from Jalan Klang Lama among the crazy traffic, he was drenched in the rain.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Alone.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Soaking wet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "We took him home, fed him milk and biscuit.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Urgent adopter needed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

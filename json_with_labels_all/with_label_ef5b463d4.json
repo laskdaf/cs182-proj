@@ -1,0 +1,239 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.66116107, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kitty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Kitty", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11253603, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11253603, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bus", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "bus", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.033159323, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02017491, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Neko-san", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Neko-san", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014361145, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cats", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010109191, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "floor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "floor", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010109191, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "room", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "room", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010109191, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "work", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "work", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0086788535, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Haneda", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Haneda", 
+            "metadata": {
+                "mid": "/m/01nlmm", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Haneda_Airport"
+            }
+        }, 
+        {
+            "salience": 0.007065052, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.1, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Kitty followed me home after I got down from a bus.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am unable to foster her as I have other 4 rescued cats staying with me now.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "I named her Haneda Neko-san and hoping that she will find a good loving family who will care for her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is very well-behaved, quiet and sits quietly on the floor when I stayed in the room doing my work.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "She will be a loving companion for any home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

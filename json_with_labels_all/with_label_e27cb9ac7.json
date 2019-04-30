@@ -1,0 +1,251 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.35501906, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.30747682, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "someone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16294716, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "condo", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02886593, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Potty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Potty", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.023400232, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "call", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "call", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.023400232, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "whatsapp", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.019833902, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sentul", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Sentul", 
+            "metadata": {
+                "mid": "/g/1q5bl7jz5"
+            }
+        }, 
+        {
+            "salience": 0.019833902, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KL", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "KL", 
+            "metadata": {
+                "mid": "/m/049d1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+            }
+        }, 
+        {
+            "salience": 0.019779792, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Fendi Edip", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Fendi Edip", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014785225, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spaying", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "spaying", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014733162, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Loc", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Loc", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009924583, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tamarind Condo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "Tamarind Condo", 
+            "metadata": {
+                "mid": "/g/1hd_fq3j8"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I need someone to adopt this kitten ASAP as i live in a condo and don't allow pets. 1-2 mths old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Potty trained.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am willing to support financially in spaying.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Loc: Tamarind Condo, Sentul, KL.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thanks Fendi Edip - sms, call, whatsapp", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "categories": []
+}

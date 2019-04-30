@@ -1,0 +1,97 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.4573075, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.34540254, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ipoh", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Ipoh", 
+            "metadata": {
+                "mid": "/m/01rv39", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ipoh"
+            }
+        }, 
+        {
+            "salience": 0.14554842, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "skin problems", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "skin problems", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.051741563, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "roadside", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "roadside", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": -0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Location: Ipoh Has minor skin problems.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Heard she was abandoned by the roadside.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }
+    ], 
+    "categories": []
+}

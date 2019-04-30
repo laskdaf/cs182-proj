@@ -1,0 +1,219 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6923533, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "sister", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13023807, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "baby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "baby", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052218996, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "road", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.035637982, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "place", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "place", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.019918755, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "flu", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "flu", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.019861931, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "somebody", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "somebody", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.018204587, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "flu", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "flu", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.012053649, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sight", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "sight", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0077309012, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.006456856, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "HOME", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "HOME", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0053249504, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eye infection", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "eye infection", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.3, 
+        "score": -0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found this little baby running on the road when I was at my sister's place.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Her both eyes were infected and was having a flu.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "She was treated for flu and her eye infection.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very pitiful she lost sight in 1 eye.Hope somebody can give her a HOME.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": -0.9
+            }
+        }
+    ], 
+    "categories": []
+}

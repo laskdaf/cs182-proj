@@ -1,0 +1,89 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.7510141, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rescue", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Rescue", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2014756, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bus stand", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "bus stand", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04751026, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "Girl", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Rescue from a bus stand and that time it's so skinny.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Now Girl is so healthy and very active.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is so beautiful...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "categories": []
+}

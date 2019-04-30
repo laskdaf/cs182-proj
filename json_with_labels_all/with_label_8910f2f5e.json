@@ -1,0 +1,97 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.8223003, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "MILO", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "MILO", 
+            "metadata": {
+                "mid": "/m/0lmck_t", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Milo_Manheim"
+            }
+        }, 
+        {
+            "salience": 0.12722589, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "BREED", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "BREED", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.035550397, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "midden", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "midden", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014923385, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "MILO IS A MIXED BREED.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I safe him at midden one year ago,now he is healthy and adorable ,need a home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

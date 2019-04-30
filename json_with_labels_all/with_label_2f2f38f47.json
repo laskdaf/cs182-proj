@@ -1,0 +1,142 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.33784184, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1001963, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "contact no", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "contact no", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09343122, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "text", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "text", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08839763, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "UIA", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "IIUM", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "UIA", 
+            "metadata": {
+                "mid": "/m/046khf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/International_Islamic_University_Malaysia"
+            }
+        }, 
+        {
+            "salience": 0.0712998, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "whatsapp", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "whatsapp", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.060576867, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gombak", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Gombak", 
+            "metadata": {
+                "mid": "/m/09l6w0", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Gombak_District"
+            }
+        }, 
+        {
+            "salience": 0.031952716, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "call", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "call", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": -0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "location: IIUM/UIA Gombak contact no: (text/call/whatsapp)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "categories": []
+}

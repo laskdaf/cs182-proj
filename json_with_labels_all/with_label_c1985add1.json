@@ -1,0 +1,271 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.17255285, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spray", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "spray", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17255285, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "frontline", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "frontline", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17255285, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "thanks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "thanks", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14869298, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lau", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Dr", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Lau", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.105960704, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitty", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "type", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "kitty", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.105935164, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dewormed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Dewormed", 
+            "metadata": {
+                "mid": "/m/03nnncz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Deworming"
+            }
+        }, 
+        {
+            "salience": 0.04149747, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PetSquare", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "PetSquare", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.023216553, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat litter box", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "cat litter box", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.022935815, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Toilet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.015926458, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "drain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "drain", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011146107, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "injury", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "injury", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.007030182, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hand", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "hand", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Dewormed and spray with frontline (Especially thanks to Dr Lau from PetSquare).", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Toilet trained and she know how to use the cat litter box now.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "This kitty is very manja type.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Keep rubbing at my hand when approach her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Rescued from drain.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is healthy and no injury observed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

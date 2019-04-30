@@ -1,0 +1,142 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5127879, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.278871, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09453693, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ginger", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Ginger", 
+            "metadata": {
+                "mid": "/m/0f9n3", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ginger"
+            }
+        }, 
+        {
+            "salience": 0.04660943, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.041173413, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "part", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "part", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.015280353, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "app", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "app", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010741018, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "no", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "no", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Ginger is looking for a good home and family that can love her and treat her as part of the family.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please call or what app to this no if interested:", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": -0.8
+            }
+        }
+    ], 
+    "categories": []
+}

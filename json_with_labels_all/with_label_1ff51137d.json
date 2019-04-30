@@ -1,0 +1,110 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6479887, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.29309416, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoptions", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoptions", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04453716, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Fiona", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Fiona", 
+            "metadata": {
+                "mid": "/m/06hm0d", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Princess_Fiona"
+            }
+        }, 
+        {
+            "salience": 0.014380019, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Melon", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Melon", 
+            "metadata": {
+                "mid": "/m/016rbg", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Melon"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "2 kittens left for adoptions.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "active and playfull.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "now left Melon and Fiona.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

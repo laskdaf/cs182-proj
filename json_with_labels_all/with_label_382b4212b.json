@@ -1,0 +1,115 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.9006005, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "university", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "university", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.029576184, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "UIA", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "UIA", 
+            "metadata": {
+                "mid": "/m/046khf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/International_Islamic_University_Malaysia"
+            }
+        }, 
+        {
+            "salience": 0.02705751, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dbkl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "dbkl", 
+            "metadata": {
+                "mid": "/m/0cnp39", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_City_Hall"
+            }
+        }, 
+        {
+            "salience": 0.022001322, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0207645, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gombak Contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "Gombak Contact", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.6, 
+        "score": -0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "They have been caught by the university management.pls adopt them before they are sent to dbkl.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Location: UIA Gombak Contact no", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }
+    ], 
+    "categories": []
+}

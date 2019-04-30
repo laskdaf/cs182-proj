@@ -1,0 +1,75 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.4963156, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "park", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "park", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.28547388, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Seri Petaling", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Seri Petaling", 
+            "metadata": {
+                "mid": "/m/0d0_w4", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Sri_Petaling"
+            }
+        }, 
+        {
+            "salience": 0.21821052, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kuala Lumpur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Kuala Lumpur", 
+            "metadata": {
+                "mid": "/m/049d1", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found him at a park in Seri Petaling, Kuala Lumpur.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

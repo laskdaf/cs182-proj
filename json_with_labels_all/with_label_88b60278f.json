@@ -1,0 +1,105 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.47925517, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Terra", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Terra", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.24746466, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12262723, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rambo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "Rambo", 
+            "metadata": {
+                "mid": "/m/021kkd", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Rambo_(franchise)"
+            }
+        }, 
+        {
+            "salience": 0.08614548, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ares", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Ares", 
+            "metadata": {
+                "mid": "/m/0w9n", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ares"
+            }
+        }, 
+        {
+            "salience": 0.06450746, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "sister", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Terra is female puppy of Rambo, sister of Ares.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,215 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.44798747, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12597124, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "way", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "way", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12597124, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "part", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "part", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1158239, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05625184, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03339393, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Maluri", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Taman Maluri", 
+            "metadata": {
+                "mid": "/m/0d0_v3", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Maluri"
+            }
+        }, 
+        {
+            "salience": 0.029668404, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ms.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Ms.", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01871567, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Note", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Note", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01757128, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Abhi Email", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "Abhi Email", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01757128, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "HP", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "HP", 
+            "metadata": {
+                "mid": "/m/03mnk", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Hewlett-Packard"
+            }
+        }, 
+        {
+            "salience": 0.011073742, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cheras Kuala Lumpur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Cheras Kuala Lumpur", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Hi i have 2 female puppies to give away , We are looking for adopter who can take care them in a good way and love them as part of their family.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Location : Taman Maluri , Cheras Kuala Lumpur Note: Only for serious adopter and ready to commit.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Ms.Abhi Email : HP:", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

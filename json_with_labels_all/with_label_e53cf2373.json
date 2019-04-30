@@ -1,0 +1,187 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.32248828, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shopping mall", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "shopping mall", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1949126, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Seri Kembangan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Seri Kembangan", 
+            "metadata": {
+                "mid": "/m/05ztfx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Seri_Kembangan"
+            }
+        }, 
+        {
+            "salience": 0.10828556, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "features", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "features", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10828556, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tail", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tail", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10021122, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "car", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07554435, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.056933664, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toy mouse", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "toy mouse", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.033338796, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "way", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "way", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "He was found abandoned at a shopping mall near Seri Kembangan.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Lovely features and long beautiful tail.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is playful and yet very calm when brought into the car.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Even slept all the way home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Pass him a toy mouse and watch him play!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

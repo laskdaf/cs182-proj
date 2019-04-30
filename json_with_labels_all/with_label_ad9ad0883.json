@@ -1,0 +1,124 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.2853472, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mori", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Mori", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.20338349, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "likes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "likes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.18296674, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "people", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16962728, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mugee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "mugee", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11389489, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "furniture", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "furniture", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.044780415, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "care", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.6
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Mori is cute and relaxed likes to climb and hang out on tall furniture.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Looking for responsible people who will take over mugee's care and please neuter her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

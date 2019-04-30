@@ -1,0 +1,156 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.77098125, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "LULU", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "LULU", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09075141, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "people", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.036300316, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "bed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "bed", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031048292, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cage", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cage", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.027309293, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fear", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "fear", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.021804715, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "people", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "people", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.021804715, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cage", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "cage", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": -0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "LULU is a very cute cat but pretty shy and afraid of people.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "she clings to me, and even sleep on the same bed with me.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "refuse to stay in her cage as to her fear of people coming near her cage", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }
+    ], 
+    "categories": []
+}

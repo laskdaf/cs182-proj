@@ -1,0 +1,237 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.2562907, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "body", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "body", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.18678471, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "socks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "socks", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17841807, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PAWS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "PAWS", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Adoption Page", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Adoption Page", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12892212, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "paws", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "paws", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08748792, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "page", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "@ Fb", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "@ Fb", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.039827306, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.034031156, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "info", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "info", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0251282, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PJ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "PJ There", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "PJ There", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.024194237, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shelter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "shelter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.021942489, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "donate", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "donate", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016973099, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "volunteer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "volunteer", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I have dark shiny body and white paws like I'm wearing socks :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please visit PAWS, PJ for adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "More info @ Fb page : Adoption Page - PAWS PJ There are a lot more at the shelter, do drop by to visit / volunteer/donate.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,104 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.8909129, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cino", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Cino", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.054947585, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "sit", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.038161524, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ms", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Ms", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.015977992, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Saw", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Saw", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.4, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Cino is interactive.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "He does respond to command such as &quot;sit&quot; before feeding him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "If interested, please contact me at or Ms Saw at.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "categories": []
+}

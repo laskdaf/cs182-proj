@@ -1,0 +1,149 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.67710495, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "clinic", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "clinic", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15307285, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "word", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "word", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06258519, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home sweet home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home sweet home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.054202918, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Petcare Veterinary Clinic", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Petcare Veterinary Clinic", 
+            "metadata": {
+                "mid": "/g/11r8jpnyt"
+            }
+        }, 
+        {
+            "salience": 0.038558677, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "clinic number", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "clinic number", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014475404, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Melawati", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Taman Melawati", 
+            "metadata": {
+                "mid": "/m/0c2j7g", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Taman_Melawati"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I saw them in the clinic and and I'm just helping out to spread the word.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are currently located at Petcare Veterinary Clinic in Taman Melawati.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Looking for permanent home sweet home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "You can call the clinic number", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

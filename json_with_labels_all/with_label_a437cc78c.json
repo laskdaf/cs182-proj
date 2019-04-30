@@ -1,0 +1,96 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.47189608, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road side", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "road side", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.289587, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Menara Polo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Menara Polo", 
+            "metadata": {
+                "mid": "/g/1pzrr9nbv"
+            }
+        }, 
+        {
+            "salience": 0.1652201, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mange", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "mange", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07329683, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "case", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "case", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found him abandoned by the road side at Menara Polo.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "I think he has a case of mange but not severe.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,87 @@
+{
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6724, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16343372, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Miss", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Miss", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.093565315, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "contact", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07060101, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ranji", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Ranji", 
+            "metadata": {
+                "mid": "/m/04rnbt", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ranji_Trophy"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0.7
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "The puppies are so cute and playful Please contact : Miss Ranji", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "categories": []
+}

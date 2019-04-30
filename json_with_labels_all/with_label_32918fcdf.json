@@ -1,0 +1,137 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.72921056, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Shiya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Shiya", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09495392, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.089187615, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption centre", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "adoption centre", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.037145946, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kajang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Kajang", 
+            "metadata": {
+                "mid": "/m/049x3", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kajang"
+            }
+        }, 
+        {
+            "salience": 0.027073566, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eater", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "eater", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.022428377, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "companion", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "companion", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Shiya was adopted from a adoption centre in Kajang.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is a loving dog that makes a great companion.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is not a fussy eater and is playful.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

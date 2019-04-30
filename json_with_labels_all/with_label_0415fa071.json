@@ -1,0 +1,211 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.36620983, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "name", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "name", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.31208313, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lola", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Lola", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Lola", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08022162, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tiger", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tiger", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08022162, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rarr", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "rarr", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0792607, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "face", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "face", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03047406, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.018815313, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "life", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "life", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.018749094, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Regards", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Regards", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.006982315, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bimba", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Bimba", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.006982315, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Boss", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Boss", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Lola is my name and I am the smallest one..but don't be fool by my innocent face..I can be as fierce as a tiger, rarr!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "We all need a loving home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "If can take me together with Bimba or Boss, it will be much better for us..I will make your life happier!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Regards, Lola", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

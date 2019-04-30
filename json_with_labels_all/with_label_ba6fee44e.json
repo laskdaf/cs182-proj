@@ -1,0 +1,225 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.43134412, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tom", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Tom", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Tom", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3923531, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gabby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Gabby", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Gabby", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07545618, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "sister", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03025418, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "personalities", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "personalities", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03025418, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "another", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "another", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01015244, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "door handle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "door handle", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01015244, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "paw", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "paw", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009022428, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "house", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0065697515, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "purr", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "purr", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0044411877, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "strangers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "strangers", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.6
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Tom and Gabby are both brother and sister, with different personalities that complement one another!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Tom is very clever and even knows how to stand up and touch the door handle with his paw!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "He enjoys being carried and easily purrs.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Gabby is more sweet, shy if strangers visit the house but once she warms up, she loves nothing more than to cuddle and purr.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

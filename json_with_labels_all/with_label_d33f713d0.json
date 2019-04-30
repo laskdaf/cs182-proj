@@ -1,0 +1,159 @@
+{
+    "language": "en", 
+    "label": 0, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.42031935, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Both", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.35827276, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.109497756, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "website", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Petfinder", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Petfinder", 
+            "metadata": {
+                "mid": "/m/0cdyq6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Petfinder"
+            }
+        }, 
+        {
+            "salience": 0.04570589, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "guy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "guy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.027176144, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Chinese", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Chinese", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.023857301, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "life", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "life", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.015170798, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "angels", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "angels", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Both of my kitten is so active and spoilt.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "I adopted them from this website (Petfinder) from a Chinese guy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "My life have been so cheerful after i got these two angels :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

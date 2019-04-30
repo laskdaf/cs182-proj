@@ -1,0 +1,114 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.32475802, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.32475802, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10868404, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Temperament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Temperament", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09369461, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lad", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "lad", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.076323576, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gender: Male", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Gender: Male", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07178172, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "injury", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "injury", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.9
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Handsome cat needs a home \ud83d\udc08 Gender: Male (will be castrated soon) Temperament: Good (quiet lad) Currently recovering from spinal injury, slightly senget when walking. :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

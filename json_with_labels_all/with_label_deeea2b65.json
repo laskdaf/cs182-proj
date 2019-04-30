@@ -1,0 +1,147 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.837714, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "muslim", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "muslim", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0726615, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "train", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "train", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03994158, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tail", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tail", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.022579107, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "vet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.013671612, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "care", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.013432209, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kajang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Kajang", 
+            "metadata": {
+                "mid": "/m/049x3", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kajang"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": -0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I found her injured after being hit by a train.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "The tail was badly injured and had to be amputated.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is currently at the vet in Kajang and will be discharged on Tuesday, 25 June.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am a muslim so I can't take care of her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "categories": []
+}

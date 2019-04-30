@@ -1,0 +1,180 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.3209314, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lab", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "lab", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19397162, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Damansara", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Damansara", 
+            "metadata": {
+                "mid": "/m/06w1yny", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Damansara,_Selangor"
+            }
+        }, 
+        {
+            "salience": 0.15390521, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10248603, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption fee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption fee", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06414425, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Oprah", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "Oprah", 
+            "metadata": {
+                "mid": "/m/0grwj", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Oprah_Winfrey"
+            }
+        }, 
+        {
+            "salience": 0.060048666, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spaying fee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "spaying fee", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052802533, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "vaccination", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.051710293, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This friendly and beautiful pure black lab was found recently in Damansara.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Nicknamed Oprah.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "We are not able to find her owner and would like to find her a good home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "The adoption fee is for her vaccination and spaying fee.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

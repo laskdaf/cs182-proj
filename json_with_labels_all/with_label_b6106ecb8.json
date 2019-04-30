@@ -1,0 +1,103 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.3450746, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Zelda", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Zelda", 
+            "metadata": {
+                "mid": "/m/07d5v", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda"
+            }
+        }, 
+        {
+            "salience": 0.26890418, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SPCA", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "SPCA", 
+            "metadata": {
+                "mid": "/m/0117qddf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Cruelty_to_Animals"
+            }
+        }, 
+        {
+            "salience": 0.26890418, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ampang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Ampang", 
+            "metadata": {
+                "mid": "/m/0kw581", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ampang,_Selangor"
+            }
+        }, 
+        {
+            "salience": 0.117117, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "As we were unable to take her with us, Zelda is now with the SPCA in Ampang.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is still looking for a new home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,222 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.2838327, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gender", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Gender", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2838327, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog Age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog Age", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1151149, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Breed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Breed", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.078755625, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Area", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0476814, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Butterworth", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Butterworth", 
+            "metadata": {
+                "mid": "/m/03sqpj", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Butterworth,_Penang"
+            }
+        }, 
+        {
+            "salience": 0.04710828, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bukit Mertajam", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Bukit Mertajam", 
+            "metadata": {
+                "mid": "/m/0ckckx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bukit_Mertajam"
+            }
+        }, 
+        {
+            "salience": 0.044120777, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.035664815, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.026429513, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mun", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Mr", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Mun", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.023077901, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Penang Female", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Penang Female", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014381413, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Gender : Female dog Age : 1 year Breed : Terrier mixed Area : Bukit Mertajam, Butterworth.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Penang Female dog for free adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please contact me at or Mr Mun at if you can provide a forever loving home to her", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

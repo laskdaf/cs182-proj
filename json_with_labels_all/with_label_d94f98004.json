@@ -1,0 +1,182 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.31652328, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "area", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1998371, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lost Dog Found", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Lost Dog Found", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1998371, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SS2", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "SS2", 
+            "metadata": {
+                "mid": "/g/11clgf8bwz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/SS2,_Petaling_Jaya"
+            }
+        }, 
+        {
+            "salience": 0.09243565, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "infection", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "infection", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09243565, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "back", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "back", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031435784, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031435784, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02209664, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "poodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "poodle", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.013963, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "check-up", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "check-up", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": -0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Lost Dog Found in SS2 area, Suspected lost for couple of days, has slight infection at the back.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Had sent to vet for check-up.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Up for adoption as my pet cant get along with the poodle", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,79 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.67661506, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Lovely Puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Lovely Puppy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2042019, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Big Bones", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Big Bones", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11918301, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.8
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Lovely Puppy, Totally Healthy with Big Bones!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Rescued Month Ago and Now Ready to Find His Home Forever...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "categories": []
+}

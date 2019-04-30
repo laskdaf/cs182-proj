@@ -1,0 +1,102 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.7491668, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pup", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19757266, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puchong", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Puchong", 
+            "metadata": {
+                "mid": "/m/0cxff7", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Puchong"
+            }
+        }, 
+        {
+            "salience": 0.053260513, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Selangor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Selangor", 
+            "metadata": {
+                "mid": "/m/01jc9d", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Selangor"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Stray pup.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very active and lovable.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Location Puchong, Selangor.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

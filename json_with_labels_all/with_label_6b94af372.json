@@ -1,0 +1,101 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6381484, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Caspian", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Caspian", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.32022518, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "angel", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "angel", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03644932, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lives", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "lives", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.005177051, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SPCA Ampang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "SPCA Ampang", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Caspian is the angel little kitten that came into our lives.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "We call him Caspy... we adopted him from SPCA Ampang...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

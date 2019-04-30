@@ -1,0 +1,249 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5557488, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10846783, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "same", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "same", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10846783, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "photo", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "photo", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06778512, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.050943475, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neutering cost", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "neutering cost", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.035601497, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dr", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Dr", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02399037, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Klinik Haiwan Kuantan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Klinik Haiwan Kuantan", 
+            "metadata": {
+                "mid": "/g/1hcb3v3jw"
+            }
+        }, 
+        {
+            "salience": 0.022469817, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "maturity", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "maturity", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0132626165, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "KARE", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "KARE", 
+            "metadata": {
+                "mid": "/m/02636v", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/KARE"
+            }
+        }, 
+        {
+            "salience": 0.0132626165, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kuantan Animal Rescue &amp; Education", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Kuantan Animal Rescue & Education", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "We need adopters for these 4 puppies.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are all look the same, so we just put one photo here.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "3 of them are male, 1 is female.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are very cute and suitable as indoor pet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "They must be neutered/spayed once they reach their maturity.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "KARE (Kuantan Animal Rescue &amp; Education) will subsidise the neutering cost.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Interested?", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please contact Dr Lean of Klinik Haiwan Kuantan ()", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

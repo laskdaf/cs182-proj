@@ -1,0 +1,146 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.29796734, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cody", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Cody", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.20368308, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "teddy bear", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "teddy bear", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14269957, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "fur", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13152704, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "chest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "chest", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13152704, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cream", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "cream", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.058017585, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Yumi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "Sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Yumi", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.034578353, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tan", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Cody looks like a teddy bear, has golden fur with a cream colored chest.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Sister Yumi is black and tan.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,230 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.35794944, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1458744, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "mother cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1458744, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.071704246, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "All", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "All", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.049311034, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "one", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "one", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.049311034, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tri-colour", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tri-colour", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.048716944, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "coat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "coat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.048716944, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tail", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tail", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.045297515, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Flower", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Flower", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014175883, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SS2", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "SS2", 
+            "metadata": {
+                "mid": "/g/11clgf8bwz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/SS2,_Petaling_Jaya"
+            }
+        }, 
+        {
+            "salience": 0.014175883, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Petaling Jaya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Petaling Jaya", 
+            "metadata": {
+                "mid": "/m/03dqts", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Petaling_Jaya"
+            }
+        }, 
+        {
+            "salience": 0.008892305, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pasar", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Pasar", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "5 adorable kittens and 1 mother cat for adoption!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "All with white coat and long tail, except for one with tri-colour(Flower).", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Rescued from Pasar, please text me at, I'm staying in SS2, Petaling Jaya.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

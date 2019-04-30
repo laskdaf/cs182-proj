@@ -1,0 +1,104 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6021968, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "injury", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "injury", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14870867, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "place call home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "place call home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1462059, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "foster", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "foster", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10288863, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "picture", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "picture", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": -0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I was abandoned and have minor injury.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please give me a place call home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "You may contact my foster on the picture.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

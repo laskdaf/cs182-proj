@@ -1,0 +1,84 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.82046413, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bunny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Bunny", 
+            "metadata": {
+                "mid": "/m/06mf6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Rabbit"
+            }
+        }, 
+        {
+            "salience": 0.124342814, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "PJ Old Town", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "PJ Old Town", 
+            "metadata": {
+                "mid": "/g/1q5bmt1vt"
+            }
+        }, 
+        {
+            "salience": 0.05519304, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Bunny was found abandoned in PJ Old Town.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please give her a home!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

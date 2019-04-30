@@ -1,0 +1,157 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.44339216, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.273411, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Management", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Management", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.099918135, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Petfinder", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Petfinder", 
+            "metadata": {
+                "mid": "/m/0cdyq6", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Petfinder"
+            }
+        }, 
+        {
+            "salience": 0.056261763, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04311632, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog cos", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog cos", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.039127838, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pets", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pets", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.027492322, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "premises", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "premises", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.017280446, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condominium", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "condominium", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.8, 
+        "score": -0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Th dog was adopted from Petfinder.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I have to give up the dog cos my family is shifting to a condominium and the Management do not allow pets within its premises.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }
+    ], 
+    "categories": []
+}

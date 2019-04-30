@@ -1,0 +1,154 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.31409523, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19425909, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Love", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Love", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12738857, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sleep", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "sleep", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08715264, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "everywhere", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "everywhere", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08715264, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "human friend", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "human friend", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08509478, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "food", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "food", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06816538, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption fee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption fee", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.036691673, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "poodle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "poodle", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very friendly and playful male dog Love food and sleep Will follow around everywhere n cuddle any human friend.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Sadly i have to give it up i adopted it but my poodle is not getting along so just taking the adoption fee i paid for it.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }
+    ], 
+    "categories": []
+}

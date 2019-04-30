@@ -1,0 +1,126 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.8779869, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Henry", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }, 
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Henry", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08801225, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "feather toys", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "feather toys", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01459378, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "spot", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "spot", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01459378, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "flea protection", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "flea protection", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.004813273, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "feather toy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "feather toy", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.7, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Henry is a hyperactive kitten but afraid of feather toys, I don't know why.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "He'll run away whenever I show him the feather toy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is litter-trained and on monthly spot on flea protection", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

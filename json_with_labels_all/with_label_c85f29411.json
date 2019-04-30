@@ -1,0 +1,127 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.68244606, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Dog.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Dog.", 
+            "metadata": {
+                "mid": "/m/0bt9lr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Dog"
+            }
+        }, 
+        {
+            "salience": 0.08846626, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Rain", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Rain", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08743758, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "lamp post", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "lamp post", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.062109258, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05820582, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog.", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.021335036, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": -0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Loyal Dog.He has been sitting under the lamp post for a month now.Rain or shine.Dont think its a stray dog.Probably left by the owner :(", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": -0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please give him home", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

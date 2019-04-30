@@ -1,0 +1,119 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.35858133, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Anybody", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Coco", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Coco", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3086981, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "character", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "character", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2019073, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hair", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "hair", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10319232, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Cats", 
+            "metadata": {
+                "mid": "/m/01yrx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Cat"
+            }
+        }, 
+        {
+            "salience": 0.027620953, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "course", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "course", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Anybody looking for Long hair female...Coco is not use to go around me.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Cats have their own character of course..i have to go to her and hold her so she know i love her..please adopt her..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,157 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5848743, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kofi", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kofi", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19148184, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "compact.As", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "compact.As", 
+            "metadata": {
+                "mid": "/m/02swz_", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Compact_car"
+            }
+        }, 
+        {
+            "salience": 0.07740843, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "testament", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "testament", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.049116474, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter box", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "litter box", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.048540052, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "toilet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020078212, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "go getter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "go getter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016739257, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011761474, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "someone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "someone", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.7
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "kofi's clever, cute, and compact.As a testament to that he toilet trained himself to use the litter box at one month old!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Extremely energetic, he's a little go getter looking for a lovely home and someone to love.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "categories": []
+}

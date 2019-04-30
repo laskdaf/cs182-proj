@@ -1,0 +1,122 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.59924906, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pups", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "pups", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1753745, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "playground", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "playground", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12144683, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "area", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "area", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07430337, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Sri Andalas Klang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Taman Sri Andalas Klang", 
+            "metadata": {
+                "mid": "/m/03cw8b8", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Taman_Sri_Andalas"
+            }
+        }, 
+        {
+            "salience": 0.029626232, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "location", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found these 5 pups around the playground in my area at Taman Sri Andalas Klang.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are very cute &amp; urgently need to be adopted .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Pls call me at for location", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

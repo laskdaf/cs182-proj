@@ -1,0 +1,214 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.31924528, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "tree", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "tree", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.31924528, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "car", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12693253, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "buildings", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "buildings", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06540997, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "foid", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "foid", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04393643, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "humans", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "humans", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.041923225, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rains", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "rains", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031694114, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020399623, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "master", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "master", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.016606735, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "paw toes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "paw toes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014606811, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "humans", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "humans", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2, 
+        "score": -0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I lived every where under a tree, car, empty buildings.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I have no where to go and hide when rains.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I can hungry many days as i can't find foid to eat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am fearful of humans as my front paw toes was chopped by a humans.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "I was finally rescued and i wish to find a home to serve my new master", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }
+    ], 
+    "categories": []
+}

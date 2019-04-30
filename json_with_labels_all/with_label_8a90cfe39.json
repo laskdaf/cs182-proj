@@ -1,0 +1,220 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6545422, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16938278, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tazzy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Tazzy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.064041495, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.031573948, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Loves", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Loves", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.021736363, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adopters", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "adopters", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.02147297, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "toy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009612106, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sheet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "sheet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009612106, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "paper", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "paper", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0090130055, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Taman Hillview", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Taman Hillview", 
+            "metadata": {
+                "mid": "/m/0f2wv5", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Taman_Hillview"
+            }
+        }, 
+        {
+            "salience": 0.0090130055, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ampang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Ampang", 
+            "metadata": {
+                "mid": "/m/0kw581", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ampang,_Selangor"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 3.5, 
+        "score": 0.7
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Tazzy is a little shy at first, but once you get to know her she is the most loving and loyal pet anyone can ever ask for.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Loves to cuddle but is also very playful.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Easily entertained - just crumple up a sheet of paper and voila!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "you have her favourite toy Only serious adopters, please.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Located in Taman Hillview, Ampang", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "categories": []
+}

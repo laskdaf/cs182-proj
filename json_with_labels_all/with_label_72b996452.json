@@ -1,0 +1,142 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.46898636, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Harley", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Harley", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17415512, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ducati", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Ducati", 
+            "metadata": {
+                "mid": "/m/03p1_gr", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ducati_Motor_Holding_S.p.A."
+            }
+        }, 
+        {
+            "salience": 0.16934837, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "friends", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "friends", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09941917, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitties", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitties", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.039561488, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "brother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "brother", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03636093, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sister", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "sister", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.012168552, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.7, 
+        "score": 0.8
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Harley and Ducati are super sweet, very lovable and playful kitties.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "They're brother and sister and best friends and anyone adopting them needs to keep them together.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "categories": []
+}

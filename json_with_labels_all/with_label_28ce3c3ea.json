@@ -1,0 +1,109 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5082222, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Age", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.22090186, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15528221, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fee", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "fee", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09309, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Skudai JB Adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Skudai JB Adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.022503708, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "TQ", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "TQ", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.1, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Age: Almost 2 month Location: Skudai JB Adoption fee: If you are interested, feel free to contact me.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "TQ", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

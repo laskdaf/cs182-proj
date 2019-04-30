@@ -1,0 +1,224 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.7334785, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0733737, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "animal lover", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "animal lover", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06704104, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Apple", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Apple", 
+            "metadata": {
+                "mid": "/m/0k8z", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Apple_Inc."
+            }
+        }, 
+        {
+            "salience": 0.043618117, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cancer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cancer", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.024139127, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014496194, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "words", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "words", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014496194, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "sit", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.014391473, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighbor", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "neighbor", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0117658675, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "apartment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "apartment", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0031997915, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "choice", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "choice", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Apple's owner passed away 8 yrs ago after fighting for few months on cancer.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Her owner gave her to a neighbor and i adopted her since then.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "She's very obedient and understands simple words like sit, stay, go..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Unfortunately, I have to move to an apartment, which left me no choice but to let go of her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Anyone who wants to adopt her must be an animal lover.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }
+    ], 
+    "categories": []
+}

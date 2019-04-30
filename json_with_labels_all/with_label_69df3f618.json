@@ -1,0 +1,82 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.8534246, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ronny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Ronny", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10374092, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bandar Puchong Jaya", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Bandar Puchong Jaya", 
+            "metadata": {
+                "mid": "/m/04myfcz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Puchong_Jaya"
+            }
+        }, 
+        {
+            "salience": 0.042834498, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.4, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Ronny had been rescued at Bandar Puchong Jaya.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is 2 months old.Looking for a loving home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }
+    ], 
+    "categories": []
+}

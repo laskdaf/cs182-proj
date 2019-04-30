@@ -1,0 +1,207 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.41807905, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kitten", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kitten", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.25936872, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Puma", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Puma", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05621493, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cats", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.052906755, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sibling", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "sibling", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.043697603, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tiger", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Tiger", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03999964, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "age", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.039802577, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter box", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "litter box", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.034247115, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "apartment.It", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "apartment.It", 
+            "metadata": {
+                "mid": "/m/01nblt", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Apartment"
+            }
+        }, 
+        {
+            "salience": 0.027841808, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "P/S", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "P/S", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.027841808, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "self pickup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "self pickup", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Puma, a cute active kitten.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Love to play and sleep so much.Need to give away since i already have a few cats and stayed in apartment.It will be best if you can adopt the female sibling(named Tiger) so that they can play together and not alone.Same age.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are all litter box-trained.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "P/S: prefer self pickup", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "categories": []
+}

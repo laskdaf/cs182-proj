@@ -1,0 +1,189 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.3970542, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "group", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "group", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.21370111, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "middle", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "middle", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.21370111, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "road", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "road", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.085420765, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "car", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "car", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.028279353, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sun", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "sun", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.019686496, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "clock care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "clock care", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.019686496, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "milk", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "milk", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.013806501, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "sound", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "sound", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.008663977, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "babycat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "babycat", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.6, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Saw her on the middle of the road during lunch hour, almost got squashed by a car.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "She was crying and crawling under the hot sun.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "A group of us quickly went and picked her up, cooled her down and do what we can to make sure she survives.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "This babycat needs constant round the clock care, feeding her milk every 1 to 2 hours, keeping her safe and sound.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "categories": []
+}

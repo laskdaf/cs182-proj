@@ -1,0 +1,125 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.41214022, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bandit", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Bandit", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.29131493, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "family dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15995507, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09311508, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Malaysia", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Malaysia", 
+            "metadata": {
+                "mid": "/m/09pmkv", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia"
+            }
+        }, 
+        {
+            "salience": 0.043474708, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "New Zealand", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "New Zealand", 
+            "metadata": {
+                "mid": "/m/0ctw_b", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/New_Zealand"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Bandit is a fantastic friendly family dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "I want to keep him forever but have to leave Malaysia to return to New Zealand.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "He needs a good home where he won't be chained or caged.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

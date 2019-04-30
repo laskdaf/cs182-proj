@@ -1,0 +1,235 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.40140113, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "group", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "group", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.38352633, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "students", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "students", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.06286571, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "animals", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "animals", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03778023, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Kampar", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Kampar", 
+            "metadata": {
+                "mid": "/m/0bf2qx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kampar,_Perak"
+            }
+        }, 
+        {
+            "salience": 0.03778023, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Perak", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Perak", 
+            "metadata": {
+                "mid": "/m/015q02", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Perak"
+            }
+        }, 
+        {
+            "salience": 0.021163987, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "thanks", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "thanks", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.019342504, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "flea", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "flea", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011133404, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "vaccine", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010192007, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "ADOPTION", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "ADOPTION", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.010192007, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone interest", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "anyone interest", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0046224934, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "control", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "control", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "We are a group of students from Kampar,Perak who rescuing animals.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please help to adopt if you can, thanks.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "She had been dewormed and apply flea and tick control.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "And 1st vaccine was done.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is now up for ADOPTION :) anyone interest pls call", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "categories": []
+}

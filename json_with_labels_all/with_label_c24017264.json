@@ -1,0 +1,127 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5525684, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "DOB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "DOB", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1566217, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Toilet", 
+            "metadata": {
+                "mid": "/m/09g1w", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Toilet"
+            }
+        }, 
+        {
+            "salience": 0.09042292, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "shah", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "shah", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08279799, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "email", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "email", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.063685894, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "subang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "subang", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.053903133, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "COD", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "COD", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.4, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "DOB : 9/9/ Toilet trained 2male and 1female Kindly to wasap me or email.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "COD shah alam subang", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

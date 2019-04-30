@@ -1,0 +1,100 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6988821, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "John", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "John", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2753785, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pup", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pup", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.012869704, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kedah", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "kedah", 
+            "metadata": {
+                "mid": "/m/01xl46", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Kedah"
+            }
+        }, 
+        {
+            "salience": 0.012869704, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kulim", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "kulim", 
+            "metadata": {
+                "mid": "/g/120w8dt6", 
+                "wikipedia_url": "https://ru.wikipedia.org/wiki/\u041a\u0443\u043b\u0438\u043c"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "John is a healthy male pup that is very active...he loves to play.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is now in kulim kedah.....tnc apply", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }
+    ], 
+    "categories": []
+}

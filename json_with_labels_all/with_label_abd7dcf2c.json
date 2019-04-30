@@ -1,0 +1,212 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.33068824, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "survival", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "survival", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.33068824, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.067969576, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Litter", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Litter", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04683819, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "doorsteps", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "doorsteps", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04683819, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "information", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "information", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0462764, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "box", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "box", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0462764, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "customer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "customer", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.043041702, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "pls contact", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "pls contact", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01935483, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Sat-Sun", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Sat-Sun", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.01350829, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Thx", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Thx", 
+            "metadata": {
+                "mid": "/m/016yvd", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/THX"
+            }
+        }, 
+        {
+            "salience": 0.008519923, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Mon-Thur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Mon-Thur", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "The only survival among 6 kittens.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Litter of 6 in a box abandoned outside a customer's doorsteps, For more information, pls contact, office hour Mon-Thur 9am-6.30pm, Sat-Sun 10am-4.30pm.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thx", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "categories": []
+}

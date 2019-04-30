@@ -1,0 +1,137 @@
+{
+    "language": "en", 
+    "label": 4, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.50235426, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cat details", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Cat details", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.32839856, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Name :- Opie Age", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Name :- Opie Age", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.062074374, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.054443214, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.029887922, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gender :- Male Neuter :- Yes Very", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Gender :- Male Neuter :- Yes Very", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.022841668, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pandan Indah", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Pandan Indah", 
+            "metadata": {
+                "mid": "/m/03cmt55", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Pandan_Indah"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.1, 
+        "score": 0.7
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Cat details:- Name :- Opie Age :- 1 1/2 year Gender :- Male Neuter :- Yes Very active and friendly.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adorable indoor cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Location :- Pandan Indah", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

@@ -1,0 +1,199 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.46019295, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.22848713, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighbourhood.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "neighbourhood.", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.13854079, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "command", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Healthy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Healthy", 
+            "metadata": {
+                "mid": "/m/0kt51", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Health"
+            }
+        }, 
+        {
+            "salience": 0.058697347, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05545386, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SPCA Ampang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "SPCA Ampang", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.018714124, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "SPCA", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "SPCA", 
+            "metadata": {
+                "mid": "/m/0117qddf", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Cruelty_to_Animals"
+            }
+        }, 
+        {
+            "salience": 0.015053626, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.012723716, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Hope", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Hope", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.012136468, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "keeper", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "keeper", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.5, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Lost dog roaming around my neighbourhood.We just handed him to SPCA Ampang on 21/7.He understand basic command, well behaved, Healthy and has brown eyes.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "This dog is definately a keeper.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Pls contact/visit SPCA to adopt.Hope he gets a good home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "categories": []
+}

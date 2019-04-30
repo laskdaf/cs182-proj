@@ -1,0 +1,212 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.27387837, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neck", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "neck", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.24642634, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bukit Tinggi Near Jusco Klang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Bukit Tinggi Near Jusco Klang", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15251765, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.079300165, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "injury", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "injury", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05450719, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "boarding", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "boarding", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05450719, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "vet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.037656058, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "P/s", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "P/s", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.037656058, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.027303575, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "stitching.Rescuer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "stitching.Rescuer", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.026427044, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "blue collar", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "blue collar", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.009820374, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "facebook", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "facebook", 
+            "metadata": {
+                "mid": "/m/02y1vz", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Facebook"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.4, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "found in Bukit Tinggi Near Jusco Klang.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "He has an injury to the neck that needed stitching.Rescuer has spent rm On medical and boarding at the vet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "If you are the owner, please contact us on facebook : (P/s:this dog was found with the blue collar)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

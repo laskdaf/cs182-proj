@@ -1,0 +1,84 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5398454, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "girl", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1984913, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat version", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "cat version", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.14770703, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dalmation", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "dalmation", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11395626, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cow", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cow", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": -0.3
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "spotty girl is a cat version of a dalmation or a cow ...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }
+    ], 
+    "categories": []
+}

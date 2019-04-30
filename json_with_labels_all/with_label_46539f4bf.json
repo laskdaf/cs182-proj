@@ -1,0 +1,152 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.8847301, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "baby girl", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "baby girl", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.04552944, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Address", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Address", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020493023, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "One Petz 2-1-20 One Square", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "One Petz 2-1-20 One Square", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020493023, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Tingkat Mahsuri 1", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Tingkat Mahsuri 1", 
+            "metadata": {
+                "mid": "/g/1q5ccf3lq"
+            }
+        }, 
+        {
+            "salience": 0.014377199, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bayan Lepas", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Bayan Lepas", 
+            "metadata": {
+                "mid": "/m/0d_dv9", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bayan_Lepas"
+            }
+        }, 
+        {
+            "salience": 0.014377199, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Penang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Penang", 
+            "metadata": {
+                "mid": "/m/0g6xq", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 1.1, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This beautiful yet adorable baby girl was send to me yesterday.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is 3 months old and very cheeky.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "If ur interested please call/whatsapp me:/", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Address: One Petz 2-1-20 One Square, Tingkat Mahsuri 1, Bayan Lepas, Penang.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

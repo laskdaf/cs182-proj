@@ -1,0 +1,237 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.30531216, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "miniature schnauzer", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "miniature schnauzer", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.18831109, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jan", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Jan", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15740013, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "anyone", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "anyone", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0740993, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jalan PJU 1A", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Jalan PJU 1A", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0740993, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Ara Damansara", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Ara Damansara", 
+            "metadata": {
+                "mid": "/m/0g1wqy", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ara_Damansara"
+            }
+        }, 
+        {
+            "salience": 0.044645485, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "eyes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "eyes", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.041509457, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "hair", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "hair", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.041509457, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "fur", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.028567547, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020044487, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "adoption", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "adoption", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.012628213, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "doggie", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "doggie", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011873366, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "CNY", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "EVENT", 
+            "name": "CNY", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This miniature schnauzer was found Jan wandering along Jalan PJU 1A/1D in Ara Damansara.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "She was dirty, eyes covered by long hair and fur all matted up.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": -0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "After grooming, we discovered a bright-eyed perky little doggie.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "If anyone has lost or seen this dog, call us or she will be up for adoption after CNY.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

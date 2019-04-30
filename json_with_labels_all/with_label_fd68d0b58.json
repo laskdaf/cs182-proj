@@ -1,0 +1,97 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.4890124, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "strays", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "strays", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2133222, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Brickfields", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Brickfields", 
+            "metadata": {
+                "mid": "/m/0bkdxk", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Brickfields"
+            }
+        }, 
+        {
+            "salience": 0.17315929, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "www.myanimalcare.org", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "www.myanimalcare.org", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.12450611, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "details", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "details", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Living as strays in Brickfields.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Pls see www.myanimalcare.org for more details.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

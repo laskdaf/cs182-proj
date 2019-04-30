@@ -1,0 +1,112 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.44719964, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.3861011, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "\u80a5\u80a5", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "\u80a5\u80a5", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08247414, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Labrador", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Labrador", 
+            "metadata": {
+                "mid": "/m/0km3f", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Labrador_Retriever"
+            }
+        }, 
+        {
+            "salience": 0.058324393, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "same", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "same", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.025900723, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "life", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "life", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.9, 
+        "score": 0.4
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "\u80a5\u80a5 is a cute, cuddly, fluffy and furry Labrador mixed.He is a very playful dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Your life will never be the same after adopting him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

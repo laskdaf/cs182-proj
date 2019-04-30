@@ -1,0 +1,110 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.42427093, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Bukit Mertajam", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Bukit Mertajam", 
+            "metadata": {
+                "mid": "/m/0ckckx", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Bukit_Mertajam"
+            }
+        }, 
+        {
+            "salience": 0.42427093, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Penang", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Penang", 
+            "metadata": {
+                "mid": "/m/0g6xq", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Penang"
+            }
+        }, 
+        {
+            "salience": 0.07591565, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07554251, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Cat", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found at Bukit Mertajam, Penang.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Want to look for his original owner.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Cat had been rehome.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

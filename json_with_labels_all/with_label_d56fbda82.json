@@ -1,0 +1,161 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.28154653, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Father", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Father", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.28154653, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Poodle Mother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Poodle Mother", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15486757, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Color", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }, 
+                {
+                    "text": {
+                        "content": "Color", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Color", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.08323641, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "deworming", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "deworming", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07668171, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccination", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "vaccination", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.07252784, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Pomeranian DOB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Pomeranian DOB", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.03767592, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Gender", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Gender", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.011917462, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Black + White", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Black + White", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0.2
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Father: Poodle Mother: Pomeranian DOB: - 1st vaccination and deworming done.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Gender: Male Color: Black + White Color", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "categories": []
+}

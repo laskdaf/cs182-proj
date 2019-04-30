@@ -1,0 +1,84 @@
+{
+    "language": "en", 
+    "label": 1, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6486282, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "kittens", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "kittens", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.18713306, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "INFO.DONT COMMENT", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "WORK_OF_ART", 
+            "name": "INFO.DONT COMMENT", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.086531535, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "NOTIFICATION.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "NOTIFICATION.", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.077707246, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "THANX =D", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "THANX =D", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.5, 
+        "score": 0.5
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "kittens almost got hit by car.PLEASE EMAIL ME FOR MORE INFO.DONT COMMENT, I WIL NOT GET THE NOTIFICATION.THANX =D", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }
+    ], 
+    "categories": []
+}

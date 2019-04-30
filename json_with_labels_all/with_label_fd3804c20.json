@@ -1,0 +1,97 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.4786276, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "orphanage", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "orphanage", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2730863, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Aunty Kiew", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "ORGANIZATION", 
+            "name": "Aunty Kiew", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.15591, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "apartment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "apartment", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.09237609, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "www.everydoghasitsday09.blogspot.com", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "www.everydoghasitsday09.blogspot.com", 
+            "metadata": {
+                "mid": "/m/01scs3", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Blogger_(service)"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "They were spotted outside an orphanage near Aunty Kiew's apartment.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "do visit www.everydoghasitsday09.blogspot.com", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "categories": []
+}

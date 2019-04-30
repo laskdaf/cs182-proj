@@ -1,0 +1,159 @@
+{
+    "language": "en", 
+    "label": 3, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.6268976, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Alvin", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Alvin", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.26633865, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.030312175, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "medicine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "medicine", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.030312175, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "problem", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "problem", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.020721858, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Scabies Injection", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Scabies Injection", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.018514983, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Injection", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Injection", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0069025634, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "2nd Injection", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "2nd Injection", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.6
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Alvin is a super friendly cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "You can shower him and feed him medicine without problem.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "He loves to play and very active.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Dewormed on 17th March 1st Scabies Injection on 30/3/ 2nd Injection is done on 7th April 3rd Injection is done on 13th April", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "categories": []
+}

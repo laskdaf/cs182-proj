@@ -1,0 +1,114 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.5545214, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "appointment", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "appointment", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.19525754, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Location", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Location", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.10922944, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jln Sentul", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Jln Sentul", 
+            "metadata": {
+                "mid": "/g/1tcw_0_q"
+            }
+        }, 
+        {
+            "salience": 0.08276865, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Melodies Garden", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Melodies Garden", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.058222998, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "JB", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "JB", 
+            "metadata": {
+                "mid": "/m/0207sh", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Johor_Bahru"
+            }
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.2, 
+        "score": 0.1
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Please call for appointment at.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Location at No. 3 Jln Sentul, Melodies Garden, JB.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}

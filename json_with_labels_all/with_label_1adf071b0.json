@@ -1,0 +1,130 @@
+{
+    "language": "en", 
+    "label": 2, 
+    "tokens": [], 
+    "entities": [
+        {
+            "salience": 0.33774835, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "birth", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "birth", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.21624379, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Jenny", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Jenny", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.21624379, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Moon", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "Moon", 
+            "metadata": {
+                "mid": "/m/04wv_", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Moon"
+            }
+        }, 
+        {
+            "salience": 0.14464778, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "orangy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "orangy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.060560104, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "River", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "River", 
+            "metadata": {
+                "mid": "/m/06cnp", 
+                "wikipedia_url": "https://en.wikipedia.org/wiki/River"
+            }
+        }, 
+        {
+            "salience": 0.024556197, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "family", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "family", 
+            "metadata": {}
+        }
+    ], 
+    "documentSentiment": {
+        "magnitude": 0.3, 
+        "score": 0
+    }, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Jenny gave birth to Moon (orangy) and River (grey-ish) about 2 months plus ago.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I would like for them to be adopted as a family.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "categories": []
+}
