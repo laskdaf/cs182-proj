@@ -9,6 +9,26 @@ from collections import defaultdict
 stop = stopwords.words('english')# + list(string.punctuation)
 punctuation = set(list(list(string.punctuation)))
 
+# extract and tokenize categorical data into a list
+def getCategoricalTokens(data):
+    tokens = []
+
+    tokens.append('Tok-FurLength-' + str(data['FurLength']))
+    tokens.append('Tok-Color1-' + str(data['Color1']))
+    tokens.append('Tok-Fee-' + str(0 if data['Fee'] == 0 else 1))
+    tokens.append('Tok-Vaccinated-' + str(data['Vaccinated']))
+    tokens.append('Tok-Dewormed-' + str(data['Dewormed']))
+    tokens.append('Tok-Sterilized-' + str(data['Sterilized']))
+    tokens.append('Tok-MaturitySize-' + str(data['MaturitySize']))
+    tokens.append('Tok-Quantity-' + str(1 if data['Quantity'] == 1 else 2))
+    tokens.append('Tok-PhotoAmt-' + str(int(data['PhotoAmt']//5)))
+    tokens.append('Tok-Gender-' + str(data['Gender']))
+    tokens.append('Tok-Age-' + str(data['Age']//12))
+    # tokens.append('Tok-Breed1-' + str(data['Breed1']))
+    tokens.append('Tok-Breed2-' + str(0 if data['Breed2'] == 0 else 1))
+
+    return tokens
+
 # cleans text by removing (1) stop words and punctuation
 def cleanText(text):
     unpunctuated_text = "".join([c for c in text if c not in punctuation])
@@ -42,12 +62,11 @@ destination = 'text_and_label_all'
 
 output = {}
 texts = []
+categorical_labels = []
 
 for filename in os.listdir(directory):
 
     id = filename.split(".")[0].split("_")[-1]
-
-    # print(id)
 
     with open(directory + '/' + filename) as json_file:
         data = json.load(json_file)
@@ -61,9 +80,12 @@ for filename in os.listdir(directory):
         cleanedText = cleanText(data["fullText"])
         texts.append(cleanedText)
 
+        categorical_labels.append(getCategoricalTokens(data))
+
     output[id] = data
 
 dictionary = dictionaryFromTexts(texts, 5000)
+dictionary.add_documents(categorical_labels)
 # dictionary.save(os.path.join(TEMP_FOLDER, 'deerwester.dict'))  # store the dictionary, for future reference
 # print(dictionary)
 print(dictionary.token2id)
@@ -80,7 +102,7 @@ for key, value in output.items():
 
     vectorized = []
 
-    for w in fullText.lower().split():
+    for w in fullText.lower().split()[:500] + getCategoricalTokens(value):
         vec = dictionary.doc2bow([w])
         word_id = 0
         if len(vec) > 0:
@@ -94,5 +116,5 @@ for key, value in output.items():
 print(output["bef897b2b"])
 print(maxLen)
 
-with open(destination + '/json_vectorized.json', 'w') as outfile:
+with open(destination + '/json_vectorized_categorical.json', 'w') as outfile:
     json.dump(output, outfile, indent=4)
