@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 100, 
+    "sentences": [
+        {
+            "text": {
+                "content": "He is a healthy male cat and like to play around.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is very cute and friendly.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "I can't afford to keep him since I already have 10 cats.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "It's kind of sad to let him go but if there are someone else who can take care of him better than I can, so, I'll give it.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 265, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 7, 
     "entities": [
         {
             "salience": 0.8957462, 
@@ -64,51 +111,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 18, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2.1, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "He is a healthy male cat and like to play around.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "He is very cute and friendly.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "I can't afford to keep him since I already have 10 cats.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "It's kind of sad to let him go but if there are someone else who can take care of him better than I can, so, I'll give it.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

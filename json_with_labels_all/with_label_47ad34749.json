@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "4 cats born 23rd June to a stray that hangs around my place.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Kittens have been kept in a cage with mum.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are now eating cat food and using cat litter.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Mum is still feeding them as well.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Used to be handled by humans.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.40923184, 
@@ -139,61 +196,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.2, 
         "score": -0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "4 cats born 23rd June to a stray that hangs around my place.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "Kittens have been kept in a cage with mum.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "They are now eating cat food and using cat litter.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Mum is still feeding them as well.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Used to be handled by humans.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

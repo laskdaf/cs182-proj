@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 3, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.61693704, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mother", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "mother", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.38306293, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "LOCATION", 
-            "name": "home", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1.9, 
-        "score": 0.4
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -80,5 +42,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 5.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
+    "label": 3, 
+    "Color1": 2, 
+    "entities": [
+        {
+            "salience": 0.61693704, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mother", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "mother", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.38306293, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 7, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.4
+    }, 
+    "Sterilized": 2
 }

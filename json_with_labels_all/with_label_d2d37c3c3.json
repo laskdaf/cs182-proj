@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "4 kittens looking for loving homes.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "7 weeks old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "One is as black ,one calico, one white with grey markings on forehead and one is white with orange patches.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "All kittens already eating soft food and ready for adoption", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.34951767, 
@@ -169,51 +216,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 3, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.1, 
         "score": 0.2
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "4 kittens looking for loving homes.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "7 weeks old.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "One is as black ,one calico, one white with grey markings on forehead and one is white with orange patches.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "All kittens already eating soft food and ready for adoption", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 250, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Fluffy's owner is no longer able to care for her so they have left her with me.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "For the time I have been with her, I find her to be a quiet cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "She also has a habit of leaning and sitting against the wall which makes her look quite funny.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Her coat is white with shades of light golden orange.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is litter trained.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 288, 
+    "Breed2": 265, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.8447995, 
@@ -139,61 +196,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 8, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2.5, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Fluffy's owner is no longer able to care for her so they have left her with me.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": -0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "For the time I have been with her, I find her to be a quiet cat.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "She also has a habit of leaning and sitting against the wall which makes her look quite funny.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "Her coat is white with shades of light golden orange.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "She is litter trained.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

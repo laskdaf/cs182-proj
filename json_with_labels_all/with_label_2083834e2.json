@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "These 2 kittens were taken from my parents home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Why were these kittens taken away?", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Because at my parents house there are another 8 kittens,hard for my parents to manage, these 8 kittens are also for adoption if you wish, I don't have the pics yet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Let me know if you are interested.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "call me zul call me maybe ..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 265, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.41735193, 
@@ -146,61 +203,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 4, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.6, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "These 2 kittens were taken from my parents home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Why were these kittens taken away?", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "Because at my parents house there are another 8 kittens,hard for my parents to manage, these 8 kittens are also for adoption if you wish, I don't have the pics yet.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Let me know if you are interested.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "call me zul call me maybe ..", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

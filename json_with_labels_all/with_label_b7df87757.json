@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 5, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I found Mylo on a tree outside my house.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "He was abandon by his mother.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Mylo is very friendly and pro-active.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "He likes to cuddle and he is a wonderful lap cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "If anyone is interested to adopt Mylo, I charge a small fee because I want serious people who wants to adopt a cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.67271584, 
@@ -153,61 +210,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 10, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2.8, 
         "score": 0.2
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "I found Mylo on a tree outside my house.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "He was abandon by his mother.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "Mylo is very friendly and pro-active.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "He likes to cuddle and he is a wonderful lap cat.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "If anyone is interested to adopt Mylo, I charge a small fee because I want serious people who wants to adopt a cat.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": -0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

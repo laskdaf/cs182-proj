@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "All puppies are in good health, very cute and adorable.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please give them a chance to be loved.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Every living life deserve a home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adopter need to cover the spaying / neutering fees.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 307, 
+    "Breed2": 307, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.50516033, 
@@ -139,51 +186,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 5, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 2.1, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "All puppies are in good health, very cute and adorable.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please give them a chance to be loved.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "Every living life deserve a home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Adopter need to cover the spaying / neutering fees.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

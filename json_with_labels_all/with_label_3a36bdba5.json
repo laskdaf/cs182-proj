@@ -1,7 +1,104 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Hi This dog is a stray.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "This picture of him was taken 2 months ago, and since then I have been trying to find him a home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "But recently, when I went to check up on him, to my horror I found him limping with only 3 legs :(.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "A once healthy, boisterous dog is now disabled...according to the local residents, the dog was found with its paw cut off..I guess someone took him to the vet and got him fixed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "They even have placed a bogus collar around his neck to make him look as if he belongs to someone..but he is still in danger, cause he is still out there straying....is there anyone willing to take in this sweet disabled dog?", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "please contact me via telephone or email: usha. .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Im trying to give this poor dog a better life. he is a very sweet dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I will bear the cost for neutering.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am unable to take his current picture yet, but I will try again soon if anyone makes an inquiry.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 3, 
+    "Dewormed": 2, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.28162816, 
@@ -454,101 +551,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 36, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2, 
         "score": -0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Hi This dog is a stray.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "This picture of him was taken 2 months ago, and since then I have been trying to find him a home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "But recently, when I went to check up on him, to my horror I found him limping with only 3 legs :(.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "A once healthy, boisterous dog is now disabled...according to the local residents, the dog was found with its paw cut off..I guess someone took him to the vet and got him fixed.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "They even have placed a bogus collar around his neck to make him look as if he belongs to someone..but he is still in danger, cause he is still out there straying....is there anyone willing to take in this sweet disabled dog?", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": -0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "please contact me via telephone or email: usha. .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Im trying to give this poor dog a better life. he is a very sweet dog.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "I will bear the cost for neutering.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "I am unable to take his current picture yet, but I will try again soon if anyone makes an inquiry.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

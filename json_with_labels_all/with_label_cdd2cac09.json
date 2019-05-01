@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 200, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I have had cats all my life and this kitten is definitely special.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is: Very intelligent (comes to her name, understands commands) Very loving (wants to be with you all the time) Playful Lovely coloring Vaccinated, dewormed and trained She is a rescue cat and I need her to go to a good home so I am making a small charge to ensure new owner is s serious and cover costs of vaccinations etc.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "I will also include her remaining food, toys and bowls.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "I expect new owner to neuter her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Only letting go as I travel and so not fair on her, otherwise I would definitely be keeping her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 6, 
     "entities": [
         {
             "salience": 0.62295115, 
@@ -251,61 +308,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 3.1, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "I have had cats all my life and this kitten is definitely special.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "She is: Very intelligent (comes to her name, understands commands) Very loving (wants to be with you all the time) Playful Lovely coloring Vaccinated, dewormed and trained She is a rescue cat and I need her to go to a good home so I am making a small charge to ensure new owner is s serious and cover costs of vaccinations etc.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "I will also include her remaining food, toys and bowls.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "I expect new owner to neuter her.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Only letting go as I travel and so not fair on her, otherwise I would definitely be keeping her.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

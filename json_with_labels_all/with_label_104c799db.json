@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "My Malay friend has 6 puppies for adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Can adopt one?", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thank you", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.36607757, 
@@ -64,41 +101,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 6, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 0.5, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "My Malay friend has 6 puppies for adoption.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Can adopt one?", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Thank you", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

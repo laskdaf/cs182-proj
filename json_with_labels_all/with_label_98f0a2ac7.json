@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Those cats are very healthy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Age 3 months old but look big.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "The owner kept them after the mother cat left.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are very cudly, active and toilet trained.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 3, 
+    "Dewormed": 3, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.7279305, 
@@ -64,51 +111,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 6, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 3, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 0.6, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Those cats are very healthy.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Age 3 months old but look big.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "The owner kept them after the mother cat left.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "They are very cudly, active and toilet trained.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

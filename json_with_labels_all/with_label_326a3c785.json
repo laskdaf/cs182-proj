@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 50, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Puppy's dad is a german sherpard and mom is a spitz.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Giving away because neighbours complain of noise.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Urget adopters..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Call me..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 213, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.5352664, 
@@ -108,51 +155,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 3, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 4, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 1, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Puppy's dad is a german sherpard and mom is a spitz.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Giving away because neighbours complain of noise.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "Urget adopters..", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Call me..", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

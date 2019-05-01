@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I am Raymond leaving Puchong and need to find a new home for Wobby.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is a beautiful little dog with a very gentle nature.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "He injections have just been updated.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.59407103, 
@@ -112,41 +149,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 5, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 1.2, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "I am Raymond leaving Puchong and need to find a new home for Wobby.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "He is a beautiful little dog with a very gentle nature.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "He injections have just been updated.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

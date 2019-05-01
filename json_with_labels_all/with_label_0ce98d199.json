@@ -1,7 +1,84 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I am currently renting a room in Petaling Jaya and I have 3 cats.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Unfortunately, I have to move back to hometown and my parents already have 3 dogs in the house.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Therefore, I have to put my 2 cats for adoption and bring one back to hometown.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Both of them are white in color(little bit yellowish).", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Xiao Bai(9 months) is spayed and Baby(birthday at 21 July ) is not spay yet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Both of them are female, dewormed and vaccinated.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "wish they can find their home sweet home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 266, 
+    "Breed2": 266, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 7, 
     "entities": [
         {
             "salience": 0.23131727, 
@@ -239,81 +316,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 10, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.8, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "I am currently renting a room in Petaling Jaya and I have 3 cats.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Unfortunately, I have to move back to hometown and my parents already have 3 dogs in the house.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Therefore, I have to put my 2 cats for adoption and bring one back to hometown.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "Both of them are white in color(little bit yellowish).", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Xiao Bai(9 months) is spayed and Baby(birthday at 21 July ) is not spay yet.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Both of them are female, dewormed and vaccinated.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "wish they can find their home sweet home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

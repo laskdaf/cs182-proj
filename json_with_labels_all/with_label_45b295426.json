@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "They are cute.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Their mother brought them to my house and few weeks later she dead in an accident.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "(according to my neighbor said.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I can't foster them due to no time and no knowledge on how to rescue these kitten.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please help them.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 265, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.3590752, 
@@ -94,61 +151,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 6, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.1, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "They are cute.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "Their mother brought them to my house and few weeks later she dead in an accident.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "(according to my neighbor said.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "I can't foster them due to no time and no knowledge on how to rescue these kitten.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please help them.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

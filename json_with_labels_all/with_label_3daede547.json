@@ -1,7 +1,74 @@
 {
-    "language": "en", 
+    "Fee": 200, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Susie was found at Damansara Perdana.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Couldn't track her owner.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "She has a microchip that showed she is 9 years old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Still healthy and active dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Indoor living only.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please call if you can give her a good home", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 205, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 6, 
     "entities": [
         {
             "salience": 0.75767833, 
@@ -97,71 +164,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 108, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.6, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Susie was found at Damansara Perdana.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Couldn't track her owner.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": -0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "She has a microchip that showed she is 9 years old.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Still healthy and active dog.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Indoor living only.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please call if you can give her a good home", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

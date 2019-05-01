@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 100, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Found this little sweetheart while on a holiday.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very friendly and loves to snuggle up and purr loudly.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Potty trained so do not have to worry about the kitten making a mess.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "New owner can get a voucher for a free deworming and vaccination upon successful adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 299, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.4615537, 
@@ -154,51 +201,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2.4, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Found this little sweetheart while on a holiday.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "Very friendly and loves to snuggle up and purr loudly.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Potty trained so do not have to worry about the kitten making a mess.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": -0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "New owner can get a voucher for a free deworming and vaccination upon successful adoption.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

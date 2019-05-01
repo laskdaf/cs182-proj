@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This tabby is looking for a loving home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "For serious and responsible pet lovers only.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Kindly contact Hands 'n' Paws Vet at for further information.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.5755533, 
@@ -79,41 +116,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 1.5, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "This tabby is looking for a loving home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "For serious and responsible pet lovers only.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "Kindly contact Hands 'n' Paws Vet at for further information.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

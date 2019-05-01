@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "2 kittens (siblings) have been coming to our house for food and shelter.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "I would like to find a home for them before they become too dependant on us.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "I will be travelling soon for work and if there are no takers I will be forced to send them to SPCA, which is my last resort.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are normal cats - not an exotic breed or anything, just your usual domestic short haired cat, but they are very persistant and are survivors - I think they'll grow up to be good, hardy cats.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.5195149, 
@@ -239,51 +286,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "2 kittens (siblings) have been coming to our house for food and shelter.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "I would like to find a home for them before they become too dependant on us.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "I will be travelling soon for work and if there are no takers I will be forced to send them to SPCA, which is my last resort.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "They are normal cats - not an exotic breed or anything, just your usual domestic short haired cat, but they are very persistant and are survivors - I think they'll grow up to be good, hardy cats.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

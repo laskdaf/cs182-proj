@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Zoey is a healthy mix breed (long hair/short hair) male cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is number two from a litter of four.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "He was neutered at the age of 7 months.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 264, 
+    "Breed2": 265, 
+    "MaturitySize": 3, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.28583664, 
@@ -109,41 +146,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 12, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 0.3, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Zoey is a healthy mix breed (long hair/short hair) male cat.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "He is number two from a litter of four.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "He was neutered at the age of 7 months.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

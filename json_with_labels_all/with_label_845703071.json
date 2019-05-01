@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 50, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Kittens were rescued from streets as some of them have already died!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I can only afford to keep them till 1st August.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Pls HELP!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 286, 
+    "Breed2": 299, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.637391, 
@@ -49,41 +86,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 6, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 0.2, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Kittens were rescued from streets as some of them have already died!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "I can only afford to keep them till 1st August.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Pls HELP!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

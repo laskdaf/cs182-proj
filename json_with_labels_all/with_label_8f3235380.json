@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 200, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Oreo is the brown one.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Currently got 3 + 1.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Oreo is a smart boy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "But as 1 got 3 schnauzer he was always bullied.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Hope he can find a real loving owner to adopt him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 179, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 1, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.64333487, 
@@ -96,61 +153,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 9, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Oreo is the brown one.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Currently got 3 + 1.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Oreo is a smart boy.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "But as 1 got 3 schnauzer he was always bullied.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "Hope he can find a real loving owner to adopt him.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

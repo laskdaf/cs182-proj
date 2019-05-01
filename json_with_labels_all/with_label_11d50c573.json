@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 80, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Brown eyes, smaller than average size.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Cheerful, love human and willing to jumps into you r lap to greet you.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please visit me at PAWS, Subang if you can give me a home or you would like a hug from me! :D", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "ID tag: D DOB: April [Vaccinated; dewormed; spayed] More info @ Fb page : Adoption Page - PAWS PJ There are a lot more at the shelter, do drop by to visit / volunteer/donate.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.2207485, 
@@ -282,51 +329,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 31, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.7, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Brown eyes, smaller than average size.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Cheerful, love human and willing to jumps into you r lap to greet you.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please visit me at PAWS, Subang if you can give me a home or you would like a hug from me! :D", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "ID tag: D DOB: April [Vaccinated; dewormed; spayed] More info @ Fb page : Adoption Page - PAWS PJ There are a lot more at the shelter, do drop by to visit / volunteer/donate.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This Chihuahua looking dog came to my house on herself.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "She's super friendly and very intelligent.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "In extremely healthy condition.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 60, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.52318263, 
@@ -67,41 +104,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 6, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.5, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "This Chihuahua looking dog came to my house on herself.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "She's super friendly and very intelligent.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "In extremely healthy condition.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

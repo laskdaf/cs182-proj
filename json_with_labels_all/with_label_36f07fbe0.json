@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 50, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Very high energy and active, loves to play with other dogs.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "A good watchdog too.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "She knows hand shake and sit.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "She need a new home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "i have too many dogs already.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 105, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.64744, 
@@ -94,61 +151,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 4, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 16, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.7, 
         "score": 0.3
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Very high energy and active, loves to play with other dogs.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "A good watchdog too.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "She knows hand shake and sit.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "She need a new home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "i have too many dogs already.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

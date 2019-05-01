@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Mom Cat's original owner left her in front of the empty house when they moved away.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Mom Cat was pregnant at the time and out of pity, my maid fed Mom Cat and let her stay at our porch.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "She gave birth to 4 kittens and continues to stay at our porch.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "As my son has developed an allergic reaction to protein from cat's hair, we need to find a new home for Mom Cat and the kittens.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 292, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.43608722, 
@@ -280,51 +327,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 0, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 5, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 0.6, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Mom Cat's original owner left her in front of the empty house when they moved away.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Mom Cat was pregnant at the time and out of pity, my maid fed Mom Cat and let her stay at our porch.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "She gave birth to 4 kittens and continues to stay at our porch.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "As my son has developed an allergic reaction to protein from cat's hair, we need to find a new home for Mom Cat and the kittens.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

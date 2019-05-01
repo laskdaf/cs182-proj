@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 300, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Roy loves playing so much, he's so friendly and everyone loves him.he's also clever can understand what you're asking him to do.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please send a MESSAGE OR CALL the number.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thanks", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 307, 
+    "Breed2": 109, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.8639974, 
@@ -79,41 +116,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 4, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.2, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Roy loves playing so much, he's so friendly and everyone loves him.he's also clever can understand what you're asking him to do.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please send a MESSAGE OR CALL the number.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Thanks", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

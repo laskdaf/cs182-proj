@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 50, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Female dog gave birth to 8 little puppies.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Looking for serious adopters who can take care of them.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are healthy and active.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 307, 
+    "Breed2": 189, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.30362576, 
@@ -79,41 +116,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 4, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 6, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1, 
         "score": 0.3
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Female dog gave birth to 8 little puppies.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Looking for serious adopters who can take care of them.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "They are healthy and active.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

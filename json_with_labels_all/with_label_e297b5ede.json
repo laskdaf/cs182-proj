@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "2 kitten found abandon by someone under a big tree near my house .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "i'm currently got 3 dogs and cant effort to keep anymore animal .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "please give me a call if you are interested to adopt them .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 15.0, 
+    "Breed1": 266, 
+    "Breed2": 266, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.4020155, 
@@ -124,41 +161,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 0.6, 
         "score": -0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "2 kitten found abandon by someone under a big tree near my house .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "i'm currently got 3 dogs and cant effort to keep anymore animal .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "please give me a call if you are interested to adopt them .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

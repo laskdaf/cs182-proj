@@ -1,7 +1,34 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "The mama cat gave birth to two kittens and I'll need to give them away because I'm moving to another area.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I also have a male kitten who seems to be lost.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.29282844, 
@@ -79,31 +106,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 6, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 3, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 0.2, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "The mama cat gave birth to two kittens and I'll need to give them away because I'm moving to another area.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "I also have a male kitten who seems to be lost.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

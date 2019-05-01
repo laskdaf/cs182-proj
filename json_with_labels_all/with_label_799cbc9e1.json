@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I have two puppies up for adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Both were found wandering and lost in a park nearby.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "One female and one male, approximately 2 to 4 months old with white and caramel coloured fur.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "The puppies are healthy, playful, and they adore human contact.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "For more info, please contact me (Rebecca) at .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 307, 
+    "Breed2": 307, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.3314824, 
@@ -169,61 +226,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 1.7, 
         "score": 0.2
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "I have two puppies up for adoption.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Both were found wandering and lost in a park nearby.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "One female and one male, approximately 2 to 4 months old with white and caramel coloured fur.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "The puppies are healthy, playful, and they adore human contact.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "For more info, please contact me (Rebecca) at .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

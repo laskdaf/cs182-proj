@@ -1,7 +1,34 @@
 {
-    "language": "en", 
+    "Fee": 100, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Kittens were abandoned in front of our clinic, possibly thrown out :(", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": -0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "A total of 6 kittens 2 Orange-ish brown, 1 Grey with black stripes, 1 Grey spots 2 Black with grey &amp; orange spots", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.33540204, 
@@ -172,31 +199,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 6, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 5, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1, 
         "score": -0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Kittens were abandoned in front of our clinic, possibly thrown out :(", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": -0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "A total of 6 kittens 2 Orange-ish brown, 1 Grey with black stripes, 1 Grey spots 2 Black with grey &amp; orange spots", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

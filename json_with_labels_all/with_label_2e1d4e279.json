@@ -1,7 +1,74 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Hi!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "We found this cute lil puppy suffocating in a drain a week back.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "We've taken it to the vet and revived it but now the poor thing needs a home!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "My dog at home ain't very happy to have the pup around...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please help!!!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "To contact me, Please call Thanks!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.42125905, 
@@ -139,71 +206,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.9, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Hi!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "We found this cute lil puppy suffocating in a drain a week back.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "We've taken it to the vet and revived it but now the poor thing needs a home!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "My dog at home ain't very happy to have the pup around...", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please help!!!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "To contact me, Please call Thanks!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

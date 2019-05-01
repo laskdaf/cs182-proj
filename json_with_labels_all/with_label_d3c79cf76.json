@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "One mother dog and six puppies, puppies are still feeding on milk, all living in front of a food court nearby my house.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "They're living under a dangerous environment as it's nearby the roadside.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "Need a fosterer/adopter for the mother dog.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.21087468, 
@@ -176,41 +213,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 7, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.3, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "One mother dog and six puppies, puppies are still feeding on milk, all living in front of a food court nearby my house.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "They're living under a dangerous environment as it's nearby the roadside.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "Need a fosterer/adopter for the mother dog.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

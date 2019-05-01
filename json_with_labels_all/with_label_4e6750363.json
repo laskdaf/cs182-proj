@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 300, 
+    "sentences": [
+        {
+            "text": {
+                "content": "1) San is currently healthy, happy and friendly.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "2) She is vaccinated and spayed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "(yearly vaccination is still required) 3) Fully indoor and litter trained, 4) just need to find new owner who are willing to love this sweet and adorable cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "whatsapp me at anytime for more details.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "please no calls during office hour tq.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 303, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.4218613, 
@@ -109,61 +166,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 3, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 12, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 2.2, 
         "score": 0.3
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "1) San is currently healthy, happy and friendly.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "2) She is vaccinated and spayed.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "(yearly vaccination is still required) 3) Fully indoor and litter trained, 4) just need to find new owner who are willing to love this sweet and adorable cat.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "whatsapp me at anytime for more details.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "please no calls during office hour tq.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

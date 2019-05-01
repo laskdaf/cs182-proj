@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Eris and Ida are puppies of Rambo.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Both are female puppies.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adoption status: Eris found her loving new home on 7 September .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Ida also found her loving home in September.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "PhotoAmt": 9.0, 
+    "Breed1": 307, 
+    "Breed2": 307, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.38461605, 
@@ -156,51 +203,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.9, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Eris and Ida are puppies of Rambo.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Both are female puppies.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Adoption status: Eris found her loving new home on 7 September .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Ida also found her loving home in September.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

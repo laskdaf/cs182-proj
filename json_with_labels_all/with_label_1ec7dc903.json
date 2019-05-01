@@ -1,7 +1,34 @@
 {
-    "language": "en", 
+    "Fee": 50, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Cherry was dumped at a vet with her other siblings in a very sad condition.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "But now she is healthy n looking for a loving home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.64634687, 
@@ -94,31 +121,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.5, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Cherry was dumped at a vet with her other siblings in a very sad condition.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": -0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "But now she is healthy n looking for a loving home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

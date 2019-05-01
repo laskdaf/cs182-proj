@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Leornardo loves to eat, he is a friendly cat and likes purr around human, he lives in the back alley.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Leornardo is a homeless cat, he is an easily contented cat and yearns to have an owner, all he ask for is some food and shelter if you could give him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "In return he will repay you with lots of love.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please contact me by email or post here in petfinder if you can provide him shelter and food.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 292, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.6753953, 
@@ -266,51 +313,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 13, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 2.4, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Leornardo loves to eat, he is a friendly cat and likes purr around human, he lives in the back alley.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Leornardo is a homeless cat, he is an easily contented cat and yearns to have an owner, all he ask for is some food and shelter if you could give him.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "In return he will repay you with lots of love.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please contact me by email or post here in petfinder if you can provide him shelter and food.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

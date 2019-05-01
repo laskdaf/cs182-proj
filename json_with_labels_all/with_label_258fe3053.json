@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 50, 
+    "sentences": [
+        {
+            "text": {
+                "content": "One is playful and another one shy.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Both are neutered and very well behaved.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "They need love and care and i am sure u will do for them.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.5817004, 
@@ -64,41 +101,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 5, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 2.2, 
         "score": 0.7
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "One is playful and another one shy.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Both are neutered and very well behaved.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "They need love and care and i am sure u will do for them.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

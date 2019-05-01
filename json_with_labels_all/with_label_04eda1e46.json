@@ -1,7 +1,74 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I have 4 kittens ,approximately 6 weeks old, DOB March .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "2 brown siamese color- semi long hair, 1 white siamese-short hair and 1 full black.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "All have blue eyes.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "All healthy , and already started eating wet kitten food.Gender - not sure, mixed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Unable to take care of the kittens due to my recent operation.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am staying in rawang, any interested adopters , plse bring yr own cage/ carrier.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 292, 
+    "Breed2": 292, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.3622215, 
@@ -244,71 +311,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.1, 
         "score": -0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "I have 4 kittens ,approximately 6 weeks old, DOB March .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "2 brown siamese color- semi long hair, 1 white siamese-short hair and 1 full black.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "All have blue eyes.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "All healthy , and already started eating wet kitten food.Gender - not sure, mixed.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Unable to take care of the kittens due to my recent operation.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "I am staying in rawang, any interested adopters , plse bring yr own cage/ carrier.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

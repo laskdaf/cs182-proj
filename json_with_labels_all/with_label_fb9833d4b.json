@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Hi cat lovers!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "-4 kittens now available for adoption - location : USJ 1, Subang Jaya - feel free to ask via Whatsapp or email - 3 male(1brown&amp;2yellow) 1 female (brown) - we would like our kittens to have a loving home with loving owner - we strongly urge Not to use cage.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "This kittens is indoor cats.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "They're free cats, do not caged them.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.30541816, 
@@ -222,51 +269,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2.1, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Hi cat lovers!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "-4 kittens now available for adoption - location : USJ 1, Subang Jaya - feel free to ask via Whatsapp or email - 3 male(1brown&amp;2yellow) 1 female (brown) - we would like our kittens to have a loving home with loving owner - we strongly urge Not to use cage.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "This kittens is indoor cats.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "They're free cats, do not caged them.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

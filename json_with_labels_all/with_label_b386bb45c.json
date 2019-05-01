@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 300, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This sweet boy is looking for his forever home!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very happy and healthy, he'd love a family that lets him inside :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Plenty of attention and treats is all he needs!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 20, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.84255415, 
@@ -94,41 +131,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 60, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 2.6, 
         "score": 0.8
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "This sweet boy is looking for his forever home!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Very happy and healthy, he'd love a family that lets him inside :)", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Plenty of attention and treats is all he needs!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

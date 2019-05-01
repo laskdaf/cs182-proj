@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 100, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I was abandoned and have minor injury.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please give me a place call home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "You may contact my foster on the picture.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 119, 
+    "Breed2": 0, 
+    "MaturitySize": 3, 
+    "Dewormed": 3, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 6, 
     "entities": [
         {
             "salience": 0.6021968, 
@@ -64,41 +101,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 48, 
+    "tokens": [], 
+    "FurLength": 3, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 0.7, 
         "score": -0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "I was abandoned and have minor injury.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": -0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please give me a place call home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "You may contact my foster on the picture.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

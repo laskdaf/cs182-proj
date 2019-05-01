@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 100, 
+    "sentences": [
+        {
+            "text": {
+                "content": "These are adorable and playful kittens, but I cannot take care of them all coz I already have 6 cats at home (all neutered).", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "The mom got pregnant before I could neuter her.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "The adopter must be loving and sincere in taking good care of the kittens, give premium food and vaccinations.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Preferably neuter them after they reach 6 months old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 264, 
+    "Breed2": 265, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.7227486, 
@@ -146,51 +193,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 3, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.6, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "These are adorable and playful kittens, but I cannot take care of them all coz I already have 6 cats at home (all neutered).", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "The mom got pregnant before I could neuter her.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "The adopter must be loving and sincere in taking good care of the kittens, give premium food and vaccinations.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Preferably neuter them after they reach 6 months old.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

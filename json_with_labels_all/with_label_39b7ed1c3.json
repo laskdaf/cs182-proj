@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This was my neighbour's cat but was not well taken care of.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Always come to my home for food so i took her in when she got pregnant.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "The babies is 6 months now and didnt get the chance to neuter her before she currently got pregnant again with my other neighbour's cat who broke into my house.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very polite cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "I love her but she needs better home for her future babies too because i myself pregnant and waiting for my labour time around less than a month.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 265, 
+    "Breed2": 276, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 6, 
     "entities": [
         {
             "salience": 0.27222666, 
@@ -199,61 +256,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 24, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2.8, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "This was my neighbour's cat but was not well taken care of.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": -0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "Always come to my home for food so i took her in when she got pregnant.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "The babies is 6 months now and didnt get the chance to neuter her before she currently got pregnant again with my other neighbour's cat who broke into my house.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": -0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Very polite cat.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "I love her but she needs better home for her future babies too because i myself pregnant and waiting for my labour time around less than a month.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

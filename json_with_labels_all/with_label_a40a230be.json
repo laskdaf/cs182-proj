@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 200, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Hello I have female kitty.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Active, litter train, cat eat by their own.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "Medium hair mix maine coon.She is 8 months old.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Hope future owner can give full attention to that kitty.cant take care of her because there is so many cats at home", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 276, 
+    "Breed2": 0, 
+    "MaturitySize": 3, 
+    "Dewormed": 1, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 4, 
     "entities": [
         {
             "salience": 0.40777823, 
@@ -154,51 +201,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 9, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 0.5, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Hello I have female kitty.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Active, litter train, cat eat by their own.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "Medium hair mix maine coon.She is 8 months old.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Hope future owner can give full attention to that kitty.cant take care of her because there is so many cats at home", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

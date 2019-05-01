@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "My cat is persian domestic long hair which is just about 4 months and he is dewormed and been vaccinated.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I'm posted here because I wish to look for someone which is nice and cat loving person who can take good care of my cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "I'm giving away my cat because my house owner not allow me to feed pet in the house.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Thank you.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 285, 
+    "Breed2": 264, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.8658593, 
@@ -130,51 +177,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 4, 
+    "tokens": [], 
+    "FurLength": 3, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.2, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "My cat is persian domestic long hair which is just about 4 months and he is dewormed and been vaccinated.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "I'm posted here because I wish to look for someone which is nice and cat loving person who can take good care of my cat.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "I'm giving away my cat because my house owner not allow me to feed pet in the house.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "Thank you.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

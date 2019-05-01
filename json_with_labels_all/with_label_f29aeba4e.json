@@ -1,7 +1,84 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "I found this cat while her hand was broken.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "So I took him to veterinary.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "he is getting better now.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "I want to ask you if you are looking for a kitty to adopt, you can keep him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is very cute.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Because I am living alone and I can't keep any pets, I am looking for someone to take care of him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "You will be given cat foods, cat bed and some toys for free.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 306, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 3, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.45000932, 
@@ -139,81 +216,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 12, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 3.4, 
         "score": 0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "I found this cat while her hand was broken.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": -0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "So I took him to veterinary.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "he is getting better now.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "I want to ask you if you are looking for a kitty to adopt, you can keep him.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "He is very cute.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "Because I am living alone and I can't keep any pets, I am looking for someone to take care of him.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "You will be given cat foods, cat bed and some toys for free.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

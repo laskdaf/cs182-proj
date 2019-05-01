@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 200, 
+    "sentences": [
+        {
+            "text": {
+                "content": "We have over fifty gorgeous rescued dogs available for adoption at our rehabilitation centre in Bandar Makhota Cheras.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "We are looking for loving homes that can offer: *a clean environment with no cages or chains *regular exercise and affection *adequate nutrition and healthcare All adoptions require a house-check before being finalised.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "www.klpoochrescue.org", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 72, 
+    "Breed2": 307, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 5, 
     "entities": [
         {
             "salience": 0.28842333, 
@@ -232,41 +269,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 18, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.7, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "We have over fifty gorgeous rescued dogs available for adoption at our rehabilitation centre in Bandar Makhota Cheras.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "We are looking for loving homes that can offer: *a clean environment with no cages or chains *regular exercise and affection *adequate nutrition and healthcare All adoptions require a house-check before being finalised.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "www.klpoochrescue.org", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

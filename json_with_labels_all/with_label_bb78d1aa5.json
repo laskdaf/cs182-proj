@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Mother was abandoned while pregnant.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "A friend fostered the mother until she gave birth.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "The 3 kittens were recently weaned to solid food.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 3, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.5726652, 
@@ -94,41 +131,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.2, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Mother was abandoned while pregnant.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "A friend fostered the mother until she gave birth.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "The 3 kittens were recently weaned to solid food.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

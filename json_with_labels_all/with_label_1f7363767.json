@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Happy was rescued from a drain with ticks all over her body.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is about 4 weeks old and still needs to drink milk.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is fed with puppy milk replacer and also some kibbles soaked in water.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.36866134, 
@@ -124,41 +161,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 0.8, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Happy was rescued from a drain with ticks all over her body.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "She is about 4 weeks old and still needs to drink milk.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "She is fed with puppy milk replacer and also some kibbles soaked in water.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

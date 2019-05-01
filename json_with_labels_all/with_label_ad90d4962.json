@@ -1,7 +1,34 @@
 {
-    "language": "en", 
+    "Fee": 30, 
+    "sentences": [
+        {
+            "text": {
+                "content": "He survived a life threatening accident, loss an eye and broke his jaw.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "His strong will to survive kept him going until today although with 1 eye and crooked jaw he can eat normally.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 285, 
+    "Breed2": 264, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 5, 
     "entities": [
         {
             "salience": 0.39252388, 
@@ -109,31 +136,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 36, 
+    "tokens": [], 
+    "FurLength": 3, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 0.5, 
         "score": -0.2
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "He survived a life threatening accident, loss an eye and broke his jaw.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "His strong will to survive kept him going until today although with 1 eye and crooked jaw he can eat normally.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

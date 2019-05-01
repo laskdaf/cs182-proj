@@ -1,7 +1,104 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Hi, my cat has 3 kittens up for adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "I am unable to take care of so many cats as I'm always out of house due to work so I'm looking for kind, caring people to take care of them and want to have their own cats as pets as soon as possible.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "The third one is D-Trick, the smartest of the bunch as he had learnt to eat and used the litter box the fastest.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Though he is quite a talker, he is friendly and will warm up to you once you get close to him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "They are able to eat wet and dried food.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "But for now, mostly wet food and slowly introduce them to dried ones.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "D-Trick can already use the litter box, so he is toilet trained and won't make messes.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "If interested in one, or more of them, please call/sms me at or email me.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Unfortunately I don't have whatsapp, but if you need any additional pictures to be sent, please let me know your emails and I'll send them over.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 265, 
+    "Breed2": 0, 
+    "MaturitySize": 3, 
+    "Dewormed": 2, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.13869847, 
@@ -438,101 +535,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 5, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 3.3, 
         "score": 0.2
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Hi, my cat has 3 kittens up for adoption.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "I am unable to take care of so many cats as I'm always out of house due to work so I'm looking for kind, caring people to take care of them and want to have their own cats as pets as soon as possible.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "The third one is D-Trick, the smartest of the bunch as he had learnt to eat and used the litter box the fastest.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Though he is quite a talker, he is friendly and will warm up to you once you get close to him.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "They are able to eat wet and dried food.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "But for now, mostly wet food and slowly introduce them to dried ones.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "D-Trick can already use the litter box, so he is toilet trained and won't make messes.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "If interested in one, or more of them, please call/sms me at or email me.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Unfortunately I don't have whatsapp, but if you need any additional pictures to be sent, please let me know your emails and I'll send them over.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

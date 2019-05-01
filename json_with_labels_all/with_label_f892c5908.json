@@ -1,7 +1,114 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Hello everyone!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "We have 4 kittens to let go.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "But we would like to let it go in a pair, means you have to take 2 kittens.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "I'm looking for a serious owner that can look after the kittens, would take out money for their medication and give them love :)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "I'm very particular with the family background.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Please only take it when you are willing to have a pet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Kitten 1: (White + Orange) - This kitten is the biggest among all.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "- Male - Domestic Short Hair - Quiet and play at his own - Sometimes can be naughty and hyper - There is a minor injury on his face, its curable.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Kitten 2: (Orange) - Very active and hyper - Male - Domestic Short Hair - Innocent and cute face Kitten 3: (White + black) - Very active and hyper - Female - Domestic Short Hair - Has a beautiful face Kitten 4: (Black) - Very active and hyper - Female - Domestic Short Hair - Love to play with human * They are potty trained.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "* They can eat wet foods.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.2349329, 
@@ -448,111 +555,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 4.2, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Hello everyone!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "We have 4 kittens to let go.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "But we would like to let it go in a pair, means you have to take 2 kittens.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "I'm looking for a serious owner that can look after the kittens, would take out money for their medication and give them love :)", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "I'm very particular with the family background.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Please only take it when you are willing to have a pet.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Kitten 1: (White + Orange) - This kitten is the biggest among all.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "- Male - Domestic Short Hair - Quiet and play at his own - Sometimes can be naughty and hyper - There is a minor injury on his face, its curable.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Kitten 2: (Orange) - Very active and hyper - Male - Domestic Short Hair - Innocent and cute face Kitten 3: (White + black) - Very active and hyper - Female - Domestic Short Hair - Has a beautiful face Kitten 4: (Black) - Very active and hyper - Female - Domestic Short Hair - Love to play with human * They are potty trained.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "* They can eat wet foods.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

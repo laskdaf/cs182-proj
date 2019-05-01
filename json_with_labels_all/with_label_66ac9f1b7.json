@@ -1,7 +1,34 @@
 {
-    "language": "en", 
+    "Fee": 200, 
+    "sentences": [
+        {
+            "text": {
+                "content": "If it were still a puppy, I shall be able to train it for the Home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Otherwise, a well trained pet for adoption.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "PhotoAmt": 0.0, 
+    "Breed1": 141, 
+    "Breed2": 17, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.7457747, 
@@ -64,31 +91,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 0.9, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "If it were still a puppy, I shall be able to train it for the Home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Otherwise, a well trained pet for adoption.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

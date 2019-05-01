@@ -1,88 +1,5 @@
 {
-    "language": "en", 
-    "label": 4, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.43203232, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Miki.", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "PROPER"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "Miki.", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.1762856, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "litter tray", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "CONSUMER_GOOD", 
-            "name": "litter tray", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.17504591, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "fur", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "fur", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.16221134, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cat biscuits", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "cat biscuits", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.05442485, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cats", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "cats", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 3.2, 
-        "score": 0.3
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -165,5 +82,103 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 15.0, 
+    "Breed1": 264, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
+    "label": 4, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.43203232, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Miki.", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "PROPER"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "Miki.", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.1762856, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "litter tray", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "CONSUMER_GOOD", 
+            "name": "litter tray", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17504591, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "fur", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "fur", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.16221134, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat biscuits", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat biscuits", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.05442485, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cats", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cats", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 7, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
+    "documentSentiment": {
+        "magnitude": 3.2, 
+        "score": 0.3
+    }, 
+    "Sterilized": 1
 }

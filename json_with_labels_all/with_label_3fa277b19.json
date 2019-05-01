@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 80, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Friendly &amp; Quiet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Vaccinated &amp; Dewormed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "This puppy and his siblings were rescue from a factory which the mother dog gave birth at.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.467887, 
@@ -101,41 +138,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 5, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.4, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Friendly &amp; Quiet.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Vaccinated &amp; Dewormed.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "This puppy and his siblings were rescue from a factory which the mother dog gave birth at.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

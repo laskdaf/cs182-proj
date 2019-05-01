@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 3, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.93922806, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "dog puppy", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "dog puppy", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.060771942, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "vaccine", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "vaccine", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1.4, 
-        "score": 0.3
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -80,5 +42,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 1.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
+    "label": 3, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.93922806, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "dog puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "dog puppy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.060771942, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "vaccine", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "vaccine", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 1.4, 
+        "score": 0.3
+    }, 
+    "Sterilized": 2
 }

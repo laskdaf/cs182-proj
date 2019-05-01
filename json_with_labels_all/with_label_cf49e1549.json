@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 100, 
+    "sentences": [
+        {
+            "text": {
+                "content": "i am a 3months old DSH lil' kitten, looking for a new owner...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "i'm female, potty trained and home breed...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "my owner had to let me go since my mummy is pregnant, again... for those who are interested can reach my owner through the number or email... price is definitely negotiable, just to cover his expenses before...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "p/s: i got 3 colors on me, probably gonna bring my new owner good luck, as some of you humans believes ;)", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 266, 
+    "Breed2": 266, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.67534184, 
@@ -266,51 +313,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 3, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.7, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "i am a 3months old DSH lil' kitten, looking for a new owner...", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "i'm female, potty trained and home breed...", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "my owner had to let me go since my mummy is pregnant, again... for those who are interested can reach my owner through the number or email... price is definitely negotiable, just to cover his expenses before...", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "p/s: i got 3 colors on me, probably gonna bring my new owner good luck, as some of you humans believes ;)", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

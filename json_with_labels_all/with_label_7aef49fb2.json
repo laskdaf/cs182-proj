@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 1, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Description: Name: Minnie Sex: Female Breed: Husky and Golden Retriever Mixed Age: 10 months old It's sad to tell that I can't afford to keep her anymore.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "I'm a student.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "I gonna go the other place to study and I can't bring her along.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "I hope that she can get a new owner who can offers her everything better than me.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 119, 
+    "Breed2": 109, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 4, 
     "entities": [
         {
             "salience": 0.53945816, 
@@ -139,51 +186,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 10, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.6, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Description: Name: Minnie Sex: Female Breed: Husky and Golden Retriever Mixed Age: 10 months old It's sad to tell that I can't afford to keep her anymore.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "I'm a student.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "I gonna go the other place to study and I can't bring her along.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "I hope that she can get a new owner who can offers her everything better than me.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

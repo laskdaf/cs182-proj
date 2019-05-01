@@ -1,7 +1,64 @@
 {
-    "language": "en", 
+    "Fee": 10, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Kitty is a mixed breed beautiful female cat.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "Kitty needs a permanent home; she is house trained, docile, talkative, very sweet and great companion!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "And she has her own sandbox, kennel, bed, scratch post, plates and food stash =^.^= .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "I hope to find her a loving home soon!", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "I cannot keep her in my small apartment because of my allergies...", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 302, 
+    "Breed2": 266, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.7702417, 
@@ -213,61 +270,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 5, 
+    "Color2": 3, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 30, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 3.9, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Kitty is a mixed breed beautiful female cat.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "Kitty needs a permanent home; she is house trained, docile, talkative, very sweet and great companion!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "And she has her own sandbox, kennel, bed, scratch post, plates and food stash =^.^= .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "I hope to find her a loving home soon!", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "I cannot keep her in my small apartment because of my allergies...", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": -0.6
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

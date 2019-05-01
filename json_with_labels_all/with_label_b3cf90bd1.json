@@ -1,58 +1,5 @@
 {
-    "language": "en", 
-    "label": 3, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.4784713, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owner", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "owner", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.34245503, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "strangers", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "strangers", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.17907365, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "cat biscuits", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "cat biscuits", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 2.4, 
-        "score": 0.4
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -105,5 +52,73 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 3.0, 
+    "Breed1": 265, 
+    "Breed2": 0, 
+    "MaturitySize": 3, 
+    "Dewormed": 1, 
+    "label": 3, 
+    "Color1": 4, 
+    "entities": [
+        {
+            "salience": 0.4784713, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owner", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owner", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.34245503, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "strangers", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "strangers", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.17907365, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "cat biscuits", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "cat biscuits", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 10, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
+    "documentSentiment": {
+        "magnitude": 2.4, 
+        "score": 0.4
+    }, 
+    "Sterilized": 2
 }

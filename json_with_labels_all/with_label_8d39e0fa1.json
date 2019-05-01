@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "they are adorable , quiet and obedient .", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "i found this cute puppies abandon by the beach ..", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": 0.5
+            }
+        }, 
+        {
+            "text": {
+                "content": "they were in a box with only water but no food.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }
+    ], 
+    "PhotoAmt": 4.0, 
+    "Breed1": 307, 
+    "Breed2": 307, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
     "label": 0, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.2933748, 
@@ -79,41 +116,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 5, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2, 
         "score": 0.3
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "they are adorable , quiet and obedient .", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "i found this cute puppies abandon by the beach ..", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": 0.5
-            }
-        }, 
-        {
-            "text": {
-                "content": "they were in a box with only water but no food.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

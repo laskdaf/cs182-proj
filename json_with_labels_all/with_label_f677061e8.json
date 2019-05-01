@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This dog was found and owner still on lookout.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Very sticky to humans and loves attention and the indoors.Intelligent and gentle.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "vet checked, healthy and ready for adoption by the 28th June", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 10.0, 
+    "Breed1": 83, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 1, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.42001033, 
@@ -127,41 +164,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 36, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.6, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "This dog was found and owner still on lookout.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "Very sticky to humans and loves attention and the indoors.Intelligent and gentle.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "vet checked, healthy and ready for adoption by the 28th June", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

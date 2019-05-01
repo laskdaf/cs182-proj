@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 200, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Amber was found on the street.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "probably abandoned after being used for breeding, she is a very friendly girl, loves attention and can live in with cats and other dogs.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "She is up for adoption, will be vaccinated, spayed and thoroughly checked before releasing her to adopters.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": -0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "Kindly contact us at if interested, adoption fee of RM is for her vaccination, deworming and spaying fee.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 8.0, 
+    "Breed1": 69, 
+    "Breed2": 69, 
+    "MaturitySize": 1, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.5982196, 
@@ -229,51 +276,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 48, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.8, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Amber was found on the street.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "probably abandoned after being used for breeding, she is a very friendly girl, loves attention and can live in with cats and other dogs.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "She is up for adoption, will be vaccinated, spayed and thoroughly checked before releasing her to adopters.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": -0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "Kindly contact us at if interested, adoption fee of RM is for her vaccination, deworming and spaying fee.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": -0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

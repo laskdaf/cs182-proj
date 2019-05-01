@@ -1,7 +1,54 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "He is jacky.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }, 
+        {
+            "text": {
+                "content": "Just a normal dog, but do abnormal things such as being very active and happy sometimes, he will listen to command such as SIT,HAND,STAND,ROW.By using NO command to stop him doing something.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "He is a clever dog, and healthy dog.Too bad I can't take care of him anymore because I'm going to college.Please be a good person adopt him.You can call my phone number.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": -0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "No ADOPTION FEES , JUST feed him and take care of him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0, 
+                "score": 0
+            }
+        }
+    ], 
+    "PhotoAmt": 5.0, 
+    "Breed1": 307, 
+    "Breed2": 307, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.76247483, 
@@ -244,51 +291,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 4, 
+    "Color2": 3, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 8, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 0.9, 
         "score": -0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "He is jacky.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }, 
-        {
-            "text": {
-                "content": "Just a normal dog, but do abnormal things such as being very active and happy sometimes, he will listen to command such as SIT,HAND,STAND,ROW.By using NO command to stop him doing something.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "He is a clever dog, and healthy dog.Too bad I can't take care of him anymore because I'm going to college.Please be a good person adopt him.You can call my phone number.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": -0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "No ADOPTION FEES , JUST feed him and take care of him.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0, 
-                "score": 0
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

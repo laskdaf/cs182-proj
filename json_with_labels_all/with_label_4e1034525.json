@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "The cat, temporarily named as &quot;Cool Cat&quot;, was found on 30 November in Taman Tun Dr Ismail (TTDI) in a neighbourhood road where no one has seen him before.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": 0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "A microchip check found none in him.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }, 
+        {
+            "text": {
+                "content": "His medical chronology and total medical bill (up to 7 January ): RM1, 30 November : sporo test, mange test - RM 10 December : Deworming, full blood test, FIV/FeLV test, ringworm check, probiotics - RM 12 December : Antibiotics, medicated shampoo - RM 14 December : Urinalysis - RM 16 December : i/d food - RM 2 January : blood test - RM 7 January : surgery to remove enlarged lymph node - RM 23 January : skin problem - RM The owner can contact me and reimburse the medical bill.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }
+    ], 
+    "PhotoAmt": 14.0, 
+    "Breed1": 285, 
+    "Breed2": 266, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 3, 
     "entities": [
         {
             "salience": 0.17206544, 
@@ -432,41 +469,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 60, 
+    "tokens": [], 
+    "FurLength": 3, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 0.8, 
         "score": -0.1
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "The cat, temporarily named as &quot;Cool Cat&quot;, was found on 30 November in Taman Tun Dr Ismail (TTDI) in a neighbourhood road where no one has seen him before.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": 0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "A microchip check found none in him.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }, 
-        {
-            "text": {
-                "content": "His medical chronology and total medical bill (up to 7 January ): RM1, 30 November : sporo test, mange test - RM 10 December : Deworming, full blood test, FIV/FeLV test, ringworm check, probiotics - RM 12 December : Antibiotics, medicated shampoo - RM 14 December : Urinalysis - RM 16 December : i/d food - RM 2 January : blood test - RM 7 January : surgery to remove enlarged lymph node - RM 23 January : skin problem - RM The owner can contact me and reimburse the medical bill.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

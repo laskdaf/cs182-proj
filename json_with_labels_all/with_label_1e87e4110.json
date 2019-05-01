@@ -1,58 +1,5 @@
 {
-    "language": "en", 
-    "label": 4, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.8538923, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "puppies", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.11209519, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "mummy dog", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "mummy dog", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.034012455, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "homes", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "LOCATION", 
-            "name": "homes", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1.8, 
-        "score": 0.3
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -105,5 +52,73 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 5.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
+    "label": 4, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.8538923, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.11209519, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "mummy dog", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "mummy dog", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.034012455, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "homes", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "homes", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 5, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 9, 
+    "language": "en", 
+    "Vaccinated": 3, 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.3
+    }, 
+    "Sterilized": 2
 }

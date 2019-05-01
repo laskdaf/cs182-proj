@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 3, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.9085438, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "babies", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "babies", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.091456145, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Both", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "Both", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1, 
-        "score": 0.2
-    }, 
+    "Fee": 50, 
     "sentences": [
         {
             "text": {
@@ -70,5 +32,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 3.0, 
+    "Breed1": 265, 
+    "Breed2": 264, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
+    "label": 3, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.9085438, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "babies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "babies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.091456145, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Both", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Both", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 1, 
+        "score": 0.2
+    }, 
+    "Sterilized": 2
 }

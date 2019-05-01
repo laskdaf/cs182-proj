@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 150, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Mr Zorro is an ultra friendly, silly, playful dog who can mix well with other dogs of all sizes and temperament.He was found wandering on the street, in poor condition.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "Now he is a healthy puppy, clever, smart, active,growing, looking for a good home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "For serious adopters only.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.1, 
+                "score": -0.1
+            }
+        }
+    ], 
+    "PhotoAmt": 11.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.6701891, 
@@ -149,41 +186,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 6, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.7, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Mr Zorro is an ultra friendly, silly, playful dog who can mix well with other dogs of all sizes and temperament.He was found wandering on the street, in poor condition.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "Now he is a healthy puppy, clever, smart, active,growing, looking for a good home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "For serious adopters only.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.1, 
-                "score": -0.1
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

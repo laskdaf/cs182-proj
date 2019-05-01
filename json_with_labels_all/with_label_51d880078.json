@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Kent came to me a one and a half years ago, was very dirty and full of ticks.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": -0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "Today, he is clean with weekly bath and I allow him to run free around.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.7, 
+                "score": 0.7
+            }
+        }, 
+        {
+            "text": {
+                "content": "He plays with BoBo most of the time.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.879792, 
@@ -79,41 +116,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 48, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.9, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Kent came to me a one and a half years ago, was very dirty and full of ticks.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": -0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "Today, he is clean with weekly bath and I allow him to run free around.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.7, 
-                "score": 0.7
-            }
-        }, 
-        {
-            "text": {
-                "content": "He plays with BoBo most of the time.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

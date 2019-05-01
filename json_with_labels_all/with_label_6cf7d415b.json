@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 3, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.6466904, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "skin condition", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "skin condition", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.35330957, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "details", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "details", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1.2, 
-        "score": 0.3
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -80,5 +42,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 3.0, 
+    "Breed1": 266, 
+    "Breed2": 266, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
+    "label": 3, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.6466904, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "skin condition", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "skin condition", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.35330957, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "details", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "details", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 5, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.3
+    }, 
+    "Sterilized": 2
 }

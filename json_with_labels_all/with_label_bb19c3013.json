@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 4, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.77983654, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "care", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "care", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.22016348, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "house", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "LOCATION", 
-            "name": "house", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 2.5, 
-        "score": 0.8
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -70,5 +32,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 1.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
+    "label": 4, 
+    "Color1": 2, 
+    "entities": [
+        {
+            "salience": 0.77983654, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "care", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "care", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.22016348, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "house", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 72, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.8
+    }, 
+    "Sterilized": 3
 }

@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 250, 
+    "sentences": [
+        {
+            "text": {
+                "content": "mr Xiao huang is strong, healthy, active, fun-loving, loves to play around children and other dogs.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.9, 
+                "score": 0.9
+            }
+        }, 
+        {
+            "text": {
+                "content": "He needs a lot of attention and space, training, and he promises in return he will be faithful to you for life, treasure you and your loved ones, never forsake you no matter what, he will love and cherish you even when you have a bad hair day.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Serious adopters only.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.7654591, 
@@ -191,41 +228,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 12, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2, 
         "score": 0.5
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "mr Xiao huang is strong, healthy, active, fun-loving, loves to play around children and other dogs.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.9, 
-                "score": 0.9
-            }
-        }, 
-        {
-            "text": {
-                "content": "He needs a lot of attention and space, training, and he promises in return he will be faithful to you for life, treasure you and your loved ones, never forsake you no matter what, he will love and cherish you even when you have a bad hair day.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "Serious adopters only.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

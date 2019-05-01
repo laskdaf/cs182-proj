@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 2, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.93711567, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "owners", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "owners", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.062884346, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "life", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "life", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1.9, 
-        "score": 0.6
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -70,5 +32,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 1.0, 
+    "Breed1": 252, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
+    "label": 2, 
+    "Color1": 4, 
+    "entities": [
+        {
+            "salience": 0.93711567, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "owners", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "owners", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.062884346, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "life", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "life", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 7, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 4, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.6
+    }, 
+    "Sterilized": 2
 }

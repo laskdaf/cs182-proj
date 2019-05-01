@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 2, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.5857459, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "children", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "children", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.41425413, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "toilet", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "toilet", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 2.5, 
-        "score": 0.8
-    }, 
+    "Fee": 180, 
     "sentences": [
         {
             "text": {
@@ -70,5 +32,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 1.0, 
+    "Breed1": 276, 
+    "Breed2": 285, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
+    "label": 2, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.5857459, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "children", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "children", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.41425413, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "toilet", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 7, 
+    "Color2": 6, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.8
+    }, 
+    "Sterilized": 2
 }

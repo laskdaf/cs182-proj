@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 500, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This dog was purchased off from a petshop Wish is very healthy, active and in perfect condition.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "toy breed suited perfectly for indoors and travelling.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adoption fee does not include neuter cost.Adopter will need to help with neutering cost.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 9.0, 
+    "Breed1": 60, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 1, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.5172452, 
@@ -112,41 +149,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 10, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 2, 
         "score": 0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "This dog was purchased off from a petshop Wish is very healthy, active and in perfect condition.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "toy breed suited perfectly for indoors and travelling.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "Adoption fee does not include neuter cost.Adopter will need to help with neutering cost.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": -0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

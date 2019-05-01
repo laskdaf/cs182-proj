@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 250, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Name: Amy Gender: Female Age: 8 months old Description: Medium-long hair, short tail and has big round eyes Litter-box trained, dewormed, deflead, first-vaccinated and neutered.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Only available for cat lovers in Penang, can COD in Penang island.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }, 
+        {
+            "text": {
+                "content": "Adoption fee: RM (for the vaccine and neuter costs) SMS/Whatsapp only at if you're interested.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": -0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 3.0, 
+    "Breed1": 292, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 1, 
     "label": 4, 
-    "tokens": [], 
+    "Color1": 6, 
     "entities": [
         {
             "salience": 0.40888974, 
@@ -267,41 +304,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 7, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 8, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 0.9, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Name: Amy Gender: Female Age: 8 months old Description: Medium-long hair, short tail and has big round eyes Litter-box trained, dewormed, deflead, first-vaccinated and neutered.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Only available for cat lovers in Penang, can COD in Penang island.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }, 
-        {
-            "text": {
-                "content": "Adoption fee: RM (for the vaccine and neuter costs) SMS/Whatsapp only at if you're interested.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": -0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 1
 }

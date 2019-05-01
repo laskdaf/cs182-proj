@@ -1,7 +1,34 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "2 kittens were abandoned at my apartment complex, I'm doing my best to keep them safe and well-fed.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "However I've already got a pet cat and can't afford take in more.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.3, 
+                "score": 0.3
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 243, 
+    "Breed2": 243, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
     "label": 1, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.6233635, 
@@ -79,31 +106,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 3, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 2, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 1.2, 
         "score": 0.6
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "2 kittens were abandoned at my apartment complex, I'm doing my best to keep them safe and well-fed.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "However I've already got a pet cat and can't afford take in more.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.3, 
-                "score": 0.3
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 100, 
+    "sentences": [
+        {
+            "text": {
+                "content": "Sport was bought from a pet shop and is my daughter's pet.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.4, 
+                "score": 0.4
+            }
+        }, 
+        {
+            "text": {
+                "content": "She has looked after it for the past 8 years as part of the family.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": 0.2
+            }
+        }, 
+        {
+            "text": {
+                "content": "Now she is reluctantly giving it up for adoption as we are going to migrate and we are concerned that Sport will not be able to handle the isolation in quarantine.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.5, 
+                "score": -0.5
+            }
+        }
+    ], 
+    "PhotoAmt": 2.0, 
+    "Breed1": 152, 
+    "Breed2": 0, 
+    "MaturitySize": 1, 
+    "Dewormed": 3, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 2, 
     "entities": [
         {
             "salience": 0.3172396, 
@@ -157,41 +194,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 96, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 1, 
     "documentSentiment": {
         "magnitude": 1.1, 
         "score": 0
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "Sport was bought from a pet shop and is my daughter's pet.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.4, 
-                "score": 0.4
-            }
-        }, 
-        {
-            "text": {
-                "content": "She has looked after it for the past 8 years as part of the family.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": 0.2
-            }
-        }, 
-        {
-            "text": {
-                "content": "Now she is reluctantly giving it up for adoption as we are going to migrate and we are concerned that Sport will not be able to handle the isolation in quarantine.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.5, 
-                "score": -0.5
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }

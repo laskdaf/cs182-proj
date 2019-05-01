@@ -1,73 +1,5 @@
 {
-    "language": "en", 
-    "label": 2, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.6103766, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppies", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "puppies", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.2582634, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "neighbourhood", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "LOCATION", 
-            "name": "neighbourhood", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.0884191, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "condition", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "condition", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.042940892, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "LOCATION", 
-            "name": "home", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1.8, 
-        "score": 0.1
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -130,5 +62,88 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 4.0, 
+    "Breed1": 307, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
+    "label": 2, 
+    "Color1": 2, 
+    "entities": [
+        {
+            "salience": 0.6103766, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppies", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppies", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2582634, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "neighbourhood", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "neighbourhood", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.0884191, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "condition", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "condition", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.042940892, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 7, 
+    "Color2": 5, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 2, 
+    "Quantity": 3, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 1.8, 
+        "score": 0.1
+    }, 
+    "Sterilized": 2
 }

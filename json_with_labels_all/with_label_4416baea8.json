@@ -1,7 +1,34 @@
 {
-    "language": "en", 
+    "Fee": 0, 
+    "sentences": [
+        {
+            "text": {
+                "content": "This male cat was found wandering around our neighborhood, my neighbors hate it as he poo poo at their garden.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": -0.6
+            }
+        }, 
+        {
+            "text": {
+                "content": "I rescued him last night from being hurt by them. he is very tame, not fussy with food, I'm feeding him cooked fish with rice or just kibble if Im busy, he is also toilet trained Please contact me at if you can offer a 'forever home' to this adult cat who desperately needs it..this rescued cat need second chance in life", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.2, 
+                "score": -0.2
+            }
+        }
+    ], 
+    "PhotoAmt": 1.0, 
+    "Breed1": 266, 
+    "Breed2": 266, 
+    "MaturitySize": 2, 
+    "Dewormed": 3, 
     "label": 2, 
-    "tokens": [], 
+    "Color1": 7, 
     "entities": [
         {
             "salience": 0.35107636, 
@@ -244,31 +271,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 48, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 3, 
     "documentSentiment": {
         "magnitude": 0.8, 
         "score": -0.4
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "This male cat was found wandering around our neighborhood, my neighbors hate it as he poo poo at their garden.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": -0.6
-            }
-        }, 
-        {
-            "text": {
-                "content": "I rescued him last night from being hurt by them. he is very tame, not fussy with food, I'm feeding him cooked fish with rice or just kibble if Im busy, he is also toilet trained Please contact me at if you can offer a 'forever home' to this adult cat who desperately needs it..this rescued cat need second chance in life", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.2, 
-                "score": -0.2
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 3
 }

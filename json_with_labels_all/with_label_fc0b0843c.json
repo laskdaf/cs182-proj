@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 4, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.7251444, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "puppy", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "puppy", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.2748556, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "home", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "LOCATION", 
-            "name": "home", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 2.5, 
-        "score": 0.8
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -70,5 +32,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 3.0, 
+    "Breed1": 307, 
+    "Breed2": 307, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
+    "label": 4, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.7251444, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "puppy", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "puppy", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.2748556, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "home", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "home", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 3, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 1, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 2.5, 
+        "score": 0.8
+    }, 
+    "Sterilized": 2
 }

@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 4, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.5857459, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "Toilet", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "Toilet", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.41425413, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "house", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "LOCATION", 
-            "name": "house", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1.2, 
-        "score": 0.4
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -70,5 +32,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 1.0, 
+    "Breed1": 266, 
+    "Breed2": 0, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
+    "label": 4, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.5857459, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "Toilet", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "Toilet", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.41425413, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "house", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "LOCATION", 
+            "name": "house", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 5, 
+    "Color2": 2, 
+    "categories": [], 
+    "Gender": 2, 
+    "Age": 6, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 1.2, 
+        "score": 0.4
+    }, 
+    "Sterilized": 2
 }

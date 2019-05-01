@@ -1,43 +1,5 @@
 {
-    "language": "en", 
-    "label": 2, 
-    "tokens": [], 
-    "entities": [
-        {
-            "salience": 0.89787745, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "breed", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "PERSON", 
-            "name": "breed", 
-            "metadata": {}
-        }, 
-        {
-            "salience": 0.102122545, 
-            "mentions": [
-                {
-                    "text": {
-                        "content": "rottie mix", 
-                        "beginOffset": -1
-                    }, 
-                    "type": "COMMON"
-                }
-            ], 
-            "type": "OTHER", 
-            "name": "rottie mix", 
-            "metadata": {}
-        }
-    ], 
-    "documentSentiment": {
-        "magnitude": 1.9, 
-        "score": 0.3
-    }, 
+    "Fee": 0, 
     "sentences": [
         {
             "text": {
@@ -90,5 +52,58 @@
             }
         }
     ], 
-    "categories": []
+    "PhotoAmt": 3.0, 
+    "Breed1": 307, 
+    "Breed2": 307, 
+    "MaturitySize": 2, 
+    "Dewormed": 2, 
+    "label": 2, 
+    "Color1": 1, 
+    "entities": [
+        {
+            "salience": 0.89787745, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "breed", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "PERSON", 
+            "name": "breed", 
+            "metadata": {}
+        }, 
+        {
+            "salience": 0.102122545, 
+            "mentions": [
+                {
+                    "text": {
+                        "content": "rottie mix", 
+                        "beginOffset": -1
+                    }, 
+                    "type": "COMMON"
+                }
+            ], 
+            "type": "OTHER", 
+            "name": "rottie mix", 
+            "metadata": {}
+        }
+    ], 
+    "Color3": 0, 
+    "Color2": 0, 
+    "categories": [], 
+    "Gender": 1, 
+    "Age": 3, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 1, 
+    "language": "en", 
+    "Vaccinated": 2, 
+    "documentSentiment": {
+        "magnitude": 1.9, 
+        "score": 0.3
+    }, 
+    "Sterilized": 2
 }

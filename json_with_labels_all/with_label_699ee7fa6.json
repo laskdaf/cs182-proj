@@ -1,7 +1,44 @@
 {
-    "language": "en", 
+    "Fee": 100, 
+    "sentences": [
+        {
+            "text": {
+                "content": "8 kittens were found given birth by a stray female calico. 1 has died of failure to thrive, another died of car accident and one cannot be located at the meantime.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": -0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "1 has adopted and 4 of them still waiting for a caring owner to give them a warm and caring home.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.8, 
+                "score": 0.8
+            }
+        }, 
+        {
+            "text": {
+                "content": "Save life, let's adopt.", 
+                "beginOffset": -1
+            }, 
+            "sentiment": {
+                "magnitude": 0.6, 
+                "score": 0.6
+            }
+        }
+    ], 
+    "PhotoAmt": 6.0, 
+    "Breed1": 266, 
+    "Breed2": 254, 
+    "MaturitySize": 1, 
+    "Dewormed": 2, 
     "label": 3, 
-    "tokens": [], 
+    "Color1": 1, 
     "entities": [
         {
             "salience": 0.2542239, 
@@ -169,41 +206,19 @@
             "metadata": {}
         }
     ], 
+    "Color3": 7, 
+    "Color2": 4, 
+    "categories": [], 
+    "Gender": 3, 
+    "Age": 2, 
+    "tokens": [], 
+    "FurLength": 1, 
+    "Quantity": 4, 
+    "language": "en", 
+    "Vaccinated": 2, 
     "documentSentiment": {
         "magnitude": 2.3, 
         "score": 0.2
     }, 
-    "sentences": [
-        {
-            "text": {
-                "content": "8 kittens were found given birth by a stray female calico. 1 has died of failure to thrive, another died of car accident and one cannot be located at the meantime.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": -0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "1 has adopted and 4 of them still waiting for a caring owner to give them a warm and caring home.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.8, 
-                "score": 0.8
-            }
-        }, 
-        {
-            "text": {
-                "content": "Save life, let's adopt.", 
-                "beginOffset": -1
-            }, 
-            "sentiment": {
-                "magnitude": 0.6, 
-                "score": 0.6
-            }
-        }
-    ], 
-    "categories": []
+    "Sterilized": 2
 }
