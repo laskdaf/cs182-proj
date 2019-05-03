@@ -84,7 +84,7 @@ for filename in os.listdir(directory):
 
     output[id] = data
 
-dictionary = dictionaryFromTexts(texts, 5000)
+dictionary = dictionaryFromTexts(texts, 500)
 dictionary.add_documents(categorical_labels)
 # dictionary.save(os.path.join(TEMP_FOLDER, 'deerwester.dict'))  # store the dictionary, for future reference
 # print(dictionary)
@@ -102,19 +102,29 @@ for key, value in output.items():
 
     vectorized = []
 
-    for w in fullText.lower().split()[:500] + getCategoricalTokens(value):
+    for w in fullText.lower().split():
         vec = dictionary.doc2bow([w])
-        word_id = 0
+        word_id = []
         if len(vec) > 0:
-            word_id = vec[0][0] + 1
+            word_id.append(vec[0][0] + 1)
 
-        vectorized.append(word_id)
+        vectorized.extend(word_id)
 
-    output[key]["vectorized"] = vectorized
+    vectorized = vectorized[:50]
+
+    for w in getCategoricalTokens(value):
+        vec = dictionary.doc2bow([w])
+        word_id = []
+        if len(vec) > 0:
+            word_id.append(vec[0][0] + 1)
+
+        vectorized.extend(word_id)
+
+    output[key]["vectorized"] = vectorized[:50]
     maxLen = max(maxLen, len(vectorized))
 
 print(output["bef897b2b"])
 print(maxLen)
 
-with open(destination + '/json_vectorized_categorical.json', 'w') as outfile:
+with open(destination + '/json_vectorized_test_2.json', 'w') as outfile:
     json.dump(output, outfile, indent=4)
