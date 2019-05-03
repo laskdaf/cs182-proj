@@ -43,7 +43,8 @@ def dictionaryFromTexts(texts, numWords):
             frequency[token] += 1
 
     # only use the top numWords-1 words (reserve 1 for the unkown token)
-    frequency = dict(sorted(frequency.items(), key=lambda kv: kv[1], reverse=True)[:numWords - 1])
+    frequency = dict(sorted(frequency.items(), key=lambda kv: kv[1], reverse=True)[:numWords])
+    print(frequency)
     tokenized_texts = [[token for token in text if token in frequency and frequency[token] > 1] for text in texts]
 
     return corpora.Dictionary(tokenized_texts)
@@ -106,7 +107,7 @@ for key, value in output.items():
         vec = dictionary.doc2bow([w])
         word_id = []
         if len(vec) > 0:
-            word_id.append(vec[0][0] + 1)
+            word_id.append(vec[0][0])
 
         vectorized.extend(word_id)
 
@@ -116,15 +117,21 @@ for key, value in output.items():
         vec = dictionary.doc2bow([w])
         word_id = []
         if len(vec) > 0:
-            word_id.append(vec[0][0] + 1)
+            word_id.append(vec[0][0])
 
         vectorized.extend(word_id)
 
     output[key]["vectorized"] = vectorized[:50]
     maxLen = max(maxLen, len(vectorized))
 
+    bow = dictionary.doc2bow(fullText.lower().split())
+    bow_embedding = [0] * 500
+    for counts in bow:
+        bow_embedding[counts[0]] = counts[1]
+    output[key]["bow"] = bow_embedding
+
 print(output["bef897b2b"])
 print(maxLen)
 
-with open(destination + '/json_vectorized_test_2.json', 'w') as outfile:
+with open(destination + '/json_bow.json', 'w') as outfile:
     json.dump(output, outfile, indent=4)
